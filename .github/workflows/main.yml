@@ -1,0 +1,46 @@
+# workflow name
+name: Deploy To Github Pages
+
+# 当有 push 到仓库和外部触发的时候就运行
+on: [push, repository_dispatch]
+
+# YUQUE_TOKEN
+# Github_SSH_PRIVATE_KEY
+jobs:
+  deploy: 
+    name: Deploy Hexo Public To Pages
+    runs-on: ubuntu-latest 
+    env:
+      TZ: Asia/Shanghai    
+
+    steps:
+    # check it to your workflow can access it
+    # from: https://github.com/actions/checkout
+    - name: Checkout Repository master branch
+      uses: actions/checkout@master 
+
+    # from: https://github.com/actions/setup-node  
+    - name: Setup Node.js 10.x 
+      uses: actions/setup-node@master
+      with:
+        node-version: "10.x"
+
+    # from https://github.com/x-cold/yuque-hexo
+    - name: Setup Hexo Dependencies and Generate Public Files
+      env:
+        YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
+      run: |
+        npm install hexo-cli -g
+        npm install yuque-hexo -g
+        npm install
+        npm run start
+
+    # from https://github.com/peaceiris/actions-gh-pages    
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        deploy_key: ${{ secrets.Github_SSH_PRIVATE_KEY }}
+        external_repository: Linhk1606/Linhk1606.github.io
+        publish_branch: master
+        publish_dir: ./public
+        commit_message: ${{ github.event.head_commit.message }}
