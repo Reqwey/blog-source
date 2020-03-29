@@ -47,11 +47,15 @@
     "yuque-hexo": "^1.6.3"
   },
   "yuqueConfig": {
-    "baseUrl": "https://www.yuque.com/api/v2",
-    "login": "https://www.yuque.com/linhk1606/",
-    "repo": "hexo",
+    "postPath": "source/_posts/yuque",
+    "cachePath": "yuque.json",
     "mdNameFormat": "title",
-    "postPath": "./source/_posts",
-    "onlyPublished": false
+    "adapter": "hexo",
+    "concurrency": 5,
+    "baseUrl": "https://www.yuque.com/api/v2",
+    "login": "Linhk1606",
+    "repo": "hexo",
+    "onlyPublished": false,
+    "token": "0syV9jVbupHqw2GCQ3FlfCHf914UYg6AP6BlAXMM"
   }
 }
