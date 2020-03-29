@@ -51,7 +51,7 @@
     "login": "https://www.yuque.com/linhk1606/",
     "repo": "hexo",
     "mdNameFormat": "title",
-    "postPath": "source/_posts",
+    "postPath": "./source/_posts",
     "onlyPublished": false
   }
 }
