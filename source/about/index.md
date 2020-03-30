@@ -22,6 +22,8 @@ valine:
 ::: info
 * 网站源码由 [GitHub](https://github.com) 托管
 * 使用 [Volantis(原Material-X)](https://xaoxuu.com/wiki/volantis) 主题 Version 2.1.4
+* 使用 [Netlify](https://www.netlify.com) 建站
+* 域名相关服务由 [Namecheap](https://www.namecheap.com) 支持
 * 由 [Hexo](https://hexo.io/) Version 4.2.0 强力驱动
 * CDN服务由 [jsDelivr](https://www.jsdelivr.com) 提供支持
 * 云端写作功能由 [yuque-hexo](https://github.com/x-cold/yuque-hexo) 支持
