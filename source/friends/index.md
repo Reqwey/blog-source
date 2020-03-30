@@ -56,3 +56,5 @@ links:
 ---
 
 <p center large>友 链</p>
+
+<!-- more -->
