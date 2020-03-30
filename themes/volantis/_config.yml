@@ -323,8 +323,8 @@ widget:
     class: blogger
     display: [desktop] # [desktop, mobile]
     avatar: https://cdn.jsdelivr.net/gh/Linhk1606/Linhk1606@V1.9/me.jpg
-    title: <p center small>Fujian, China</p>
-    subtitle: <center> <btn regular>[<i class='fas fa-github'></i> Follow Me](https://github.com/Linhk1606)</btn> </center>
+    title: ' <p center small>Fujian, China</p> '
+    subtitle: ' <btn regular>[<i class='fas fa-github'></i> Follow Me](https://github.com/Linhk1606)</btn> '
     jinrishici: false # Poetry Today. You can set a string, and it will be displayed when loading fails.
     social: true
   # ---------------------------------------
