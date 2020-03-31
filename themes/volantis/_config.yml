@@ -524,7 +524,7 @@ comments:
   valine:
     appId: RODmk6rnW2pmInARIk1r5m8F-MdYXbMMI
     appKey: gVIujGNMqj2sIzWuGgjodjgr
-    js: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.2.0/js/valine.jshttps://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.2.0/js/valine.js
+    js: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.2.0/js/valine.js
     path: # All pages use the same path (share the same comments data)
     meta: nick,mail,link #valine comment header info
     placeholder: 有什么感想? 发射犇犇 # valine comment input placeholder(like: Please leave your footprints )
