@@ -323,8 +323,8 @@ widget:
     class: blogger
     display: [desktop] # [desktop, mobile]
     avatar: https://cdn.jsdelivr.net/gh/Linhk1606/Linhk1606@V1.9/me.jpg
-    title: '<cyan>Linhk1606</cyan>'
-    subtitle: 'Inside the GFW'
+    title: '<blue>Linhk1606</blue>'
+    subtitle: 
     jinrishici: false # Poetry Today. You can set a string, and it will be displayed when loading fails.
     social: true
   # ---------------------------------------
@@ -524,10 +524,10 @@ comments:
   valine:
     appId: RODmk6rnW2pmInARIk1r5m8F-MdYXbMMI
     appKey: gVIujGNMqj2sIzWuGgjodjgr
-    js: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.0/js/valine.js
+    js: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.2.0/js/valine.jshttps://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.2.0/js/valine.js
     path: # All pages use the same path (share the same comments data)
     meta: nick,mail,link #valine comment header info
-    placeholder: 快来评论吧~ # valine comment input placeholder(like: Please leave your footprints )
+    placeholder: 有什么感想? 发射犇犇 # valine comment input placeholder(like: Please leave your footprints )
     avatar: mp # gravatar style https://valine.js.org/avatar
     pageSize: 10 # comment list page size
     verify: true # valine verify code (true/false)
