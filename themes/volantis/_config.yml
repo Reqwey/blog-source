@@ -494,19 +494,19 @@ plugins:
     js:
       - https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js
       - https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js
-  # Required
-  server: netease   # netease, tencent, kugou, xiami, baidu
-  type: playlist    # song, playlist, album, search, artist
-  id: '3194206062'    # song id / playlist id / album id / search keyword
-  # 可选参数
-  fixed: false      # enable fixed mode
-  theme: '#1BCDFC'  # main color
-  autoplay: false   # audio autoplay
-  order: list       # player play order, values: 'list', 'random'
-  loop: all         # player loop play, values: 'all', 'one', 'none'
-  volume: 0.7       # default volume, notice that player will remember user setting, default volume will not work after user set volume themselves
-  list_max_height: 340px # list max height
-  list_folded: true
+    # Required
+    server: netease   # netease, tencent, kugou, xiami, baidu
+    type: playlist    # song, playlist, album, search, artist
+    id: '3194206062'    # song id / playlist id / album id / search keyword
+    # 可选参数
+    fixed: false      # enable fixed mode
+    theme: '#1BCDFC'  # main color
+    autoplay: false   # audio autoplay
+    order: list       # player play order, values: 'list', 'random'
+    loop: all         # player loop play, values: 'all', 'one', 'none'
+    volume: 0.7       # default volume, notice that player will remember user setting, default volume will not work after user set volume themselves
+    list_max_height: 340px # list max height
+    list_folded: true
 
 
 
