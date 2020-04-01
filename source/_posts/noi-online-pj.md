@@ -30,7 +30,7 @@ categories:
 </summary>
 {% endraw %}
 
-<fancybox> <img src='https://mmbiz.qpic.cn/mmbiz_png/8KloU5W0YY16ibOUncdiczEEgGaeFYbn2C8pAsFB743voIGTIiawX7F6pfvutZX9qe0nqXIOsXpV9iaib4cRSQAhGGQ/'> </fancybox>
+<fancybox> <img src='https://s1.ax1x.com/2020/04/01/G1kUr4.png'> </fancybox>
 
 <btn center large>[<i class='fas fa-code'></i> 提交代码](https://www.luogu.com.cn/problem/P6188#submit)</btn>
 
