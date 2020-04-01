@@ -318,8 +318,8 @@ widget:
     class: blogger
     display: [desktop] # [desktop, mobile]
     avatar: https://cdn.jsdelivr.net/gh/Linhk1606/Linhk1606@V1.9/me.jpg
-    title: '<blue>Linhk1606</blue>'
-    subtitle: 
+    title:
+    subtitle:
     jinrishici: false # Poetry Today. You can set a string, and it will be displayed when loading fails.
     social: true
   # ---------------------------------------
@@ -392,7 +392,7 @@ widget:
 
 footer:
   # layout of footer: [aplayer, social, license, info, copyright]
-  layout: [aplayer, social, license, info, copyright]
+  layout: [aplayer, social, license, info, copyright, br]
   social:
     - icon: fas fa-rss
       url: /atom.xml
