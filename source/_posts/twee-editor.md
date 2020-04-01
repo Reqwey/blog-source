@@ -21,14 +21,14 @@ categories:
 
 ## 概述
 
-> TweeEditor 是我的同班同学 <btn>[TweeChalice](https://github.com/TweeChalice)</btn> 使用Qt 5和C++研发的一款文本编辑器, 虽小巧灵活但功能强大, 可以在任何平台上运行
+> TweeEditor 是我的同班同学 [@TweeChalice](https://github.com/TweeChalice) 使用Qt 5和C++研发的一款文本编辑器, 虽小巧灵活但功能强大, 可以在任何平台上运行
 
 ## 维护和更新
 
-::: success
-该项目更新速度较快(目前), 基本可实现每晚更新(Nighly Build)
+::: danger
+该项目由于某些原因更新速度变慢
 
-主要维护者为 <btn>[TweeChalice](https://github.com/TweeChalice)</btn> , 后来我和他合作, 也成为该项目的一员.
+主要维护者为 [@TweeChalice](https://github.com/TweeChalice)
 :::
 
 以下为更新记录(点开查看)
@@ -132,32 +132,7 @@ categories:
 
 ::: info
 该项目已在GitHub上开源, 欢迎各界人士<btn>[参与开发](https://github.com/TweeChalice/TweeEditor)</btn>
-
-主要面向**信息学竞赛选手(C++语言)**和**Qt开发人员**
 :::
-
-{% raw %}
-<details>
-<summary>
-我是信息学竞赛选手(专业开发人员跳过此步)
-</summary>
-{% endraw %}
-
-Qt 是一种跨平台的GUI编程环境, 支持C++
-
-如果你想了解这方面的更多知识, <btn>[点我](https://www.qt.io/)</btn>
-
-Qt相当庞大, 有数不清的API等, 不过其实也不用完全看懂, 可以参考我们的代码进行学习(我们的项目其实并不那么复杂)
-
-不过如果要深入研究, 建议看一看<btn>[Qt的信号与槽](https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&tn=baidu&wd=qt%E4%BF%A1%E5%8F%B7%E4%B8%8E%E6%A7%BD)</btn>等等知识
-
-当然, 首先你必须要安装一个<btn>[开发环境](https://www.qt.io/offline-installers)</btn>
-
-接着, Fork 我们的项目并 Pull 到本地
-
-然后, 开始开发吧!
-
-{% raw %}</details>{% endraw %}
 
 如果您感兴趣我们的项目, 想要加入新增功能, 欢迎在GitHub上提交Pull Request.
 
