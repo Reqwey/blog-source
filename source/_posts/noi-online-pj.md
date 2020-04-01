@@ -6,7 +6,7 @@ cover: false
 valine:
   placeholder: 有什么感想? 发射犇犇
 mathjax: true
-tags: 
+tags:
  - DP
 categories:
  - [OI, Solution]
@@ -15,7 +15,7 @@ categories:
 
 ::: danger
 
-咕咕咕警告 
+咕咕咕警告
 
 :::
 
@@ -23,7 +23,18 @@ categories:
 
 ## T1
 
-<btn>[题目链接](https://www.luogu.com.cn/problem/P6188)</btn>
+{% raw %}
+<details>
+<summary>
+题目大意
+</summary>
+{% endraw %}
+
+<fancybox> <img src='https://mmbiz.qpic.cn/mmbiz_png/8KloU5W0YY16ibOUncdiczEEgGaeFYbn2C8pAsFB743voIGTIiawX7F6pfvutZX9qe0nqXIOsXpV9iaib4cRSQAhGGQ/'> </fancybox>
+
+<btn center large>[<i class='fas fa-code'></i> 提交代码](https://www.luogu.com.cn/problem/P6188#submit)</btn>
+
+{% raw %}</details>{% endraw %}
 
 **分类讨论**
 
