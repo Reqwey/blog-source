@@ -74,6 +74,6 @@ links:
 
 * 链接 https://blog.lhkstudio.me
 * 头像 https://cdn.jsdelivr.net/gh/Linhk1606/Linhk1606@V1.9/me.jpg
-* 标签 <blue>#OIer</blue> <blue>#Qt</blue>`
+* 标签 <blue>#OIer</blue> <blue>#Qt</blue>
 * 描述 懒癌晚期🤣
 :::
