@@ -126,8 +126,7 @@ categories:
 
 {% raw %}</details>{% endraw %}
 
-
-<btn regular>[<i class='fas fa-github'></i> 查看更多](https://github.com/TweeChalice/TweeEditor/releases)</btn>
+<btn center large>[<i class='fas fa-github'></i> 查看更多](https://github.com/TweeChalice/TweeEditor/releases)</btn>
 
 ## 参与项目
 
