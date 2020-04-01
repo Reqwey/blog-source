@@ -12,8 +12,8 @@ links:
     - name: Lab_Tree
       avatar: https://cdn.jsdelivr.net/gh/Linhk1606/Linhk1606@V1.0/Lab_Tree.png
       url: https://www.cnblogs.com/treap/
-      backgroundColor: '#80b7fb' # 卡片背景颜色
-      textColor: '#a56aa6'  # 卡片文字颜色
+      backgroundColor: '#3e4752' # 卡片背景颜色
+      textColor: '#c3cecd'  # 卡片文字颜色
       tags:     # 标签
       - 数竞+OI双料选手
       - 把ass卸下来
@@ -28,11 +28,11 @@ links:
       avatar: https://cdn.jsdelivr.net/gh/Linhk1606/Linhk1606@V1.0/TweeChalice.png
       url: https://www.cnblogs.com/tweechalice/
       backgroundColor: '#a03ec9' # 卡片背景颜色
-      textColor: '#8facd7'  # 卡片文字颜色
+      textColor: '#c3eef1'  # 卡片文字颜色
       tags:     # 标签
       - Qt
       - WinAPI
-  - group: OIers
+  - group: OI大佬
     icon: fas fa-code
     items:
     - name: Royce
@@ -43,7 +43,7 @@ links:
       tags:     # 标签
       - OIer
       - CSPer
-  - group: IT界大神
+  - group: IT大神
     icon: fab fa-apple
     items:
     - name: xaoxuu
