@@ -100,6 +100,11 @@ use_cdn: true
 favicon: https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/favicon/favicon.ico
 
 
+lazyload:
+  enable: true 
+  onlypost: false
+  loadingImg: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/d570170f4f12e1ee829ca0e85a7dffeb77343a.svg
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:

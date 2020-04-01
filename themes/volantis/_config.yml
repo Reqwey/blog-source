@@ -232,11 +232,6 @@ layout:
   # 其他的页面布局暂时等于 on_list
 
 
-lazyload:
-  enable: true 
-  onlypost: false
-  loadingImg: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/d570170f4f12e1ee829ca0e85a7dffeb77343a.svg
-
 
 # meta library
 meta:
