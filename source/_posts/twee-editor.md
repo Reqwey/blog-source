@@ -96,7 +96,7 @@ categories:
 {% endraw %}
 
 1. 加入打印功能
-2. **首次**使用时必须同意许可协议
+2. **首次** 使用时必须同意许可协议
 3. 修复了一些已知问题
 
 {% raw %}</details>{% endraw %}
@@ -127,7 +127,7 @@ categories:
 {% raw %}</details>{% endraw %}
 
 
-<btn class="regular">[在GitHub上查看更多](https://github.com/TweeChalice/TweeEditor/releases)</btn>
+<center> <btn regular>[<i class='fas fa-github'></i> 查看更多](https://github.com/TweeChalice/TweeEditor/releases)</btn> </center>
 
 ## 参与项目
 
