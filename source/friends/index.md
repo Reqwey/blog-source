@@ -43,6 +43,15 @@ links:
       tags:     # 标签
       - OIer
       - CSPer
+    - name: Charlie
+      avatar: https://cdn.jsdelivr.net/gh/charlie-zzy/imgCDN/avatar.png
+      url: https://charlie-zzy.github.io/
+      backgroundColor: '#bb3312' # 卡片背景颜色
+      textColor: '#dadcb4'  # 卡片文字颜色
+      tags:     # 标签
+      - OIer
+      - C++
+      desc: 超级蒟蒻!
   - group: IT大神
     icon: fab fa-apple
     items:
