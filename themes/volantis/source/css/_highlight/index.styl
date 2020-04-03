@@ -160,15 +160,18 @@ pre
     border-radius: 2px
     width: 100%
 
-  .title
+  .function .title
     color: $lhk-function
+  
+  .class .title
+    color: $lhk-class
 
   // 注释
   .comment
     color: $lhk-comment
 
   .keyword, .javascript .function, .attr
-    color: $lhk-type
+    color: $lhk-keyword
 
   .type, .built_in, .tag .name
     color: $lhk-type
@@ -179,7 +182,7 @@ pre
   .number, .preprocessor, .literal, .params, .constant, .meta-string
     color: $lhk-number
 
-  .class, .ruby .class .title, .cpp .class, .css .rules .attribute
+  .class, .class, .css .rules .attribute
     color: $lhk-class
 
   .string
