@@ -51,29 +51,21 @@ impl From<&'a str> for State {
 ]
 ```
 
-```markdown
-# hello world
-
-you can write text [with links](http://example.com) inline or [link references][1].
-
-* one _thing_ has *em*phasis
-* two __things__ are **bold**
-
-[1]: http://example.com
-
----
-
-hello world
-===========
-
-<this_is inline="xml"></this_is>
-
-> markdown is so cool
-
-    so are code segments
-
-1. one thing (yeah!)
-2. two thing `i can write code`, and `more` wipee!
+```typescript
+class MyClass {
+  public static myValue: string;
+  constructor(init: string) {
+    this.myValue = init;
+  }
+}
+import fs = require("fs");
+module MyModule {
+  export interface MyInterface extends Other {
+    myProperty: any;
+  }
+}
+declare magicNumber number;
+myArray.forEach(() => { }); // fat arrow syntax
 ```
 
 ```php
