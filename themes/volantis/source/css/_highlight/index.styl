@@ -140,6 +140,14 @@ $hl-red = #EE2B29
 $hl-orange = #FB3F1B
 $hl-amber = #FD8607
 
+$lhk-keyword = #859900
+$lhk-type = #dc322f
+$lhk-number = #2aa198
+$lhk-function = #268bd2
+$lhk-comment = #93a1a1
+$lhk-class = #b58900
+$lhk-header = #cb4b16
+
 pre
   // 行
   // line-height: 1.5
@@ -153,38 +161,38 @@ pre
     width: 100%
 
   .title
-    color: $color-md-indigo
+    color: $lhk-function
 
   // 注释
   .comment
-    color: alpha(darken($color-md-green, 10%), 70%)
+    color: $lhk-comment
 
   .keyword, .javascript .function, .attr
     color: $hl-keyword
 
   .type, .built_in, .tag .name
-    color: $color-md-light-blue
+    color: $lhk-type
 
   .variable, .attribute, .regexp, .ruby .constant, .xml .tag .title, .xml .pi, .xml .doctype, .html .doctype, .css .id, .css .class, .css .pseudo
     color: $hl-amber
 
   .number, .preprocessor, .literal, .params, .constant
-    color: $hl-amber
+    color: $lhk-number
 
-  .class, .ruby .class .title, .css .rules .attribute
-    color: $color-md-orange
+  .class, .ruby .class .title, .cpp .class, .css .rules .attribute
+    color: $lhk-class
 
   .string
-    color: darken($color-md-green, 10%)
+    color: $lhk-number
 
   .value, .inheritance, .header, .ruby .symbol, .xml .cdata
-    color: $color-md-green
+    color: $lhk-header
 
   .css .hexcolor
     color: #66cccc
 
   .function, .python .decorator, .python .title, .ruby .function .title, .ruby .title .keyword, .perl .sub, .javascript .title, .coffeescript .title
-    color: #6699cc
+    color: $lhk-header
 
 
 
