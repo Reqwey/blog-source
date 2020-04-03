@@ -73,16 +73,22 @@
         content: "HTML"
 
     &.js .code:before
-        content: "JS"
+        content: "JavaScript"
+
+    &.javascript .code:before
+        content: "JavaScript"
 
     &.bash .code:before
         content: "bash"
+
+    &.rust .code:before
+        content: "Rust"
 
     &.shell .code:before
         content: "shell"
 
     &.css .code:before
-        content: "css"
+        content: "CSS"
 
     &.less .code:before
         content: "less"
@@ -93,8 +99,23 @@
     &.swift .code:before
         content: "Swift"
 
+    &.ruby .code:before
+        content: "Ruby"
+
+    &.makefile .code:before
+        content: "Makefile"
+
+    &.go .code:before
+        content: "Go"
+
+    &.ini .code:before
+        content: "ini"
+
     &.objc .code:before
-        content: "ObjC"
+        content: "Objective-C"
+
+    &.objectivec .code:before
+        content: "Objective-C"
 
     &.c .code:before
         content: "C"
@@ -110,9 +131,15 @@
 
     &.yaml .code:before
         content: "YAML"
+    
+    &.json .code:before
+        content: "JSON"
+
+    &.sql .code:before
+        content: "SQL"
 
     &.plain .code:before
-        content: ""
+        content: "text"
 
 
   // &::-webkit-scrollbar
@@ -151,7 +178,7 @@ $lhk-header = #cb4b16
 pre
   // 行
   // line-height: 1.5
-  .line
+  .line, .regexp
     color: #657b83
 
   .marked
@@ -176,7 +203,7 @@ pre
   .type, .built_in, .tag .name
     color: $lhk-type
 
-  .variable, .attribute, .regexp, .ruby .constant, .xml .tag .title, .xml .pi, .xml .doctype, .html .doctype, .css .id, .css .class, .css .pseudo
+  .variable, .attribute, .ruby .constant, .xml .tag .title, .xml .pi, .xml .doctype, .html .doctype, .css .id, .css .class, .css .pseudo
     color: $lhk-class
 
   .number, .preprocessor, .literal, .params, .constant, .meta-string
