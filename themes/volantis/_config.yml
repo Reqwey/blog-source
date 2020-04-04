@@ -4,7 +4,11 @@ info:
   version: '2.1.4'
   docs: https://volantis.js.org/
   cdn: # To use CDN, write 'use_cdn: true' in 'blog/_config.yml'.
+<<<<<<< HEAD
     # css: https://cdn.jsdelivr.net/gh/Linhk1606/Linhk1606@V2.0.8.1/style.css
+=======
+    css: https://cdn.jsdelivr.net/gh/Linhk1606/Linhk1606@V2.0.8.1/style.css
+>>>>>>> 755713a212bfd7790449c75f9eee65ce5f6f72b3
     js: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.1.4/js/app.js
 
 
