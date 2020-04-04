@@ -1,7 +1,7 @@
 ---
 title: Code Highlight Style test
 date: 2050-01-01 00:00:00
-tags:
+tags: test
 robots: noindex,nofollow
 ---
 
