@@ -19,7 +19,11 @@ valine:
 
 ---
 
-::: info
+
+{% tabs aboutme %}
+
+<!-- tab 本站配置 -->
+
 * 网站源码由 [GitHub](https://github.com) 托管
 * 使用 [Volantis(原Material-X)](https://xaoxuu.com/wiki/volantis) 主题 Version 2.1.4
 * 使用 [Netlify](https://www.netlify.com) 建站
@@ -29,4 +33,30 @@ valine:
 * 云端写作功能由 [yuque-hexo](https://github.com/x-cold/yuque-hexo) 支持
 * 云函数相关服务由 [腾讯云](https://cloud.tencent.com) , [LeanCloud海外版](https://leancloud.app) 驱动
 * 使用 [GitHub Actions](https://help.github.com/en/actions) 自动部署
-:::
+
+<!-- endtab -->
+
+<!-- tab 作者的「开发装备」 -->
+
+> 本人学生党, 没有什么钱, 前不久弄了一套GitHub学生套装, 捞了各种好东西, 域名也有了, GitHub账户也变成 Pro 了, 总的来说, **感谢GitHub**
+
+我的配置有:
+
+- 硬件
+  - ASUS 灵耀轻薄笔记本
+  - ASUS 一体机
+- 操作系统:
+  - Windows 10 企业版 x64
+  - Ubuntu 19.04
+- 开发工具:
+  - On Windows
+    - VS Code Insiders (信息竞赛)
+    - Atom Nightly (hexo博客轻微修改)
+    - JetBrains Clion (C++开发~~搞事~~等)
+    - JetBrains WebStorm (博客大型修改, npm、git可视化操作)
+  - On Linux
+    - Qt Creator (Qt开发)
+
+<!-- endtab -->
+
+{% endtabs %}
