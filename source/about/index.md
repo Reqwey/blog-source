@@ -38,13 +38,6 @@ valine:
 
 <!-- tab 作者的「开发装备」 -->
 
-> 本人学生党, 没有什么钱, 前不久弄了一套GitHub学生套装, 捞了各种好东西, 域名也有了, GitHub账户也变成 Pro 了, 总的来说, **感谢GitHub**
-
-我的配置有:
-
-- 硬件
-  - ASUS 灵耀轻薄笔记本
-  - ASUS 一体机
 - 操作系统:
   - Windows 10 企业版 x64
   - Ubuntu 19.04
@@ -56,6 +49,20 @@ valine:
     - JetBrains WebStorm (博客大型修改, npm、git可视化操作)
   - On Linux
     - Qt Creator (Qt开发)
+
+<!-- endtab -->
+
+<!-- tab 福利 -->
+
+**GitHub学生计划!**
+
+> 如果你也是学生党, 并且也希望像个真正的开发人员那样coding, 那么, <u>加入GitHub学生计划吧</u>
+
+{% raw %}
+<btns rounded center>
+<a href='https://education.github.com/'><i class='fab fa-github'></i>Join in GitHub Education Program!</a>
+</btns>
+{% endraw %}
 
 <!-- endtab -->
 
