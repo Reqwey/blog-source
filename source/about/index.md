@@ -54,14 +54,15 @@ valine:
 
 <!-- tab 福利 -->
 
-**GitHub学生计划!**
+**GitHub学生包!**
 
-> GitHub 学生包是一个由 GitHub 免费提供给学生的福利，里面包括了计算机专业可能用到的很多付费资源，其中包含一系列网站服务的打折/代金券或者软件授权，通过认证后即可领取
-> 如果你也是学生党, 并且也希望像个真正的开发人员那样coding, 那么......
+GitHub 学生包是一个 **由 GitHub 免费提供给学生的福利** , 里面包括了计算机专业可能用到的很多付费资源.
+
+其中包含一系列网站服务的打折/代金券或者软件授权, **通过认证后即可领取**
 
 {% raw %}
 <btns rounded center>
-<a href='https://education.github.com/pack'><i class='fab fa-github'></i>加入GitHub学生计划!</a>
+<a href='https://education.github.com/pack'><i class='fab fa-github'></i>点我查看更多!</a>
 </btns>
 {% endraw %}
 
