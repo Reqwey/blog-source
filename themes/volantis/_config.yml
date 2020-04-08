@@ -103,12 +103,8 @@ cover:
       icon: fas fa-folder-open
       url: categories/
       rel: nofollow
-    - name: 标签
-      icon: fas fa-hashtag
-      url: tags/
-      rel: nofollow
-    - name: 归档
-      icon: fas fa-archive
+    - name: 时间轴
+      icon: fas fa-list
       url: archives/
       rel: nofollow
 
@@ -140,8 +136,8 @@ navbar:
           - name: 标签
             icon: fas fa-hashtag
             url: tags/
-          - name: 归档
-            icon: fas fa-archive
+          - name: 时间轴
+            icon: fas fa-list
             url: archives/
       - name: 更多
         icon: fas fa-ellipsis-v
