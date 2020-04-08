@@ -1,7 +1,9 @@
 ---
 title: Code Highlight Style test
-date: 2050-01-01 00:00:00
+date: 2019-01-01 00:00:00
 tags: test
+categories:
+- [Dev, Hexo]
 robots: noindex,nofollow
 ---
 
