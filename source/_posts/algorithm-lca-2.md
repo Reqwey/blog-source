@@ -16,15 +16,13 @@ categories:
 
 ::: info
 
-LCA系列的续集 (换一种方式)
+$\texttt{LCA}$ 的 $\texttt{Tarjan}$ 算法
 
 :::
 
 <!--more-->
 
-## 那就直接开始讲吧
-
-$\texttt{LCA}$ 的 $\texttt{Tarjan}$ 算法
+## Start
 
 ### 流程
 
@@ -46,7 +44,7 @@ $\texttt{LCA}$ 的 $\texttt{Tarjan}$ 算法
 
 这个性质可以帮助我们很好地离线解决$\texttt{LCA}$问题
 
-### 解决问题
+### Solve
 
 建立一个**并查集**: `father[]`
 
@@ -62,7 +60,7 @@ $\texttt{LCA}$ 的 $\texttt{Tarjan}$ 算法
 
 考虑$\texttt{DFS}$序, $\because \texttt{DFS}$访问完一个节点不会马上往上走, 而是会去**遍历其它节点**, $\therefore root'$以下没有一个$root''$满足是$u$和$v$的**公共祖先** $\therefore lca(u, v) = root'$
 
-## 代码
+## Code
 
 ```cpp
 #include <cstdio>
@@ -149,7 +147,7 @@ int main()
 
 ## 时间复杂度
 
-$\Theta{(n + m)}$
+$$ \Theta{(n + m)} $$
 
 搜索过程是$\Theta{(n)}$的, 而其中的求解过程可以单独**拆出来看**, 它就是一个$\Theta{(m)}$
 
@@ -157,9 +155,9 @@ $\Theta{(n + m)}$
 
 下次一定要用邻接表55555
 
-<btn>[评测记录/(ㄒoㄒ)/~~](https://www.luogu.com.cn/record/30231788)</btn>
+<btn regular>[评测记录](https://www.luogu.com.cn/record/30231788)</btn>
 
-还是用一张表来分析分析求$\texttt{LCA}$的各种算法的优劣之处吧!
+用一张表来分析分析求$\texttt{LCA}$的各种算法的优劣之处:
 
 |   算法   |            优劣            |       时间复杂度        |   评测结果   |
 | :------: | :------------------------: | :---------------------: | :------: |
@@ -174,4 +172,3 @@ $\Theta{(n + m)}$
 以上评测结果属于理想情况, 如果碰到一些爱卡常的毒瘤出题人(如<btn>[某谷](https://www.luogu.com.cn)</btn>的神鱼), 特别是你的存边方式像我一样, 那我就不知道了
 
 :::
-
