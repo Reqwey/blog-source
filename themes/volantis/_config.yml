@@ -131,10 +131,10 @@ navbar:
           - name: TweeEditor发布
             url: /2020/02/24/twee-editor/
       - name: 索引
-        icon: fas fa-list-alt
+        icon: far fa-list-alt
         rows:
           - name: 分类
-            icon: fas fa-folder-open
+            icon: far fa-folder-open
             url: categories/
           - name: 标签
             icon: fas fa-hashtag
@@ -165,13 +165,13 @@ navbar:
         icon: fas fa-user-shield
         rows:
           - name: 评论管理
-            icon: fas fa-comment
+            icon: far fa-comment-alt
             url: https://comment.lhkstudio.me
           - name: 云端编辑
-            icon: fas fa-edit
+            icon: far fa-edit
             url: https://www.yuque.com/linhk1606/hexo
           - name: 博客源码
-            icon: fas fa-file-code
+            icon: far fa-file-code
             url: https://github.com/linhk1606/blog-source
     # This menu will be displayed on the mobile.
     on_mobile:
@@ -188,7 +188,7 @@ navbar:
         icon: fas fa-link
         url: friends/
       - name: 分类
-        icon: fas fa-folder-open
+        icon: far fa-folder-open
         url: categories/
       - name: 标签
         icon: fas fa-hashtag
@@ -244,7 +244,7 @@ meta:
     url: https://lhkstudio.me
   # 文章创建日期
   date:
-    icon: fas fa-calendar-alt
+    icon: far fa-calendar-alt
     title: ''
     format: 'll' # 日期格式 http://momentjs.com/docs/
   # 文章更新日期
@@ -254,13 +254,13 @@ meta:
     format: 'll' # 日期格式 http://momentjs.com/docs/
   # 文章分类
   category:
-    icon: fas fa-folder-open
+    icon: far fa-folder-open
   # 文章置顶
   top:
     icon: fas fa-angle-double-up
   # 文章浏览计数
   counter:
-    icon: fas fa-eye
+    icon: far fa-eye
   # 文章字数和阅读时长
   wordcount:
     icon_wordcount: fas fa-keyboard
@@ -281,7 +281,7 @@ meta:
   # 链接
   btns:
     edit:
-      icon: fas fa-edit
+      icon: far fa-edit
       title: 在GitHub上编辑此页
       color: '#888'
     repo: # 源码链接
@@ -339,7 +339,7 @@ widget:
     class: category
     display: [desktop] # [desktop, mobile]
     header:
-      icon: fas fa-folder-open
+      icon: far fa-folder-open
       title: 文章分类
       url: /categories/
   # ---------------------------------------
@@ -513,7 +513,7 @@ plugins:
 
 ############################### Comments ###############################
 comments:
-  title: <i class='fas fa-comments'></i> 评论
+  title: <i class='far fa-comment-alt'></i> 评论
   subtitle:
   service: valine # valine, disqus, gitalk, livere
   valine:
