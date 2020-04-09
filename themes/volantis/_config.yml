@@ -152,7 +152,7 @@ navbar:
             icon: fas fa-link
             url: /friends
           - name: 欢迎页
-            icon: fas fa-play-circle
+            icon: far fa-caret-square-right
             url: https://lhkstudio.me
           - name: hr
           - name: 小工具
@@ -212,7 +212,7 @@ layout:
     # 列表类页面的侧边栏
     sidebar: [blogger, category, tagcloud]
     # read more button
-    readmore: Read More <i class="fas fa-chevron-right"></i>
+    readmore: Read More <i class="far fa-arrow-alt-circle-right"></i>
   # 页面布局
   on_page:
     # 文章页面主体元素，你也可以在页面的Front-matter中设置
@@ -264,7 +264,7 @@ meta:
   # 文章字数和阅读时长
   wordcount:
     icon_wordcount: far fa-keyboard
-    icon_duration: fas fa-hourglass-half
+    icon_duration: far fa-hourglass
   # 文章标签
   tags:
     icon: fas fa-hashtag
