@@ -96,11 +96,11 @@ cover:
       icon: fas fa-rss
       url: /
     - name: 关于
-      icon: fas fa-info-circle
+      icon: far fa-user-circle
       url: about/
       rel: nofollow
     - name: 分类
-      icon: fas fa-folder-open
+      icon: far fa-folder-open
       url: categories/
       rel: nofollow
     - name: 时间轴
@@ -123,7 +123,7 @@ navbar:
     # This menu will be displayed on the laptop or desktop.
     on_desktop:
       - name: 近期
-        icon: fas fa-clock
+        icon: far fa-clock
         url: /
         rows:
           - name: 热门文章
@@ -146,7 +146,7 @@ navbar:
         icon: fas fa-ellipsis-v
         rows:
           - name: 关于我
-            icon: fas fa-user-circle
+            icon: far fa-user-circle
             url: /about
           - name: 我的友链
             icon: fas fa-link
@@ -176,13 +176,13 @@ navbar:
     # This menu will be displayed on the mobile.
     on_mobile:
       - name: 近期文章
-        icon: fas fa-clock
+        icon: far fa-clock
         url: /
       - name: 欢迎页
         icon: fas fa-play-circle
         url: https://www.lhkstudio.me
       - name: 文章归档
-        icon: fas fa-archive
+        icon: far fa-file-archive
         url: archives/
       - name: 友链
         icon: fas fa-link
@@ -194,7 +194,7 @@ navbar:
         icon: fas fa-hashtag
         url: tags/
       - name: 关于
-        icon: fas fa-info-circle
+        icon: far fa-user-circle
         url: about/
       - name: 肺炎疫情图
         icon: fas fa-virus
@@ -263,7 +263,7 @@ meta:
     icon: far fa-eye
   # 文章字数和阅读时长
   wordcount:
-    icon_wordcount: fas fa-keyboard
+    icon_wordcount: far fa-keyboard
     icon_duration: fas fa-hourglass-half
   # 文章标签
   tags:
@@ -285,7 +285,7 @@ meta:
       title: 在GitHub上编辑此页
       color: '#888'
     repo: # 源码链接
-      icon: fas fa-file-code
+      icon: far fa-file-code
       title: 源码
       color: '#508EF2'
     bug: # BUG反馈链接
@@ -328,7 +328,7 @@ widget:
     class: toc
     display: [desktop, mobile] # [desktop, mobile]
     header:
-      icon: fas fa-list
+      icon: far fa-list-alt
       title: 本文目录
     list_number: false
     min_depth: 2
@@ -396,7 +396,7 @@ footer:
   social:
     - icon: fas fa-rss
       url: /atom.xml
-    - icon: fas fa-envelope
+    - icon: far fa-envelope
       url: mailto:lhkstudio2020@gmail.com
     - icon: fab fa-github
       url: https://github.com/Linhk1606
