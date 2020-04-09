@@ -92,9 +92,9 @@ cover:
   subtitle: 'OI, MATH, QT-DEV AND MORE...'
   search: Linhk1606 First Search
   features:
-    - name: 博文
-      icon: fas fa-rss
-      url: /
+    - name: 主站
+      icon: far fa-caret-square-right
+      url: https://lhkstudio.me
     - name: 关于
       icon: far fa-user-circle
       url: about/
@@ -151,7 +151,7 @@ navbar:
           - name: 我的友链
             icon: fas fa-link
             url: /friends
-          - name: 欢迎页
+          - name: 主站
             icon: far fa-caret-square-right
             url: https://lhkstudio.me
           - name: hr
@@ -178,8 +178,8 @@ navbar:
       - name: 近期文章
         icon: far fa-clock
         url: /
-      - name: 欢迎页
-        icon: fas fa-play-circle
+      - name: 主站
+        icon: far fa-arrow-alt-circle-right
         url: https://www.lhkstudio.me
       - name: 文章归档
         icon: far fa-file-archive
