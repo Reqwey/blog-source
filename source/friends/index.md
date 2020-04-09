@@ -52,8 +52,8 @@ links:
       - OIer
       - C++
       desc: 超级蒟蒻!
-  - group: IT大神
-    icon: fab fa-apple
+  - group: 技术大神
+    icon: fas fa-laptop-code
     items:
     - name: xaoxuu
       avatar: https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png
@@ -62,6 +62,13 @@ links:
       textColor: '#efefef'  # 卡片文字颜色
       tags:     # 标签
       - iOS
+      - Volantis开发者
+    - name: Vince
+      avatar:  https://cdn.jsdelivr.net/gh/vinceying/blog-file/photo/vince_logo.jpg
+      url: https://i.vince.pub
+      backgroundColor: '#9f9d9e'
+      textColor: '#d6f2f7'
+      desc: 努力学习技术的Vince
 ---
 
 <p center large>友 链</p>
