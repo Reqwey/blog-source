@@ -1,27 +1,32 @@
 <script src="<%- theme.plugins.clipboard %>"></script>
 <script>
   !function (e, t, a) {
-    var initCopyCode = function(){
+    var initCopyCode = function () {
       var copyHtml = '';
       copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
       copyHtml += '<i class="far fa-copy"></i><span>COPY</span>';
       copyHtml += '</button>';
       $(".highlight .code pre").before(copyHtml);
       var clipboard = new ClipboardJS('.btn-copy', {
-        target: function(trigger) {
+        target: function (trigger) {
           return trigger.nextElementSibling;
         }
       });
-      clipboard.on('success', function(e) {
+      clipboard.on('success', function (e) {
         let $btn = $(e.trigger);
         $btn.addClass('copyed');
         let $icon = $($btn.find('i'));
         $icon.removeClass('fa-copy');
         $icon.addClass('fa-check-circle');
         let $span = $($btn.find('span'));
-        $span[0].innerText = 'COPYED';
+        $span[0].innerText = 'COPIED';
+
+        sleep(2000);
+        $icon.removeClass('fa-check-circle');
+        $icon.addClass('fa-copy');
+        $span[0].innerText = 'COPY';
       });
-      clipboard.on('error', function(e) {
+      clipboard.on('error', function (e) {
         e.clearSelection();
         let $btn = $(e.trigger);
         $btn.addClass('copy-failed');
@@ -30,6 +35,11 @@
         $icon.addClass('fa-times-circle');
         let $span = $($btn.find('span'));
         $span[0].innerText = 'COPY FAILED';
+
+        sleep(2000);
+        $icon.removeClass('fa-times-circle');
+        $icon.addClass('fa-copy');
+        $span[0].innerText = 'COPY';
       });
     }
     initCopyCode();
