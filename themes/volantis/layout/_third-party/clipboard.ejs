@@ -38,13 +38,13 @@
         let $btn = $(e.trigger);
         $btn.addClass('copy-failed');
         let $icon = $($btn.find('i'));
-        $icon.removeClass('fa-copy');
+        $icon.removeClass('fa-copy'); times
         $icon.addClass('fa-times-circle');
         let $span = $($btn.find('span'));
         $span[0].innerText = 'COPY FAILED';
 
         wait(function () {
-          $icon.removeClass('fa-check-circle');
+          $icon.removeClass('fa-times-circle');
           $icon.addClass('fa-copy');
           $span[0].innerText = 'COPY';
         }, 2000);
