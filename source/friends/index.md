@@ -7,7 +7,7 @@ meta:
   footer: []
 links:
   - group: 本校大佬
-    icon: fas fa-user-tie
+    icon: far fa-building
     items:
     - name: Lab_Tree
       avatar: https://cdn.jsdelivr.net/gh/Linhk1606/Linhk1606@V1.0/Lab_Tree.png
@@ -33,7 +33,7 @@ links:
       - Qt
       - WinAPI
   - group: OI大佬
-    icon: fas fa-code
+    icon: fas fa-terminal
     items:
     - name: Royce
       avatar: https://cdn.jsdelivr.net/gh/Linhk1606/Linhk1606@V1.7/royce.jpg

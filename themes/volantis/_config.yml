@@ -165,7 +165,7 @@ navbar:
         icon: fas fa-user-shield
         rows:
           - name: 评论管理
-            icon: far fa-comment-alt
+            icon: far fa-comments
             url: https://comment.lhkstudio.me
           - name: 云端编辑
             icon: far fa-edit
@@ -293,19 +293,19 @@ meta:
       title: BUG
       color: '#FE5F58'
     doubt: # 疑问链接
-      icon: fas fa-question-circle
+      icon: far fa-question-circle
       title: 疑问
       color: '#FFBD2B'
     idea: # 建议链接
-      icon: fas fa-lightbulb
+      icon: far fa-lightbulb
       title: 建议
       color: '#3DC550'
     faq: # FAQ链接
-      icon: fas fa-comments
+      icon: far fa-comments
       title: FAQ
       color: '#29B1C9'
     feedback: # 反馈链接
-      icon: fas fa-comment-dots
+      icon: far fa-comment-dots
       title: 反馈
       color: '#1BCDFC'
 
@@ -348,7 +348,7 @@ widget:
     class: tagcloud
     display: [desktop] # [desktop, mobile]
     header:
-      icon: fas fa-tags
+      icon: far fa-lightbulb
       title: 热门标签
       url: /tags/
     min_font: 14
@@ -402,7 +402,7 @@ footer:
       url: https://github.com/Linhk1606
     - icon: fas fa-headphones-alt
       url: https://music.163.com/#/user/home?id=2113078436
-    - icon: fas fa-code
+    - icon: fas fa-laptop-code
       url: https://www.luogu.com.cn/user/106887
   copyright: '[Copyright © 2019-2020 Linhk1606](https://lhkstudio.me)'
   # You can add your own property here. (Support markdown, for example: br: '<br>')
@@ -513,7 +513,7 @@ plugins:
 
 ############################### Comments ###############################
 comments:
-  title: <i class='far fa-comment-alt'></i> 评论
+  title: <i class='far fa-comment-dots'></i> 评论
   subtitle:
   service: valine # valine, disqus, gitalk, livere
   valine:
