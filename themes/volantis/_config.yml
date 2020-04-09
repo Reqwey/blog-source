@@ -107,6 +107,9 @@ cover:
       icon: fas fa-list
       url: archives/
       rel: nofollow
+    - name: 肺炎疫情
+      icon: fas fa-virus
+      url: 2019-ncov/
 
 
 # Navigation Bar
@@ -156,7 +159,7 @@ navbar:
             icon: fas fa-flask
             rows:
               - name: 肺炎疫情图
-                icon: fas fa-shield-virus
+                icon: fas fa-virus
                 url: 2019-ncov/
       - name: 管理员
         icon: fas fa-user-shield
@@ -194,7 +197,7 @@ navbar:
         icon: fas fa-info-circle
         url: about/
       - name: 肺炎疫情图
-        icon: fas fa-shield-virus
+        icon: fas fa-virus
         url: /2019-ncov
   search: Search!   # Search bar placeholder
 
