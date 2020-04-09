@@ -103,12 +103,12 @@ cover:
       icon: far fa-folder-open
       url: categories/
       rel: nofollow
-    - name: 时间轴
-      icon: fas fa-list
+    - name: 归档
+      icon: far fa-file-archive
       url: archives/
       rel: nofollow
     - name: 肺炎疫情
-      icon: fas fa-virus
+      icon: fas fa-biohazard
       url: 2019-ncov/
 
 
@@ -159,7 +159,7 @@ navbar:
             icon: fas fa-flask
             rows:
               - name: 肺炎疫情图
-                icon: fas fa-virus
+                icon: fas fa-biohazard
                 url: 2019-ncov/
       - name: 管理员
         icon: fas fa-user-shield
