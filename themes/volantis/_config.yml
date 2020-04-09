@@ -362,7 +362,7 @@ widget:
     class: related_posts # npm i -S hexo-related-popular-posts
     display: [desktop, mobile] # [desktop, mobile]
     header:
-      icon: fas fa-bookmark
+      icon: far fa-bookmark
       title: 相关文章
     max_count: 5
   # ---------------------------------------
