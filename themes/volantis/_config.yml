@@ -468,7 +468,7 @@ plugins:
   backstretch:
     enable: true
     js: https://cdn.jsdelivr.net/npm/jquery-backstretch@2.1.18/jquery.backstretch.min.js
-    position: fixed       # cover: sticky on the cover.   fixed: Fixed as background for the site.
+    position: cover       # cover: sticky on the cover.   fixed: Fixed as background for the site.
     shuffle: true         # shuffle playlist
     duration: 20000       # Duration (ms)
     fade: 1500            # fade duration (ms) (Not more than 1500)
@@ -477,6 +477,7 @@ plugins:
       - https://i.loli.net/2020/04/10/y3tHsWqMG8EJ2we.png
       - https://i.loli.net/2020/04/10/jN12vAgeQScBZ7K.png
       - https://i.loli.net/2020/04/10/X2lKtnfQ6ExahRu.png
+      - https://i.loli.net/2020/04/10/rAKtbM6mXgRFYcl.png
       # - https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/41F215B9-261F-48B4-80B5-4E86E165259E.jpeg
       # - https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/BBC19066-E176-47C2-9D22-48C81EE5DF6B.jpeg
       # - https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/B18FCBB3-67FD-48CC-B4F3-457BA145F17A.jpeg
