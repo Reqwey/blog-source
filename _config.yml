@@ -2,6 +2,12 @@
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
+# Lazyload
+lazyload:
+  enable: true
+  onlypost: false
+  loadingImg: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg
+
 # Site
 title: "LHK's Blog"
 subtitle: 'Code for the future'
@@ -100,10 +106,6 @@ use_cdn: true
 favicon: https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/favicon/favicon.ico
 
 
-lazyload:
-  enable: true 
-  onlypost: false
-  loadingImg: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/d570170f4f12e1ee829ca0e85a7dffeb77343a.svg
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
