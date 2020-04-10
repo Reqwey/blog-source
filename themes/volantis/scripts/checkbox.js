@@ -11,6 +11,8 @@ function checkbox(args) {
   } else {
     !text && hexo.log.warn('Checkbox text must be defined!');
 
+    text = hexo.render.renderSync({text: text, engine: 'markdown'}).trim();
+
     const checked = (args[1] || '').length > 0 && args[1].trim() !== 'false';
     const inline = (args[2] || '').length > 0 && args[2].trim() !== 'false';
 
