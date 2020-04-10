@@ -82,5 +82,3 @@ links:
 <input type="checkbox" class="indeterminate red" checked></input> 头像: [https://cdn.jsdelivr.net/gh/Linhk1606/Linhk1606@V1.9/me.jpg](https://cdn.jsdelivr.net/gh/Linhk1606/Linhk1606@V1.9/me.jpg)
 <input type="checkbox" class="indeterminate red" checked></input> 标签: <blue>#OIer</blue> <blue>#Qt</blue>
 <input type="checkbox" class="indeterminate red" checked></input> 描述: 懒癌晚期🤣
-
-{% cb blablabla, checked %}

@@ -69,6 +69,3 @@ GitHub 学生包是一个 **由 GitHub 免费提供给学生的福利** , 里面
 <!-- endtab -->
 
 {% endtabs %}
-
-
-{% cb, blablabla, false, inline %}
