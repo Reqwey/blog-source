@@ -79,9 +79,6 @@ links:
 🔗**欢迎互换友链!**
 
 {% cb 链接 [https://lhkstudio.me](https://lhkstudio.me), checked %}
-
 {% cb 头像 [https://cdn.jsdelivr.net/gh/Linhk1606/Linhk1606@V1.9/me.jpg](https://cdn.jsdelivr.net/gh/Linhk1606/Linhk1606@V1.9/me.jpg), checked %}
-
 {% cb 标签 <blue>#OIer</blue> <blue>#Qt</blue>, checked %}
-
 {% cb 描述 懒癌晚期🤣, checked %}
