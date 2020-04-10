@@ -85,8 +85,8 @@ cover:
   scheme: blog # docs, blog
   display:
     home: true
-    archive: false
-    others: false
+    archive: true
+    others: true
   # logo: /assets/logo.svg
   title: LHKSTUDIO
   subtitle: 'OI, MATH, QT-DEV AND MORE...'
@@ -224,7 +224,7 @@ layout:
       header: [title, category, date, wordcount, counter, top]
       footer: [author, updated, tags, btns, share]
     # 文章页面的侧边栏
-    sidebar: [blogger, toc, category, tagcloud]
+    sidebar: [toc]
   # 文章布局，参数继承自 on_page
   on_post:
     # 文章页脚，自动在每一篇文章末尾添加
