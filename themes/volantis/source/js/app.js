@@ -344,3 +344,5 @@ var customSearch;
 	});
 
 })(jQuery);
+
+$(".indeterminate").prop("indeterminate", true);
