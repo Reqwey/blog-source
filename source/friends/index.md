@@ -76,7 +76,7 @@ links:
 <!-- more -->
 
 
-**欢迎互换友链!**
+🔗**欢迎互换友链!**
 
 {% cb 链接 https://blog.lhkstudio.me, checked %}
 
