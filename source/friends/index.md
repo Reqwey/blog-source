@@ -37,7 +37,7 @@ links:
     items:
     - name: Royce
       avatar: https://cdn.jsdelivr.net/gh/Linhk1606/Linhk1606@V1.7/royce.jpg
-      url: https://royce2003.top/
+      url: https://www.royce2003.top/
       backgroundColor: '#abcbd2' # 卡片背景颜色
       textColor: '#4d4747'  # 卡片文字颜色
       tags:     # 标签
