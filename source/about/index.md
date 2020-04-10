@@ -25,23 +25,23 @@ valine:
 <!-- tab 本站配置 -->
 
 
-{% cb, "blablablabla", false %} 网站源码由 [GitHub](https://github.com) 托管
+{% cb, text, false %} 网站源码由 [GitHub](https://github.com) 托管
 
-{% cb, "blablablabla", false %} 使用 [Volantis(原Material-X)](https://xaoxuu.com/wiki/volantis) 主题 Version 2.1.4
+{% cb, text, false %} 使用 [Volantis(原Material-X)](https://xaoxuu.com/wiki/volantis) 主题 Version 2.1.4
 
-{% cb, "blablablabla", false %} 使用 [Netlify](https://www.netlify.com) 建站
+{% cb, text, false %} 使用 [Netlify](https://www.netlify.com) 建站
 
-{% cb, "blablablabla", false %} 域名相关服务由 [Namecheap](https://www.namecheap.com) 支持
+{% cb, text, false %} 域名相关服务由 [Namecheap](https://www.namecheap.com) 支持
 
-{% cb, "blablablabla", false %} 由 [Hexo](https://hexo.io/) Version 4.2.0 强力驱动
+{% cb, text, false %} 由 [Hexo](https://hexo.io/) Version 4.2.0 强力驱动
 
-{% cb, "blablablabla", false %} CDN服务由 [jsDelivr](https://www.jsdelivr.com) 提供支持
+{% cb, text, false %} CDN服务由 [jsDelivr](https://www.jsdelivr.com) 提供支持
 
-{% cb, "blablablabla", false %} 云端写作功能由 [yuque-hexo](https://github.com/x-cold/yuque-hexo) 支持
+{% cb, text, false %} 云端写作功能由 [yuque-hexo](https://github.com/x-cold/yuque-hexo) 支持
 
-{% cb, "blablablabla", false %} 云函数相关服务由 [腾讯云](https://cloud.tencent.com) , [LeanCloud海外版](https://leancloud.app) 驱动
+{% cb, text, false %} 云函数相关服务由 [腾讯云](https://cloud.tencent.com) , [LeanCloud海外版](https://leancloud.app) 驱动
 
-{% cb, "blablablabla", false %} 使用 [GitHub Actions](https://help.github.com/en/actions) 自动部署
+{% cb, text, false %} 使用 [GitHub Actions](https://help.github.com/en/actions) 自动部署
 
 <!-- endtab -->
 
@@ -78,6 +78,3 @@ GitHub 学生包是一个 **由 GitHub 免费提供给学生的福利** , 里面
 <!-- endtab -->
 
 {% endtabs %}
-
-
-{% cb, "blablablabla", false %}
