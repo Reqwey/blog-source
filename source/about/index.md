@@ -71,4 +71,4 @@ GitHub 学生包是一个 **由 GitHub 免费提供给学生的福利** , 里面
 {% endtabs %}
 
 
-{% cb,"blablabla",inline %} bibibibi
+{% cb, blablabla, checked, inline %}
