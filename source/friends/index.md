@@ -78,9 +78,9 @@ links:
 
 ### 🔗欢迎互换友链!
 
-<input type="checkbox" class="indeterminate red" check="checked"></input> 链接: https://lhkstudio.me
-<input type="checkbox" class="indeterminate red" checked></input> 头像: https://cdn.jsdelivr.net/gh/Linhk1606/Linhk1606@V1.9/me.jpg
-<input type="checkbox" class="indeterminate red" checked></input> 标签: <blue>#OIer</blue> <blue>#Qt</blue>
-<input type="checkbox" class="indeterminate red" checked></input> 描述: 懒癌晚期🤣
+<input type="checkbox" class="red indeterminate"></input> 链接: https://lhkstudio.me
+<input type="checkbox" class="red indeterminate"></input> 头像: https://cdn.jsdelivr.net/gh/Linhk1606/Linhk1606@V1.9/me.jpg
+<input type="checkbox" class="red indeterminate"></input> 标签: <blue>#OIer</blue> <blue>#Qt</blue>
+<input type="checkbox" class="red indeterminate"></input> 描述: 懒癌晚期🤣
 
 {% cb text, checked, inline %}
