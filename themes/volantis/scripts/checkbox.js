@@ -3,7 +3,7 @@
 function checkbox(args) {
   args = args[0] === ',' ? args.slice(1) : args;
   args = args.join(' ').split(',');
-  const text = (args[0] || '').trim();
+  var text = (args[0] || '').trim();
 
   if (text === 'checked' || text === 'true' || text === 'false') {
     const checked = (text === 'checked' || text === 'true');
