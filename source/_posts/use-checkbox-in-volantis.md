@@ -26,7 +26,7 @@ music:
 虽然该文章面向Volantis用户, 但是其它主题也大同小异, 要求是必须使用Stylus进行渲染(如果您使用的是Volantis/Material-X, 则必须要升级到<u>2.0</u>以上版本).
 :::
 
-比如这个原本就是hexo-theme-fluid里的, 多亏了[@Royce](https://www.royce2003.top) 和他的[这篇文章](https://royce2003.top/posts/60394.html#%E5%8F%AF%E4%BA%A4%E4%BA%92%E5%A4%8D%E9%80%89%E6%A1%86)
+比如这个原本就是hexo-theme-fluid里的, 感谢[@Royce](https://www.royce2003.top) 和他的[这篇文章](https://royce2003.top/posts/60394.html#%E5%8F%AF%E4%BA%A4%E4%BA%92%E5%A4%8D%E9%80%89%E6%A1%86)的帮助, 让我成功地把它引入到Volantis主题中
 
 <!--more-->
 
