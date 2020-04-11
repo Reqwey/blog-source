@@ -4,8 +4,8 @@ info:
   version: '2.1.4'
   docs: https://volantis.js.org/
   cdn: # To use CDN, write 'use_cdn: true' in 'blog/_config.yml'.
-    # css: https://cdn.jsdelivr.net/gh/Linhk1606/Linhk1606@V2.0.8.5/style.css
-    # js: https://cdn.jsdelivr.net/gh/Linhk1606/Linhk1606@V2.0.8.5/js/app.js
+    css: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@master/css/style.css
+    js: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@master/js/app.js
 
 
 ############################### Style ###############################
@@ -239,7 +239,7 @@ meta:
   title: # 暂无配置
   # 默认文章作者（可在front-matter中覆盖）
   author:
-    avatar: https://cdn.jsdelivr.net/gh/Linhk1606/Linhk1606@V1.0/me.jpg
+    avatar: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@master/img/avatar.jpg
     name: Linhk1606
     url: https://lhkstudio.me
   # 文章创建日期
@@ -317,7 +317,7 @@ widget:
   blogger:
     class: blogger
     display: [desktop] # [desktop, mobile]
-    avatar: https://cdn.jsdelivr.net/gh/Linhk1606/Linhk1606@V1.9/me.jpg
+    avatar: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@master/img/avatar.jpg
     title:
     subtitle:
     jinrishici: false # Poetry Today. You can set a string, and it will be displayed when loading fails.

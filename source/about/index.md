@@ -11,7 +11,7 @@ valine:
 
 <btns center circle wide>
 <a style='padding-bottom:16px'>
-<img style='height:80px;width:80px;border-radius:40px;margin-top:-64px;margin-bottom:12px' src="https://cdn.jsdelivr.net/gh/Linhk1606/Linhk1606@V1.0/me.jpg">
+<img style='height:80px;width:80px;border-radius:40px;margin-top:-64px;margin-bottom:12px' src="https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@master/img/avatar.jpg">
 「初二的一名OIer, 懒癌晚期患者, 喜欢数学和电子音乐」
 </a>
 </btns>
