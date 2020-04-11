@@ -76,7 +76,7 @@ links:
 <!-- more -->
 
 
-### <i class="far fa-smile-wink"></i>欢迎互换友链!
+### <i class="far fa-smile-wink"></i> 欢迎互换友链!
 
 {% cb 链接: https://lhkstudio.me, checked %}
 {% cb 头像: https://cdn.jsdelivr.net/gh/Linhk1606/Linhk1606@V1.9/me.jpg, checked %}
