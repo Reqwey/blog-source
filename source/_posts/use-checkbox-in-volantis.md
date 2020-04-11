@@ -281,7 +281,7 @@ $(".indeterminate").prop("indeterminate", true);
 ::: danger
 **注意!!!**
 
-由于这个是我优化过的, 因此Bug很多, 有很多兼容性问题, 建议用下面的复杂版 ;)
+由于这个是我优化过的, 因此Bug很多 (没毛病![doge](https://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/a1/2018new_doge02_org.png)), 有很多兼容性问题, 建议用下面的复杂版
 :::
 
 ### 复杂版(HTML)
