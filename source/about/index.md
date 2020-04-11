@@ -39,16 +39,16 @@ valine:
 <!-- tab 作者的「开发装备」 -->
 
 <input type="radio" checked>操作系统:
-  <input type="checkbox" class="indeterminate orange">Windows 10 企业版 x64
-  <input type="checkbox" class="indeterminate orange">Ubuntu 19.04
+&nbsp;&nbsp;<input type="checkbox" class="indeterminate orange">Windows 10 企业版 x64
+&nbsp;&nbsp;<input type="checkbox" class="indeterminate orange">Ubuntu 19.04
 <input type="radio" checked>开发工具:
-  <input type="checkbox" class="indeterminate orange">On Windows
-    <input type="checkbox" class="blue" checked="checked">VS Code Insiders (信息竞赛)
-    <input type="checkbox" class="blue" checked="checked">Atom Nightly (hexo博客轻微修改)
-    <input type="checkbox" class="blue" checked="checked">JetBrains Clion (C++开发~~搞事~~等)
-    <input type="checkbox" class="blue" checked="checked">JetBrains WebStorm (博客大型修改, npm、git可视化操作)
-  <input type="checkbox" class="indeterminate orange">On Linux
-    <input type="checkbox" class="blue" checked="checked">Qt Creator (Qt开发)
+&nbsp;&nbsp;<input type="checkbox" class="indeterminate orange">On Windows
+&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" class="blue" checked="checked">VS Code Insiders (信息竞赛)
+&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" class="blue" checked="checked">Atom Nightly (hexo博客轻微修改)
+&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" class="blue" checked="checked">JetBrains Clion (C++开发~~搞事~~等)
+&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" class="blue" checked="checked">JetBrains WebStorm (博客大型修改, npm、git可视化操作)
+&nbsp;&nbsp;<input type="checkbox" class="indeterminate orange">On Linux
+&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" class="blue" checked="checked">Qt Creator (Qt开发)
 
 <!-- endtab -->
 
