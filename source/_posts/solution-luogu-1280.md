@@ -12,7 +12,7 @@ categories:
  - [OI, Solution]
 ---
 
-<fancybox> <img src='https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@master/img/VSCode-happy-holidays.png'> </fancybox>
+![VSCode](https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@master/img/VSCode-happy-holidays.png)
 
 <!--more-->
 
