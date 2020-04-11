@@ -15,9 +15,9 @@ tags:
 categories:
  - [Dev, hexo]
 music:
- - server: netease   # netease, tencent, kugou, xiami, baidu
- - type: song        # song, playlist, album, search, artist
- - id: 461347998      # song id / playlist id / album id / search keyword
+  server: netease
+  type: song
+  id: 461347998
 ---
 
 这篇文章讲述如何在Volantis主题中添加多彩的CheckBox标签
