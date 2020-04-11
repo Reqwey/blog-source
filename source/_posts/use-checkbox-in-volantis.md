@@ -300,6 +300,8 @@ $(".indeterminate").prop("indeterminate", true);
 <input type="radio" checked="checked">一个默认颜色(绿色)的圆形选中Radio
 ```
 
+<!-- endtab -->
+
 <!-- tab 示例 -->
 
 <input type="checkbox" class="blue">一个未选中的蓝色普通方形复选框
@@ -307,6 +309,8 @@ $(".indeterminate").prop("indeterminate", true);
 <input type="checkbox" class="orange indeterminate">一个橙色的横向选中方形复选框
 
 <input type="radio" checked="checked">一个默认颜色(绿色)的圆形选中Radio
+
+<!-- endtab -->
 
 {% endtabs %}
 
