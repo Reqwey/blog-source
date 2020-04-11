@@ -48,7 +48,7 @@ info:
   cdn: # To use CDN, write 'use_cdn: true' in 'blog/_config.yml'.
     # css: blablabla
     # js: blablabla
-{% endcodeblock %}s
+{% endcodeblock %}
 
 ### 配置Stylus
 
@@ -240,7 +240,7 @@ hexo.extend.tag.register('cb', checkbox, { ends: false });
 
 ### 兼容横向CheckBox
 
-> 这一步比较难理解, 需要将以下代码放在**任意一个JS文件**中(条件是这个文件必须<u>每次渲染页面时都会被调用</u>)
+> 需要将以下代码放在**任意一个JS文件**中(条件是这个文件必须<u>每次渲染页面时都会被调用</u>)
 
 这里以放在 `app.js` 中为例
 
@@ -282,6 +282,26 @@ $(".indeterminate").prop("indeterminate", true);
 
 支持 各种颜色的普通CheckBox, Radio(圆形), 以及横向选中的CheckBox
 
-写法见 https://royce2003.top/posts/60394.html#%E5%8F%AF%E4%BA%A4%E4%BA%92%E5%A4%8D%E9%80%89%E6%A1%86
+{% tabs example %}
+
+<!-- tab 写法 -->
+
+``` markdown
+<input type="checkbox" class="blue">一个未选中的蓝色普通方形复选框
+
+<input type="checkbox" class="orange indeterminate">一个橙色的横向选中方形复选框
+
+<input type="radio" checked="checked">一个默认颜色(绿色)的圆形选中Radio
+```
+
+<!-- tab 示例 -->
+
+<input type="checkbox" class="blue">一个未选中的蓝色普通方形复选框
+
+<input type="checkbox" class="orange indeterminate">一个橙色的横向选中方形复选框
+
+<input type="radio" checked="checked">一个默认颜色(绿色)的圆形选中Radio
+
+{% endtabs %}
 
 谢谢
