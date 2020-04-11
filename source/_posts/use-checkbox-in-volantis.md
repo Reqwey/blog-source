@@ -258,7 +258,9 @@ $(".indeterminate").prop("indeterminate", true);
 
 ### 简单版
 
-`{% cb text, checked?, inline? %}`
+```markdown
+{% cb text, checked?, inline? %}
+```
 
 注:
 
@@ -268,6 +270,18 @@ $(".indeterminate").prop("indeterminate", true);
 
 第三个参数选填, 如果填了表示所有CheckBox在同一行显示
 
+{% cb 这个渲染了一个<u>普通的CheckBox</u>, checked %}
+
+::: danger
+**注意!!!**
+
+由于这个是我优化过的, 因此Bug很多, 有很多兼容性问题, 建议用下面的复杂版 ;)
+:::
+
 ### 复杂版(HTML)
 
-见 https://royce2003.top/posts/60394.html#%E5%8F%AF%E4%BA%A4%E4%BA%92%E5%A4%8D%E9%80%89%E6%A1%86
+支持 各种颜色的普通CheckBox, Radio(圆形), 以及横向选中的CheckBox
+
+写法见 https://royce2003.top/posts/60394.html#%E5%8F%AF%E4%BA%A4%E4%BA%92%E5%A4%8D%E9%80%89%E6%A1%86
+
+谢谢
