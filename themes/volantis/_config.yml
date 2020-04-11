@@ -406,7 +406,7 @@ footer:
       url: https://www.zhihu.com/people/linhk1606
   copyright: '[Copyright © 2019-2020 Linhk1606](https://lhkstudio.me)'
   # You can add your own property here. (Support markdown, for example: br: '<br>')
-  br: '<br>[![Netlify](https://www.netlify.com/img/global/badges/netlify-dark.svg)](https://www.netlify.com)'
+  br: '<br>[![Netlify](https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@master/img/netlify.svg)](https://www.netlify.com)'
 
 
 ############################### SEO ###############################
