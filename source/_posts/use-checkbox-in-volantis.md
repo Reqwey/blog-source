@@ -262,13 +262,19 @@ $(".indeterminate").prop("indeterminate", true);
 {% cb text, checked?, inline? %}
 ```
 
-注:
+> 注:
+>
+> 第一个参数`text`即CheckBox之后这一行的内容, **支持渲染markdown**
+>
+> 第二个参数可以填写`checked/true`表示渲染一个默认为选中的CheckBox, 填`false`表示不选中
+>
+> 第三个参数选填, 如果填了表示所有CheckBox在同一行显示
 
-第一个参数`text`即CheckBox之后这一行的内容, **支持渲染markdown**
+比如
 
-第二个参数可以填写`checked/true`表示渲染一个默认为选中的CheckBox, 填`false`表示不选中
-
-第三个参数选填, 如果填了表示所有CheckBox在同一行显示
+``` markdown
+{% cb 这个渲染了一个<u>普通的CheckBox</u>, checked %}
+```
 
 {% cb 这个渲染了一个<u>普通的CheckBox</u>, checked %}
 
