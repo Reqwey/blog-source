@@ -1,5 +1,5 @@
 ---
-title: 在Hexo-theme-volantis中使用多彩的CheckBox
+title: 在HEXO主题Volantis中使用多彩的CheckBox
 date: "2020-04-11 00:00:00"
 body: [article, comments]
 cover: false
