@@ -69,13 +69,14 @@ links:
       backgroundColor: '#9f9d9e'
       textColor: '#d6f2f7'
       desc: 努力学习技术的Vince
-  - group: 欢迎互换友链!
-    icon: far fa-smile-wink
 ---
 
 <p center large>友 链</p>
 
 <!-- more -->
+
+
+### <i class="far fa-smile-wink"></i> 欢迎互换友链!
 
 {% cb 链接: https://lhkstudio.me, checked %}
 {% cb 头像: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@master/img/avatar.jpg, checked %}
