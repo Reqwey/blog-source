@@ -40,7 +40,7 @@ music:
 
 请将主题中的两个CDN关掉, 即
 
-{% codeblock blog/theme/volantis/_config.yml lang:yaml line_number:true mark:6,7 %}
+{% codeblock blog/themes/volantis/_config.yml lang:yaml line_number:true mark:6,7 %}
 info:
   name: Volantis
   version: 'x.x.x'
