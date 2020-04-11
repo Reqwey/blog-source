@@ -48,11 +48,11 @@ info:
   cdn: # To use CDN, write 'use_cdn: true' in 'blog/_config.yml'.
     # css: blablabla
     # js: blablabla
-{% endcodeblock %}
+{% endcodeblock %}s
 
 ### 配置Stylus
 
-在 `blog/theme/volantis/source/css/_layout/` 中新建 `checkbox.styl` , 内容如下
+在 `blog/themes/volantis/source/css/_layout/` 中新建 `checkbox.styl` , 内容如下
 
 ``` stylus
 input[type=checkbox] + p
