@@ -202,7 +202,7 @@ input[type=radio].orange
     background: #ffc107;
 ```
 
-### 配置 JavaScript
+### 配置JavaScript
 
 > 主要是为了方便书写CheckBox
 
