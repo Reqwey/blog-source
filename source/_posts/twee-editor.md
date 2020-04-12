@@ -4,7 +4,7 @@ date: "2020-02-24 00:00:00"
 body: [article, comments]
 cover: false
 thumbnail: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@master/img/TweeEditor.jpg
-icons: [fad fa-fire red]
+icons: [fas fa-fire red]
 valine:
   placeholder: 有什么感想? 发射犇犇
 mathjax: true
