@@ -93,22 +93,22 @@ cover:
   search: Linhk1606 First Search
   features:
     - name: 博文
-      icon: fad fa-rss
+      icon: fal fa-rss
       url: /
     - name: 关于
-      icon: fad fa-user-circle
+      icon: fal fa-user-circle
       url: about/
       rel: nofollow
     - name: 分类
-      icon: fad fa-folder-open
+      icon: fal fa-folder-open
       url: categories/
       rel: nofollow
     - name: 归档
-      icon: fad fa-file-archive
+      icon: fal fa-archive
       url: archives/
       rel: nofollow
     - name: 肺炎疫情
-      icon: fad fa-biohazard
+      icon: fal fa-biohazard
       url: 2019-ncov/
 
 
@@ -123,81 +123,81 @@ navbar:
     # This menu will be displayed on the laptop or desktop.
     on_desktop:
       - name: 近期
-        icon: far fa-clock
+        icon: fad fa-clock
         url: /
         rows:
           - name: 热门文章
-            icon: fas fa-fire
+            icon: fad fa-fire
           - name: Volantis中添加多彩的复选框
             url: /2020/04/11/use-checkbox-in-volantis/
       - name: 索引
-        icon: far fa-list-alt
+        icon: fad fa-list-alt
         rows:
           - name: 分类
-            icon: far fa-folder-open
+            icon: fad fa-folder-open
             url: categories/
           - name: 标签
-            icon: fas fa-hashtag
+            icon: fad fa-hashtag
             url: tags/
           - name: 时间轴
-            icon: fas fa-list
+            icon: fad fa-list
             url: archives/
       - name: 更多
-        icon: fas fa-ellipsis-v
+        icon: fad fa-ellipsis-v
         rows:
           - name: 关于我
-            icon: far fa-user-circle
+            icon: fad fa-user-circle
             url: /about
           - name: 我的友链
-            icon: fas fa-link
+            icon: fad fa-link
             url: /friends
           - name: 主站
-            icon: far fa-caret-square-right
+            icon: fad fa-caret-square-right
             url: https://lhkstudio.me
           - name: hr
           - name: 小工具
-            icon: fas fa-flask
+            icon: fad fa-flask
             rows:
               - name: 肺炎疫情图
-                icon: fas fa-biohazard
+                icon: fad fa-biohazard
                 url: 2019-ncov/
       - name: 管理员
-        icon: fas fa-user-shield
+        icon: fad fa-user-shield
         rows:
           - name: 评论管理
-            icon: far fa-comments
+            icon: fad fa-comments
             url: https://comment.lhkstudio.me
           - name: 云端编辑
-            icon: far fa-edit
+            icon: fad fa-edit
             url: https://www.yuque.com/linhk1606/hexo
           - name: 博客源码
-            icon: far fa-file-code
+            icon: fad fa-file-code
             url: https://github.com/linhk1606/blog-source
     # This menu will be displayed on the mobile.
     on_mobile:
       - name: 近期文章
-        icon: far fa-clock
+        icon: fal fa-clock
         url: /
       - name: 主站
-        icon: far fa-arrow-alt-circle-right
+        icon: fal fa-arrow-alt-circle-right
         url: https://www.lhkstudio.me
       - name: 文章归档
-        icon: far fa-file-archive
+        icon: fal fa-file-archive
         url: archives/
       - name: 友链
-        icon: fas fa-link
+        icon: fal fa-link
         url: friends/
       - name: 分类
-        icon: far fa-folder-open
+        icon: fal fa-folder-open
         url: categories/
       - name: 标签
-        icon: fas fa-hashtag
+        icon: fal fa-hashtag
         url: tags/
       - name: 关于
-        icon: far fa-user-circle
+        icon: fal fa-user-circle
         url: about/
       - name: 肺炎疫情图
-        icon: fas fa-virus
+        icon: fal fa-virus
         url: /2019-ncov
   search: Search!   # Search bar placeholder
 
