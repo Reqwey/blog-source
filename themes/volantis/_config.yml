@@ -93,22 +93,22 @@ cover:
   search: Linhk1606 First Search
   features:
     - name: 博文
-      icon: fas fa-rss
+      icon: fad fa-rss
       url: /
     - name: 关于
-      icon: far fa-user-circle
+      icon: fad fa-user-circle
       url: about/
       rel: nofollow
     - name: 分类
-      icon: far fa-folder-open
+      icon: fad fa-folder-open
       url: categories/
       rel: nofollow
     - name: 归档
-      icon: far fa-file-archive
+      icon: fad fa-file-archive
       url: archives/
       rel: nofollow
     - name: 肺炎疫情
-      icon: fas fa-biohazard
+      icon: fad fa-biohazard
       url: 2019-ncov/
 
 
