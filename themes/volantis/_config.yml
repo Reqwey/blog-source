@@ -517,7 +517,7 @@ plugins:
 
 ############################### Comments ###############################
 comments:
-  title: <i class='fad fa-comment-dots'></i> 评论
+  title: <i class='fal fa-comment-dots'></i> 评论
   subtitle:
   service: valine # valine, disqus, gitalk, livere
   valine:
