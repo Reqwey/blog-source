@@ -5,7 +5,7 @@ info:
   docs: https://volantis.js.org/
   cdn: # To use CDN, write 'use_cdn: true' in 'blog/_config.yml'.
     # css: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.0.3/css/style.css
-    js: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@master/js/app.js
+    # js: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@master/js/app.js
 
 
 ############################### Style ###############################
@@ -212,7 +212,7 @@ layout:
     # 列表类页面的侧边栏
     sidebar: [blogger, category, tagcloud]
     # read more button
-    readmore: Read More <i class="fad fa-arrow-alt-circle-right"></i>
+    readmore: Read More <i class="fad fa-chevron-right"></i>
   # 页面布局
   on_page:
     # 文章页面主体元素，你也可以在页面的Front-matter中设置
