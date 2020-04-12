@@ -7,7 +7,7 @@ meta:
   footer: []
 links:
   - group: 本校大佬
-    icon: far fa-building
+    icon: fad fa-building
     items:
     - name: Lab_Tree
       avatar: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@master/img/Lab_Tree.png
@@ -76,7 +76,7 @@ links:
 <!-- more -->
 
 
-### <i class="far fa-smile-wink"></i> 欢迎互换友链!
+### <i class="fad fa-smile-wink"></i> 欢迎互换友链!
 
 {% cb 链接: https://lhkstudio.me, checked %}
 {% cb 头像: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@master/img/avatar.jpg, checked %}

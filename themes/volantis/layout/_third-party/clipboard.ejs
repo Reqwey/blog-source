@@ -9,7 +9,7 @@
     var initCopyCode = function () {
       var copyHtml = '';
       copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
-      copyHtml += '<i class="far fa-copy"></i><span>COPY</span>';
+      copyHtml += '<i class="fad fa-copy"></i><span>COPY</span>';
       copyHtml += '</button>';
       $(".highlight .code pre").before(copyHtml);
       var clipboard = new ClipboardJS('.btn-copy', {
