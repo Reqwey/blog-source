@@ -4,7 +4,7 @@ date: "2020-04-11 00:00:00"
 body: [article, comments]
 cover: false
 top: true
-icons: [fas fa-fire red]
+icons: [fad fa-fire red]
 valine:
   placeholder: 有什么感想? 发射犇犇
 mathjax: true

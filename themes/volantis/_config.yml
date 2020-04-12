@@ -93,7 +93,7 @@ cover:
   search: Linhk1606 First Search
   features:
     - name: 博文
-      icon: fal fa-rss
+      icon: fad fa-rss
       url: /
     - name: 关于
       icon: fal fa-user-circle
@@ -116,7 +116,7 @@ cover:
 navbar:
   logo: # choose [img] or [icon + title]
     img:
-    icon: far fa-user
+    icon: fad fa-user
     title: LINHK
   menu:
     # The following can be written in `blog/source/_data/menu.yml`
@@ -176,28 +176,28 @@ navbar:
     # This menu will be displayed on the mobile.
     on_mobile:
       - name: 近期文章
-        icon: fal fa-clock
+        icon: fad fa-clock
         url: /
       - name: 主站
-        icon: fal fa-arrow-alt-circle-right
+        icon: fad fa-arrow-alt-circle-right
         url: https://www.lhkstudio.me
       - name: 文章归档
-        icon: fal fa-file-archive
+        icon: fad fa-file-archive
         url: archives/
       - name: 友链
-        icon: fal fa-link
+        icon: fad fa-link
         url: friends/
       - name: 分类
-        icon: fal fa-folder-open
+        icon: fad fa-folder-open
         url: categories/
       - name: 标签
-        icon: fal fa-hashtag
+        icon: fad fa-hashtag
         url: tags/
       - name: 关于
-        icon: fal fa-user-circle
+        icon: fad fa-user-circle
         url: about/
       - name: 肺炎疫情图
-        icon: fal fa-virus
+        icon: fad fa-biohazard
         url: /2019-ncov
   search: Search!   # Search bar placeholder
 
@@ -212,7 +212,7 @@ layout:
     # 列表类页面的侧边栏
     sidebar: [blogger, category, tagcloud]
     # read more button
-    readmore: Read More <i class="far fa-arrow-alt-circle-right"></i>
+    readmore: Read More <i class="fad fa-arrow-alt-circle-right"></i>
   # 页面布局
   on_page:
     # 文章页面主体元素，你也可以在页面的Front-matter中设置
@@ -244,30 +244,30 @@ meta:
     url: https://lhkstudio.me
   # 文章创建日期
   date:
-    icon: far fa-calendar-alt
+    icon: fad fa-calendar-alt
     title: ''
     format: 'll' # 日期格式 http://momentjs.com/docs/
   # 文章更新日期
   updated:
-    icon: far fa-save
+    icon: fad fa-save
     title: '更新于 '
     format: 'll' # 日期格式 http://momentjs.com/docs/
   # 文章分类
   category:
-    icon: far fa-folder-open
+    icon: fad fa-folder-open
   # 文章置顶
   top:
-    icon: fas fa-angle-double-up
+    icon: fad fa-angle-double-up
   # 文章浏览计数
   counter:
-    icon: far fa-eye
+    icon: fad fa-eye
   # 文章字数和阅读时长
   wordcount:
-    icon_wordcount: far fa-keyboard
-    icon_duration: far fa-hourglass
+    icon_wordcount: fad fa-keyboard
+    icon_duration: fad fa-hourglass
   # 文章标签
   tags:
-    icon: fas fa-hashtag
+    icon: fad fa-hashtag
   # 分享
   share:
     - id: qq
@@ -281,31 +281,31 @@ meta:
   # 链接
   btns:
     edit:
-      icon: far fa-edit
+      icon: fad fa-edit
       title: 在GitHub上编辑此页
       color: '#888'
     repo: # 源码链接
-      icon: far fa-file-code
+      icon: fad fa-file-code
       title: 源码
       color: '#508EF2'
     bug: # BUG反馈链接
-      icon: fas fa-bug
+      icon: fad fa-bug
       title: BUG
       color: '#FE5F58'
     doubt: # 疑问链接
-      icon: far fa-question-circle
+      icon: fad fa-question-circle
       title: 疑问
       color: '#FFBD2B'
     idea: # 建议链接
-      icon: far fa-lightbulb
+      icon: fad fa-lightbulb
       title: 建议
       color: '#3DC550'
     faq: # FAQ链接
-      icon: far fa-comments
+      icon: fad fa-comments
       title: FAQ
       color: '#29B1C9'
     feedback: # 反馈链接
-      icon: far fa-comment-dots
+      icon: fad fa-comment-dots
       title: 反馈
       color: '#1BCDFC'
 
@@ -328,7 +328,7 @@ widget:
     class: toc
     display: [desktop, mobile] # [desktop, mobile]
     header:
-      icon: far fa-list-alt
+      icon: fad fa-list-alt
       title: 本文目录
     list_number: false
     min_depth: 2
@@ -339,7 +339,7 @@ widget:
     class: category
     display: [desktop] # [desktop, mobile]
     header:
-      icon: far fa-folder-open
+      icon: fad fa-folder-open
       title: 文章分类
       url: /categories/
   # ---------------------------------------
@@ -348,7 +348,7 @@ widget:
     class: tagcloud
     display: [desktop] # [desktop, mobile]
     header:
-      icon: far fa-lightbulb
+      icon: fad fa-tags
       title: 热门标签
       url: /tags/
     min_font: 14
@@ -362,7 +362,7 @@ widget:
     class: related_posts # npm i -S hexo-related-popular-posts
     display: [desktop, mobile] # [desktop, mobile]
     header:
-      icon: far fa-bookmark
+      icon: fad fa-bookmark
       title: 相关文章
     max_count: 5
   # ---------------------------------------
@@ -394,13 +394,13 @@ footer:
   # layout of footer: [aplayer, social, license, info, copyright]
   layout: [aplayer, social, copyright, br]
   social:
-    - icon: fas fa-rss
+    - icon: fad fa-rss
       url: /atom.xml
-    - icon: far fa-envelope
+    - icon: fad fa-envelope
       url: mailto:lhkstudio2020@gmail.com
     - icon: fab fa-github
       url: https://github.com/Linhk1606
-    - icon: fas fa-headphones-alt
+    - icon: fad fa-headphones-alt
       url: https://music.163.com/#/user/home?id=2113078436
     - icon: fab fa-zhihu
       url: https://www.zhihu.com/people/linhk1606
@@ -517,7 +517,7 @@ plugins:
 
 ############################### Comments ###############################
 comments:
-  title: <i class='far fa-comment-dots'></i> 评论
+  title: <i class='fad fa-comment-dots'></i> 评论
   subtitle:
   service: valine # valine, disqus, gitalk, livere
   valine:

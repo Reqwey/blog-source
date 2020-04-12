@@ -32,7 +32,7 @@ categories:
 
 <fancybox> <img src='https://s1.ax1x.com/2020/04/01/G1kUr4.png'> </fancybox>
 
-<btn center large>[<i class='fas fa-code'></i> 提交代码](https://www.luogu.com.cn/problem/P6188#submit)</btn>
+<btn center large>[<i class='fad fa-code'></i> 提交代码](https://www.luogu.com.cn/problem/P6188#submit)</btn>
 
 {% raw %}</details>{% endraw %}
 

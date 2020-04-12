@@ -33,7 +33,7 @@ links:
       - Qt
       - WinAPI
   - group: OI大佬
-    icon: fas fa-terminal
+    icon: fad fa-terminal
     items:
     - name: Royce
       avatar: https://cdn.jsdelivr.net/gh/Royce2019/img/img/avatar.jpg
@@ -53,7 +53,7 @@ links:
       - C++
       desc: 超级蒟蒻!
   - group: 技术大神
-    icon: fas fa-laptop-code
+    icon: fad fa-laptop-code
     items:
     - name: xaoxuu
       avatar: https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png
