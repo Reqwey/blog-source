@@ -244,30 +244,30 @@ meta:
     url: https://lhkstudio.me
   # 文章创建日期
   date:
-    icon: fad fa-calendar-alt
+    icon: far fa-calendar-alt
     title: ''
     format: 'll' # 日期格式 http://momentjs.com/docs/
   # 文章更新日期
   updated:
-    icon: fad fa-save
+    icon: far fa-save
     title: '更新于 '
     format: 'll' # 日期格式 http://momentjs.com/docs/
   # 文章分类
   category:
-    icon: fad fa-folder-open
+    icon: far fa-folder-open
   # 文章置顶
   top:
-    icon: fad fa-angle-double-up
+    icon: far fa-angle-double-up
   # 文章浏览计数
   counter:
-    icon: fad fa-eye
+    icon: far fa-eye
   # 文章字数和阅读时长
   wordcount:
-    icon_wordcount: fad fa-keyboard
-    icon_duration: fad fa-hourglass
+    icon_wordcount: far fa-keyboard
+    icon_duration: far fa-hourglass-half
   # 文章标签
   tags:
-    icon: fad fa-hashtag
+    icon: far fa-hashtag
   # 分享
   share:
     - id: qq
@@ -517,7 +517,7 @@ plugins:
 
 ############################### Comments ###############################
 comments:
-  title: <i class='fal fa-comment-dots'></i> 评论
+  title: <i class='far fa-comment-dots'></i> 评论
   subtitle:
   service: valine # valine, disqus, gitalk, livere
   valine:
