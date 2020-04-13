@@ -96,7 +96,7 @@ cover:
       icon: far fa-rss
       url: /
     - name: 关于
-      icon: far fa-user-circle
+      icon: far fa-info-circle
       url: about/
       rel: nofollow
     - name: 分类
@@ -156,7 +156,7 @@ navbar:
             url: https://lhkstudio.me
           - name: hr
           - name: 小工具
-            icon: fad fa-flask
+            icon: fad fa-tools
             rows:
               - name: 肺炎疫情图
                 icon: fad fa-biohazard
