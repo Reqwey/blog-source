@@ -7,7 +7,7 @@ meta:
   footer: []
 links:
   - group: 本校大佬
-    icon: fad fa-building
+    icon: fal fa-building
     items:
     - name: Lab_Tree
       avatar: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@master/img/Lab_Tree.png
@@ -33,7 +33,7 @@ links:
       - Qt
       - WinAPI
   - group: OI大佬
-    icon: fad fa-terminal
+    icon: fal fa-code
     items:
     - name: Royce
       avatar: https://cdn.jsdelivr.net/gh/Royce2019/img/img/avatar.jpg
@@ -53,7 +53,7 @@ links:
       - C++
       desc: 超级蒟蒻!
   - group: 技术大神
-    icon: fad fa-laptop-code
+    icon: fal fa-laptop-code
     items:
     - name: xaoxuu
       avatar: https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png
@@ -76,7 +76,7 @@ links:
 <!-- more -->
 
 
-### <i class="fad fa-smile-wink"></i> 欢迎互换友链!
+### <i class="fal fa-smile-wink"></i> 欢迎互换友链!
 
 {% cb 链接: https://lhkstudio.me, checked %}
 {% cb 头像: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@master/img/avatar.jpg, checked %}
