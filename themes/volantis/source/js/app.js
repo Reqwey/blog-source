@@ -220,8 +220,8 @@ var customSearch;
 		const $toc = $('.toc-wrapper');
 		if ($toc.length === 0) return;
 		$toc.click((e) => {
-		    e.stopPropagation();
-		    $toc.addClass('active');
+			e.stopPropagation();
+			$toc.addClass('active');
 		});
 		$(document).click(() => $toc.removeClass('active'));
 
@@ -336,8 +336,8 @@ var customSearch;
 		setTabs();
 		// $(".article .video-container").fitVids();
 		$('.scroll-down').on('click', function () {
-	    scrolltoElement('.l_body');
-	  });
+			scrolltoElement('.l_body');
+		});
 		setTimeout(function () {
 			$('#loading-bar-wrapper').fadeOut(500);
 		}, 300);
@@ -346,3 +346,4 @@ var customSearch;
 })(jQuery);
 
 $(".indeterminate").prop("indeterminate", true);
+$("ul>li>div>h3").prepend("<input type='radio' class='blue' checked='checked'>");

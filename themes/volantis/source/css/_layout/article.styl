@@ -115,7 +115,7 @@
 
 
   ul>li
-      list-style: initial
+      list-style: none
   ol>li
       list-style: decimal
   a
@@ -257,7 +257,7 @@
     .content
       padding: 0 .6em
       margin: 0
-      ul.entry, ul.popular-posts
+      ul.entry
         padding-left: 9px
         margin-left: $gap
         a
@@ -271,7 +271,21 @@
             border-left: none
             background: none
             color: $color-hover
-
+      
+      ul.popular-posts
+        padding-left: 0px
+        margin-left: 0px
+        a
+          display: inline
+          border-left: none
+          padding: 0
+          padding-left: 4px
+          color: $color-link
+          font-weight: normal
+          &:hover,&.active,&:active
+            border-left: none
+            background: none
+            color: $color-hover
 
     &.qrcode > .content
       display: flex
