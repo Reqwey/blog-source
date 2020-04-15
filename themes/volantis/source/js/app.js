@@ -345,5 +345,5 @@ var customSearch;
 
 })(jQuery);
 
+$("ul>li>div>h3").prepend("<input type='checkbox' class='indeterminate blue'>");
 $(".indeterminate").prop("indeterminate", true);
-$("ul>li>div>h3").prepend("<input type='checkbox' class='blue' checked='checked'>");
