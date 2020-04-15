@@ -10,8 +10,8 @@ lazyload:
 
 # Site
 title: "LHK's Blog"
-subtitle: 'Code for the future'
-description: "Based on GitHub Pages"
+subtitle: ''
+description: "Based on Netlify"
 keywords: IT, OI
 author: Linhk1606
 language: zh-CN
