@@ -137,7 +137,7 @@ categories:
 
 如果您发现了问题或者有什么建议, 可以通过<btn>[提供Issue](https://github.com/TweeChalice/TweeEditor/issues/new/choose)</btn>的方式告知我们, 十分感谢您的合作.
 
-::: danger
+::: warning
 **注意!**
 
 项目采用了 Mozilla Public License 2.0, 如果您复制该项目并使用它创建自己的程序包，则必须使用相同的许可证并显示该项目的来源的详细信息, 并显示此许可证和版权声明. 它的版权始终属于TweeChalice
