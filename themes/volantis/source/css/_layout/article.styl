@@ -145,6 +145,21 @@
     background: bgcolor($color-blockquote)
     border-left: $border-codeblock solid $color-blockquote
     border-radius: $border-codeblock
+    >:before
+      font-family: "Font Awesome Solid"
+      content: "\f054"
+      position: absolute
+      top: 50%
+      left: 2.5px
+      margin-top: -12px
+      width: 24px
+      height: 24px
+      border-radius: 50%
+      text-align: center
+      color: $color-blockquote
+      background-size: 16px 16px
+      background-position: 4px 4px
+      background-repeat: no-repeat
 
   blockquote,div.info,div.success,div.warning,div.danger
     &,p,ul,ol
@@ -156,7 +171,7 @@
     box-shadow: $boxshadow-card
     position: relative
     width: 100%
-    padding: .7em 1.2em
+    padding: .7em 1.9em
     trans()
     footer
       padding: 0
