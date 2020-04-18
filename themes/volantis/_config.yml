@@ -161,6 +161,9 @@ navbar:
               - name: 肺炎疫情图
                 icon: fad fa-biohazard
                 url: 2019-ncov/
+              - name: RSS订阅
+                icon: fad fa-rss
+                url: /atom.xml
       - name: 管理员
         icon: fad fa-user-shield
         rows:
