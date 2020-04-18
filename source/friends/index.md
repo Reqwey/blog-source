@@ -69,6 +69,14 @@ links:
       backgroundColor: '#9f9d9e'
       textColor: '#d6f2f7'
       desc: 努力学习技术的Vince
+    - name: Hcode
+      avatar: https://cdn.jsdelivr.net/gh/HimitZH/CDN/images/HCODE.png
+      url: https://www.hcode.top
+      backgroundColor: '#BEE7E9'
+      textColor: '#085087'
+      tags:
+      - 技术分享
+      - 在线功能
 ---
 
 <p center large>友 链</p>
