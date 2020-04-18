@@ -132,6 +132,7 @@ navbar:
             url: /2020/04/11/use-checkbox-in-volantis/
       - name: 索引
         icon: fad fa-list-alt
+        url: archives/
         rows:
           - name: 分类
             icon: fad fa-folder-open
@@ -154,6 +155,9 @@ navbar:
           - name: 博客源码
             icon: fad fa-file-code
             url: https://github.com/linhk1606/blog-source
+          - name: 腾讯云函数
+            icon: fad fa-brackets-curly
+            url: https://console.cloud.tencent.com/scf/list-detail?rid=1&ns=default&id=Hexo
       - name: 更多
         icon: fad fa-ellipsis-v
         rows:
