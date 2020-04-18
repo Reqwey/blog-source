@@ -142,28 +142,6 @@ navbar:
           - name: 时间轴
             icon: fad fa-list
             url: archives/
-      - name: 更多
-        icon: fad fa-ellipsis-v
-        rows:
-          - name: 关于我
-            icon: fad fa-user-circle
-            url: /about
-          - name: 我的友链
-            icon: fad fa-link
-            url: /friends
-          - name: 主站
-            icon: fad fa-caret-square-right
-            url: https://lhkstudio.me
-          - name: hr
-          - name: 小工具
-            icon: fad fa-tools
-            rows:
-              - name: 肺炎疫情图
-                icon: fad fa-biohazard
-                url: 2019-ncov/
-              - name: RSS订阅
-                icon: fad fa-rss
-                url: /atom.xml
       - name: 管理员
         icon: fad fa-user-shield
         rows:
@@ -176,6 +154,31 @@ navbar:
           - name: 博客源码
             icon: fad fa-file-code
             url: https://github.com/linhk1606/blog-source
+      - name: 更多
+        icon: fad fa-ellipsis-v
+        rows:
+          - name: 关于我
+            icon: fad fa-user-circle
+            url: /about
+          - name: 我的友链
+            icon: fad fa-link
+            url: /friends
+          - name: 主站
+            icon: fad fa-caret-square-right
+            url: https://lhkstudio.me
+          - name: 我的GitHub
+            icon: fab fa-github
+            url: https://github.com/Linhk1606
+          - name: hr
+          - name: 小工具
+            icon: fad fa-tools
+            rows:
+              - name: 肺炎疫情图
+                icon: fad fa-biohazard
+                url: 2019-ncov/
+              - name: RSS订阅
+                icon: fad fa-rss
+                url: /atom.xml
     # This menu will be displayed on the mobile.
     on_mobile:
       - name: 近期文章
