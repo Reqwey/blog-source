@@ -10,9 +10,8 @@ valine:
 mathjax: true
 tags:
  - Qt
- - cpp17
 categories:
- - [Dev, TweeProject]
+ - [Dev, CPP]
 ---
 ![tweeeditor](https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@master/img/TweeEditorLogo.svg)
 
@@ -20,7 +19,7 @@ categories:
 
 ## 概述
 
-> TweeEditor 是我的同班同学 [@TweeChalice](https://github.com/TweeChalice) 使用Qt 5和C++研发的一款文本编辑器, 虽小巧灵活但功能强大, 可以在任何平台上运行
+> TweeEditor 是同学 [@TweeChalice](https://github.com/TweeChalice) 使用Qt 5和C++研发的一款文本编辑器, 虽小巧灵活但功能强大, ~~可以在任何平台上运行~~目前仅支持Windows 7及以上版本
 
 ## 维护和更新
 

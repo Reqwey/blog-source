@@ -14,11 +14,8 @@ categories:
  - [OI, Algorithm]
 ---
 
-::: info
+本文继续$\texttt{LCA}$, 只不过换一种离线的思路来解---- $\texttt{Tarjan}$ 算法
 
-$\texttt{LCA}$ 的 $\texttt{Tarjan}$ 算法
-
-:::
 
 <!--more-->
 

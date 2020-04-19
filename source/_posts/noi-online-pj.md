@@ -13,9 +13,9 @@ categories:
 ---
 
 
-::: danger
+::: warning
 
-咕咕咕警告
+总所周知, 作者Linhk1606是一个能鸽善鹉的~~鸟类~~人类
 
 :::
 
