@@ -133,7 +133,7 @@ navbar:
           - name: NOI Online PJ 解题报告
             url: /2020/03/08/noi-online-pj/
           - name: hr
-          - name: 查看所有文章 <i class="far fa-chevron-right fa-fw"></i>
+          - name: 查看所有文章 <i class="far fa-angle-double-right fa-fw"></i>
             url: archives/
       - name: 索引
         icon: fad fa-list-alt
