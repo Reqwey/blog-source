@@ -222,23 +222,37 @@
   .nav-sub .switcher
     display: flex
   .m_search
-    position: relative
     display: flex
-    width: $sidebar
     height: $navbar-height
-    @media screen and (max-width: $device-desktop)
-      width: $sidebar-s
+    width: $sidebar
+    trans()
+    @media screen and (max-width: $device-laptop)
+      width: 44px
+      min-width: 44px
+      input
+        &::placeholder
+          opacity: 0
+      &:hover
+        input
+          &::placeholder
+            opacity: 1
+        width: $sidebar
+    @media screen and (min-width: $device-mobile)
+      &:hover .input
+        &::placeholder
+          opacity: 1
+        width: 100%
+    @media screen and (max-width: $device-mobile)
+      input
+        &::placeholder
+          opacity: 1
+      min-width: 0
 
     .form
       position: relative
       display: flex
       width: 100%
-      margin: auto
-      justify-content: flex-start
       align-items: center
-
-    .icon,.input
-      trans(.3s)
 
     .icon
       position: absolute
@@ -251,26 +265,26 @@
       display: block
       padding-top: $gap * 0.5
       padding-bottom: $gap * 0.5
+      line-height: 1.3
       width: 100%
       color: $color-text
-      background: alpha(darken($color-card, 5), .75)
+      background: darken($color-card, 2)
       box-shadow: none
       box-sizing: border-box
       padding-left: $iconW + $iconMargin
       font-size: $fontsize-meta
       border-radius: $border-searchbar
-      border: 1px dashed transparent
+      border: none
+      trans()
+      @media screen and (min-width: $device-mobile)
+        &:focus
+          box-shadow: $boxshadow-float
       @media screen and (max-width: $device-mobile)
+        background: $color-codeblock
         padding-left: $gap * 0.5
         border: none
         &:hover,&:focus
           border: none
-      &:hover
-        ~.icon
-          color: alpha($color-theme, 80%)
-      &:focus
-        ~.icon
-          color: $color-theme
 
 
 
