@@ -11,10 +11,9 @@ tags:
  - Qt
 categories:
  - [Dev, CPP]
+description: "介绍我同学用Qt写的简易的文本编辑器TweeEditor"
 ---
 ![tweeeditor](https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@master/img/TweeEditorLogo.svg)
-
-<!--more-->
 
 ## 概述
 

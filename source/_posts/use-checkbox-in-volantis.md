@@ -18,9 +18,8 @@ music:
   server: netease
   type: song
   id: 461347998
+description: "这篇文章讲述如何在Volantis主题中添加多彩的CheckBox标签"
 ---
-
-这篇文章讲述如何在Volantis主题中添加多彩的CheckBox标签
 
 ::: warning
 该标签已被主题作者完善并加入到原主题中, 直接更新即可使用
@@ -31,8 +30,6 @@ music:
 :::
 
 灵感来自[@Royce](https://www.royce2003.top)的[这篇文章](https://royce2003.top/posts/60394.html#%E5%8F%AF%E4%BA%A4%E4%BA%92%E5%A4%8D%E9%80%89%E6%A1%86)
-
-<!--more-->
 
 ## 用途
 

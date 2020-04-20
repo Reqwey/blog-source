@@ -12,14 +12,11 @@ tags:
  - Tarjan
 categories:
  - [OI, Algorithm]
+description: "本文将继续学习$\\texttt{LCA}$, 只不过换一种离线的思路来解 ---- $\\texttt{Tarjan}$ 算法<br>"
 ---
 
-本文继续$\texttt{LCA}$, 只不过换一种离线的思路来解---- $\texttt{Tarjan}$ 算法
 
-
-<!--more-->
-
-## Start
+## 算法
 
 ### 流程
 
@@ -57,7 +54,7 @@ categories:
 
 考虑$\texttt{DFS}$序, $\because \texttt{DFS}$访问完一个节点不会马上往上走, 而是会去**遍历其它节点**, $\therefore root'$以下没有一个$root''$满足是$u$和$v$的**公共祖先** $\therefore lca(u, v) = root'$
 
-## Code
+## 代码
 
 ```cpp
 #include <cstdio>

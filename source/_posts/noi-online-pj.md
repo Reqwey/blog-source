@@ -11,16 +11,8 @@ tags:
  - DP
 categories:
  - [OI, Solution]
+description: "这次比赛我其实并没有参加, 所以题解也懒得看, 因此很有可能会咕<br>"
 ---
-
-
-::: warning
-
-总所周知, 作者Linhk1606是一个能鸽善鹉的~~鸟类~~人类
-
-:::
-
-<!--more-->
 
 ## T1
 

@@ -10,13 +10,8 @@ tags:
  - DP
 categories:
  - [OI, Solution]
+description: "我的第二篇题解.<br>"
 ---
-
-![VSCode](https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@master/img/VSCode-happy-holidays.png)
-
-<!--more-->
-
-我的第二篇题解.
 
 ## 解题思路
 
