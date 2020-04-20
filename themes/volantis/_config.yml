@@ -4,7 +4,7 @@ info:
   version: '2.1.4'
   docs: https://volantis.js.org/
   cdn: # To use CDN, write 'use_cdn: true' in 'blog/_config.yml'.
-    css: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.2.0/css/style.css
+    # css: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.2.0/css/style.css
     js: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.0.9/js/app.js
 
 
@@ -122,66 +122,71 @@ navbar:
     # The following can be written in `blog/source/_data/menu.yml`
     # This menu will be displayed on the laptop or desktop.
     on_desktop:
-      - name: 近期
-        icon: fad fa-clock
+      - name: 博文
+        icon: fad fa-rss
         url: /
         rows:
           - name: 热门文章
-            icon: fad fa-fire
-          - name: Volantis中添加多彩的复选框
+            icon: far fa-fire
+          - name: 在Volantis主题中添加多彩的复选框
             url: /2020/04/11/use-checkbox-in-volantis/
+          - name: NOI Online PJ 解题报告
+            url: /2020/03/08/noi-online-pj/
+          - name: hr
+          - name: 查看所有文章 <i class="far fa-chevron-right fa-fw"></i>
+            url: archives/
       - name: 索引
         icon: fad fa-list-alt
         url: archives/
         rows:
           - name: 分类
-            icon: fad fa-folder-open
+            icon: far fa-folder-open
             url: categories/
           - name: 标签
-            icon: fad fa-hashtag
+            icon: far fa-hashtag
             url: tags/
           - name: 时间轴
-            icon: fad fa-list
+            icon: far fa-list
             url: archives/
       - name: 管理员
         icon: fad fa-user-shield
         rows:
           - name: 评论管理
-            icon: fad fa-comments
+            icon: far fa-comments
             url: https://comment.lhkstudio.me
           - name: 云端编辑
-            icon: fad fa-edit
+            icon: far fa-edit
             url: https://www.yuque.com/linhk1606/hexo
           - name: 博客源码
-            icon: fad fa-file-code
+            icon: far fa-file-code
             url: https://github.com/linhk1606/blog-source
           - name: 腾讯云函数
-            icon: fad fa-brackets-curly
+            icon: far fa-brackets-curly
             url: https://console.cloud.tencent.com/scf/list-detail?rid=1&ns=default&id=Hexo
       - name: 更多
         icon: fad fa-ellipsis-v fa-spin
         rows:
           - name: 关于我
-            icon: fad fa-user-circle
+            icon: far fa-user-circle
             url: /about
           - name: 我的友链
-            icon: fad fa-link
+            icon: far fa-link
             url: /friends
           - name: 主站
-            icon: fad fa-caret-square-right
+            icon: far fa-caret-square-right
             url: https://lhkstudio.me
           - name: 我的GitHub
             icon: fab fa-github
             url: https://github.com/Linhk1606
           - name: hr
           - name: 小工具
-            icon: fad fa-tools
+            icon: far fa-tools
             rows:
               - name: 肺炎疫情图
-                icon: fad fa-biohazard
+                icon: far fa-biohazard
                 url: 2019-ncov/
               - name: RSS订阅
-                icon: fad fa-rss
+                icon: far fa-rss
                 url: /atom.xml
     # This menu will be displayed on the mobile.
     on_mobile:

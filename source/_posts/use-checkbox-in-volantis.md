@@ -1,10 +1,10 @@
 ---
-title: 在HEXO主题Volantis中使用多彩的CheckBox
+title: 在Volantis主题中添加多彩的复选框
 date: "2020-04-11 00:00:00"
 body: [article, comments]
 cover: false
 top: true
-icons: [fas fa-fire red]
+icons: [far fa-fire red]
 valine:
   placeholder: 有什么感想? 发射犇犇
 mathjax: true
@@ -24,21 +24,19 @@ music:
 
 ::: warning
 该标签已被主题作者完善并加入到原主题中, 直接更新即可使用
-
-因此这篇文章讲述的主要面对老版本Volantis用户(不想升级的), 和其它主题的用户
 :::
 
 ::: success
-虽然该文章面向Volantis用户, 但是其它主题也大同小异, 要求是必须使用Stylus进行渲染(如果您使用的是Volantis/Material-X, 则必须要升级到<u>2.0</u>以上版本).
+虽然该文章主要面向Volantis用户, 但是其它主题也大同小异, 要求是必须使用Stylus进行渲染(如果您使用的是Volantis/Material-X, 则必须要升级到<u>2.0</u>以上版本).
 :::
 
-比如这个原本就是hexo-theme-fluid里的, 感谢[@Royce](https://www.royce2003.top) 和他的[这篇文章](https://royce2003.top/posts/60394.html#%E5%8F%AF%E4%BA%A4%E4%BA%92%E5%A4%8D%E9%80%89%E6%A1%86)的帮助, 让我成功地把它引入到Volantis主题中
+灵感来自[@Royce](https://www.royce2003.top)的[这篇文章](https://royce2003.top/posts/60394.html#%E5%8F%AF%E4%BA%A4%E4%BA%92%E5%A4%8D%E9%80%89%E6%A1%86)
 
 <!--more-->
 
 ## 用途
 
-> 可以用来制作各种样式的列表
+> 可以用来制作各种样式的列表(替换ul标签)
 
 ## 实际操作
 

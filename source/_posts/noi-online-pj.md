@@ -3,6 +3,7 @@ title: NOI Online 普及组 解题报告
 date: "2020-3-8 00:00:00"
 body: [article, comments]
 cover: false
+icons: [far fa-fire red]
 valine:
   placeholder: 有什么感想? 发射犇犇
 mathjax: true
