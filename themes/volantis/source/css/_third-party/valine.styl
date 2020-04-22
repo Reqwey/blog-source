@@ -8,36 +8,36 @@
       img
         display: inline
       .vwrap
-        border-radius: $border-card
-        border-style: none
-        border: none
+        // border-radius: $border-card
+        // border-style: dashed
+        // border: 1px dashed alpha($color-text, 30%)
         trans()
-        &:hover
-          border: none
+        // &:hover
+        //   border: 1px dashed $color-theme
         .cancel-reply
           margin-top: 0
           margin-bottom: 0
         .vheader
           .vinput
-            border-radius: 0
-            border-bottom: none
-            &:hover
-              border-bottom: 1px dashed $color-theme
-            &:focus
-              border-bottom: 1px solid $color-theme
+            // border-radius: 0
+            // border-bottom: 1px dashed alpha($color-text, 30%)
+            // &:hover
+            //   border-bottom: 1px dashed $color-theme
+            // &:focus
+            //   border-bottom: 1px solid $color-theme
 
         .vemojis,.vpreview
           background: $color-block
           border-radius: $border-codeblock
           padding: $gap * 0.5
           scrollbar()
+          // .vemoji
+          //   max-height: 22px
           i
             width: auto
             padding: 8px
             border-radius: 4px
             transition: box-shadow .2s ease-out, background .2s ease-out
-            #emoji,.emoji
-              background: transparent
             if luminosity($color-block) > 0.5
               &:hover
                 background: lighten($color-block, 2)
@@ -54,30 +54,34 @@
             &.actived
               fill: $color-theme
       .vcount
+        color: $color-p
         font-size: $fontsize-meta
         padding: 0
         font-weight: inherit
         .vnum
+          color: $color-p
           font-size: $fontsize-h2
 
       button
         border: none
-        padding: 9px 2rem 7px 2rem
+        padding: 4px 2rem
         border-radius: $border-button
         background: darken($color-block, 2)
         color: $color-text
+        line-height: 2
+        font-size: 14px
         trans()
         &:hover
           color: $color-hover
           background: bgcolor($color-hover)
         &.vmore
           width: 100%
-          padding: $gap-paragraph 2rem
+          padding: 8px 2rem
       .vcards
         .vquote
           border-left: none
-        .vh
-          border-bottom: none
+        // .vh
+          // border-bottom: 1px dashed alpha($color-text, .1)
         .vimg
           border: 1px solid white
           padding: 0
@@ -95,14 +99,14 @@
               cursor: default
           a
             &.vnick
-              color: rgba(85,85,85,0.65)
+              color: #666
               font-weight: bold
               &:hover
                 color: $color-hover
           .vsys
-            margin: 2px
-            padding: 1px 8px
-            background-color: $color-block
+            // margin: 2px
+            // padding: 1px 8px
+            // background-color: $color-block
         .vmeta
           .vat
             font-weight: bold
@@ -110,7 +114,7 @@
             trans()
             &:hover
               color: $color-hover
-              text-decoration: underline
+              // text-decoration: underline
         .vcontent
           blockquote
             padding-top: $gap-row
@@ -128,17 +132,28 @@
               border: none
           a
             color: $color-link
+            line-height: inherit
             trans()
             &:hover
               color: $color-hover
+              text-decoration: underline
           p
+            color: $color-p
             margin-top: $gap-row
             margin-bottom: $gap-row
-          .vemoji
-            max-height: 25px
+            line-height: inherit
+          // .vemoji
+          //   max-height: 24px
+          //   border-radius: 0
+          //   margin-top: -5px
       .vcopy
         &,a
           font-size: $fontsize-footnote
+        a
+          color: $color-p
+          &:hover
+            text-decoration: underline
+            color: $color-hover
       .vinput
         color: $color-text
       p
