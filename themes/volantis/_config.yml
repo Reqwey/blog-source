@@ -552,7 +552,9 @@ comments:
     pageSize: 10 # comment list page size
     # verify: true # valine verify code (true/false)
     # notify: true # valine mail notify (true/false)
-   
+    requiredFields: ['nick','mail']
+    mathJax: true
+    enableQQ: true
     lang: zh-cn
     highlight: true
     visitor: false # unavailable for now...
