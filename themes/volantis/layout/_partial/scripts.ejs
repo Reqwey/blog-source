@@ -186,12 +186,14 @@
   });
   var notify = '<%= theme.comments.valine.notify %>' == true;
   var verify = '<%= theme.comments.valine.verify %>' == true;
+  var enableQQ = '<%= theme.comments.valine.enableQQ %>' == true;
   var valine = new Valine();
   valine.init({
     el: '#valine_container',
     notify: notify,
     verify: verify,
     guest_info: guest_info,
+    enableQQ: enableQQ,
     <% if (page.valine && page.valine.path) { %>
       path: "<%= page.valine.path %>",
     <% } else if (theme.comments.valine.path) { %>
