@@ -227,7 +227,7 @@ layout:
     # 列表中每一篇文章的meta信息
     meta: [title, date, category, top]
     # 列表类页面的侧边栏
-    sidebar: [blogger, category, tagcloud]
+    sidebar: [blogger, warning, category, tagcloud]
     # read more button
     readmore: Read More <i class="fad fa-chevron-right"></i>
   # 页面布局
@@ -404,6 +404,17 @@ widget:
   #     - https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/qrcode/wiki_volantis.png
   # You can add your own widget here or 'blog/source/_data/widget.yml'
   # class: text, list, grid, qrcode, page, ... see more at https://volantis.js.org/
+  # warning widget
+  warning:
+    class: text
+    display: [desktop]
+    header:
+      icon: fad fa-exclamation-triangle
+      title: 温馨提示
+    content:
+      - 由于存在浏览器缓存, 你现在看到的**可能不是最新的网页**.
+      - 请不定期按下<red>Ctrl+F5</red>(Win)或<red>⌘+shift+R</red>(macOS)强制刷新
+
 
 
 

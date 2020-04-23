@@ -69,7 +69,3 @@ GitHub 学生包是一个 **由 GitHub 免费提供给学生的福利** , 里面
 <!-- endtab -->
 
 {% endtabs %}
-
-::: warning
-本站使用`hexo-offline`插件来加速网页加载, 因此可能加载的是浏览器缓存文件而非最新的网页, 如需要加载最新请按<u>Ctrl+F5</u>(Win)或<u>⌘+shift+R</u>(macOS)强制刷新
-:::
