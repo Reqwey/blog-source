@@ -29,7 +29,7 @@ description: "这篇文章讲述如何在 Volantis 主题中添加多彩的 Chec
 虽然该文章主要面向 Volantis 用户, 但是其它主题也大同小异, 要求是必须使用 Stylus 进行渲染(如果您使用的是 Volantis / Material-X , 则必须要升级到 <u>2.0</u> 以上版本).
 :::
 
-灵感来自 [@Royce](https://www.royce2003.top) 的[这篇文章](https://royce2003.top/posts/60394.html#%E5%8F%AF%E4%BA%A4%E4%BA%92%E5%A4%8D%E9%80%89%E6%A1%86)
+灵感来自 [@Royce](https://www.royce2003.top) 的 [这篇文章](https://royce2003.top/posts/60394.html#%E5%8F%AF%E4%BA%A4%E4%BA%92%E5%A4%8D%E9%80%89%E6%A1%86)
 
 ## 用途
 
@@ -287,7 +287,7 @@ $(".indeterminate").prop("indeterminate", true);
 
 ### 复杂版(HTML)
 
-支持 <red>各</red><blue>种</blue><green>颜</green><yellow>色</yellow>的普通 CheckBox 和 Radio (圆形), 以及横向选中的 CheckBox
+支持<red>各</red><blue>种</blue><green>颜</green><yellow>色</yellow>的普通 CheckBox 和 Radio (圆形), 以及横向选中的 CheckBox
 
 {% tabs example %}
 
