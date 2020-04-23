@@ -1,5 +1,5 @@
 ---
-title: 算法笔记-LCA-2
+title: 算法笔记 - LCA - 2
 date: "2020-02-06 00:00:00"
 body: [article, comments]
 cover: false

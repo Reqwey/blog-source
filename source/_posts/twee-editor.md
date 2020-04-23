@@ -17,7 +17,7 @@ description: "介绍我同学用Qt写的简易的文本编辑器TweeEditor"
 
 ## 概述
 
-> TweeEditor 是同学 [@TweeChalice](https://github.com/TweeChalice) 使用Qt 5和C++研发的一款文本编辑器, 虽小巧灵活但功能强大, ~~可以在任何平台上运行~~目前仅支持Windows 7及以上版本
+> TweeEditor 是同学 [@TweeChalice](https://github.com/TweeChalice) 使用 Qt 5 和 C++ 研发的一款文本编辑器, 虽小巧灵活但功能强大, ~~可以在任何平台上运行~~目前仅支持Windows 7及以上版本
 
 ## 维护和更新
 

@@ -1,5 +1,5 @@
 ---
-title: 题解-洛谷1198
+title: 题解 - 洛谷1198
 date: "2020-01-15 00:00:00"
 body: [article, comments]
 cover: false
@@ -12,7 +12,7 @@ tags:
  - 倍增
 categories:
  - [OI, Solution]
-description: "初二蒟蒻的第一篇题解, 主要讲述洛谷P1198利用 $\\texttt{ST表}$ 的解题思路. 其实当时有人已经提出类似的题解, 所以这篇其实没有什么重要意义, 只是作者的一种尝试罢了~<br>"
+description: "初二蒟蒻的第一篇题解, 主要讲述洛谷P1198利用 $\\texttt{ST表}$ 的解题思路. 其实当时有人已经提出类似的题解, 所以这篇其实没有什么重要意义, 只是作者的一种尝试罢了~ "
 ---
 
 
@@ -22,7 +22,7 @@ description: "初二蒟蒻的第一篇题解, 主要讲述洛谷P1198利用 $\\t
 
 ## 解题思路
 
-* $\texttt{ST}$表
+* $\texttt{ST}$ 表
 
 令 $st[ i ][ j ]$ 为 $\max \limits_{1 \leq t \leq (i + 2^j - 1)} arr[t]$
 
@@ -114,5 +114,3 @@ void insert(ll num) {
     }
 }
 {% endcodeblock %}
-
-转载自<btn>[我的洛谷blog](https://106887.blog.luogu.org/solution-p1198)</btn>, 2019-09-04 22:30:26

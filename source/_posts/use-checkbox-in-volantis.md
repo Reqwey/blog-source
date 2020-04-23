@@ -1,5 +1,5 @@
 ---
-title: 在Volantis主题中添加多彩的复选框
+title: 在 Volantis 主题中添加多彩的复选框
 date: "2020-04-11 00:00:00"
 body: [article, comments]
 cover: false
@@ -18,7 +18,7 @@ music:
   server: netease
   type: song
   id: 461347998
-description: "这篇文章讲述如何在Volantis主题中添加多彩的CheckBox标签"
+description: "这篇文章讲述如何在 Volantis 主题中添加多彩的 CheckBox 标签"
 ---
 
 ::: warning
@@ -26,20 +26,20 @@ description: "这篇文章讲述如何在Volantis主题中添加多彩的CheckBo
 :::
 
 ::: success
-虽然该文章主要面向Volantis用户, 但是其它主题也大同小异, 要求是必须使用Stylus进行渲染(如果您使用的是Volantis/Material-X, 则必须要升级到<u>2.0</u>以上版本).
+虽然该文章主要面向 Volantis 用户, 但是其它主题也大同小异, 要求是必须使用 Stylus 进行渲染(如果您使用的是 Volantis / Material-X , 则必须要升级到 <u>2.0</u> 以上版本).
 :::
 
-灵感来自[@Royce](https://www.royce2003.top)的[这篇文章](https://royce2003.top/posts/60394.html)
+灵感来自 [@Royce](https://www.royce2003.top) 的[这篇文章](https://royce2003.top/posts/60394.html#%E5%8F%AF%E4%BA%A4%E4%BA%92%E5%A4%8D%E9%80%89%E6%A1%86)
 
 ## 用途
 
-> 可以用来制作各种样式的列表(替换ul标签)
+> 可以用来制作各种样式的列表(替换 ul 标签)
 
 ## 实际操作
 
 ### 开始之前
 
-请将主题中的两个CDN关掉, 即
+请将主题中的两个 CDN 关掉, 即
 
 {% codeblock blog/themes/volantis/_config.yml lang:yaml line_number:true mark:6,7 %}
 info:
@@ -203,11 +203,11 @@ input[type=radio].orange
     background: #ffc107;
 ```
 
-### 配置JavaScript
+### 配置 JavaScript
 
-> 主要是为了方便书写CheckBox
+> 主要是为了方便书写 CheckBox
 
-在 `blog/themes/volantis/scripts` 中新建一个 `checkbox.js`, 加入代码:
+在 `blog/themes/volantis/scripts` 中新建一个 `checkbox.js` , 加入代码:
 
 ``` javascript
 'use strict';
@@ -239,9 +239,9 @@ hexo.extend.tag.register('checkbox', checkbox, { ends: false });
 hexo.extend.tag.register('cb', checkbox, { ends: false });
 ```
 
-### 兼容横向CheckBox
+### 兼容横向 CheckBox
 
-> 需要将以下代码放在**任意一个JS文件**中(条件是这个文件必须<u>每次渲染页面时都会被调用</u>)
+> 需要将以下代码放在**任意一个 JS 文件**中(条件是这个文件必须<u>每次渲染页面时都会被调用</u>)
 
 这里以放在 `app.js` 中为例
 
@@ -265,31 +265,41 @@ $(".indeterminate").prop("indeterminate", true);
 
 > 注:
 >
-> 第一个参数`text`即CheckBox之后这一行的内容, **支持渲染markdown**
+> 第一个参数 `text` 即 CheckBox 之后这一行的内容, **支持渲染 markdown**
 >
-> 第二个参数可以填写`checked/true`表示渲染一个默认为选中的CheckBox, 填`false`表示不选中
+> 第二个参数可以填写 `checked / true` 表示渲染一个默认为选中的 CheckBox , 填 `false` 表示不选中
 >
-> 第三个参数选填, 如果填了表示所有CheckBox在同一行显示
+> 第三个参数选填, 如果填了表示所有 CheckBox 在同一行显示
 
 比如
 
 ``` markdown
-{% cb 这个渲染了一个<u>普通的CheckBox</u>, checked %}
+{% cb 这个渲染了一个<u>普通的 CheckBox</u>, checked %}
 ```
 
-{% cb 这个渲染了一个<u>普通的CheckBox</u>, checked %}
+{% cb 这个渲染了一个<u>普通的 CheckBox</u>, checked %}
 
 ::: danger
 **注意!!!**
 
-由于这个是我优化过的, 因此Bug很多 (没毛病😅), 有很多兼容性问题, 建议用下面的复杂版
+由于这个是我优化过的, 因此 Bug 很多 (没毛病😅), 有很多兼容性问题, 建议用下面的复杂版
 :::
 
 ### 复杂版(HTML)
 
-支持 各种颜色的普通CheckBox, Radio(圆形), 以及横向选中的CheckBox
+支持 <red>各</red><blue>种</blue><green>颜</green><yellow>色</yellow>的普通 CheckBox 和 Radio (圆形), 以及横向选中的 CheckBox
 
 {% tabs example %}
+
+<!-- tab 示例 -->
+
+<input type="checkbox" class="blue">一个未选中的蓝色普通方形复选框
+
+<input type="checkbox" class="orange indeterminate">一个橙色的横向选中方形复选框
+
+<input type="radio" checked="checked">一个默认颜色(绿色)的圆形选中Radio
+
+<!-- endtab -->
 
 <!-- tab 写法 -->
 
@@ -300,16 +310,6 @@ $(".indeterminate").prop("indeterminate", true);
 
 <input type="radio" checked="checked">一个默认颜色(绿色)的圆形选中Radio
 ```
-
-<!-- endtab -->
-
-<!-- tab 示例 -->
-
-<input type="checkbox" class="blue">一个未选中的蓝色普通方形复选框
-
-<input type="checkbox" class="orange indeterminate">一个橙色的横向选中方形复选框
-
-<input type="radio" checked="checked">一个默认颜色(绿色)的圆形选中Radio
 
 <!-- endtab -->
 
