@@ -410,10 +410,9 @@ widget:
     display: [desktop]
     header:
       icon: fad fa-exclamation-triangle
-      title: 温馨提示
+      title: 本站公告
     content:
-      - 由于存在浏览器缓存, 你现在看到的**可能不是最新的网页**.
-      - 请不定期按下<red>Ctrl+F5</red>(Win)或<red>⌘+shift+R</red>(macOS)强制刷新
+      - 由于 [Valine](https://valine.js.org) 存在严重安全漏洞 [#294](https://github.com/xCss/Valine/issues/294) [#293](https://github.com/xCss/Valine/issues/293) , 本站评论系统暂时改为Gitalk
 
 
 
@@ -552,7 +551,7 @@ plugins:
 comments:
   title: <i class='far fa-comment-dots'></i> 评论
   subtitle:
-  service: valine # valine, disqus, gitalk, livere
+  service: gitalk # valine, disqus, gitalk, livere
   valine:
     appId: RODmk6rnW2pmInARIk1r5m8F-MdYXbMMI
     appKey: gVIujGNMqj2sIzWuGgjodjgr
@@ -574,11 +573,11 @@ comments:
   disqus:
     shortname:
   gitalk:
-    clientID:
-    clientSecret:
-    repo:
-    owner:
-    admin: # []
+    clientID: b63e285f3442871f2b05
+    clientSecret: 88a93465b758e9eb10c68aa80c199c83b13c2a80
+    repo: blog-source
+    owner: Linhk1606
+    admin: Linhk1606 # []
   livere:
     uid:
 
