@@ -17,9 +17,21 @@
   figcaption
     position: sticky
     left: 0
-    padding: $gap * 0.25 $gap * 0.5 $gap * 0.25 $gap * 0.5
+    padding: $gap * 0.25 $gap * 0.5 $gap * 0.25 $gap * 4.875
     background-color: darken($color-codeblock, 5%)
 
+    :after
+      content: " "
+      position: absolute
+      border-radius: 50%
+      background: #fc625d
+      width: 10px
+      height: 10px
+      top: 0
+      left: 10px
+      margin-top: 7px
+      -webkit-box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b
+      box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b
 
   table
     overflow: auto
@@ -154,18 +166,18 @@
         content: "text"
 
 
-  // &::-webkit-scrollbar
-  //   height: $border-line
-  //   width: $border-line
-  // &::-webkit-scrollbar-track-piece
-  //   background: transparent
-  // &::-webkit-scrollbar-thumb
-  //   background: alpha($color-text, .3)
-  //   cursor: pointer
-  //   border-radius: $border-codeblock
-  //   trans()
-  //   &:hover
-  //     background: alpha($color-text, .6)
+  &::-webkit-scrollbar
+    height: $border-line
+    width: $border-line
+  &::-webkit-scrollbar-track-piece
+    background: transparent
+  &::-webkit-scrollbar-thumb
+    background: alpha($color-text, .3)
+    cursor: pointer
+    border-radius: $border-codeblock
+    trans()
+    &:hover
+      background: alpha($color-text, .6)
 
 
 
