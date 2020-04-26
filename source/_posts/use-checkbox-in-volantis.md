@@ -55,7 +55,7 @@ info:
 
 在 `blog/themes/volantis/source/css/_layout/` 中新建 `checkbox.styl` , 内容如下
 
-``` stylus
+``` stylus Code
 input[type=checkbox] + p
   display: inline !important;
 input[type=radio] + p
@@ -209,7 +209,7 @@ input[type=radio].orange
 
 在 `blog/themes/volantis/scripts` 中新建一个 `checkbox.js` , 加入代码:
 
-``` javascript
+``` javascript Code
 'use strict';
 
 function checkbox(args) {
@@ -247,7 +247,7 @@ hexo.extend.tag.register('cb', checkbox, { ends: false });
 
 在其最后一行加入以下代码
 
-```javascript
+```javascript Code
 $(".indeterminate").prop("indeterminate", true);
 ```
 
@@ -259,7 +259,7 @@ $(".indeterminate").prop("indeterminate", true);
 
 ### 简单版
 
-```markdown
+```markdown 简单版写法
 {% cb text, checked?, inline? %}
 ```
 
@@ -273,7 +273,7 @@ $(".indeterminate").prop("indeterminate", true);
 
 比如
 
-``` markdown
+``` markdown Code
 {% cb 这个渲染了一个<u>普通的 CheckBox</u>, checked %}
 ```
 
@@ -303,7 +303,7 @@ $(".indeterminate").prop("indeterminate", true);
 
 <!-- tab 写法 -->
 
-``` markdown
+``` markdown Code
 <input type="checkbox" class="blue">一个未选中的蓝色普通方形复选框
 
 <input type="checkbox" class="orange indeterminate">一个橙色的横向选中方形复选框

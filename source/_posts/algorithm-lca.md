@@ -52,7 +52,7 @@ description: "这篇文章主要是作者学习$\\texttt{LCA}$算法的一些心
 
 从**根节点**遍历整棵树, 顺便记录一下子节点的信息
 
-```cpp
+```cpp Code
 node nod = que.front(); que.pop();
 for (auto i = edges[nod.x].begin(); i != edges[nod.x].end(); i++)
 {
@@ -71,7 +71,7 @@ for (auto i = edges[nod.x].begin(); i != edges[nod.x].end(); i++)
 
 * 先跳到同一高度
 
-  ```cpp
+  ```cpp Code
   if (deep[a] < deep[b])
       swap(a, b);
   if (!deep[b])
@@ -87,7 +87,7 @@ for (auto i = edges[nod.x].begin(); i != edges[nod.x].end(); i++)
 
 * 两个点一起往上跳
 
-  ```cpp
+  ```cpp Code
   for (int i = MAXP; i >= 0; i--)
   {
       if (fa[a][i] != fa[b][i])
@@ -101,7 +101,7 @@ for (auto i = edges[nod.x].begin(); i != edges[nod.x].end(); i++)
 
 ## 上代码
 
-```cpp
+```cpp Code
 #include <cstdio>
 #include <vector>
 #include <queue>

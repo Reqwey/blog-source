@@ -10,7 +10,7 @@ valine:
 sidebar: false
 ---
 
-```cpp
+```cpp Code
 #include <cstdio>
 #include <iostream>
 

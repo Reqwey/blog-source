@@ -68,7 +68,7 @@ print(dp[1]) #输出dp[1]
 
 ## 完整代码
 
-```cpp
+```cpp Code
 #include <cstdio>
 #include <iostream>
 #include <algorithm>

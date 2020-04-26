@@ -56,7 +56,7 @@ description: "本文将继续学习$\\texttt{LCA}$, 只不过换一种离线的�
 
 ## 代码
 
-```cpp
+```cpp Code
 #include <cstdio>
 #include <iostream>
 #include <vector>
