@@ -77,9 +77,14 @@ links:
       tags:
       - 技术分享
       - 在线功能
+    - name: Colsrch
+      avatar: http://thirdqq.qlogo.cn/g?b=qq&nk=1332925715&s=3
+      url: https://colsrch.top/
+      backgroundColor: '#d4cedc'
+      textColor: '#4658a9'
 ---
 
-<p center large>友 链</p>
+<p center large><red>友</red>&nbsp;<blue>链</blue></p>
 
 <!-- more -->
 
