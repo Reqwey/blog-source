@@ -155,3 +155,13 @@ markdown:
     permalinkSymbol: '¶'
     case: 0
     separator: ''
+
+hexo_external_link:
+  enable: true
+  enable_base64_encode: true
+  url_param_name: 'u'
+  html_file_name: 'go.html'
+  target_blank: true
+  link_rel: 'external nofollow noopener noreferrer'
+  domain: 'https://blog.lhkstudio.me' # 如果开启了防盗链，填写你的域名
+  safety_chain: true
