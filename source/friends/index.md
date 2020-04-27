@@ -82,6 +82,10 @@ links:
       url: https://colsrch.top/
       backgroundColor: '#d4cedc'
       textColor: '#4658a9'
+      tags:
+      - C/C++
+      - MFC
+      desc: 愿多年以后，我可以酌一杯清酒，烂醉如泥，梦中回到我们的曾经。
 ---
 
 <p center large><red>友</red>&nbsp;<blue>链</blue></p>
