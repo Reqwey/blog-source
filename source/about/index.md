@@ -25,30 +25,34 @@ valine:
 <!-- tab 本站配置 -->
 
 <input type="checkbox" class="blue indeterminate">网站源码由 [GitHub](https://github.com) 托管
-<input type="checkbox" class="blue indeterminate">使用 [Volantis(原Material-X)](https://xaoxuu.com/wiki/volantis) 主题 Version 2.1.4
-<input type="checkbox" class="blue indeterminate">使用 [Netlify](https://www.netlify.com) 建站
+<input type="checkbox" class="blue indeterminate">博客主题是 [Volantis(原Material-X)](https://xaoxuu.com/wiki/volantis)
+<input type="checkbox" class="blue indeterminate">使用 [Netlify](https://www.netlify.com) 的 DNS 解析
 <input type="checkbox" class="blue indeterminate">域名相关服务由 [Namecheap](https://www.namecheap.com) 支持
 <input type="checkbox" class="blue indeterminate">由 [Hexo](https://hexo.io/) Version 4.2.0 强力驱动
-<input type="checkbox" class="blue indeterminate">CDN服务由 [jsDelivr](https://www.jsdelivr.com) 提供支持
-<input type="checkbox" class="blue indeterminate">云端写作功能由 [yuque-hexo](https://github.com/x-cold/yuque-hexo) 支持
-<input type="checkbox" class="blue indeterminate">云函数相关服务由 [腾讯云](https://cloud.tencent.com) , [LeanCloud海外版](https://leancloud.app) 驱动
+<input type="checkbox" class="blue indeterminate">感谢 [jsDelivr](https://www.jsdelivr.com) 提供免费高速的CDN服务
+<input type="checkbox" class="blue indeterminate">使用 [yuque-hexo](https://github.com/x-cold/yuque-hexo) 的语雀云端写作功能
+<input type="checkbox" class="blue indeterminate">感谢 [腾讯云](https://cloud.tencent.com) , [LeanCloud国际版](https://leancloud.app) 提供云函数计算服务
 <input type="checkbox" class="blue indeterminate">使用 [GitHub Actions](https://help.github.com/en/actions) 自动部署
 
 <!-- endtab -->
 
 <!-- tab 作者的「开发装备」 -->
 
-<input type="radio" checked>操作系统:
-&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" class="indeterminate orange">Windows 10 企业版 x64
-&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" class="indeterminate orange">Ubuntu 19.04
-<input type="radio" checked>开发工具:
-&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" class="indeterminate orange">On Windows
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" class="blue" checked="checked">VS Code Insiders (信息竞赛)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" class="blue" checked="checked">Atom Nightly (hexo博客轻微修改)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" class="blue" checked="checked">JetBrains Clion (C++开发~~搞事~~等)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" class="blue" checked="checked">JetBrains WebStorm (博客大型修改, npm、git可视化操作)
-&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" class="indeterminate orange">On Linux
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" class="blue" checked="checked">Qt Creator (Qt开发)
+### Git
+
+* [SourceTree](https://www.sourcetreeapp.com/)
+* [GitHub Desktop](https://desktop.github.com/)
+
+### IDE
+
+* [Qt Creator](https://www.qt.io/development-tools/)
+* [VS 2019 Enterprise](https://visualstudio.microsoft.com/zh-hans/vs/)
+
+### Editor
+
+* [VS Code](https://code.visualstudio.com/)
+* [Atom](https://atom.io/)
+* [Sublime Text 3](https://www.sublimetext.com/)
 
 <!-- endtab -->
 
