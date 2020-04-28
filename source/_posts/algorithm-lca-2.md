@@ -50,9 +50,11 @@ description: "本文将继续学习$\\texttt{LCA}$, 只不过换一种离线的�
 
 * 为什么?
 
+:::note
 根据上边的结论, 此时的`getfather(v)`即为那棵全为`2`的子树的根节点$root'$,  $\because u$和$v$**均在这棵子树上**, $\therefore root'$为$u$和$v$的**公共祖先**
 
 考虑$\texttt{DFS}$序, $\because \texttt{DFS}$访问完一个节点不会马上往上走, 而是会去**遍历其它节点**, $\therefore root'$以下没有一个$root''$满足是$u$和$v$的**公共祖先** $\therefore lca(u, v) = root'$
+:::
 
 ## 代码
 
