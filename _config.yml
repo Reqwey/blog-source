@@ -142,6 +142,12 @@ markdown:
       options: warning
     - name: markdown-it-container
       options: danger
+    - name: markdown-it-container
+      options: link
+    - name: markdown-it-container
+      options: quote
+    - name: markdown-it-container
+      options: note
     - markdown-it-deflist
     - name: markdown-it-emoji
       options:
