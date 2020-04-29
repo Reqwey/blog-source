@@ -86,6 +86,17 @@ links:
       - C/C++
       - MFC
       desc: 愿多年以后，我可以酌一杯清酒，烂醉如泥，梦中回到我们的曾经。
+    - name: Code Young
+      avatar: http://thirdqq.qlogo.cn/g?b=qq&nk=750837279&s=5
+      url: https://wujizun.top/
+      backgroundColor: '#425b79'
+      textColor: '#4658a9'
+      tags:
+      - 5G
+      - C/C++
+      - JAVA
+      - 前端
+      desc: Not every moment will be remembered
 ---
 
 <p center large><red>友</red>&nbsp;<blue>链</blue></p>
