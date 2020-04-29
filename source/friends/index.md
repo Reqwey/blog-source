@@ -90,7 +90,7 @@ links:
       avatar: http://thirdqq.qlogo.cn/g?b=qq&nk=750837279&s=5
       url: https://wujizun.top/
       backgroundColor: '#425b79'
-      textColor: '#4658a9'
+      textColor: '#f0fbc6'
       tags:
       - 5G
       - C/C++
