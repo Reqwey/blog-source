@@ -5,6 +5,8 @@ sidebar: []
 meta:
   header: []
   footer: []
+valine:
+  placeholder: 所有跟我交换友链的大佬都会获得"小伙伴"头衔, 你发现了吗
 links:
   - group: 本校大佬
     icon: fal fa-building
