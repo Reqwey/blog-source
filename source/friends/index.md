@@ -99,6 +99,18 @@ links:
       - JAVA
       - 前端
       desc: Not every moment will be remembered
+    - name: MHuiG
+      avatar: https://cdn.jsdelivr.net/gh/MHuiG/imgbed@master/data/p.png
+      url: https://mhuig.github.io
+      backgroundColor: '#d7864c'
+      textColor: '#dadada'
+      desc: Be Yourself, Make a Difference.
+    - name: 枋柚梓
+      avatar: https://img.inkss.cn/inkss_cn/static/img/avatar.jpg
+      url: https://inkss.cn
+      backgroundColor: '#cdbdb0'
+      textColor: '#946543'
+      desc: 喵喵喵?
 ---
 
 <p center large><red>友</red>&nbsp;<blue>链</blue></p>
@@ -111,4 +123,3 @@ links:
 {% cb 链接: https://lhkstudio.me, checked %}
 {% cb 头像: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@master/img/avatar.jpg, checked %}
 {% cb 标签: <blue>#OIer</blue> <blue>#Qt</blue>, checked %}
-{% cb 描述: 懒癌晚期🤣, checked %}
