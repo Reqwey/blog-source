@@ -105,7 +105,11 @@ use_cdn: true
 # 网站图标，更多尺寸等图标请使用import方式批量导入
 favicon: https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/favicon/favicon.ico
 
-
+import:
+  link:
+  - "<link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/MHuiG/blog-cdn@1.1.12/css/me.css'>"
+  script:
+  - "<script src='https://cdn.jsdelivr.net/gh/MHuiG/blog-cdn@1.1.12/js/me.js'></script>"
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
