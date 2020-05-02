@@ -3,6 +3,7 @@ title: 题解 - 洛谷1198
 date: "2020-01-15 00:00:00"
 body: [article, comments]
 cover: false
+icons: [far fa-fire red]
 valine:
   placeholder: 有什么感想? 发射犇犇
 mathjax: true

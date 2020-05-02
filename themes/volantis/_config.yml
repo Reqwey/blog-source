@@ -128,8 +128,8 @@ navbar:
         rows:
           - name: 热门文章
             icon: far fa-fire
-          - name: 在Volantis主题中添加多彩的复选框
-            url: /2020/04/11/use-checkbox-in-volantis/
+          - name: 题解 - 洛谷1198
+            url: /2020/01/15/solution-luogu-1198/
           - name: NOI Online 普及组 解题报告
             url: /2020/03/08/noi-online-pj/
           - name: hr
