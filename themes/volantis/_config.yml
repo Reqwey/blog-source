@@ -556,7 +556,8 @@ comments:
     appId: RODmk6rnW2pmInARIk1r5m8F-MdYXbMMI
     appKey: gVIujGNMqj2sIzWuGgjodjgr
     # js: https://unpkg.com/valine@latest/dist/Valine.min.js
-    js: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.3.4/js/valine.js
+    # js: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.3.4/js/valine.js
+    js: https://cdn.jsdelivr.net/gh/MHuiG/blog-cdn@1.2.1/js/valine-no-math.js
     path: # All pages use the same path (share the same comments data)
     meta: nick,mail,link #valine comment header info
     placeholder: 有什么感想? 发射犇犇 # valine comment input placeholder(like: Please leave your footprints )
