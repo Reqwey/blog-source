@@ -23,7 +23,7 @@ description: "这次比赛我其实并没有参加, 所以题解也懒得看, �
 </summary>
 {% endraw %}
 
-<fancybox> <img src='https://s1.ax1x.com/2020/04/01/G1kUr4.png'> </fancybox>
+<fancybox> <img src='https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.5.3/img/noionline1.png'> </fancybox>
 
 <btn center large>[<i class='fad fa-code'></i> 提交代码](https://www.luogu.com.cn/problem/P6188#submit)</btn>
 

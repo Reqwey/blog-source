@@ -507,7 +507,7 @@ plugins:
     white_text: false     # Whether the picture is dark (adjust the text to white)
     images:               # For personal use only. At your own risk if used for commercial purposes !!!
       # - https://i.loli.net/2020/04/10/y3tHsWqMG8EJ2we.png
-      - https://i.loli.net/2020/04/10/jN12vAgeQScBZ7K.png
+      - https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.5.3/img/bg.webp
       # - https://i.loli.net/2020/04/10/X2lKtnfQ6ExahRu.png
       # - https://i.loli.net/2020/04/10/rAKtbM6mXgRFYcl.png
       # - https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/41F215B9-261F-48B4-80B5-4E86E165259E.jpeg
