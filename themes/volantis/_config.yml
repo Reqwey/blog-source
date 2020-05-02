@@ -4,8 +4,8 @@ info:
   version: '2.1.4'
   docs: https://volantis.js.org/
   cdn: # To use CDN, write 'use_cdn: true' in 'blog/_config.yml'.
-    css: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.4.0/css/style.css
-    js: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.0.9/js/app.js
+    # css: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.4.0/css/style.css
+    # js: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.0.9/js/app.js
 
 
 ############################### Style ###############################
@@ -39,7 +39,7 @@ style:
     searchbar: 8px
     button: 4px
   tabs:
-    shadow_level: 1 # 0, 1, 2, 3
+    shadow_level: 3 # 0, 1, 2, 3
   fontsize:
     root: 16px
     h1: 1.625rem
