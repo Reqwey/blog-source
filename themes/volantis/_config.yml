@@ -216,7 +216,7 @@ navbar:
       - name: 肺炎疫情图
         icon: fad fa-biohazard
         url: /2019-ncov
-  search: Search   # Search bar placeholder
+  search:  # Search bar placeholder
 
 
 
@@ -538,7 +538,7 @@ plugins:
     fixed: false      # enable fixed mode
     theme: '#1BCDFC'  # main color
     autoplay: false   # audio autoplay
-    order: list       # player play order, values: 'list', 'random'
+    order: random       # player play order, values: 'list', 'random'
     loop: all         # player loop play, values: 'all', 'one', 'none'
     volume: 0.7       # default volume, notice that player will remember user setting, default volume will not work after user set volume themselves
     list_max_height: 340px # list max height
