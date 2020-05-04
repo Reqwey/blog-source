@@ -111,6 +111,12 @@ links:
       backgroundColor: '#cdbdb0'
       textColor: '#946543'
       desc: 喵喵喵?
+    - name: Flexiston's Notes
+      url: https://flexiston.com
+      avatar: https://i.loli.net/2020/04/28/WOHp1vPcQoDB2YJ.png
+      desc: '长风破浪会有时, 直挂云帆济沧海'
+      backgroundColor: '#0ba4a2'
+      textColor: '#FFF'
 ---
 
 <p center large><red>友</red>&nbsp;<blue>链</blue></p>
