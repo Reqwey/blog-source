@@ -126,9 +126,13 @@ links:
 
 ### <i class="fal fa-smile-wink"></i> 欢迎互换友链!
 
+::: info
+个人信息格式如下：
+
 {% cb `名称`: <blue>Linhk1606</blue>, checked %}
 {% cb `链接`: https://lhkstudio.me, checked %}
 {% cb `头像`: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@master/img/avatar.jpg, checked %}
 {% cb `标签`: <blue>#OIer</blue> <blue>#Qt</blue>, checked %}
 {% cb `backgroundColor`: <yellow>#FFEBD2</yellow> (可选), false %}
 {% cb `textColor`: <yellow>#985B40</yellow> (可选), false %}
+:::
