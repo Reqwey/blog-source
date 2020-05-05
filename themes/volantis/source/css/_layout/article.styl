@@ -328,16 +328,20 @@
 // nav to title
 .article .article-entry>
   h1,h2,h3,h4,h5,h6
+    a
+      color: $color-md-yellow
+
     position: relative
-    pointer-events: none
+    // pointer-events: none
     margin-top: 0
     &:before
       content: ''
       display: block
+      margin-left: -2em
       margin-top: 0 - $navbar-height - 2 * $gap
       height: $navbar-height + 2 * $gap
       visibility: hidden
-      pointer-events: none
+      // pointer-events: none
   h1,h2
     &:before
       margin-top: $gap-h2 - $navbar-height - 2 * $gap

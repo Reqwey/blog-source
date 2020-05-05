@@ -152,13 +152,13 @@ markdown:
         shortcuts: {}
   anchors:
     level: 2
-    collisionSuffix: ''
-    permalink: false
+    collisionSuffix: 'v'
+    permalink: true
     permalinkClass: 'header-anchor'
-    permalinkSide: 'left'
-    permalinkSymbol: '¶'
-    case: 0
-    separator: ''
+    # permalinkSide: 'left'
+    permalinkSymbol: '# '
+    # case: 0
+    # separator: ''
 
 hexo_external_link:
   enable: true

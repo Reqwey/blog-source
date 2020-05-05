@@ -15,10 +15,7 @@ categories:
 description: "本文将继续学习$\\texttt{LCA}$, 只不过换一种离线的思路来解 ---- $\\texttt{Tarjan}$ 算法<br>"
 ---
 
-
-## 算法
-
-### 流程
+## 流程
 
 前置操作分为以下几步:
 
@@ -38,7 +35,7 @@ description: "本文将继续学习$\\texttt{LCA}$, 只不过换一种离线的�
 
 这个性质可以帮助我们很好地离线解决$\texttt{LCA}$问题
 
-### Solve
+## Solve
 
 建立一个**并查集**: `father[]`
 
