@@ -113,10 +113,10 @@ links:
       desc: 喵喵喵?
     - name: Flexiston's Notes
       url: https://flexiston.com
-      avatar: https://i.loli.net/2020/04/28/WOHp1vPcQoDB2YJ.png
+      avatar: https://cdn.jsdelivr.net/gh/Flexiston/CDN/img/avatar.png
       desc: '长风破浪会有时, 直挂云帆济沧海'
-      backgroundColor: '#0ba4a2'
-      textColor: '#FFF'
+      backgroundColor: '#ea736a'
+      textColor: '#fbf9e9'
 ---
 
 <p center large><red>友</red>&nbsp;<blue>链</blue></p>
@@ -124,7 +124,7 @@ links:
 <!-- more -->
 
 
-### <i class="fal fa-smile-wink"></i> 欢迎互换友链!
+<h3 class='friend-header'><i class='fal fa-smile-wink' aria-hidden='true'></i> 欢迎互换友链!</h3>
 
 ::: info
 个人信息格式如下：
