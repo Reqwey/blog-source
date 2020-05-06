@@ -216,7 +216,7 @@ navbar:
       - name: 肺炎疫情图
         icon: fad fa-biohazard
         url: /2019-ncov
-    search: 搜索... # Search bar placeholder
+  search: 搜索... # Search bar placeholder
 
 
 
