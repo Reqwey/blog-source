@@ -216,7 +216,7 @@ navbar:
       - name: 肺炎疫情图
         icon: fad fa-biohazard
         url: /2019-ncov
-  search:  # Search bar placeholder
+    search: 搜索... # Search bar placeholder
 
 
 
@@ -419,7 +419,7 @@ widget:
 
 footer:
   # layout of footer: [aplayer, social, license, info, copyright]
-  layout: [social, copyright, br]
+  layout: [social, license, powered, copyright]
   social:
     - icon: fad fa-rss
       url: /atom.xml
@@ -431,9 +431,11 @@ footer:
       url: https://music.163.com/#/user/home?id=2113078436
     - icon: fab fa-zhihu
       url: https://www.zhihu.com/people/linhk1606
-  copyright: '[Copyright © 2019-2020 Linhk1606](https://lhkstudio.me)'
-  # You can add your own property here. (Support markdown, for example: br: '<br>')
-  br: '<br>[![Netlify](https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@master/img/netlify.svg)](https://www.netlify.com)'
+  br: ''
+  license: '博客内容遵循 「署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0)」 协议'
+  powered: '使用 [Volantis](https://theme-volantis.github.io) 作为主题 | 由 [Hexo](https://hexo.io) 强力驱动 | [CloudFlare](https://cloudflare.com) 提供 DNS 解析服务'
+  copyright: "[Copyright © 2019-2020 Linhk1606's Blog](https://blog.lhkstudio.me)"
+  
 
 
 ############################### SEO ###############################
@@ -556,8 +558,8 @@ comments:
     appId: RODmk6rnW2pmInARIk1r5m8F-MdYXbMMI
     appKey: gVIujGNMqj2sIzWuGgjodjgr
     # js: https://unpkg.com/valine@latest/dist/Valine.min.js
-    # js: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.3.4/js/valine.js
-    js: https://cdn.jsdelivr.net/gh/MHuiG/blog-cdn@1.2.1/js/valine-no-math.js
+    js: https://cdn.jsdelivr.net/gh/Linhk1606/Valine@1.4.14.1/dist/Valine.min.js
+    # js: https://cdn.jsdelivr.net/gh/MHuiG/blog-cdn@1.2.1/js/valine-no-math.js
     path: # All pages use the same path (share the same comments data)
     meta: nick,mail,link #valine comment header info
     placeholder: 有什么感想? 发射犇犇 # valine comment input placeholder(like: Please leave your footprints )
