@@ -11,7 +11,7 @@ lazyload:
 # Site
 title: "LHK's Blog"
 subtitle: ''
-description: "Based on Netlify"
+description: "一只蒟蒻的博客..."
 keywords: IT, OI
 author: Linhk1606
 language: zh-CN
@@ -56,7 +56,7 @@ highlight:
   auto_detect: false
   tab_replace: ''
   wrap: true
-  hljs: false
+  hljs: true
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -104,6 +104,10 @@ use_cdn: true
 
 # 网站图标，更多尺寸等图标请使用import方式批量导入
 favicon: https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/favicon/favicon.ico
+
+import:
+  link:
+  - '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.2/styles/atom-one-light.min.css">'
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
