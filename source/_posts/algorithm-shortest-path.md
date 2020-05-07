@@ -8,6 +8,7 @@ valine:
   placeholder: 有什么感想? 发射犇犇
 mathjax: true
 tags:
+ - 图论
  - Floyd
  - Dijkstra
  - SPFA
