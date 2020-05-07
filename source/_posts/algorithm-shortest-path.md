@@ -256,7 +256,7 @@ bool spfa(int s)
 
 ### 3.2 邻接表
 
-#### 3.2.1 链式前向星
+#### 链式前向星
 
 ```cpp 链式前向星
 #include <cstdio>
