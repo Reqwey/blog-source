@@ -107,7 +107,7 @@ favicon: https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/favicon/favicon.ico
 
 import:
   link:
-  - '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.2/styles/github.min.css">'
+  - '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.2/styles/solarized-light.min.css">'
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
