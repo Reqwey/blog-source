@@ -62,58 +62,58 @@ int main()
     int ans_a = -1, ans_b = -1, ans_c = -1;
 
     scanf("%d", &n);
-
+    
     for (int a = 0; a <= n; a++) // a <= b, c
     {
         int b = a, c;
-
+    
         while (((n - a * coeff_a - b * coeff_b) % coeff_c + coeff_c) % coeff_c != 0)
             b++;
         c = (n - a * coeff_a - b * coeff_b) / coeff_c;
-
+    
         if (c < 0 || c < a)
             break; // 矛盾
-
+    
         if (min3(ans_a, ans_b, ans_c) < a)
             ans_a = a, ans_b = b, ans_c = c;
         else if (min3(ans_a, ans_b, ans_c) == a && ans_a + ans_b + ans_c < a + b + c)
             ans_a = a, ans_b = b, ans_c = c;
     }
-
+    
     for (int b = 0; b <= n; b++) // b <= a, c
     {
         int a = b, c;
-
+    
         while (((n - a * coeff_a - b * coeff_b) % coeff_c + coeff_c) % coeff_c != 0)
             a++;
         c = (n - a * coeff_a - b * coeff_b) / coeff_c;
-
+    
         if (c < 0 || c < b)
             break; // 矛盾
-
+    
         if (min3(ans_a, ans_b, ans_c) < b)
             ans_a = a, ans_b = b, ans_c = c;
         else if (min3(ans_a, ans_b, ans_c) == b && ans_a + ans_b + ans_c < a + b + c)
             ans_a = a, ans_b = b, ans_c = c;
     }
-
+    
     for (int c = 0; c <= n; c++) // c <= a, b
     {
         int a = c, b;
-
+    
         while (((n - a * coeff_a - c * coeff_c) % coeff_b + coeff_b) % coeff_b != 0)
             a++;
         b = (n - a * coeff_a - c * coeff_c) / coeff_b;
-
+    
         if (b < 0 || b < c)
             break; // 矛盾
-
+    
         if (min3(ans_a, ans_b, ans_c) < c)
             ans_a = a, ans_b = b, ans_c = c;
         else if (min3(ans_a, ans_b, ans_c) == c && ans_a + ans_b + ans_c < a + b + c)
             ans_a = a, ans_b = b, ans_c = c;
     }
-
+    
     if (ans_a == -1)
         puts("-1");
     else
