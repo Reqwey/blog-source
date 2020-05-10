@@ -10,18 +10,19 @@
   overflow: auto
   margin: $gap-line 0
   display: block
-  background: $color-codeblock
-  box-shadow:0px 0px 10px #ccc
+  background: #282c34
+  box-shadow:0px 0px 10px #282c34
   font-size: $fontsize-code
   font-family: $fontfamily-code
   border-radius: 10px
-  border: 1px solid darken($color-codeblock, 6)
+  // border: 1px solid darken($color-codeblock, 6)
   trans()
   figcaption
+    cursor: move
     position: sticky
     left: 0
     padding: $gap * 0.25 $gap * 0.5 $gap * 0.25 $gap * 0.5
-    background-color: darken($color-codeblock, 5%)
+    background-color: #21252b
 
     :after
       content: " "
@@ -43,12 +44,12 @@
       padding: 0
       border: none
     margin: 0
-    background-color: transparent
+    background-color: #282c34
     border: none
     tr
-      background-color: transparent
+      background-color: #282c34
       &:hover
-        background-color: transparent
+        background-color: #282c34
 
 
     .gutter
@@ -59,7 +60,7 @@
       margin-left: 0
       position: sticky
       left: 0
-      background-color: darken($color-codeblock, 5%)
+      // background-color: #3a3b3c
       pre
         color: $color-meta
 
@@ -80,7 +81,7 @@
         position: absolute
         top: 0
         right: 0
-        color: $color-meta
+        color: #fff
         font-size: $fontsize-footnote
         padding: 4px 8px
 
@@ -170,18 +171,18 @@
         content: "text"
 
 
-  &::-webkit-scrollbar
-    height: 6px
-    width: 6px
-  &::-webkit-scrollbar-track-piece
-    background: transparent
-  &::-webkit-scrollbar-thumb
-    background: alpha($color-text, .3)
-    cursor: pointer
-    border-radius: $border-codeblock
-    trans()
-    &:hover
-      background: alpha($color-text, .6)
+  // &::-webkit-scrollbar
+  //   height: 6px
+  //   width: 6px
+  // &::-webkit-scrollbar-track-piece
+  //   background: transparent
+  // &::-webkit-scrollbar-thumb
+  //   background: alpha($color-md-light-blue, .6)
+  //   cursor: pointer
+  //   border-radius: 20px
+  //   trans()
+  //   &:hover
+  //     background: alpha($color-md-light-blue, .9)
 
 
 

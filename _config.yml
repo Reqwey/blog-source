@@ -107,7 +107,7 @@ favicon: https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/favicon/favicon.ico
 
 import:
   link:
-  - '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.2/styles/atom-one-light.min.css">'
+  - '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.2/styles/atom-one-dark.min.css">'
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
