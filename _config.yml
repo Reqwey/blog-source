@@ -7,6 +7,7 @@ lazyload:
   enable: true
   onlypost: false
   loadingImg: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg
+  isSPA: true
 
 # Site
 title: "LHK's Blog"
