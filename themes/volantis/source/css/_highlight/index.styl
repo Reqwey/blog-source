@@ -17,7 +17,7 @@
   // border: 1px solid darken($color-codeblock, 6)
   trans()
   figcaption
-    cursor: move
+    border-radius: 10px
     position: sticky
     left: 0
     padding: $gap * 0.25 $gap * 0.5 $gap * 0.25 $gap * 0.5
@@ -37,12 +37,14 @@
       box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b
 
   table
+    border-collapse: separate
     box-shadow: none
+    max-height: 600px
     overflow: auto
     display: block
     td,th
       padding: 0
-      // border: none
+      border: none
     margin: 0
     background-color: #282c34
     tr
