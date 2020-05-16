@@ -8,7 +8,7 @@
           <article id="archive-page" class="post article white-box reveal <%- theme.style.body.effect.join(' ') %>">
             <section class="archive">
               <div class="archive-item archive-year mark">
-                <center><h2><%- page.title %></h2></center>
+                <h2><center><%- page.title %></center></h2>
               </div>
               <div class="archive-item archive-post mark all-categories">
                 <% if (site.categories.length){ %>
@@ -16,7 +16,7 @@
                     <a class="<%= category.parent ? ' child' : ''%>" href="<%= url_for(category.path) %>">
                       <time><i class='far fa-folder-open fa-fw' aria-hidden="true"></i>&nbsp;&nbsp;<%= category.name %></time>
                       <span class="title">
-                        (<%- category.posts.length %>)
+                        &nbsp;共 <%- category.posts.length %> 篇博文
                       </span>
                     </a>
                   <% }) %>
