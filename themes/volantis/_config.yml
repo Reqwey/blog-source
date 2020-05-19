@@ -345,7 +345,7 @@ widget:
     class: toc
     display: [desktop, mobile] # [desktop, mobile]
     header:
-      icon: fad fa-list-alt
+      icon: fal fa-list-alt
       title: 本文目录
     list_number: false
     min_depth: 2
@@ -356,7 +356,7 @@ widget:
     class: category
     display: [desktop] # [desktop, mobile]
     header:
-      icon: fad fa-folder-open
+      icon: fal fa-folder-open
       title: 文章分类
       url: /categories/
   # ---------------------------------------
@@ -365,7 +365,7 @@ widget:
     class: tagcloud
     display: [desktop] # [desktop, mobile]
     header:
-      icon: fad fa-tags
+      icon: fal fa-tags
       title: 热门标签
       url: /tags/
     min_font: 14
@@ -409,7 +409,7 @@ widget:
     class: text
     display: [desktop]
     header:
-      icon: fad fa-exclamation-triangle
+      icon: fal fa-exclamation-triangle
       title: 本站公告
     content:
       - 由于 [Valine](https://valine.js.org) 安全漏洞 [#294](https://github.com/xCss/Valine/issues/294) [#293](https://github.com/xCss/Valine/issues/293) 已被作者大佬修复, 本站评论系统重新换回 Valine 🤣
