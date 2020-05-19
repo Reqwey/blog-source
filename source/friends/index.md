@@ -80,7 +80,7 @@ links:
       - 技术分享
       - 在线功能
     - name: Colsrch
-      avatar: https://cdn.jsdelivr.net/gh/Colsrch/images@V1.1/Colsrch/avatar.jpg
+      avatar: https://cdn.jsdelivr.net/gh/Colsrch/images/Colsrch/avatar.jpg
       url: https://colsrch.top/
       backgroundColor: '#d4cedc'
       textColor: '#4658a9'
@@ -119,7 +119,7 @@ links:
       textColor: '#fbf9e9'
 ---
 
-<p center large><red>友</red>&nbsp;<blue>链</blue></p>
+<h1><center><i class='fad fa-users fa-fw'></i>&nbsp;友链</center></h1>
 
 <!-- more -->
 
