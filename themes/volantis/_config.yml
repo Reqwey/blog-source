@@ -421,13 +421,13 @@ footer:
   # layout of footer: [aplayer, social, license, info, copyright]
   layout: [social, license, powered, copyright]
   social:
-    - icon: fad fa-rss
+    - icon: fal fa-rss
       url: /atom.xml
-    - icon: fad fa-envelope
+    - icon: fal fa-envelope
       url: mailto:lhkstudio2020@gmail.com
     - icon: fab fa-github
       url: https://github.com/Linhk1606
-    - icon: fad fa-headphones-alt
+    - icon: fal fa-headphones-alt
       url: https://music.163.com/#/user/home?id=2113078436
     - icon: fab fa-zhihu
       url: https://www.zhihu.com/people/linhk1606
