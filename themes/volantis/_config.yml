@@ -425,7 +425,7 @@ footer:
       url: /atom.xml
     - icon: fal fa-envelope
       url: mailto:lhkstudio2020@gmail.com
-    - icon: fab fa-github
+    - icon: fal fa-code-branch
       url: https://github.com/Linhk1606
     - icon: fal fa-headphones-alt
       url: https://music.163.com/#/user/home?id=2113078436
