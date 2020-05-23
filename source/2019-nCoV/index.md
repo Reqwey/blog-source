@@ -5,7 +5,7 @@ meta:
   footer: []
 sidebar: []
 valine:
-  placeholder: 有什么想对我说的呢？
+  placeholder: 出门？直接抬走~
 music:
   server: netease
   type: song
