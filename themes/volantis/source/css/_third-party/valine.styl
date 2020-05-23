@@ -166,3 +166,27 @@
         color: $color-text
       p
         color: $color-text
+        
+textarea#veditor
+  resize: none !important
+  height: auto !important
+  background-image: url("https://img.inkss.cn/szyink_com/handsome/img/plbj.gif")
+  background-color: #ffffff
+  transition: all 0.25s ease-in-out 0s
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: right
+  &:focus
+    background-position-y: 150px
+    transition: all 0.35s ease-in-out 0s
+  &::-webkit-scrollbar
+    height: 6px !important
+    width: 6px !important
+  &::-webkit-scrollbar-track-piece
+    background: transparent !important
+  &::-webkit-scrollbar-thumb
+    border-radius: 5px;
+    background-color: rgba(51,103,214,.3);
+    background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,0.2) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.2) 50%,rgba(255,255,255,0.2) 75%,transparent 75%,transparent);
+    &:hover
+      background-color: #3367d6
