@@ -415,8 +415,7 @@ widget:
       icon: fal fa-exclamation-triangle
       title: 本站公告
     content:
-      - 由于 [Valine](https://valine.js.org) 安全漏洞 [#294](https://github.com/xCss/Valine/issues/294) [#293](https://github.com/xCss/Valine/issues/293) 已被作者大佬修复, 本站评论系统重新换回 Valine 🤣
-
+      - 本站的 Valine 评论系统识别 UA 时出现异常。。。
 
 
 
