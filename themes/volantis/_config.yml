@@ -188,6 +188,9 @@ navbar:
               - name: RSS订阅
                 icon: far fa-rss
                 url: /atom.xml
+              - name: 站点地图
+                icon: far fa-sitemap
+                url: /sitemap.xml
           - name: 来点音乐
             icon: far fa-compact-disc
     # This menu will be displayed on the mobile.
