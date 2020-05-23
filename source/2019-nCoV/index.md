@@ -9,7 +9,7 @@ valine:
 music:
   server: netease
   type: song
-  id: 517071366
+  id: 430114655
 ---
 
  <iframe src="https://www.lovestu.com/api/project/cnmapyinqing/obj.php" height="500" frameborder="no" border="0" width="100%"> </iframe>
