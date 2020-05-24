@@ -117,6 +117,12 @@ links:
       desc: '长风破浪会有时, 直挂云帆济沧海'
       backgroundColor: '#ea736a'
       textColor: '#fbf9e9'
+    - name: 尼采般地抒情
+      url: https://wztlink1013.com/
+      avatar: https://cdn.jsdelivr.net/gh/wztlink1013/figure/blogbase/touxiang.jpg
+      desc: '总结技术，记录生活'
+      backgroundColor: '#fcfcfc'
+      textColor: '#d97534'
 ---
 
 <h1><center><i class='fad fa-users fa-fw'></i>&nbsp;友链</center></h1>
