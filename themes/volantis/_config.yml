@@ -116,7 +116,7 @@ cover:
 navbar:
   logo: # choose [img] or [icon + title]
     img:
-    icon: fad fa-user
+    icon: fad fa-alien
     title: LINHK
   menu:
     # The following can be written in `blog/source/_data/menu.yml`
@@ -230,7 +230,7 @@ layout:
     # 列表中每一篇文章的meta信息
     meta: [title, date, category, top]
     # 列表类页面的侧边栏
-    sidebar: [blogger, warning, category, tagcloud]
+    sidebar: [blogger, dao_hang, warning, category, tagcloud]
     # read more button
     readmore: Read More <i class="fad fa-chevron-right"></i>
   # 页面布局
@@ -244,7 +244,7 @@ layout:
       header: [title, category, date, wordcount, counter, top]
       footer: [author, updated, tags, btns, share]
     # 文章页面的侧边栏
-    sidebar: [toc]
+    sidebar: [dao_hang, toc]
   # 文章布局，参数继承自 on_page
   on_post:
     # 文章页脚，自动在每一篇文章末尾添加
@@ -416,8 +416,26 @@ widget:
       title: 本站公告
     content:
       - 一切正常。欢迎访问！
-
-
+  dao_hang:
+    class: grid
+    display: [desktop, mobile]
+    header:
+      icon: fal fa-map-signs
+      title: 站内导航
+    fixed: true # 固定宽度
+    rows:
+      - name: 友链
+        icon: fad fa-users
+        url: /friends
+      - name: RSS订阅
+        icon: fad fa-rss
+        url: /atom.xml
+      - name: 站点地图
+        icon: fad fa-sitemap
+        url: /sitemap.xml
+      - name: 文章标签
+        icon: fad fa-hashtag
+        url: /tags
 
 footer:
   # layout of footer: [aplayer, social, license, info, copyright]
