@@ -350,7 +350,7 @@ widget:
     header:
       icon: fal fa-list-alt
       title: 本文目录
-    list_number: false
+    list_number: true
     min_depth: 2
     max_depth: 5
   # ---------------------------------------
@@ -433,9 +433,12 @@ widget:
       - name: 站点地图
         icon: fad fa-sitemap
         url: /sitemap.xml
-      - name: 文章标签
-        icon: fad fa-hashtag
-        url: /tags
+      - name: 本站源码
+        icon: fad fa-code
+        url: https://github.com/Linhk1606/blog-source
+      - name: 评论编辑
+        icon: fad fa-edit
+        url: https://console.leancloud.app/data.html?appid=RODmk6rnW2pmInARIk1r5m8F-MdYXbMMI#/
 
 footer:
   # layout of footer: [aplayer, social, license, info, copyright]
