@@ -74,3 +74,10 @@ GitHub 学生包是一个 **由 GitHub 免费提供给学生的福利** , 里面
 <!-- endtab -->
 
 {% endtabs %}
+
+::: note
+#### 中考，加油(ง •̀_•́)ง
+
+![mmexport1590498811496.jpg](https://i.loli.net/2020/05/26/eLrnNJMDtupgHXS.jpg)
+:::
+
