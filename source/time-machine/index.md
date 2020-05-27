@@ -7,7 +7,7 @@ meta:
   header: []
   footer: []
 ---
-<head><script src="https://cdn.jsdelivr.net/npm/jquery@3.4/dist/jquery.min.js"></script></head>
+<head><script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script></head>
 <body>
 <h1><center><i class="fad fa-clock fa-fw"></i>&nbsp;时光鸡</center></h1>
 
