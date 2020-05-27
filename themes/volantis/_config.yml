@@ -421,7 +421,7 @@ widget:
     display: [desktop, mobile]
     header:
       icon: fal fa-map-signs
-      title: 站内导航
+      title: 快捷导航
     fixed: true # 固定宽度
     rows:
       - name: 友链
@@ -439,6 +439,9 @@ widget:
       - name: 评论编辑
         icon: fad fa-edit
         url: https://console.leancloud.app/data.html?appid=RODmk6rnW2pmInARIk1r5m8F-MdYXbMMI#/
+      - name: 时光鸡
+        icon: fad fa-clock
+        url: /time-machine
 
 footer:
   # layout of footer: [aplayer, social, license, info, copyright]
