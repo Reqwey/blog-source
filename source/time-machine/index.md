@@ -9,6 +9,7 @@ meta:
 ---
 <h1><center><i class="fad fa-clock fa-fw"></i>&nbsp;时光鸡</center></h1>
 
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4/dist/jquery.min.js"></script>
 <script>
   var img="https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@master/img/avatar.jpg";
   var appID="tIOCOkWhENwNnhYNcbh4Ds38-MdYXbMMI";
