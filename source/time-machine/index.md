@@ -7,6 +7,8 @@ meta:
   header: []
   footer: []
 ---
+<head><script src="https://cdn.jsdelivr.net/npm/jquery@3.4/dist/jquery.min.js"></script></head>
+<body>
 <h1><center><i class="fad fa-clock fa-fw"></i>&nbsp;时光鸡</center></h1>
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.4/dist/jquery.min.js"></script>
@@ -23,3 +25,4 @@ meta:
 <div id="lazy"></div>
 <div id="artitalk"></div>
 <script type="text/javascript" src="https://unpkg.com/artitalk"></script>
+</body>
