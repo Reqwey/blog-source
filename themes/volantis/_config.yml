@@ -180,7 +180,7 @@ navbar:
             icon: far fa-caret-square-right
             url: https://lhkstudio.me
           - name: Follow Me
-            icon: far fa-git-branch
+            icon: far fa-code-branch
             url: https://github.com/Linhk1606
           - name: hr
           - name: 小工具
