@@ -8,9 +8,7 @@ meta:
   footer: []
 ---
 
-<body>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.4/dist/jquery.min.js"></script>
-{% raw %}
 <script>
   var img="https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@master/img/avatar.jpg";
   var appID="tIOCOkWhENwNnhYNcbh4Ds38-MdYXbMMI";
@@ -19,8 +17,6 @@ meta:
   var username="Linhk1606";
   var placeholder1="仅管理员可以在此吐槽哦~";
 </script>
-{% endraw %}
 <div id="lazy"></div>
 <div id="artitalk"></div>
 <script type="text/javascript" src="https://unpkg.com/artitalk"></script>
-</body>
