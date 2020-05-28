@@ -89,27 +89,27 @@ cover:
     others: true
   # logo: /assets/logo.svg
   title: LHKSTUDIO
-  subtitle: 'OI, MATH, QT-DEV AND MORE...'
+  subtitle: 'FIGHTING FOR THE FUTURE,FOREVER...'
   search: Type here to search
   features:
     - name: 博文
-      icon: far fa-rss
+      icon: fal fa-rss
       url: /
     - name: 关于
-      icon: far fa-info-circle
+      icon: fal fa-info-circle
       url: about/
       rel: nofollow
-    - name: 分类
-      icon: far fa-folder-open
-      url: categories/
+    - name: 友链
+      icon: fal fa-users
+      url: friends/
       rel: nofollow
     - name: 归档
-      icon: far fa-archive
+      icon: fal fa-archive
       url: archives/
       rel: nofollow
-    - name: 肺炎疫情
-      icon: far fa-biohazard
-      url: 2019-ncov/
+    - name: 时光鸡
+      icon: fal fa-clock
+      url: time-machine/
 
 
 # Navigation Bar
@@ -163,6 +163,10 @@ navbar:
           - name: 腾讯云函数
             icon: far fa-brackets-curly
             url: https://console.cloud.tencent.com/scf/list-detail?rid=1&ns=default&id=Hexo
+          - name: hr
+          - name: 时光鸡
+            icon: far fa-clock
+            url: time-machine/
       - name: 更多
         icon: fad fa-ellipsis-v fa-spin
         rows:
@@ -175,8 +179,8 @@ navbar:
           - name: 主站
             icon: far fa-caret-square-right
             url: https://lhkstudio.me
-          - name: 我的GitHub
-            icon: fab fa-github
+          - name: Follow Me
+            icon: far fa-git-branch
             url: https://github.com/Linhk1606
           - name: hr
           - name: 小工具
@@ -195,13 +199,13 @@ navbar:
             icon: far fa-compact-disc
     # This menu will be displayed on the mobile.
     on_mobile:
-      - name: 近期文章
-        icon: fad fa-clock
+      - name: 博文
+        icon: fad fa-home
         url: /
       - name: 主站
         icon: fad fa-arrow-alt-circle-right
         url: https://www.lhkstudio.me
-      - name: 文章归档
+      - name: 归档
         icon: fad fa-file-archive
         url: archives/
       - name: 友链
@@ -216,7 +220,10 @@ navbar:
       - name: 关于
         icon: fad fa-user-circle
         url: about/
-      - name: 肺炎疫情图
+      - name: 时光
+        icon: fad fa-clock
+        url: time-machine/
+      - name: 疫情
         icon: fad fa-biohazard
         url: /2019-ncov
   search: 搜索... # Search bar placeholder
@@ -415,7 +422,7 @@ widget:
       icon: fal fa-exclamation-triangle
       title: 本站公告
     content:
-      - 一切正常。欢迎访问！
+      - 基于 [Artitalk](https://artitalk.js.org) 和 LeanCloud 后端的 [时光鸡](/time-machine) 功能上线啦！
   dao_hang:
     class: grid
     display: [desktop, mobile]
@@ -577,8 +584,8 @@ plugins:
 
 ############################### Comments ###############################
 comments:
-  title: <i class='far fa-comment-dots'></i> 评论
-  subtitle:
+  title: <i class='fal fa-comment-dots'></i> 评论
+  subtitle: 请使用自己的邮箱或QQ账户，文明灌水，谢谢合作
   service: valine # valine, disqus, gitalk, livere
   valine:
     appId: RODmk6rnW2pmInARIk1r5m8F-MdYXbMMI
