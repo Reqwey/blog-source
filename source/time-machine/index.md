@@ -22,3 +22,11 @@ meta:
 <div id="lazy"></div>
 <div id="artitalk"></div>
 <script type="text/javascript" src="https://unpkg.com/artitalk"></script>
+<!-- 自定义样式 -->
+<style>
+.cbp_tmtimeline>li {
+  list-style: none;
+}
+</style>
+<!-- 自定义样式.end -->
+
