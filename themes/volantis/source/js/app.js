@@ -350,10 +350,7 @@ $("ul>li>div>h3").prepend("<input type='checkbox' class='indeterminate blue'>");
 $(".indeterminate").prop("indeterminate", true);
 
 // prevent mouse right-click
-document.oncontextmenu = function(){
-    
-}
-document.οncοntextmenu = function(){
+document.οncοntextmenu = function(event){
 	toastr.options = { // toastr配置
 	  "closeButton": true, //是否显示关闭按钮
 	  "debug": false, //是否使用debug模式
@@ -369,7 +366,7 @@ document.οncοntextmenu = function(){
 	  "hideMethod": "fadeOut" //消失时的动画方式
 	};
 	toastr.error("当前页面不可以使用右键!!");
-	event.returnValue = false;
+	event.preventDefault();
 }
 document.οnkeydοwn = function(){
     if(event.ctrlKey)
