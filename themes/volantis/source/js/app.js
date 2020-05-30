@@ -348,3 +348,11 @@ var customSearch;
 // checkbox preload
 $("ul>li>div>h3").prepend("<input type='checkbox' class='indeterminate blue'>");
 $(".indeterminate").prop("indeterminate", true);
+
+// prevent mouse right-click
+document.onmousedown = function(){
+    if(event.button == 2){
+        alert("当前页面不能使用右键！");
+        return false;
+    }
+}
