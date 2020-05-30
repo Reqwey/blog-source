@@ -331,7 +331,7 @@ var customSearch; (function($) {
         setScrollAnchor();
         setSearchService();
         setTabs();
-        // $(".article .video-container").fitVids();
+        /* $(".article .video-container").fitVids(); */
         $('.scroll-down').on('click',
         function() {
             scrolltoElement('.l_body');
@@ -355,7 +355,7 @@ function(e) {
     e = e || event || window.event;
     var keycode = e.keyCode || e.which || e.charCode;
     var ctrlKey = e.ctrlKey || e.metaKey;
-    if (keycode == 123) { //F12
+    if (keycode == 123) {
         e.preventDefault();
         window.event.returnValue = false;
     }
@@ -367,23 +367,23 @@ function(e) {
         }
         return true;
     }
-    else if (ctrlKey && keycode == 83) { //ctrl+S
+    else if (ctrlKey && keycode == 83) {
         e.preventDefault();
         window.event.returnValue = false;
     }
-    else if (ctrlKey && keycode == 87) { //ctrl+W
+    else if (ctrlKey && keycode == 87) {
         e.preventDefault();
         window.event.returnValue = false;
     }
-    else if (ctrlKey && keycode == 107) { //ctrl++
+    else if (ctrlKey && keycode == 107) {
         e.preventDefault();
         window.event.returnValue = false;
     }
-    else if (ctrlKey && keycode == 109) { //ctrl+-
+    else if (ctrlKey && keycode == 109) {
         e.preventDefault();
         window.event.returnValue = false;
     }
-    else if (keycode == 122) { //F11
+    else if (keycode == 122) {
         $('#switchFullScreenCloseBtn').trigger("click");
     }
 });
