@@ -387,6 +387,6 @@ function(e) {
     }
 });
 
-document.οncοntextmenu=function(){return false;}
-document.οnmοusedοwn=function(){ if(event.button==2)return false;}
-document.οnkeydοwn=function(){ if(event.ctrlKey)return false;}
+document.οncοntextmenu=function(){return false;};
+document.οnmοusedοwn=function(){ if(event.button==2)return false;};
+document.οnkeydοwn=function(){ if(event.ctrlKey)return false;};
