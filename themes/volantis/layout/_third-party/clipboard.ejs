@@ -22,7 +22,6 @@
         }
       });
       clipboard.on('success', function (e) {
-        e.clearSelection();
         $.hulla = new hullabaloo();
         wait(function() {
           $.hulla.send("复制成功！", "success");
