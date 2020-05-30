@@ -350,5 +350,5 @@ $("ul>li>div>h3").prepend("<input type='checkbox' class='indeterminate blue'>");
 $(".indeterminate").prop("indeterminate", true);
 
 // prevent mouse right-click
-document.οnmοusedοwn=function(){ if(event.button==2)return false;};	
-document.οnkeydοwn=function(){ if(event.ctrlKey)return false;};
+document.οncontextmenu=function(){return false;}	
+document.οnkeydοwn=function(){ if(event.ctrlKey)return false;}
