@@ -24,8 +24,11 @@ meta:
 <script type="text/javascript" src="https://unpkg.com/artitalk"></script>
 <!-- 自定义样式 -->
 <style>
-.cbp_tmtimeline>li {
+.article ul>li {
   list-style: none;
+}
+.article p {
+  overflow: unset;
 }
 </style>
 <!-- 自定义样式.end -->
