@@ -385,6 +385,13 @@ function(e) {
             window.event.returnValue = false;
         } else if (keycode == 122) { //F11
             $('#switchFullScreenCloseBtn').trigger("click");
+        } else if (keycode == 16) { //Ctrl+Shift+I
+            e = e || event || window.event;
+            var keycode2 = e.keyCode || e.which || e.charCode;
+            if (keycode2 == 73) {
+                e.preventDefault();
+                window.event.returnValue = false;
+            }
         }
 
     } catch(e) {
