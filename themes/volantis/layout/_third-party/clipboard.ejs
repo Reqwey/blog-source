@@ -1,4 +1,8 @@
 <script src="<%- theme.plugins.clipboard %>"></script>
+<script src="https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.6.0/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.6.0/js/hullabaloo.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4/dist/jquery.min.js"></script>
+<link href="https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.6.0/css/bootstrap.min.css" rel="stylesheet">
 <script>
   function wait(callback, seconds) {
     var timelag = null;
@@ -18,35 +22,17 @@
         }
       });
       clipboard.on('success', function (e) {
-        let $btn = $(e.trigger);
-        $btn.addClass('copyed');
-        let $icon = $($btn.find('i'));
-        $icon.removeClass('fa-copy');
-        $icon.addClass('fa-file-check');
-        let $span = $($btn.find('span'));
-        $span[0].innerText = 'COPIED';
-
-        wait(function () {
-          $icon.removeClass('fa-file-check');
-          $icon.addClass('fa-copy');
-          $span[0].innerText = 'COPY';
+        e.clearSelection();
+        $.hulla = new hullabaloo();
+        wait(function() {
+          $.hulla.send("复制成功！", "success");
         }, 2000);
-
       });
       clipboard.on('error', function (e) {
-        e.clearSelection();
-        let $btn = $(e.trigger);
-        $btn.addClass('copy-failed');
-        let $icon = $($btn.find('i'));
-        $icon.removeClass('fa-copy');
-        $icon.addClass('fa-file-times');
-        let $span = $($btn.find('span'));
-        $span[0].innerText = 'COPY FAILED';
-
-        wait(function () {
-          $icon.removeClass('fa-file-times');
-          $icon.addClass('fa-copy');
-          $span[0].innerText = 'COPY';
+       e.clearSelection();
+        $.hulla = new hullabaloo();
+        wait(function() {
+          $.hulla.send("复制失败！", "danger");
         }, 2000);
       });
     }
