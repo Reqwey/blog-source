@@ -352,7 +352,42 @@ $(".indeterminate").prop("indeterminate", true);
 // prevent mouse right-click
 document.onmousedown = function(){
     if(event.button == 2){
-        alert("当前页面不能使用右键！");
         return false;
     }
 }
+
+document.addEventListener('keydown', function (e) {//按键禁用
+try {
+e = e || event || window.event;
+var keycode = e.keyCode || e.which || e.charCode;
+var ctrlKey = e.ctrlKey || e.metaKey;
+if (keycode == 123) {//F12
+e.preventDefault();
+window.event.returnValue = false;
+} else if (keycode == 8) {
+var act = document.activeElement.tagName.toLowerCase();
+if (act.indexOf("body") != -1 || act.indexOf("html") != -1) {
+window.history.back();
+return false;
+}
+return true;
+} else if (ctrlKey && keycode == 83) {//ctrl+S
+e.preventDefault();
+window.event.returnValue = false;
+} else if (ctrlKey && keycode == 87) {//ctrl+W
+e.preventDefault();
+window.event.returnValue = false;
+} else if (ctrlKey && keycode == 107) {//ctrl++
+e.preventDefault();
+window.event.returnValue = false;
+} else if (ctrlKey && keycode == 109) {//ctrl+-
+e.preventDefault();
+window.event.returnValue = false;
+} else if (keycode == 122) {//F11
+$('#switchFullScreenCloseBtn').trigger("click");
+}
+
+} catch (e) {
+console.error(e);
+}
+});
