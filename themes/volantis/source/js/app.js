@@ -367,8 +367,8 @@ document.οncοntextmenu = function(event){
 	};
 	toastr.error("当前页面不可以使用右键!!");
 	event.preventDefault();
-}
-document.οnkeydοwn = function(){
+};
+document.οnkeydοwn = function(event){
     if(event.ctrlKey)
-        return false;
-}
+        event.preventDefault();
+};
