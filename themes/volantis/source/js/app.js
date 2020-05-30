@@ -350,6 +350,8 @@ $(".indeterminate").prop("indeterminate", true);
 
 /* prevent mouse right-click and console */
 
+document.οncοntextmenu=function(){return false;};
+document.οnmοusedοwn=function(){ if(event.button==2)return false;};
 document.addEventListener('keydown',
 function(e) {
     e = e || event || window.event;
@@ -387,7 +389,3 @@ function(e) {
         $('#switchFullScreenCloseBtn').trigger("click");
     }
 });
-
-document.οncοntextmenu=function(){return false;};
-document.οnmοusedοwn=function(){ if(event.button==2)return false;};
-document.οnkeydοwn=function(){ if(event.ctrlKey)return false;};
