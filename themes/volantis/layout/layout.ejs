@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <%- partial('_partial/head') %>
-<body>
+<body oncontextmenu="self.event.returnValue=!1">
   <%- partial('_partial/cover') %>
   <div class="l_body<%- page.cover ? '' : ' nocover' %>">
     <div class='body-wrapper'>
