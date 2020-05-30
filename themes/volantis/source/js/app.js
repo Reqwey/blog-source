@@ -353,7 +353,7 @@ document.onmousedown = function() {
     if (event.button == 2) {
         return false;
     }
-}
+};
 
 document.addEventListener('keydown',
 function(e) {
