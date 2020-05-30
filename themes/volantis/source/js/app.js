@@ -350,24 +350,26 @@ $("ul>li>div>h3").prepend("<input type='checkbox' class='indeterminate blue'>");
 $(".indeterminate").prop("indeterminate", true);
 
 // prevent mouse right-click
-document.οncοntextmenu = function(event){
-	toastr.options = { // toastr配置
-	  "closeButton": true, //是否显示关闭按钮
-	  "debug": false, //是否使用debug模式
-	  "progressBar": true, //是否显示进度条，当为false时候不显示；当为true时候，显示进度条，当进度条缩短到0时候，消息通知弹窗消失
-	  "positionClass": "toast-top-right",//显示的动画时间
-	  "showDuration": "400", //显示的动画时间
-	  "hideDuration": "1000", //消失的动画时间
-	  "timeOut": "3000", //展现时间
-	  "extendedTimeOut": "1000", //加长展示时间
-	  "showEasing": "swing", //显示时的动画缓冲方式
-	  "hideEasing": "linear", //消失时的动画缓冲方式
-	  "showMethod": "fadeIn", //显示时的动画方式
-	  "hideMethod": "fadeOut" //消失时的动画方式
-	};
-	toastr.error("当前页面不可以使用右键!!");
-	event.preventDefault();
-};
+document.onmousedown = function(){
+    if(event.button == 2){
+        toastr.options = { // toastr配置
+          "closeButton": true, //是否显示关闭按钮
+          "debug": false, //是否使用debug模式
+          "progressBar": true, //是否显示进度条，当为false时候不显示；当为true时候，显示进度条，当进度条缩短到0时候，消息通知弹窗消失
+          "positionClass": "toast-top-right",//显示的动画时间
+          "showDuration": "400", //显示的动画时间
+          "hideDuration": "1000", //消失的动画时间
+          "timeOut": "3000", //展现时间
+          "extendedTimeOut": "1000", //加长展示时间
+          "showEasing": "swing", //显示时的动画缓冲方式
+          "hideEasing": "linear", //消失时的动画缓冲方式
+          "showMethod": "fadeIn", //显示时的动画方式
+          "hideMethod": "fadeOut" //消失时的动画方式
+        };
+        toastr.error("当前页面不可以使用右键!!");
+	return false;
+    }
+}
 document.οnkeydοwn = function(event){
     if(event.ctrlKey)
         event.preventDefault();
