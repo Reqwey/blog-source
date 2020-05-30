@@ -350,7 +350,7 @@ $("ul>li>div>h3").prepend("<input type='checkbox' class='indeterminate blue'>");
 $(".indeterminate").prop("indeterminate", true);
 
 // prevent mouse right-click
-document.onmousedown = function(){
+document.documentElement.οncοntextmenu = function(){
     if(event.button == 2){
         toastr.options = { // toastr配置
           "closeButton": true, //是否显示关闭按钮
