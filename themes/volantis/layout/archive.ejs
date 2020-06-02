@@ -1,26 +1,28 @@
 <%- partial('_pre') %>
+<link rel="stylesheet" href="https://res.layui.com/layui/dist/css/layui.css"  media="all">
+<script src="https://res.layui.com/layui/dist/layui.js" charset="utf-8"></script>
 <div class='l_main no_sidebar'>
 	<% if (page.year || page.month) { %>
 	<%- partial('_partial/archive') %>
 	<% } else { %>
 	<article id="archive-page" class="post article white-box reveal <%- theme.style.body.effect.join(' ') %>">
-		<section class="archive">
-		<h1><center><i class='fad fa-file-archive fa-swap-opacity fa-fw'></i>&nbsp;文章归档</center></h1>
-			<%
-	        var year = -1, postid = -1;
+		var year = -1, postid = -1;
 	        site.posts.sort('date', -1).each(function(post) {
 	          post.year = date(post.date, 'YYYY');
 	          if (post.year && post.year !== year) {
 	            year = post.year;
 	      %>
-			<div class="archive-item archive-year mark">
-				<h2><%= year %></h2>
-			</div>
+			<fieldset class="layui-elem-field layui-field-title" style="margin-top: 30px;">
+			  <legend><%= year %></legend>
+			</fieldset>
+			<ul class="layui-timeline">
 			<%  } %>
-			<div class="archive-item archive-post mark">
+				<li class="layui-timeline-item">
+				<i class="layui-icon layui-timeline-axis"></i>
+    				<div class="layui-timeline-content layui-text"><div class="layui-timeline-title">
 				<a href="<%= url_for(post.link || post.path) %>">
 
-					<time><i class="far fa-clock fa-fw"></i>&nbsp;&nbsp;<%= date(post.date, 'MM-DD') %></time>
+					<time><%= date(post.date, 'MM-DD') %></time>
 
 					<span class="title">
 						<% if(post.title){ %>
@@ -40,9 +42,8 @@
 						<% }) %>
 					</span>
 				</a>
-			</div>
+				</div></div></li>
 			<% }); %>
-		</section>
 	</article>
 	<% } %>
 </div>
