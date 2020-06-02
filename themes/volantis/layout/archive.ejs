@@ -6,6 +6,7 @@
 	<%- partial('_partial/archive') %>
 	<% } else { %>
 	<article id="archive-page" class="post article white-box reveal <%- theme.style.body.effect.join(' ') %>">
+	     <%
 		var year = -1, postid = -1;
 	        site.posts.sort('date', -1).each(function(post) {
 	          post.year = date(post.date, 'YYYY');
@@ -22,7 +23,7 @@
     				<div class="layui-timeline-content layui-text"><div class="layui-timeline-title">
 				<a href="<%= url_for(post.link || post.path) %>">
 
-					<time><%= date(post.date, 'MM-DD') %></time>
+					<%= date(post.date, 'MM-DD') %>&nbsp;&nbsp;
 
 					<span class="title">
 						<% if(post.title){ %>
@@ -32,7 +33,6 @@
 						<% } %>
 						<% if(theme.plugins.aplayer && theme.plugins.aplayer.enable && post.music && post.music.enable != false){ %>
 						&nbsp;&nbsp;<i class="far fa-headphones-alt music" aria-hidden="true"></i>
-						<red>BGM</red>
 						<% } %>
 						<% if (post.icon) { %>
 						&nbsp;&nbsp;<i class="<%- post.icon %>" aria-hidden="true"></i>
