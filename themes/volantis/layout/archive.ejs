@@ -1,6 +1,10 @@
 <%- partial('_pre') %>
-<link rel="stylesheet" href="https://www.layuicdn.com/layui/css/layui.css"  media="all">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.6.1/css/layui.css"  media="all">
 <script src="https://www.layuicdn.com/layui/layui.js" charset="utf-8"></script>
+<style>
+.article ul>li { list-style: none; }
+.article p { overflow: unset; }
+</style>
 <div class='l_main no_sidebar'>
 	<% if (page.year || page.month) { %>
 	<%- partial('_partial/archive') %>
