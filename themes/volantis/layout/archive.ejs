@@ -38,6 +38,8 @@
 						<% } else if (post.date) { %>
 						<%= date(post.date, config.date_format) %>
 						<% } %>
+						</a>
+						
 						<% if(theme.plugins.aplayer && theme.plugins.aplayer.enable && post.music && post.music.enable != false){ %>
 						&nbsp;&nbsp;<i class="far fa-headphones-alt music" aria-hidden="true"></i>
 						<% } %>
