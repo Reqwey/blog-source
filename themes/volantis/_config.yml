@@ -116,7 +116,7 @@ cover:
 navbar:
   logo: # choose [img] or [icon + title]
     img:
-    icon: fad fa-alien
+    icon: fad fa-jedi
     title: LINHK
   menu:
     # The following can be written in `blog/source/_data/menu.yml`
@@ -168,7 +168,7 @@ navbar:
             icon: far fa-clock
             url: time-machine/
       - name: 更多
-        icon: fad fa-ellipsis-v fa-spin
+        icon: fad fa-ellipsis-v
         rows:
           - name: 关于我
             icon: far fa-user-circle
@@ -188,13 +188,16 @@ navbar:
             rows:
               - name: 肺炎疫情图
                 icon: far fa-biohazard
-                url: 2019-ncov/
+                url: 2019-nCoV/
               - name: RSS订阅
                 icon: far fa-rss
                 url: /atom.xml
               - name: 站点地图
                 icon: far fa-sitemap
                 url: /sitemap.xml
+              - name: 3D元素周期表
+                icon: far fa-flask
+                url: /Periodic-table
           - name: 来点音乐
             icon: far fa-compact-disc
     # This menu will be displayed on the mobile.
@@ -225,8 +228,8 @@ navbar:
         url: time-machine/
       - name: 疫情
         icon: fad fa-biohazard
-        url: /2019-ncov
-  search: 搜索... # Search bar placeholder
+        url: /2019-nCoV
+  search: Just go go... # Search bar placeholder
 
 
 
@@ -303,8 +306,8 @@ meta:
       img: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/128/qzone.png
     - id: weibo
       img: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/128/weibo.png
-    # - id: qrcode # 当id为qrcode时需要安装插件  npm i -S hexo-helper-qrcode
-    #   img: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/128/wechat.png
+    - id: qrcode # 当id为qrcode时需要安装插件  npm i -S hexo-helper-qrcode
+      img: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/128/wechat.png
   # 链接
   btns:
     edit:
@@ -452,7 +455,7 @@ widget:
 
 footer:
   # layout of footer: [aplayer, social, license, info, copyright]
-  layout: [social, license, powered, copyright]
+  layout: [social, license, powered, copyright, jedi]
   social:
     - icon: fal fa-rss
       url: /atom.xml
@@ -468,6 +471,7 @@ footer:
   license: '博客内容遵循 「署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0)」 协议'
   powered: '使用 [Volantis](https://theme-volantis.github.io) 作为主题 | 由 [Hexo](https://hexo.io) 强力驱动 | [CloudFlare](https://cloudflare.com) 提供 DNS 解析服务'
   copyright: "[Copyright © 2019-2020 Linhk1606's Blog](https://blog.lhkstudio.me)"
+	jedi: '愿原力与你同在 <i class="fal fa-sword-laser-alt"></i>'
   
 
 
