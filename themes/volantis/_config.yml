@@ -543,10 +543,10 @@ plugins:
     shuffle: true         # shuffle playlist
     duration: 20000       # Duration (ms)
     fade: 1500            # fade duration (ms) (Not more than 1500)
-    white_text: false     # Whether the picture is dark (adjust the text to white)
+    white_text: true     # Whether the picture is dark (adjust the text to white)
     images:               # For personal use only. At your own risk if used for commercial purposes !!!
       # - https://i.loli.net/2020/04/10/y3tHsWqMG8EJ2we.png
-      - https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.5.4/img/bg.webp
+      - https://i.loli.net/2020/06/06/bkeKauF2fxZ8HWD.png
       # - https://i.loli.net/2020/04/10/X2lKtnfQ6ExahRu.png
       # - https://i.loli.net/2020/04/10/rAKtbM6mXgRFYcl.png
       # - https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/41F215B9-261F-48B4-80B5-4E86E165259E.jpeg
