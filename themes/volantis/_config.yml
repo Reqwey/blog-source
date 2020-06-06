@@ -308,20 +308,20 @@ meta:
   # 链接
   btns:
     edit:
-      icon: fad fa-edit
-      title: 在GitHub上编辑此页
+      icon: fal fa-edit
+      title: 编辑此页
       color: '#888'
-    repo: # 源码链接
-      icon: fad fa-file-code
-      title: 源码
+    md5:
+      icon: fal fa-unlock-alt
+      title: MD5加密
       color: '#508EF2'
-    bug: # BUG反馈链接
-      icon: fad fa-bug
-      title: BUG
+    imgbed:
+      icon: fal fa-images
+      title: sm.ms图床
       color: '#FE5F58'
-    doubt: # 疑问链接
-      icon: fad fa-question-circle
-      title: 疑问
+    friends: # 疑问链接
+      icon: fal fa-users
+      title: 头衔添加
       color: '#FFBD2B'
     idea: # 建议链接
       icon: fad fa-lightbulb
@@ -529,7 +529,7 @@ plugins:
     js: https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.js
 
   # Typing Effects
-  # comment_typing: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2/js/comment_typing.js
+  comment_typing: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2/js/comment_typing.js
 
   # Slide Background
   backstretch:
