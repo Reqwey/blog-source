@@ -68,7 +68,7 @@ style:
 #     site: '#21232F' # Website background color
 #     card: '#444' # Card background color
 #     text: '#fff' # The color of the text on the card.
-    theme: '#9c27b0' # Main color
+#     theme: '#9c27b0' # Main color
 #     link: '#1BCDFC' # Link color
 #     hover: '#ff5722' # Link highlight color
 #     inner: '#333' # Text color inside the button
