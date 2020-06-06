@@ -4,7 +4,12 @@ title: 我的朋友们   # 可选，这是友链页的标题
 sidebar: []
 meta:
   header: []
-  footer: []
+  footer: [btns]
+btns:
+  edit: https://github.com/Linhk1606/blog-source/edit/master/source/friends/index.md
+  md5: http://tool.chinaz.com/tools/md5.aspx
+  imgbed: https://sm.ms
+  friends: https://github.com/Linhk1606/blog-source/edit/master/themes/volantis/layout/_partial/scripts.ejs
 valine:
   placeholder: 所有跟我交换友链的大佬都会获得“小伙伴”头衔, 你发现了吗
 links:
