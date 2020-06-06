@@ -16,7 +16,7 @@
             <%- partial('../_widget/load', {widgets: theme.layout.on_post.article_footer, where: 'article'}) %>
           <% } %>
         </div>
-        <% if(post.layout == 'post' || post.layout == 'page' || post.layout == 'links'){ %>
+        <% if(post.layout == 'post' || post.layout == 'page'){ %>
           <%- partial('meta', {post: post, position: 'footer'}) %>
         <% } %>
         <% if(post.prev || post.next){ %>
