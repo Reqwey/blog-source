@@ -89,7 +89,7 @@ links:
       - MFC
       desc: 愿多年以后，我可以酌一杯清酒，烂醉如泥，梦中回到我们的曾经。
     - name: Code Young
-      avatar: http://thirdqq.qlogo.cn/g?b=qq&nk=750837279&s=5
+      avatar: https://i.loli.net/2020/06/06/Bh9fHTpObLN1CEl.png
       url: https://wujizun.top/
       backgroundColor: '#425b79'
       textColor: '#f0fbc6'
@@ -138,7 +138,7 @@ links:
 
 <h3 class='friend-header'><i class='fal fa-smile-wink' aria-hidden='true'></i> 欢迎互换友链!</h3>
 
-::: info
+::: quote
 个人信息格式如下：
 
 {% cb `名称`: <blue>Linhk1606</blue>, checked %}
