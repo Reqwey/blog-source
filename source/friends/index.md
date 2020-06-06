@@ -123,6 +123,12 @@ links:
       desc: '总结技术，记录生活'
       backgroundColor: '#fcfcfc'
       textColor: '#d97534'
+    - name: Sanarous
+      url: https://bestzuo.cn
+      avatar: https://cdn.jsdelivr.net/gh/Sanarous/files@1.11/images/avatar.jpeg
+      desc: '码农人生'
+      backgroundColor: '#886d5e'
+      textColor: '#dccdbf'
 ---
 
 <h1><center><i class='fad fa-users fa-fw'></i>&nbsp;友链</center></h1>
