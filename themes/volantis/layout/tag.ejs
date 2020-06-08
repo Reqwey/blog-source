@@ -1,5 +1,22 @@
 <%- partial('_pre') %>
 <% page.comments = false; %>
+<style>
+.article .archive .all-tags a {
+    text-decoration: none;
+    border: none;
+    padding: 4px 2px;
+    border-radius: 4px;
+    background: #f1f1f1;
+    transition: all .28s ease;
+    -moz-transition: all .28s ease;
+    -webkit-transition: all .28s ease;
+    -o-transition: all .28s ease
+}
+.article a:hover {
+    color: #ff5722;
+    background: #ffeee8
+}
+</style>
 <div class='l_main<%- page.sidebar == false ? ' no_sidebar' : '' %>'>
   <% if (site.posts && site.posts.length > 0) { %>
     <% if (page.layout == 'tag') { %>
