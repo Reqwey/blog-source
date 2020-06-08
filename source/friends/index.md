@@ -36,7 +36,7 @@ links:
     icon: fal fa-code
     items:
     - name: Royce
-      avatar: https://cdn.jsdelivr.net/gh/Royce2019/img/img/avatar.jpg
+      avatar: https://cdn.jsdelivr.net/gh/Royce003/cdn/img/royce.png
       url: https://www.royce2003.top/
       backgroundColor: '#abcbd2' # 卡片背景颜色
       textColor: '#4d4747'  # 卡片文字颜色
