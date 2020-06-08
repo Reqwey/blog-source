@@ -91,25 +91,6 @@ cover:
   title: LHKSTUDIO
   subtitle: 'MAY THE FORCE BE WITH YOU <i class="fal fa-swords-laser"></i>'
   search: Type here to search
-  features:
-    - name: 博文
-      icon: fal fa-rss
-      url: /
-    - name: 关于
-      icon: fal fa-info-circle
-      url: about/
-      rel: nofollow
-    - name: 友链
-      icon: fal fa-users
-      url: friends/
-      rel: nofollow
-    - name: 归档
-      icon: fal fa-archive
-      url: archives/
-      rel: nofollow
-    - name: 时光鸡
-      icon: fal fa-clock
-      url: time-machine/
 
 
 # Navigation Bar
