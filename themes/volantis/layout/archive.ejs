@@ -46,7 +46,7 @@
 				<i class="fad fa-circle fa-fw layui-timeline-axis"></i>
     				<div class="layui-timeline-content layui-text"><div class="layui-timeline-title flat-box waves-effect waves-block">
 				
-                                        <time class='archive archive-post' >
+                                        <time>
 					<%= date(post.date, 'MM-DD') %></time>&nbsp;&nbsp;
 
 					<a href="<%= url_for(post.link || post.path) %>"><span class="title">
@@ -58,13 +58,13 @@
 						</span></a>
 						
 						<% if(theme.plugins.aplayer && theme.plugins.aplayer.enable && post.music && post.music.enable != false){ %>
-						&nbsp;&nbsp;<i class="archive archive-post title far fa-headphones-alt music" aria-hidden="true"></i>
+						&nbsp;&nbsp;<i class="far fa-headphones-alt music" aria-hidden="true"></i>
 						<% } %>
 						<% if (post.icon) { %>
-						&nbsp;&nbsp;<i class="archive archive-post title <%- post.icon %>" aria-hidden="true"></i>
+						&nbsp;&nbsp;<i class="<%- post.icon %>" aria-hidden="true"></i>
 						<% } %>
 						<% (post.icons && post.icons||[]).forEach(function(icon){ %>
-						&nbsp;<i class="archive archive-post title <%- icon %>" aria-hidden="true"></i>
+						&nbsp;<i class="<%- icon %>" aria-hidden="true"></i>
 						<% }) %>
 					
 				
