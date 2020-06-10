@@ -348,3 +348,18 @@ var customSearch;
 // checkbox preload
 $("ul>li>div>h3").prepend("<input type='checkbox' class='indeterminate blue'>");
 $(".indeterminate").prop("indeterminate", true);
+
+// timeline
+var list = document.getElementsByTagName("li");
+for (var i = 0; i < list.length; i++) {
+	//为li注册鼠标进入事件
+	list[i].onmouseover = function () {
+		//设置其背景颜色为黄色
+		$(this).children("i").css('color', '#ff5722');
+	};
+	//为li注册鼠标离开事件
+	list[i].onmouseout = function () {
+		//恢复到这个标签默认的颜色
+		$(this).children("i").css('color', '#2196f3');
+	};
+}
