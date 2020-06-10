@@ -108,7 +108,7 @@ favicon: https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/favicon/favicon.ico
 
 import:
   link:
-  - '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.2/styles/atom-one-dark.min.css">'
+  - '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10.0.3/styles/atom-one-dark.css">'
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -161,13 +161,13 @@ markdown:
     permalink: true
     permalinkClass: 'header-anchor'
     # permalinkSide: 'left'
-    permalinkSymbol: '# '
+    permalinkSymbol: '<i class="fal fa-anchor fa-fw" aria-hidden="true"></i> '
     # case: 0
     # separator: ''
 
 hexo_external_link:
   enable: true
-  enable_base64_encode: true
+  enable_base64_encode: false
   url_param_name: 'u'
   html_file_name: 'go.html'
   target_blank: true
