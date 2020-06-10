@@ -161,7 +161,7 @@ markdown:
     permalink: true
     permalinkClass: 'header-anchor'
     # permalinkSide: 'left'
-    permalinkSymbol: '<i class="fal fa-anchor fa-fw" aria-hidden="true"></i> '
+    permalinkSymbol: '# '
     # case: 0
     # separator: ''
 
