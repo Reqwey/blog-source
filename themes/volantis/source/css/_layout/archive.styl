@@ -1,5 +1,32 @@
 #archive-page
   margin-bottom: $gap * 2
+  .layui-timeline
+    .layui-timeline-item
+      .layui-timeline-title
+        time
+          flex: none
+          vertical-align: middle
+          padding: .4em
+          // padding-left: 0em
+          color: $color-meta
+          @media screen and (max-width: $device-mobile)
+          padding-left: 1em
+        i
+          color: $color-hover
+          &.red
+            color: $color-mac-red
+          &.green
+            color: $color-mac-green
+          &.yellow
+            color: $color-mac-yellow
+          &.blue
+            color: $color-mac-cyan
+          &.theme
+            color: $color-theme
+          &.accent
+            color: $color-hover
+          &.orange
+            color: $color-md-deep-orange
   .archive
 
     .archive-year
