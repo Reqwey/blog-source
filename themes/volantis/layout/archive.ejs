@@ -43,7 +43,11 @@
 			<%  } %>
 			
 				<li class="layui-timeline-item">
+				<% if (post.yuque) { %>
+				<i class="fad fa-dove fa-fw layui-timeline-axis"></i>
+				<% } else { %>
 				<i class="fad fa-circle fa-fw layui-timeline-axis"></i>
+				<% } %>
     				<div class="layui-timeline-content layui-text"><div class="layui-timeline-title flat-box waves-effect waves-block">
 				
                                         <time>
@@ -60,6 +64,8 @@
 						<% if(theme.plugins.aplayer && theme.plugins.aplayer.enable && post.music && post.music.enable != false){ %>
 						&nbsp;&nbsp;<i class="far fa-headphones-alt music" aria-hidden="true"></i>
 						<% } %>
+						<% if (post.yuque) { %>
+						&nbsp;&nbsp;<i class="far fa-dove green" aria-hidden="true"></i>
 						<% if (post.icon) { %>
 						&nbsp;&nbsp;<i class="<%- post.icon %>" aria-hidden="true"></i>
 						<% } %>
