@@ -363,3 +363,16 @@ for (var i = 0; i < list.length; i++) {
 		$(this).children("i").css('color', '#2196f3');
 	};
 }
+
+// 转圈圈啊~
+var flag = true;
+function zhuanQuan() {
+	if (flag) {
+		$("body").find("i").addClass("fa-spin");
+		flag = false;
+	}
+	else {
+		$("body").find("i").removeClass("fa-spin");
+		flag = true;
+	}
+}
