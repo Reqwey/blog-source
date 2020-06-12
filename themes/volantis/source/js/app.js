@@ -369,10 +369,12 @@ var flag = true;
 function zhuanQuan() {
 	if (flag) {
 		$("body").find("i").addClass("fa-spin");
+		$("body").find(".vemoji").addClass("fa-spin");
 		flag = false;
 	}
 	else {
 		$("body").find("i").removeClass("fa-spin");
+		$("body").find(".vemoji").removeClass("fa-spin");
 		flag = true;
 	}
 }
