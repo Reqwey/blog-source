@@ -526,7 +526,7 @@ plugins:
     fade: 1500            # fade duration (ms) (Not more than 1500)
     white_text: true     # Whether the picture is dark (adjust the text to white)
     images:               # For personal use only. At your own risk if used for commercial purposes !!!
-      _ https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.6.3/img/bg.webp
+      - https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.6.3/img/bg.webp
       # - https://i.loli.net/2020/04/10/y3tHsWqMG8EJ2we.png
       # - https://i.loli.net/2020/06/06/bkeKauF2fxZ8HWD.png
       # - https://i.loli.net/2020/04/10/X2lKtnfQ6ExahRu.png
