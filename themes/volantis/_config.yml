@@ -406,7 +406,7 @@ widget:
       icon: fal fa-exclamation-triangle
       title: 本站公告
     content:
-      - 最近发现有用户使用 Valine 评论系统在本站匿名发布广告类信息，此类消息管理员均可通过后台<u>直接查看将并给予<u>删除</u>!!!
+      - 最近发现有用户使用 Valine 评论系统在本站匿名发布广告类信息，此类消息管理员均可通过后台<red>直接查看并给予删除</red>!!!
       - (莫名好奇，这种玩意难道不会被识别成垃圾评论吗)
   dao_hang:
     class: grid
