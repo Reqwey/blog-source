@@ -12,7 +12,7 @@ valine:
 <btns center circle wide>
 <a style='padding-bottom:16px'>
 <img style='height:80px;width:80px;border-radius:40px;margin-top:-64px;margin-bottom:12px' src="https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@master/img/avatar.jpg">
-「初二的一名OIer, 懒癌晚期患者, 喜欢数学和电子音乐」
+「May the force be with you.」
 </a>
 </btns>
 <br>
@@ -25,11 +25,11 @@ valine:
 <!-- tab 本站配置 -->
 
 <input type="checkbox" class="blue indeterminate">网站源码由 [GitHub](https://github.com) 托管
-<input type="checkbox" class="blue indeterminate">博客主题是 [Volantis(原Material-X)](https://xaoxuu.com/wiki/volantis)
+<input type="checkbox" class="blue indeterminate">博客主题是 [Volantis(原Material-X)](https://xaoxuu.com/wiki/volantis) (基于<u>v2.1.4</u>的个人修改版)
 <input type="checkbox" class="blue indeterminate">网站托管于 [Netlify](https://www.netlify.com)
 <input type="checkbox" class="blue indeterminate">使用 [CloudFlare](https://cloudflare.com) 做 DNS 解析
 <input type="checkbox" class="blue indeterminate">域名相关服务由 [Namecheap](https://www.namecheap.com) 支持
-<input type="checkbox" class="blue indeterminate">由 [Hexo](https://hexo.io/) Version 4.2.0 强力驱动
+<input type="checkbox" class="blue indeterminate">由 [Hexo](https://hexo.io/) Version 4.2.1 强力驱动
 <input type="checkbox" class="blue indeterminate">[jsDelivr](https://www.jsdelivr.com) 提供免费高速的 CDN 服务
 <input type="checkbox" class="blue indeterminate">使用 [yuque-hexo](https://github.com/x-cold/yuque-hexo) 的语雀云端写作功能
 <input type="checkbox" class="blue indeterminate">[腾讯云](https://cloud.tencent.com) , [LeanCloud国际版](https://leancloud.app) 提供云函数计算服务
