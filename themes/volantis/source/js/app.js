@@ -369,14 +369,10 @@ var flag = true;
 function zhuanQuan() {
 	if (flag) {
 		$("body").find("i").addClass("fa-spin");
-		$("body").find("a").addClass("fa-spin");
-		$("body").find("p").addClass("fa-spin");
 		flag = false;
 	}
 	else {
 		$("body").find("i").removeClass("fa-spin");
-		$("body").find("a").removeClass("fa-spin");
-		$("body").find("p").removeClass("fa-spin");
 		flag = true;
 	}
 }
