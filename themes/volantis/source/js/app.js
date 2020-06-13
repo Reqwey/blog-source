@@ -410,4 +410,6 @@ function narn (type) {
 			}
 		  }]
 		})
-}
+};
+
+narn("warn")
