@@ -370,12 +370,14 @@ function zhuanQuan() {
 	if (flag) {
 		$("body").find("i").addClass("fa-spin");
 		$("body").find(".vemoji").addClass("fa-spin");
+		$("body").find(".vimg").addClass("fa-spin");
 		document.querySelector('meting-js').aplayer.play();
 		flag = false;
 	}
 	else {
 		$("body").find("i").removeClass("fa-spin");
 		$("body").find(".vemoji").removeClass("fa-spin");
+		$("body").find(".vimg").removeClass("fa-spin");
 		document.querySelector('meting-js').aplayer.pause();
 		flag = true;
 	}
