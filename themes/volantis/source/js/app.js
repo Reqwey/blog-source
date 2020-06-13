@@ -388,3 +388,26 @@ function zhuanQuan() {
 		flag = true;
 	}
 }
+
+// 忍无可忍
+function narn (type) {
+		naranja()[type]({
+		  title: '博客评论注意事项',
+		  text: '请勿使用 Valine 评论系统在本站匿名发布广告类信息，谢谢合作!!!',
+		  timeout: 'keep',
+		  buttons: [{
+			text: '接受',
+			click: function (e) {
+			  naranja().success({
+				title: '通知',
+				text: '通知被接受'
+			  })
+			}
+		  },{
+			text: '取消',
+			click: function (e) {
+			  e.closeNotification()
+			}
+		  }]
+		})
+}
