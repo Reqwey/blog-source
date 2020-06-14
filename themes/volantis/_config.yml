@@ -328,7 +328,7 @@ widget:
   blogger:
     class: blogger
     display: [desktop] # [desktop, mobile]
-    avatar: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@master/img/avatar.jpg
+    avatar: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.6.5/img/avatar.webp
     title:
     subtitle:
     jinrishici: false # Poetry Today. You can set a string, and it will be displayed when loading fails.
