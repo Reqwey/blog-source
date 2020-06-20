@@ -104,8 +104,7 @@ theme: volantis
 use_cdn: true
 
 # 网站图标，更多尺寸等图标请使用import方式批量导入
-favicon: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@master/img/avatar.jpg
-
+favicon: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.6.5/img/avatar.webp
 import:
   link:
   - '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10.1.0/styles/atom-one-dark.css">'
