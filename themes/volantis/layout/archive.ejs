@@ -17,7 +17,7 @@
     -o-transition: all .28s ease
 }
 .article .layui-timeline-title a:hover {
-    color: #ff5722;
+    color: rgb(166 213 250);
     background: #ffeee8
 }
 </style>
@@ -48,10 +48,10 @@
 				<% } else { %>
 				<i class="fad fa-circle fa-fw layui-timeline-axis"></i>
 				<% } %>
-    				<div class="layui-timeline-content layui-text"><div class="layui-timeline-title flat-box waves-effect waves-block">
-				
-                                        <time>
-					<%= date(post.date, 'MM-DD') %></time>&nbsp;&nbsp;
+    				<div class="layui-timeline-content layui-text">
+					<h3 class="layui-timeline-title">
+					<time><%= date(post.date, 'MM-DD') %></time>
+					&nbsp;&nbsp;
 
 					<a href="<%= url_for(post.link || post.path) %>"><span class="title">
 						<% if(post.title){ %>
@@ -73,15 +73,17 @@
 						<% (post.icons && post.icons||[]).forEach(function(icon){ %>
 						&nbsp;<i class="<%- icon %>" aria-hidden="true"></i>
 						<% }) %>
-					
-				
-				</div></div></li>
+					</h3>
+					<p>
+					<%- truncate(strip_html(post.content), {length: 100}) %>
+					</p>
+					</div></li>
 			
 			<% }); %>
 			<li class="layui-timeline-item">
     <i class="fad fa-spinner-third fa-fw layui-anim layui-anim-rotate layui-anim-loop layui-timeline-axis"></i>
     <div class="layui-timeline-content layui-text">
-      <div class="layui-timeline-title flat-box waves-effect waves-block"><time>正在加载. . . 等等，已经没有啦~</time></div>
+      <h3 class="layui-timeline-title"><time>正在加载. . . 等等，已经没有啦~</time></h3>
     </div>
   </li></ul>
 			
