@@ -3,13 +3,17 @@
   .layui-timeline
     .layui-timeline-item
       p
-        background-color: #e8f4fd
+        background-color: darken($color-block, 2)
         border-radius: 4px
         padding: 4px 4px
+        trans()
+        &:hover
+          color: #2196F3
+          background-color: bgcolor(#2196F3)
       .layui-timeline-title
         time
-          flex: none
-          vertical-align: middle
+          // flex: none
+          // vertical-align: middle
           // padding: .4em
           // padding-left: 0em
           color: $color-meta
