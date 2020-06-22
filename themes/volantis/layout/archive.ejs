@@ -48,7 +48,7 @@
 				<i class="fad fa-circle fa-fw layui-timeline-axis"></i>
 				<% } %>
     				<div class="layui-timeline-content layui-text">
-					<h3 class="layui-timeline-title">
+					<div class="layui-timeline-title">
 					<time><%= date(post.date, 'MM-DD') %></time>
 					&nbsp;&nbsp;
 
@@ -72,9 +72,9 @@
 						<% (post.icons && post.icons||[]).forEach(function(icon){ %>
 						&nbsp;<i class="<%- icon %>" aria-hidden="true"></i>
 						<% }) %>
-					</h3>
+					</div>
 					<p>
-					<%- truncate(strip_html(post.content), {length: 100}) %>
+					<%- post.description %>
 					</p>
 					</div></li>
 			
@@ -82,7 +82,7 @@
 			<li class="layui-timeline-item">
     <i class="fad fa-spinner-third fa-fw layui-anim layui-anim-rotate layui-anim-loop layui-timeline-axis"></i>
     <div class="layui-timeline-content layui-text">
-      <h3 class="layui-timeline-title"><time>正在加载. . . 等等，已经没有啦~</time></h3>
+      <div class="layui-timeline-title"><time>正在加载. . . 等等，已经没有啦~</time></div>
     </div>
   </li></ul>
 			
