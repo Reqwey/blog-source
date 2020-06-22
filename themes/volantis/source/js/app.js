@@ -346,7 +346,7 @@ var customSearch;
 })(jQuery);
 
 // checkbox preload
-$("ul>li>div>h3").prepend("<input type='checkbox' class='indeterminate blue'>");
+// $("ul>li>div>h3").prepend("<input type='checkbox' class='indeterminate blue'>");
 $(".indeterminate").prop("indeterminate", true);
 
 // timeline
