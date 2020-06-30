@@ -79,9 +79,18 @@
           color: alpha($color-text, .8)
         .badge
           flex:none
-          font-weight: normal
-          font-size: $fontsize-meta
-          color: alpha($color-text, .7)
+          align-items: center;
+          background-color: #f5f5f5
+          border-radius: 4px
+          color: #4a4a4a
+          display: inline-flex
+          font-size: 0.75rem
+          height: 2em
+          justify-content: center
+          line-height: 1.5
+          padding-left: 0.75em
+          padding-right: 0.75em
+          white-space: nowrap
 
         &:hover
           border-left: $border-line solid $color-theme
@@ -91,8 +100,6 @@
           border-left: $border-line solid $color-theme
           .name
             color: $color-theme
-          .badge
-            color: alpha($color-theme, .9)
 
 
         &:active
