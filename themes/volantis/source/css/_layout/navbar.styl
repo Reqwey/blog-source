@@ -22,16 +22,19 @@
   z-index: 9999
   top: 5px
   width: 90%
+  left: 5%
+  @media screen and (min-width: $device-laptop)
+    width: 70%
+    left: 15%
   line-height: $navbar-height
   padding: 0 $gap
   margin-bottom: $gap
   box-shadow: 0 0 20px 0 rgba(0,0,0,.1)
   border-radius: 10px
-  left: 5%
   top: 5px
   .wrapper
     padding: auto $gap
-    max-width: $layout-width
+    // max-width: $layout-width
     margin: auto
     height: $navbar-height
     disable-user-select()
@@ -47,9 +50,6 @@
         cursor: default
     a.logo
       color: $color-text
-  &.no_sidebar
-    .wrapper
-      max-width: $layout-width - $sidebar
 
   .wrapper.sub
     .logo
