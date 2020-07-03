@@ -2330,6 +2330,22 @@
             ),
               i = t.get("ua"),
               a = "";
+            var endpoint = 'http://ip-api.com/json/' + t.get("ip");
+            var cityy = "Failed";
+
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function () {
+              if (this.readyState == 4 && this.status == 200) {
+                var responsee = JSON.parse(this.responseText);
+                if (responsee.status !== 'success') {
+                  console.log('query failed: ' + responsee.message);
+                  return
+                }
+                cityy = responsee.city + ', ' + responsee.regionName;
+              }
+            };
+            xhr.open('GET', endpoint, true);
+            xhr.send();
             i &&
               !/ja/.test(e.config.lang) &&
               ((i = y.default.detect(i)),
@@ -2354,7 +2370,9 @@
                     i.os +
                     " " +
                     i.osVersion +
-                    "</span>"))),
+                    "</span> ") +
+                  '<span class="vsys"><i class="fas fa-map-marker-alt"></i>' + cityy
+                    )),
               "*" === e.config.path &&
               (a =
                 '<a href="' +
