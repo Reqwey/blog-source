@@ -159,12 +159,10 @@
           transform: scale(1.1) rotate(4deg)
           box-shadow: none
       .title
-        text-align: center
-        trans(.1s)
         margin: 0
         a
           position: relative
-          padding: .7rem 1.2rem
+          padding: .7rem 0rem
           font-weight: normal
           color: $color-text
           text-decoration: none
@@ -181,11 +179,11 @@
             transform: translate3d(0,0,0)
           &:before
             top: 0
-            left: 0
+            left: -1.2rem
             border-width: 2px 0 0 2px
             transform: translate3d(10px,10px,0)
           &:after
-            right: 0
+            right: -1.2rem
             bottom: 0
             border-width: 0 2px 2px 0
             transform: translate3d(-10px,-10px,0)
