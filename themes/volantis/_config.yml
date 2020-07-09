@@ -585,6 +585,7 @@ plugins:
     color1: '#90CAF9' #说说背景颜色1&按钮颜色1
     color2: '#2196F3' #说说背景颜色2&按钮颜色2
     # color3: #说说字体颜色
+    token_pt: ODdlMmM3MDEzYjYyZjBmODNmNzBhYWM5NDkxYzJkOGRkNmExNjgzZg==
 
 
 
