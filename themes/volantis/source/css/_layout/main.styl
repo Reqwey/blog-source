@@ -159,15 +159,41 @@
           transform: scale(1.1) rotate(4deg)
           box-shadow: none
       .title
+        text-align: center
         trans(.1s)
         margin: 0
         a
-          display: inline
+          position: relative
+          padding: .7rem 1.2rem
           font-weight: normal
           color: $color-text
           text-decoration: none
+          &:before, &:after
+            content: ''
+            position: absolute
+            width: 10px
+            height: 10px
+            opacity: 0
+            border: 2px solid
+            transition: .3s
+            transition-timing-function: cubic-bezier(.17,.67,.05,1.29)
+            opacity: 1;
+            transform: translate3d(0,0,0)
+          &:before
+            top: 0
+            left: 0
+            border-width: 2px 0 0 2px
+            transform: translate3d(10px,10px,0)
+          &:after
+            right: 0
+            bottom: 0
+            border-width: 0 2px 2px 0
+            transform: translate3d(-10px,-10px,0)
           &:hover
             color: $color-hover
+            &:before, &:after
+              opacity: 1
+              transform: translate3d(0,0,0)
 
       $cellH = 28px
       .new-meta-box
