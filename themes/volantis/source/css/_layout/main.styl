@@ -340,7 +340,7 @@ details
       display: none
     &:before
       font-family: FontAwesomeLight
-      content: "\f054"
+      content: "\f054 "
   &[blue]
     background: bgcolor($color-md-blue)
   &[cyan]
@@ -352,9 +352,10 @@ details
   &[red]
     background: bgcolor($color-mac-red)
   &[open]
-    &:before
-      font-family: FontAwesomeLight
-      content: "\f078"
+    summary
+      &:before
+        font-family: FontAwesomeLight
+        content: "\f078 "
 
 
 .body-wrapper
