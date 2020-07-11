@@ -326,8 +326,11 @@ details
   padding: $gap
   margin: $gap-line 0
   border-radius: $border-codeblock
+  box-shadow: 0px 0px 10px #ccc
   trans()
   summary
+    p
+      display: inline
     cursor: pointer
     padding: $gap
     margin: 0 - $gap
@@ -340,23 +343,31 @@ details
       display: none
     &:before
       font-family: FontAwesomeLight
-      content: "\f054 "
+      content: "\f054"
+      padding-right: 5px
   &[blue]
-    background: bgcolor($color-md-blue)
+    summary
+      background: bgcolor($color-md-blue)
   &[cyan]
-    background: bgcolor($color-mac-cyan)
+    summary
+      background: bgcolor($color-mac-cyan)
   &[green]
-    background: bgcolor($color-mac-green)
+    summary
+      background: bgcolor($color-mac-green)
   &[yellow]
-    background: bgcolor($color-mac-yellow)
+    summary
+      background: bgcolor($color-mac-yellow)
   &[red]
-    background: bgcolor($color-mac-red)
+    summary
+      background: bgcolor($color-mac-red)
   &[open]
     summary
       &:before
         font-family: FontAwesomeLight
-        content: "\f078 "
-
+        content: "\f078"
+        padding-right: 0
+    div.content
+      padding-top: 10px
 
 .body-wrapper
   position: relative
