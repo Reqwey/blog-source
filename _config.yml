@@ -108,6 +108,7 @@ favicon: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.6.5/img/avatar.webp
 import:
   link:
   - '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10.1.0/styles/atom-one-dark.css">'
+  - '<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.0/css/yun.css">'
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
