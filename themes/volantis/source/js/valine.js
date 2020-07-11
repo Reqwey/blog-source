@@ -1884,6 +1884,25 @@ var ttt = "";
                 k.no++,
                 O()
             });
+            function getAddress(ipp) {
+                var endpoint = 'http://ip-api.com/json/' + ipp;
+
+                var xhr = new XMLHttpRequest();
+                xhr.onreadystatechange = function() {
+                    if (this.readyState == 4 && this.status == 200) {
+                        var response = JSON.parse(this.responseText);
+                        if(response.status !== 'success') {
+                            console.log('query failed: ' + response.message);
+                            return 'Failed';
+                        }
+                        else {
+                            return response.city + ' ' + response.regionName + ' ' + response.isp;
+                    }
+                };
+                xhr.open('GET', endpoint, true);
+                xhr.send();
+                return xhr.onreadystatechange();
+            }
             var O = function() {
                 var t = k.size
                   , n = k.no
@@ -1953,7 +1972,7 @@ var ttt = "";
                 + "</span>"
                 +
                 '<span class="vsys"><i class="fas fa-map-marker-alt"></i> ' + 
-                t.get("ip") + '</span>',
+                getAddress(t.get("ip")) + '</span>',
                 "*" === e.config.path && (a = '<a href="' + t.get("url") + '" class="vsys">' + t.get("url") + "</a>")
                 );
                 var ism = e.config.master.includes((0,
