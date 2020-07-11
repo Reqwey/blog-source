@@ -1,4 +1,3 @@
-var ttt = "";
 !function(e, t) {
     "object" == typeof exports && "object" == typeof module ? module.exports = t() : "function" == typeof define && define.amd ? define([], t) : "object" == typeof exports ? exports.Valine = t() : e.Valine = t()
 }(this, function() {
@@ -1902,7 +1901,7 @@ var ttt = "";
                 xhr.open('GET', endpoint, true);
                 xhr.send();
                 return xhr.onreadystatechange();
-            }
+            };
             var O = function() {
                 var t = k.size
                   , n = k.no
