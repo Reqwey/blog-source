@@ -1896,6 +1896,7 @@
                         }
                         else {
                             return response.city + ' ' + response.regionName + ' ' + response.isp;
+                        }
                     }
                 };
                 xhr.open('GET', endpoint, true);
