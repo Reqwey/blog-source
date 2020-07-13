@@ -1884,19 +1884,13 @@
                 O()
             });
             function getAddress(ipp) {
-                var endpoint = 'http://ip-api.com/json/' + ipp;
+                var endpoint = 'https://ipapi.co/' + ipp + '/json/';
 
                 var xhr = new XMLHttpRequest();
                 xhr.onreadystatechange = function() {
                     if (this.readyState == 4 && this.status == 200) {
                         var response = JSON.parse(this.responseText);
-                        if(response.status !== 'success') {
-                            console.log('query failed: ' + response.message);
-                            return 'Failed';
-                        }
-                        else {
-                            return response.city + ' ' + response.regionName + ' ' + response.isp;
-                        }
+                        return response.city + ' ' + response.region + ' ' + response.org;
                     }
                 };
                 xhr.open('GET', endpoint, true);
