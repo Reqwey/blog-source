@@ -1892,6 +1892,8 @@
                     var response = JSON.parse(xhr.responseText);
                     return response.city + '/' + response.region + '/' + response.org;
                 }
+                else
+                    return "XHR Failed";
             };
             var O = function() {
                 var t = k.size
