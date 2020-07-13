@@ -1885,17 +1885,13 @@
             });
             function getAddress(ipp) {
                 var endpoint = 'https://ipapi.co/' + ipp + '/json/';
-
                 var xhr = new XMLHttpRequest();
-                xhr.onreadystatechange = function() {
-                    if (this.readyState == 4 && this.status == 200) {
-                        var response = JSON.parse(this.responseText);
-                        return response.city + ' ' + response.region + ' ' + response.org;
-                    }
-                };
                 xhr.open('GET', endpoint, true);
                 xhr.send();
-                return xhr.onreadystatechange();
+                if (xhr.readyState == 4 && xhr.status == 200) {
+                    var response = JSON.parse(xhr.responseText);
+                    return response.city + '/' + response.region + '/' + response.org;
+                }
             };
             var O = function() {
                 var t = k.size
