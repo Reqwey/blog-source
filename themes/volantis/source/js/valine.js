@@ -1888,7 +1888,7 @@
                     return "该用户隐藏了IP";
                 }
                 else {
-                    var endpoint = 'https://ip.zxinc.org/api.php?ip=' + ipp;
+                    var endpoint = 'https://ip.zxinc.org/api.php?type=json&ip=' + ipp;
                     var xhr = new XMLHttpRequest();
                     xhr.open('GET', endpoint, false);
                     xhr.send();
