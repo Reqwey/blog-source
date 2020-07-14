@@ -1884,18 +1884,21 @@
                 O()
             });
             function getAddress(ipp) {
-                if (ipp == undefined)
+                if (ipp == undefined) {
                     return "该用户隐藏了IP";
-                var endpoint = 'https://ip.zxinc.org/api.php?ip=' + ipp;
-                var xhr = new XMLHttpRequest();
-                xhr.open('GET', endpoint, false);
-                xhr.send();
-                if (xhr.readyState == 4 && xhr.status == 200) {
-                    var response = JSON.parse(xhr.responseText);
-                    return response.data.location;
                 }
-                else
-                    return "API访问被拒绝";
+                else {
+                    var endpoint = 'https://ip.zxinc.org/api.php?ip=' + ipp;
+                    var xhr = new XMLHttpRequest();
+                    xhr.open('GET', endpoint, false);
+                    xhr.send();
+                    if (xhr.readyState == 4 && xhr.status == 200) {
+                        var response = JSON.parse(xhr.responseText);
+                        return response.data.location;
+                    }
+                    else
+                        return "API访问被拒绝";
+                }
             };
             var O = function() {
                 var t = k.size
