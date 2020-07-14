@@ -1884,6 +1884,8 @@
                 O()
             });
             function getAddress(ipp) {
+                if (ipp == undefined)
+                    return "该用户隐藏了IP";
                 var endpoint = 'https://ip.zxinc.org/api.php?ip=' + ipp;
                 var xhr = new XMLHttpRequest();
                 xhr.open('GET', endpoint, false);
