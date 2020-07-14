@@ -1884,16 +1884,16 @@
                 O()
             });
             function getAddress(ipp) {
-                var endpoint = 'https://ipapi.co/' + ipp + '/json/';
+                var endpoint = 'https://ip.zxinc.org/api.php?ip=' + ipp;
                 var xhr = new XMLHttpRequest();
                 xhr.open('GET', endpoint, false);
                 xhr.send();
                 if (xhr.readyState == 4 && xhr.status == 200) {
                     var response = JSON.parse(xhr.responseText);
-                    return response.city + '/' + response.region + '/' + response.org;
+                    return response.data.location;
                 }
                 else
-                    return "XHR Failed";
+                    return "API访问被拒绝";
             };
             var O = function() {
                 var t = k.size
