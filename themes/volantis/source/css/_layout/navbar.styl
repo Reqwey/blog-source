@@ -329,21 +329,22 @@ ul.menu-phone
   padding: $gap * 0.5 0
   top: $navbar-height + $gap
   right: $gap
+  width: calc(100% - 2 * $gap)
   z-index: 9999 + 1
-  box-shadow: $boxshadow-card-float
+  box-shadow: 0 0 40px 0 rgba(0,0,0,.1)
   border-radius: $border-card * 0.5
   trans()
-  transform: scale(0,0) rotate(12deg)
-  transform-origin: right top
+  transform: translateY(-90rem)
+  transform-origin: center top
   &.show
-    transform: scale(1,1) rotate(0)
+    transform: translateY(2.25rem)
 
   >li>a
       display: block
       font-size: $fontsize-body
       color: $color-text
-      line-height: 33px
-      height: 32px
+      line-height: 51px
+      height: 50px
       padding: 0 $gap
       border-left: $border-line solid transparent
       i
