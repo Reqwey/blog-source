@@ -1,4 +1,3 @@
-var ttt = "";
 !function(e, t) {
     "object" == typeof exports && "object" == typeof module ? module.exports = t() : "function" == typeof define && define.amd ? define([], t) : "object" == typeof exports ? exports.Valine = t() : e.Valine = t()
 }(this, function() {
@@ -1884,6 +1883,23 @@ var ttt = "";
                 k.no++,
                 O()
             });
+            function getAddress(ipp) {
+                if (ipp == undefined) {
+                    return "该用户隐藏了IP";
+                }
+                else {
+                    var endpoint = 'https://ip.zxinc.org/api.php?type=json&ip=' + ipp;
+                    var xhr = new XMLHttpRequest();
+                    xhr.open('GET', endpoint, false);
+                    xhr.send();
+                    if (xhr.readyState == 4 && xhr.status == 200) {
+                        var response = JSON.parse(xhr.responseText);
+                        return response.data.location;
+                    }
+                    else
+                        return "API访问被拒绝";
+                }
+            };
             var O = function() {
                 var t = k.size
                   , n = k.no
@@ -1953,7 +1969,7 @@ var ttt = "";
                 + "</span>"
                 +
                 '<span class="vsys"><i class="fas fa-map-marker-alt"></i> ' + 
-                t.get("ip") + '</span>',
+                getAddress(t.get("ip")) + '</span>',
                 "*" === e.config.path && (a = '<a href="' + t.get("url") + '" class="vsys">' + t.get("url") + "</a>")
                 );
                 var ism = e.config.master.includes((0,
@@ -2575,7 +2591,7 @@ var ttt = "";
                 BlackBerry: -1 < e.indexOf("BlackBerry") || -1 < e.indexOf("RIM") || -1 < e.indexOf("BB10"),
                 MeeGo: -1 < e.indexOf("MeeGo"),
                 Symbian: -1 < e.indexOf("Symbian"),
-                iPhoneOS: -1 < e.indexOf("like Mac OS X"),
+                iOS: -1 < e.indexOf("like Mac OS X"),
                 "Chrome OS": -1 < e.indexOf("CrOS"),
                 WebOS: -1 < e.indexOf("hpwOS"),
                 Mobile: -1 < e.indexOf("Mobi") || -1 < e.indexOf("iPh") || -1 < e.indexOf("480"),

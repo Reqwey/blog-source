@@ -1,6 +1,12 @@
+@font-face
+  font-family: FontAwesomeLight
+  src: url('https://cdn.jsdelivr.net/gh/Linhk1606/fontawesome-cdn@5.13.0//webfonts/fa-light-300.ttf')
+  font-weight: normal
+  font-style: normal
+
 .l_body
   position: relative
-  margin: $gap
+  // margin: $gap
   &.nocover
     margin-top: $navbar-height
   @media screen and (max-width: $device-mobile-l)
@@ -162,12 +168,35 @@
         trans(.1s)
         margin: 0
         a
-          display: inline
+          position: relative
+          padding: .7rem 0rem
           font-weight: normal
           color: $color-text
           text-decoration: none
+          &:before, &:after
+            content: ''
+            position: absolute
+            width: 10px
+            height: 10px
+            opacity: 0
+            border: 2px solid
+            transition: .3s
+            transition-timing-function: cubic-bezier(.17,.67,.05,1.29)
+          &:before
+            top: 0
+            left: -1.2rem
+            border-width: 2px 0 0 2px
+            transform: translate3d(10px,10px,0)
+          &:after
+            right: -1.2rem
+            bottom: 0
+            border-width: 0 2px 2px 0
+            transform: translate3d(-10px,-10px,0)
           &:hover
             color: $color-hover
+            &:before, &:after
+              opacity: 1
+              transform: translate3d(0,0,0)
 
       $cellH = 28px
       .new-meta-box
@@ -297,8 +326,11 @@ details
   padding: $gap
   margin: $gap-line 0
   border-radius: $border-codeblock
+  box-shadow: 0px 0px 10px #ccc
   trans()
   summary
+    p
+      display: inline
     cursor: pointer
     padding: $gap
     margin: 0 - $gap
@@ -307,18 +339,35 @@ details
     font-weight: bold
     &:hover
       color: alpha($color-p, .9)
+    &::-webkit-details-marker
+      display: none
+    &:before
+      font-family: FontAwesomeLight
+      content: "\f054"
+      padding-right: 5px
   &[blue]
-    background: bgcolor($color-md-blue)
+    summary
+      background: bgcolor($color-md-blue)
   &[cyan]
-    background: bgcolor($color-mac-cyan)
+    summary
+      background: bgcolor($color-mac-cyan)
   &[green]
-    background: bgcolor($color-mac-green)
+    summary
+      background: bgcolor($color-mac-green)
   &[yellow]
-    background: bgcolor($color-mac-yellow)
+    summary
+      background: bgcolor($color-mac-yellow)
   &[red]
-    background: bgcolor($color-mac-red)
-
-
+    summary
+      background: bgcolor($color-mac-red)
+  &[open]
+    summary
+      &:before
+        font-family: FontAwesomeLight
+        content: "\f078"
+        padding-right: 0
+    div.content
+      padding-top: 10px
 
 .body-wrapper
   position: relative
