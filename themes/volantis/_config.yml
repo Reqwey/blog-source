@@ -221,7 +221,7 @@ layout:
     # 列表中每一篇文章的meta信息
     meta: [title, date, category, top]
     # 列表类页面的侧边栏
-    sidebar: [blogger, dao_hang, warning, category, tagcloud]
+    sidebar: [blogger, dao_hang, warning, category]
     # read more button
     readmore: Read More <i class="fad fa-chevron-right"></i>
   # 页面布局

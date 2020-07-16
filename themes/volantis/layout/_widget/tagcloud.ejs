@@ -3,13 +3,16 @@
   <section class="widget <%- item.class %> <%- page.widget_style %> <%- page.widget_platform %>">
     <%- partial('header', {item: item}) %>
     <div class='content'>
-      <%- tagcloud(site.tags, {
-          min_font: item.min_font,
-          max_font: item.max_font,
-          color: item.color,
-          start_color: item.start_color,
-          end_color: item.end_color,
-      }) %>
+      <div class="field is-grouped is-grouped-multiline">
+        <% if (site.tags.length){ %>
+        <% site.tags.sort('path').each(function(tags){ %>
+        <% if (tags.posts.length){ %>
+        <div class="control"><a class="tags has-addons" href="<%= url_for(tags.path) %>"><span
+              class="tag"><%= tags.name %></span><span class="tag is-grey-lightest"><%- tags.posts.length %></span></a></div>
+        <% } %>
+        <% }) %>
+        <% } %>
+      </div>
     </div>
   </section>
 <% } %>

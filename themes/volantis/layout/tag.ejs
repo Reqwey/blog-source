@@ -1,48 +1,25 @@
 <%- partial('_pre') %>
 <% page.comments = false; %>
-<style>
-.article .archive .all-tags a {
-    text-decoration: none;
-    border: none;
-    padding: 1px 2px;
-    border-radius: 4px;
-    background: #f1f1f1;
-    transition: all .28s ease;
-    -moz-transition: all .28s ease;
-    -webkit-transition: all .28s ease;
-    -o-transition: all .28s ease
-}
-.article .archive .all-tags a:hover {
-    color: #ff5722;
-    background: #ffeee8
-}
-</style>
 <div class='l_main<%- page.sidebar == false ? ' no_sidebar' : '' %>'>
   <% if (site.posts && site.posts.length > 0) { %>
     <% if (page.layout == 'tag') { %>
-      <section class="post-list <%- theme.layout.multiple_columns ? 'multiple-columns' : '' %>">
         <div class='post-wrapper'>
           <article id="archive-page" class="post article white-box reveal <%- theme.style.body.effect.join(' ') %>">
-            <section class="archive">
               <div class="archive-item archive-year mark">
-                <h1><center><i class='fad fa-tags fa-fw'></i>&nbsp;<%- page.title %></center></h1>
+                <h2 class='title'><center><i class='fal fa-tags fa-fw'></i>&nbsp;<%- page.title %></center></h2>
               </div>
-              <div class="archive-item all-tags">
-                <% let tc = theme.widget.tagcloud; %>
-                <%- tagcloud(site.tags, {
-                    min_font: tc.min_font,
-                    max_font: tc.max_font,
-                    color: tc.color,
-                    start_color: tc.start_color,
-                    end_color: tc.end_color,
-                }) %>
+              <div class="field is-grouped is-grouped-multiline">
+              <% if (site.tags.length){ %>
+              <% site.tags.sort('path').each(function(tags){ %>
+              <% if (tags.posts.length){ %>
+              <div class="control"><a class="tags has-addons" href="<%= url_for(tags.path) %>"><span class="tag"><%= tags.name %></span><span
+                    class="tag is-grey-lightest"><%- tags.posts.length %></span></a></div>
+              <% } %>
+              <% }) %>
+              <% } %>
               </div>
-              <br>
-              <%- page.content %>
-            </section>
           </article>
         </div>
-      </section>
     <% } else { %>
       <%- partial('_partial/archive') %>
     <% } %>
