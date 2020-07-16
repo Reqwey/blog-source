@@ -157,7 +157,7 @@ navbar:
           - name: 我的友链
             icon: far fa-link
             url: /friends
-          - name: 主站
+          - name: 一个欢迎页
             icon: far fa-caret-square-right
             url: https://lhkstudio.me
           - name: Follow Me
@@ -183,31 +183,31 @@ navbar:
             icon: far fa-compact-disc
     # This menu will be displayed on the mobile.
     on_mobile:
-      - name: 博文
+      - name: 播客主页
         icon: fal fa-home
         url: /
-      - name: 主站
+      - name: 一个欢迎页
         icon: fal fa-arrow-alt-circle-right
         url: https://www.lhkstudio.me
-      - name: 归档
+      - name: 文章归档
         icon: fal fa-file-archive
         url: archives/
-      - name: 友链
+      - name: 友情链接
         icon: fal fa-link
         url: friends/
-      - name: 分类
+      - name: 文章分类
         icon: fal fa-folder-open
         url: categories/
-      - name: 标签
+      - name: 文章标签
         icon: fal fa-hashtag
         url: tags/
-      - name: 关于
+      - name: 关于博主
         icon: fal fa-user-circle
         url: about/
-      - name: 时光
+      - name: 时光鸡
         icon: fal fa-clock
         url: time-machine/
-      - name: 疫情
+      - name: 肺炎疫情图
         icon: fal fa-biohazard
         url: /2019-nCoV
   search: Just go go... # Search bar placeholder
