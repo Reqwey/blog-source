@@ -329,7 +329,7 @@ ul.menu-phone
   padding: $gap * 0.5 0
   top: $navbar-height + $gap
   right: $gap
-  width: calc(100% - 2 * $gap)
+  width: "calc(100% - 2 * %s)" % $gap
   z-index: 9999 + 1
   box-shadow: 0 0 40px 0 rgba(0,0,0,.1)
   border-radius: $border-card * 0.5
@@ -337,7 +337,7 @@ ul.menu-phone
   transform: translateY(-90rem)
   transform-origin: center top
   &.show
-    transform: translateY(2.25rem)
+    transform: translateY(.25rem)
 
   >li>a
       display: block
