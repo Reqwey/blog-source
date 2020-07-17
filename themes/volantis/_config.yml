@@ -103,34 +103,23 @@ navbar:
     # The following can be written in `blog/source/_data/menu.yml`
     # This menu will be displayed on the laptop or desktop.
     on_desktop:
-      - name: 博文
-        icon: fal fa-rss
-        url: /
-        rows:
-          - name: 热门文章
-            icon: far fa-fire
-          - name: 题解 - 洛谷1198
-            url: /2020/01/15/solution-luogu-1198/
-          - name: NOI Online 普及组 解题报告
-            url: /2020/03/08/noi-online-pj/
-          - name: hr
-          - name: 查看所有文章 <i class="far fa-angle-double-right fa-fw"></i>
-            url: archives/
-      - name: 索引
-        icon: fal fa-list-alt
+      - name: 分类
+        icon: fad fa-folder-open
+        url: categories/
+      - name: 标签
+        icon: fad fa-hashtag
+        url: tags/
+      - name: 时间轴
+        icon: fad fa-list
         url: archives/
-        rows:
-          - name: 分类
-            icon: far fa-folder-open
-            url: categories/
-          - name: 标签
-            icon: far fa-hashtag
-            url: tags/
-          - name: 时间轴
-            icon: far fa-list
-            url: archives/
+      - name: 关于我
+        icon: fad fa-user-circle
+        url: /about
+      - name: 友链
+        icon: fad fa-link
+        url: /friends
       - name: 管理员
-        icon: fal fa-user-shield
+        icon: fad fa-shield
         rows:
           - name: 评论管理
             icon: far fa-comments
@@ -149,14 +138,8 @@ navbar:
             icon: far fa-clock
             url: time-machine/
       - name: 更多
-        icon: fal fa-ellipsis-v
+        icon: fad fa-ellipsis-v
         rows:
-          - name: 关于我
-            icon: far fa-user-circle
-            url: /about
-          - name: 我的友链
-            icon: far fa-link
-            url: /friends
           - name: 一个欢迎页
             icon: far fa-caret-square-right
             url: https://lhkstudio.me
