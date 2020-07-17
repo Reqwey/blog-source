@@ -3,6 +3,8 @@ title: 算法笔记 - LCA - 2
 date: "2020-02-06 00:00:00"
 body: [article, comments]
 cover: false
+photoo: true
+photourl: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.1/img/vector_landscape_1.svg
 valine:
   placeholder: 有什么感想? 发射犇犇
 mathjax: true
