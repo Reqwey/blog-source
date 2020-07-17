@@ -129,7 +129,7 @@ links:
       textColor: '#dccdbf'
 ---
 
-<h1><center><i class='fad fa-users fa-fw'></i>&nbsp;友链</center></h1>
+<h2><center><i class='fal fa-users fa-fw'></i>&nbsp;友链</center></h2>
 
 <!-- more -->
 
