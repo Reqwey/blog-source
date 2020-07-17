@@ -183,7 +183,7 @@ navbar:
             icon: far fa-compact-disc
     # This menu will be displayed on the mobile.
     on_mobile:
-      - name: 播客主页
+      - name: 博客主页
         icon: fal fa-home
         url: /
       - name: 一个欢迎页
@@ -403,11 +403,10 @@ widget:
     class: text
     display: [desktop]
     header:
-      icon: fal fa-exclamation-triangle fa-flash
+      icon: fal fa-bullhorn faa-tada animated
       title: 本站公告
     content:
-      - 最近发现有用户使用 Valine 评论系统在本站匿名发布广告类信息，此类消息管理员均可通过后台<red>直接查看并给予删除</red>!!!
-      - (莫名好奇，这种玩意难道不会被识别成垃圾评论吗)
+      - Linhk1606 加入 GitHub 组织 [Volantis](https://github.com/volantis-x) 啦!
   dao_hang:
     class: grid
     display: [desktop, mobile]
