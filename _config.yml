@@ -10,7 +10,7 @@ lazyload:
   isSPA: true
 
 # Site
-title: "LHK's Blog"
+title: "LHK的OI博客"
 subtitle: ''
 description: "一只蒟蒻的博客..."
 keywords: IT, OI
@@ -109,6 +109,7 @@ import:
   link:
   - '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10.1.0/styles/atom-one-dark.css">'
   - '<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.0/css/yun.css">'
+  - '<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sviptzk/StaticFile_HEXO@v3.2.4/butterfly/css/font-awesome-animation.min.css">'
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
