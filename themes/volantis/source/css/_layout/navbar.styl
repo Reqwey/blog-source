@@ -20,7 +20,7 @@
   $iconMargin = 4px
   position: fixed
   z-index: 9999
-  top: 5px
+  top: 0
   width: 100%
   left: 0
   @media screen and (min-width: $device-laptop)
@@ -30,8 +30,9 @@
   padding: 0 $gap
   margin-bottom: $gap
   box-shadow: 0 0 20px 0 rgba(0,0,0,.1)
-  border-radius: 10px
-  top: 5px
+  border-bottom-left-radius: 10px
+  border-bottom-right-radius: 10px
+  border: 1px solid #e7e7e7
   .wrapper
     padding: auto $gap
     // max-width: $layout-width
