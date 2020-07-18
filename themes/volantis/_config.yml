@@ -583,16 +583,16 @@ plugins:
 comments:
   title: <i class='fal fa-comment-dots'></i> 评论
   subtitle: 请使用自己的邮箱或QQ账户，文明灌水，谢谢合作
-  service: valine # valine, disqus, gitalk, livere
+  service: gitalk # valine, disqus, gitalk, livere
   valine:
-    appId: RODmk6rnW2pmInARIk1r5m8F-MdYXbMMI
-    appKey: gVIujGNMqj2sIzWuGgjodjgr
+    # appId: RODmk6rnW2pmInARIk1r5m8F-MdYXbMMI
+    # appKey: gVIujGNMqj2sIzWuGgjodjgr
     # js: https://unpkg.com/valine@latest/dist/Valine.min.js
     # js: https://cdn.jsdelivr.net/gh/Linhk1606/Valine@1.4.14.7/dist/Valine.js
     # js: https://cdn.jsdelivr.net/gh/MHuiG/blog-cdn@1.2.1/js/valine-no-math.js
-    path: # All pages use the same path (share the same comments data)
-    meta: nick,mail,link #valine comment header info
-    placeholder: 有什么感想? 发射犇犇 # valine comment input placeholder(like: Please leave your footprints )
+    # path: # All pages use the same path (share the same comments data)
+    # meta: nick,mail,link #valine comment header info
+    # placeholder: 有什么感想? 发射犇犇 # valine comment input placeholder(like: Please leave your footprints )
     avatar: mp # gravatar style https://valine.js.org/avatar
     pageSize: 10 # comment list page size
     # verify: true # valine verify code (true/false)
@@ -606,11 +606,11 @@ comments:
   disqus:
     shortname:
   gitalk:
-    # clientID: b63e285f3442871f2b05
-    # clientSecret: 88a93465b758e9eb10c68aa80c199c83b13c2a80
-    # repo: blog-source
-    # owner: Linhk1606
-    # admin: Linhk1606 # []
+    clientID: b63e285f3442871f2b05
+    clientSecret: 88a93465b758e9eb10c68aa80c199c83b13c2a80
+    repo: blog-source
+    owner: Linhk1606
+    admin: Linhk1606 # []
   livere:
     uid:
   
