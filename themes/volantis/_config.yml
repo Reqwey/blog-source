@@ -599,7 +599,7 @@ comments:
     # notify: true # valine mail notify (true/false)
     requiredFields: ['nick','mail']
     mathJax: true
-    enableQQ: true
+    enableQQ: false
     lang: zh-cn
     highlight: true
     visitor: false # unavailable for now...
