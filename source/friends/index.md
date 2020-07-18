@@ -36,7 +36,7 @@ links:
     icon: fal fa-code
     items:
     - name: Jalen Chuh
-      avatar: https://cdn.jsdelivr.net/gh/Royce003/cdn/img/royce.png
+      avatar: https://rmt.dogedoge.com/fetch/royce/storage/avatar.png?fmt=webp
       url: https://www.jalenchuh.cn/
       backgroundColor: '#abcbd2' # 卡片背景颜色
       textColor: '#4d4747'  # 卡片文字颜色
