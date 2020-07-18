@@ -80,7 +80,11 @@
                     id="<%= url_for(value.url).replace(/\/|%|\./g, "")?url_for(value.url).replace(/\/|%|\./g, ""):"home" %>"
                   <% } %>>
                   <% if (value.icon) { %>
-                    <i class='<%= value.icon %> fa-fw'></i>
+		    <% if (value.iconColor) { %>
+                    	<i class='<%= value.icon %> fa-fw', style='color: <%= value.iconColor %>'></i>
+		    <% } else { %>
+		    	<i class='<%= value.icon %> fa-fw'></i>
+		    <% } %>
                   <% } %>
                   <%- value.name %>
                 </a>
