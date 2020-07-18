@@ -305,24 +305,24 @@ var customSearch;
 	}
 
 	function setTabs() {
-		const $tabs = $('.tabs');
-		if ($tabs.length === 0) return;
-		let $nav = $tabs.find('.nav-tabs .tab');
-		for (var i = 0; i < $nav.length; i++) {
-			let $a = $tabs.find($nav[i].children[0]);
-			$a.addClass($a.attr("href"));
-			$a.removeAttr('href');
-			$('.tabs .nav-tabs').on('click', 'a', (e) => {
-				e.preventDefault();
-				e.stopPropagation();
-				$tabs.find('.nav-tabs .active').removeClass('active');
-				$tabs.find(e.target.parentElement).addClass('active');
-				$tabs.find('.tab-content .active').removeClass('active');
-				$tabs.find($(e.target).attr("class")).addClass('active');
-				return false;
-			});
-		}
+		const $tab = $('#article-container .tabs')
+		$tab.find('.tab button').on('click', function (e) {
+			const $this = $(this)
+			const $tabItem = $this.parent()
 
+			if (!$tabItem.hasClass('active')) {
+				const $tacbContent = $this.parents('.nav-tabs').next()
+				$tabItem.siblings('.active').removeClass('active')
+				$tabItem.addClass('active')
+				const tabId = $this.attr('data-href')
+				$tacbContent.find('> .tab-item-content').removeClass('active')
+				$tacbContent.find(`> ${tabId}`).addClass('active')
+				const $isTabJustifiedGallery = $tacbContent.find(tabId).find('.justified-gallery')
+				if (isJustifiedGallery && $isTabJustifiedGallery.length > 0) {
+					initJustifiedGallery($isTabJustifiedGallery)
+				}
+			}
+		})
 	}
 
 	$(function () {
