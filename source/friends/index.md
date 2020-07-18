@@ -32,17 +32,15 @@ links:
       tags:     # 标签
       - Qt
       - C++
-  - group: OI大佬
+  - group: OI/ACM大佬
     icon: fal fa-code
     items:
-    - name: Royce
+    - name: Jalen Chuh
       avatar: https://cdn.jsdelivr.net/gh/Royce003/cdn/img/royce.png
-      url: https://www.royce2003.top/
+      url: https://www.jalenchuh.cn/
       backgroundColor: '#abcbd2' # 卡片背景颜色
       textColor: '#4d4747'  # 卡片文字颜色
-      tags:     # 标签
-      - OIer
-      - CSPer
+      desc: Less is more.
     - name: Charlie
       avatar: https://cdn.jsdelivr.net/gh/charlie-zzy/imgCDN/avatar.png
       url: https://charlie-zzy.github.io/
@@ -51,7 +49,12 @@ links:
       tags:     # 标签
       - OIer
       - C++
-      desc: 超级蒟蒻!
+    - name: Uncle_drew
+      avatar: https://cdn.jsdelivr.net/gh/drew233/cdn/dreww.webp
+      url: https://cndrew.cn/
+      backgroundColor: '#abcbd2' # 卡片背景颜色
+      textColor: '#4d4747'  # 卡片文字颜色
+      desc: 'Hand down,man down'
   - group: 技术大神
     icon: fal fa-laptop-code
     items:
@@ -127,6 +130,12 @@ links:
       desc: '码农人生'
       backgroundColor: '#886d5e'
       textColor: '#dccdbf'
+    - name: qinxs
+      url: https://qinxs.github.io
+      avatar: https://cdn.jsdelivr.net/gh/qinxs/cdn-assets/img/avatar.png
+      backgroundColor: '#607D8B'
+      textColor: '#EFEFEF'
+      tags: [技术总结, 各种折腾]
 ---
 
 <h2><center><i class='fal fa-users fa-fw'></i>&nbsp;友链</center></h2>
@@ -141,8 +150,8 @@ links:
 
 {% cb `名称`: <blue>Linhk1606</blue>, checked %}
 {% cb `链接`: https://lhkstudio.me, checked %}
-{% cb `头像`: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@master/img/avatar.jpg, checked %}
+{% cb `头像`: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.1/img/avatar.webp, checked %}
 {% cb `标签`: <blue>#OIer</blue> <blue>#Qt</blue>, checked %}
-{% cb `backgroundColor`: <yellow>#FFEBD2</yellow> (可选), false %}
-{% cb `textColor`: <yellow>#985B40</yellow> (可选), false %}
+{% cb `backgroundColor`: **#d8d8d8** (可选), false %}
+{% cb `textColor`: **#404040** (可选), false %}
 :::
