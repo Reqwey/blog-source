@@ -7,7 +7,7 @@ valine:
   placeholder: 有什么感想? 发射犇犇
 mathjax: true
 photoo: true
-photourl: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.1/img/vector_landscape_2.svg
+photourl: https://rmt.dogedoge.com/fetch/royce/storage/SegmentTree2/cover.png?fmt=webp
 tags:
  - 数据结构
  - LCA
@@ -197,3 +197,8 @@ int main()
 
 $$\Theta{(n + nlog_2n + mlog_2n)} = \Theta{((n + m)logn)}$$
 
+## 版权信息
+
+::: link
+封面图片来源: [Icons8](https://icons8.com/) & [JalenChuh](https://blog.jalenchuh.cn/posts/SegmentTree2.html)
+:::
