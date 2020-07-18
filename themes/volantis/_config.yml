@@ -1,7 +1,7 @@
 ############################### Basic Information ###############################
 info:
   name: Volantis
-  version: '2.1.4'
+  version: 'x.x.x'
   docs: https://volantis.js.org/
   cdn: # To use CDN, write 'use_cdn: true' in 'blog/_config.yml'.
     # css: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.5.4/css/style.css
@@ -106,20 +106,26 @@ navbar:
       - name: 分类
         icon: fad fa-folder-open
         url: categories/
+        iconColor: '#20c997'
       - name: 标签
         icon: fad fa-hashtag
         url: tags/
+        iconColor: '#2196f3'
       - name: 时间轴
         icon: fad fa-list
         url: archives/
+        iconColor: '#E91E63'
       - name: 关于我
         icon: fad fa-user-circle
         url: /about
+        iconColor: '#ff9800'
       - name: 友链
         icon: fad fa-link
         url: /friends
+        iconColor: '#2196f3'
       - name: 管理员
         icon: fad fa-shield
+        iconColor: '#9c27b0'
         rows:
           - name: 评论管理
             icon: far fa-comments
@@ -139,6 +145,7 @@ navbar:
             url: time-machine/
       - name: 更多
         icon: fad fa-ellipsis-v
+        iconColor: '#E91E63'
         rows:
           - name: 一个欢迎页
             icon: far fa-caret-square-right
