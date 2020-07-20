@@ -18,18 +18,13 @@ description: "这次比赛我其实并没有参加, 所以题解也懒得看, �
 
 ## T1
 
-{% raw %}
-<details>
-<summary>
-题目大意
-</summary>
-{% endraw %}
+{% folding blue, 查看题目 %}
 
 <fancybox> <img src='https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.5.4/img/noionline1.png'> </fancybox>
 
 <btn center large>[<i class='fad fa-code'></i> 提交代码](https://www.luogu.com.cn/problem/P6188#submit)</btn>
 
-{% raw %}</details>{% endraw %}
+{% endfolding %}
 
 **分类讨论**
 

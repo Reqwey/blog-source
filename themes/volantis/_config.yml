@@ -15,9 +15,9 @@ style:
     height: 64px
     effect: [shadow, blur] # [shadow, floatable, blur]
   sidebar:
-    effect: [blur] # [shadow, floatable, blur]
+    effect: [shadow, floatable] # [shadow, floatable, blur]
   body:
-    effect: [blur] # [shadow, floatable, blur]
+    effect: [shadow, floatable] # [shadow, floatable, blur]
     highlight:
       language: true # show language of codeblock
       copy_btn: true

@@ -305,7 +305,7 @@ var customSearch;
 	}
 
 	function setTabs() {
-		const $tab = $('#article-container .tabs')
+		const $tab = $('.tabs')
 		$tab.find('.tab button').on('click', function (e) {
 			const $this = $(this)
 			const $tabItem = $this.parent()
@@ -317,13 +317,16 @@ var customSearch;
 				const tabId = $this.attr('data-href')
 				$tacbContent.find('> .tab-item-content').removeClass('active')
 				$tacbContent.find(`> ${tabId}`).addClass('active')
-				const $isTabJustifiedGallery = $tacbContent.find(tabId).find('.justified-gallery')
-				if (isJustifiedGallery && $isTabJustifiedGallery.length > 0) {
-					initJustifiedGallery($isTabJustifiedGallery)
-				}
 			}
 		})
 	}
+
+	function scrollToDest(name, offset = 0) {
+		const scrollOffset = $(name).offset()
+		$('body,html').animate({
+			scrollTop: scrollOffset.top - offset
+		})
+	};
 
 	$(function () {
 		setHeader();
