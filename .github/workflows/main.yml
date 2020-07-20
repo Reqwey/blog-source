@@ -1,3 +1,5 @@
+# GitHub Actions Hexo博客自动部署 + Yuque Hexo 云端写作
+# @author: Linhk1606 Linhk1606@outlok.com
 # workflow name
 name: Deploy To Github Pages
 
@@ -6,6 +8,7 @@ on: [push, repository_dispatch]
 
 # YUQUE_TOKEN
 # Github_SSH_PRIVATE_KEY
+# HEXO_ALGOLIA_INDEXING_KEY
 jobs:
   deploy: 
     name: Deploy Hexo Public To Pages
@@ -24,18 +27,24 @@ jobs:
       uses: actions/setup-node@master
       with:
         node-version: "10.x"
-
+    
     # from https://github.com/x-cold/yuque-hexo
-    - name: Setup Hexo Dependencies and Generate Public Files
+    - name: Setup Yuque & Hexo Settings
       env:
         YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
       run: |
         npm install hexo-cli -g
         npm install yuque-hexo -g
         npm install
-        npm run alinit
-        npm run algenerate
-        npm run start
+        npm yuque
+
+    - name: Setup Algolia Search
+      env:
+          HEXO_ALGOLIA_INDEXING_KEY: ${{ secrets.HEXO_ALGOLIA_INDEXING_KEY }}
+      run: hexo algolia
+
+    - name: Generate
+      run: npm run start
 
     # from https://github.com/peaceiris/actions-gh-pages    
     - name: Deploy

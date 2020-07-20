@@ -178,5 +178,5 @@ hexo_external_link:
 
 algolia:
   applicationID: QE7LMUJ22V
-  apiKey: 9bb0b82088a6372dbf87afa10031949d
+  apiKey: 2767995c7f4a6994ea5594a8bca24036
   indexName: newSearch
