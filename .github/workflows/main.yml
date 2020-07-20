@@ -40,7 +40,7 @@ jobs:
 
     - name: Setup Algolia Search
       env:
-          HEXO_ALGOLIA_INDEXING_KEY: ${{ secrets.HEXO_ALGOLIA_INDEXING_KEY }}
+        HEXO_ALGOLIA_INDEXING_KEY: ${{ secrets.HEXO_ALGOLIA_INDEXING_KEY }}
       run: hexo algolia
 
     - name: Generate
