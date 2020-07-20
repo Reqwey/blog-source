@@ -28,15 +28,14 @@ jobs:
       with:
         node-version: "10.x"
     
+    - run: npm install hexo-cli -g
+    - run: npm install yuque-hexo -g
+    - run: npm install
     # from https://github.com/x-cold/yuque-hexo
     - name: Setup Yuque & Hexo Settings
       env:
         YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
-      run: |
-        npm install hexo-cli -g
-        npm install yuque-hexo -g
-        npm install
-        npm yuque
+      run: npm yuque
 
     - name: Setup Algolia Search
       env:
