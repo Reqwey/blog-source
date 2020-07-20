@@ -175,3 +175,8 @@ hexo_external_link:
   link_rel: 'external nofollow noopener noreferrer'
   # domain: 'https://blog.lhkstudio.me' # 如果开启了防盗链，填写你的域名
   # safety_chain: true
+
+algolia:
+  applicationID: QE7LMUJ22V
+  apiKey: 9bb0b82088a6372dbf87afa10031949d
+  indexName: newSearch

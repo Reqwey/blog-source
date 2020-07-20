@@ -33,6 +33,8 @@ jobs:
         npm install hexo-cli -g
         npm install yuque-hexo -g
         npm install
+        npm run alinit
+        npm run algenerate
         npm run start
 
     # from https://github.com/peaceiris/actions-gh-pages    
