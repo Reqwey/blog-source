@@ -508,7 +508,7 @@ plugins:
 
   # Slide Background
   backstretch:
-    enable: true
+    enable: false
     js: https://cdn.jsdelivr.net/npm/jquery-backstretch@2.1.18/jquery.backstretch.min.js
     position: fixed       # cover: sticky on the cover.   fixed: Fixed as background for the site.
     shuffle: true         # shuffle playlist
