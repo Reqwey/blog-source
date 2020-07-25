@@ -598,7 +598,7 @@ plugins:
 comments:
   title: <i class='fas fa-comments'></i> 评论
   subtitle:
-  service: valine # valine, minivaline, disqus, gitalk, vssue, livere, isso, hashover
+  service: gitalk # valine, minivaline, disqus, gitalk, vssue, livere, isso, hashover
   # Valine
   # https://valine.js.org/
   valine: # 请将 appId appKey 修改为自己的，否则评论数据是共享的。
@@ -665,11 +665,11 @@ comments:
   # Gitalk
   # https://gitalk.github.io/
   gitalk:
-    clientID:
-    clientSecret:
-    repo:
-    owner:
-    admin: # []
+    clientID: b63e285f3442871f2b05
+    clientSecret: 88a93465b758e9eb10c68aa80c199c83b13c2a80
+    repo: blog-source
+    owner: Linhk1606
+    admin: Linhk1606 # []
   # Vssue
   # https://vssue.js.org/zh/
   vssue:
@@ -698,7 +698,7 @@ comments:
 # npm i -S hexo-generator-search hexo-generator-json-content
 search:
   enable: true
-  service: hexo  # hexo, google, algolia, azure, baidu
+  service: algolia  # hexo, google, algolia, azure, baidu
   # js: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@3.0/js/search.js
   google:
     apiKey:
