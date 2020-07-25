@@ -57,7 +57,7 @@ highlight:
   auto_detect: false
   tab_replace: ''
   wrap: true
-  hljs: true
+  hljs: false
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -100,15 +100,15 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: volantis
+theme: hexo-theme-volantis-master
 use_cdn: true
 
 # 网站图标，更多尺寸等图标请使用import方式批量导入
 favicon: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.6.5/img/avatar.webp
 import:
   link:
-  - '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10.1.0/styles/atom-one-dark.css">'
-  - '<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.0/css/yun.css">'
+  # - '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10.1.0/styles/atom-one-light.css">'
+  # - '<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.0/css/yun.css">'
   - '<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sviptzk/StaticFile_HEXO@v3.2.4/butterfly/css/font-awesome-animation.min.css">'
 
 # Deployment
@@ -138,20 +138,20 @@ markdown:
     - markdown-it-mark
     - markdown-it-regexp
     - markdown-it-task-checkbox
-    - name: markdown-it-container
-      options: success
-    - name: markdown-it-container
-      options: info
-    - name: markdown-it-container
-      options: warning
-    - name: markdown-it-container
-      options: danger
-    - name: markdown-it-container
-      options: link
-    - name: markdown-it-container
-      options: quote
-    - name: markdown-it-container
-      options: note
+    # - name: markdown-it-container
+    #   options: success
+    # - name: markdown-it-container
+    #   options: info
+    # - name: markdown-it-container
+    #   options: warning
+    # - name: markdown-it-container
+    #   options: danger
+    # - name: markdown-it-container
+    #   options: link
+    # - name: markdown-it-container
+    #   options: quote
+    # - name: markdown-it-container
+    #   options: note
     - markdown-it-deflist
     - name: markdown-it-emoji
       options:

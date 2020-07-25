@@ -141,17 +141,3 @@ links:
 <h2><center><i class='fal fa-users fa-fw'></i>&nbsp;友链</center></h2>
 
 <!-- more -->
-
-
-<h3 class='friend-header'><i class='fal fa-smile-wink' aria-hidden='true'></i> 欢迎互换友链!</h3>
-
-::: quote
-个人信息格式如下：
-
-{% cb `名称`: <blue>Linhk1606</blue>, checked %}
-{% cb `链接`: https://lhkstudio.me, checked %}
-{% cb `头像`: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.1/img/avatar.webp, checked %}
-{% cb `标签`: <blue>#OIer</blue> <blue>#Qt</blue>, checked %}
-{% cb `backgroundColor`: **#d8d8d8** (可选), false %}
-{% cb `textColor`: **#404040** (可选), false %}
-:::
