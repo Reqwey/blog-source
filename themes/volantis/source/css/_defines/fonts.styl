@@ -23,6 +23,18 @@ if hexo-config('style.fontfamily.codefont')
 // logo font
 $fontfamily-logo = $fontfamily
 
+@font-face
+  font-family: FontAwesomeLight
+  src: url('https://cdn.jsdelivr.net/gh/Linhk1606/fontawesome-cdn@5.13.0//webfonts/fa-light-300.ttf')
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: FontAwesomeSolid
+  src: url('https://cdn.jsdelivr.net/gh/Linhk1606/fontawesome-cdn@5.13.0//webfonts/fa-solid-900.ttf')
+  font-weight: normal
+  font-style: normal
+
 // font size
 $fontsize = convert(hexo-config('style.fontsize.root')) || 16px
 $fontsize-h1 = convert(hexo-config('style.fontsize.h1')) || 1.625rem    // 26px

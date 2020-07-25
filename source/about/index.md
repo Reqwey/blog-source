@@ -245,9 +245,4 @@ jobs:
 
 {% endtabs %}
 
-::: note
-#### 中考，加油(ง •̀_•́)ง
-
-![mmexport1590498811496.jpg](https://i.loli.net/2020/05/26/eLrnNJMDtupgHXS.jpg)
-:::
-
+-----
