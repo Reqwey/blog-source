@@ -2,12 +2,13 @@
   <div class='a'>
     <% if (theme.cover.logo) { %>
       <img no-lazy class='logo' src='<%- url_for(theme.cover.logo) %>'/>
-    <% } %>
-    <% if (theme.cover.title) { %>
-      <p class="title"><%- theme.cover.title ? theme.cover.title : config.title %></p>
-    <% } %>
-    <% if (theme.cover.subtitle) { %>
-      <p class="subtitle"><%- theme.cover.subtitle%></p>
+    <% } else {%>
+      <% if (theme.cover.title) { %>
+        <p class="title"><%- theme.cover.title ? theme.cover.title : config.title %></p>
+      <% } %>
+      <% if (theme.cover.subtitle) { %>
+        <p class="subtitle"><%- theme.cover.subtitle%></p>
+      <% } %>
     <% } %>
   </div>
   <div class='b'>
