@@ -26,6 +26,26 @@
         <% } %>
       </div>
     <% } %>
+    <div class="card-info-data">
+        <div class="card-info-data-item is-center">
+            <a href="/archives">
+                <div class="headline">文章</div>
+                <div class="length_num"><%= site.posts.length %></div>
+            </a>
+        </div>
+        <div class="card-info-data-item is-center">
+            <a href="/tags">
+                <div class="headline">标签</div>
+                <div class="length_num"><%= site.tags.length %></div>
+            </a>
+        </div>
+        <div class="card-info-data-item is-center">
+            <a href="/categories">
+                <div class="headline">分类</div>
+                <div class="length_num"><%= site.categories.length %></div>
+            </a>
+        </div>
+    </div>   
     <% if (item.social == true && theme.footer.social) { %>
       <div class="social-wrapper">
         <% (theme.footer.social||[]).forEach(function(value){ %>

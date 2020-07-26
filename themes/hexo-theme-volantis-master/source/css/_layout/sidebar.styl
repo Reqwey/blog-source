@@ -154,14 +154,30 @@
         :first-child
           margin-top: $gap
       h2
-        font-weight: bold
+        font-weight: 500
+        font-size: 1.1rem
         margin: $gap * 0.5
         @media screen and (max-width: $device-tablet)
           margin: $gap * 0.5
       p
-        font-weight: bold
+        font-weight: 500
         margin: $gap * 0.5 $gap * 0.5 0 $gap * 0.5
         empty-cells: hide
+      .card-info-data 
+        display table
+        padding .7rem 0
+        width 100%
+        table-layout fixed
+        & > .card-info-data-item 
+          display table-cell
+          a 
+            .headline 
+              color #4c4948
+              font-size .7rem
+            .length_num 
+              margin-top -.3rem
+              color #000
+              font-size 1rem
       .social-wrapper
         display: flex
         justify-content: space-between
