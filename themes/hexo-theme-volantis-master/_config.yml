@@ -102,7 +102,7 @@ cover:
     home: true
     archive: true
     others: true # can be written in front-matter 'cover: true'
-  logo: https://blog.lhkstudio.me/assets/logo.svg
+  logo: https://blog.lhkstudio.me/assets/logooo.png
   search: Type here to search # search bar placeholder
   features:
     - name: 标签
