@@ -103,8 +103,6 @@ cover:
     archive: true
     others: true # can be written in front-matter 'cover: true'
   logo: https://blog.lhkstudio.me/assets/logo.svg
-  title: ''
-  subtitle: ''
   search: Type here to search # search bar placeholder
   features:
     - name: 标签
@@ -210,9 +208,9 @@ layout:
   # 文章列表（主页、自定义的列表）布局
   on_list:
     # 列表中每一篇文章的meta信息
-    meta: [title, author, category, date, wordcount, counter, valinecount, pin]
+    meta: [title, author, category, date, wordcount, pin]
     # 列表类页面的侧边栏
-    sidebar: [blogger, category, tagcloud, qrcode]
+    sidebar: [blogger, category, tagcloud, webinfo]
     # read more button
     readmore: 阅读全文 <i class="fad fa-chevron-right"></i>
   # 页面布局
@@ -423,7 +421,7 @@ widget:
         unit: '篇'
       runtime:
         enable: true
-        data: '2020/01/01'    # 填写建站日期
+        data: '2019/11/1'    # 填写建站日期
         text: '已运行时间：'
         unit: '天'
       wordcount:
@@ -577,20 +575,19 @@ plugins:
   # 配置过程请参考：https://artitalk.js.org/doc.html
   # 除appID和appKEY外均为选填项
   Artitalk:
-    enable: false # true为开启，false为关闭
-    appID: ogP8qj3veMh0LFpFWMPOyF0X-MdYXbMMI # your appID
-    appKEY: nHXLd3N3Jgh460t2iRQKWAtr # your appKEY
+    enable: true # true为开启，false为关闭
+    appID: tIOCOkWhENwNnhYNcbh4Ds38-MdYXbMMI # your appID
+    appKEY: 9yaUKqQc9oKDFSIv6fi9u6G6 # your appKEY
     # severurl:  #leancloud绑定的安全域名，使用国际版的话不需要填写
     # slanguage: # 语言设置，zh为汉语，en为英语，es为西班牙语。默认为汉语
-    # per: #每页说说的显示数量
+    per: 5 #每页说说的显示数量
     # placeholder1: #在编辑说说的输入框中的占位符
     # placeholder2: #自定义头像url的输入框的占位符
     # lazy: #加载动画的开关，1为开，0为关，默认为开
     # bgimg: #说说输入框背景图片url
-    # color1: #说说背景颜色1&按钮颜色1
-    # color2: #说说背景颜色2&按钮颜色2
+    color1: '#90CAF9' #说说背景颜色1&按钮颜色1
+    color2: '#2196F3' #说说背景颜色2&按钮颜色2
     # color3: #说说字体颜色
-
 
 
 
