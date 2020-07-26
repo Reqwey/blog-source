@@ -77,19 +77,19 @@ style:
       weight: normal
       style: normal
     color:
-  #   site: '#21232F' # Website background color
-  #   site_inner: '#fff' # Text color inside the website background
-  #   site_footer: '#666' # Footer text color inside the website background
-  #   card: '#444' # Card background color
-  #   text: '#fff' # The color of the text on the card.
       theme: '#734ae6' # Main color
-  #   link: '#1BCDFC' # Link color
-  #   hover: '#ff5722' # Link highlight color
-  #   inner: '#333' # Text color inside the button
-  #   block: '#555' # Block color
-  #   inlinecode: '#555' # Inline code color
-  #   codeblock: '#555' # Codeblock color
-  #   p: '#ccc' # Paragraph color
+      # site: '#21232F' # Website background color
+      # site_inner: '#fff' # Text color inside the website background
+      # site_footer: '#666' # Footer text color inside the website background
+      # card: '#444' # Card background color
+      # text: '#fff' # The color of the text on the card.
+      # link: '#1BCDFC' # Link color
+      # hover: '#ff5722' # Link highlight color
+      # inner: '#333' # Text color inside the button
+      # block: '#555' # Block color
+      # inlinecode: '#555' # Inline code color
+      # codeblock: '#555' # Codeblock color
+      # p: '#ccc' # Paragraph color
 
 
 
@@ -101,26 +101,26 @@ cover:
   display:
     home: true
     archive: true
-    others: false # can be written in front-matter 'cover: true'
+    others: true # can be written in front-matter 'cover: true'
   logo: https://blog.lhkstudio.me/assets/logo.svg
-  title: 'LHKSTUDIO'
+  title: ''
   subtitle: ''
   search: Type here to search # search bar placeholder
   features:
     - name: 标签
-      icon: fad fa-hashtag
+      icon: far fa-hashtag
       url: tags/
       iconColor: '#2196f3'
     - name: 时间轴
-      icon: fad fa-list
+      icon: far fa-list
       url: archives/
       iconColor: '#E91E63'
     - name: 关于我
-      icon: fad fa-user-circle
+      icon: far fa-user-circle
       url: /about
       iconColor: '#ff9800'
     - name: 友链
-      icon: fad fa-link
+      icon: far fa-link
       url: /friends
       iconColor: '#2196f3'
 
@@ -134,27 +134,27 @@ navbar:
   menu:
     # The following can be written in `blog/source/_data/menu.yml`
     - name: 分类
-      icon: fad fa-folder-open
+      icon: fal fa-folder-open
       url: categories/
       iconColor: '#20c997'
     - name: 标签
-      icon: fad fa-hashtag
+      icon: fal fa-hashtag
       url: tags/
       iconColor: '#2196f3'
     - name: 时间轴
-      icon: fad fa-list
+      icon: fal fa-list
       url: archives/
       iconColor: '#E91E63'
     - name: 关于我
-      icon: fad fa-user-circle
+      icon: fal fa-user-circle
       url: /about
       iconColor: '#ff9800'
     - name: 友链
-      icon: fad fa-link
+      icon: fal fa-link
       url: /friends
       iconColor: '#2196f3'
     - name: 管理员
-      icon: fad fa-shield
+      icon: fal fa-shield
       iconColor: '#9c27b0'
       rows:
         - name: 评论管理
@@ -174,7 +174,7 @@ navbar:
           icon: far fa-clock
           url: time-machine/
     - name: 更多
-      icon: fad fa-ellipsis-v
+      icon: fal fa-ellipsis-v
       iconColor: '#E91E63'
       rows:
         - name: 一个欢迎页
@@ -230,7 +230,7 @@ layout:
   # 文章布局，参数继承自 on_page
   on_post:
     # 文章页脚，自动在每一篇文章末尾添加
-    article_footer: [references, related_repos, copyright, donate]
+    article_footer: [references, related_repos, copyright]
   # 其他的页面布局暂时等于 on_list
 
 
@@ -451,7 +451,7 @@ widget:
 
 footer:
   # layout of footer: [aplayer, social, license, info, copyright]
-  layout: [aplayer, social, license, info, copyright]
+  layout: [social, info, copyright]
   social:
     - icon: fal fa-rss
       url: /atom.xml
@@ -537,7 +537,7 @@ plugins:
       # - https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/B18FCBB3-67FD-48CC-B4F3-457BA145F17A.jpeg
       # - https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/35F12181-F0E9-45BD-B134-37E4B4A660CF.jpeg
       # - https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/00E0F0ED-9F1C-407A-9AA6-545649D919F4.jpeg
-      - https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/67239FBB-E15D-4F4F-8EE8-0F1C9F3C4E7C.jpeg
+      - https://i.loli.net/2020/07/02/USjTcy41nvs8qeW.jpg
       # - https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/B951AE18-D431-417F-B3FE-A382403FF21B.jpeg
       # - https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/landscape/AEB33F9D-7294-4CF1-B8C5-3020748A9D45.jpeg
       # - https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/2884F904-F1F3-479E-AE27-5EBC291B63B0.jpeg
@@ -555,12 +555,12 @@ plugins:
     # Required
     server: netease   # netease, tencent, kugou, xiami, baidu
     type: playlist    # song, playlist, album, search, artist
-    id: 3175833810    # song id / playlist id / album id / search keyword
+    id: '3194206062'    # song id / playlist id / album id / search keyword
     # Optional
     fixed: false      # enable fixed mode
     theme: '#1BCDFC'  # main color
     autoplay: false   # audio autoplay
-    order: list       # player play order, values: 'list', 'random'
+    order: random       # player play order, values: 'list', 'random'
     loop: all         # player loop play, values: 'all', 'one', 'none'
     volume: 0.7       # default volume, notice that player will remember user setting, default volume will not work after user set volume themselves
     list_max_height: 340px # list max height
@@ -699,14 +699,14 @@ comments:
 search:
   enable: true
   service: algolia  # hexo, google, algolia, azure, baidu
-  # js: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@3.0/js/search.js
+  js: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.0.5/js/search.js
   google:
     apiKey:
     engineId:
   algolia:
-    applicationID:
-    apiKey:
-    indexName:
+    applicationID: QE7LMUJ22V
+    apiKey: 3e9460bbaac6905c7e1eda81762b52f2
+    indexName: newSearch
   azure:
     serviceName:
     indexName:
