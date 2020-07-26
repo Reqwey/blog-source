@@ -325,8 +325,8 @@ widget:
     avatar: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.1/img/avatar.webp
     shape: circle # circle, rectangle
     url: /about/
-    title:
-    subtitle:
+    title: Linhk1606
+    subtitle: <i class="fas fa-map-marker-alt"></i> FJ, China
     jinrishici: false # Poetry Today. You can set a string, and it will be displayed when loading fails.
     social: true
   # ---------------------------------------
@@ -485,7 +485,7 @@ seo:
 plugins:
   ######## Plugins to improve loading speed:
   # Preload (The menu's url must end with ‘/’)
-  instant_page: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2/js/instant_page.js
+  instant_page: 'https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2/js/instant_page.js'
 
   ######## Plugins to optimize the experience:
   # highlight.js
