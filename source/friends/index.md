@@ -136,6 +136,13 @@ links:
       backgroundColor: '#607D8B'
       textColor: '#EFEFEF'
       tags: [技术总结, 各种折腾]
+    - name: BooLo
+      avatar: https://cdn.jsdelivr.net/gh/BooLo/cdn-assets/avatar/avatar.jpg
+      url: https://www.boolo.top
+      backgroundColor: '#76EEC6'
+      textColor: '#000000'
+      tags: [莫得标签]
+      desc: 记录成长，向未来奔跑
 ---
 
 <h2><center><i class='fal fa-users fa-fw'></i>&nbsp;友链</center></h2>
