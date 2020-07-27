@@ -105,6 +105,10 @@ cover:
   logo: https://blog.lhkstudio.me/assets/logooo.png
   search: Type here to search # search bar placeholder
   features:
+    - name: 首页
+      icon: fad fa-home
+      url: /
+      iconColor: '#20c997'
     - name: 标签
       icon: fad fa-hashtag
       url: tags/
@@ -120,7 +124,7 @@ cover:
     - name: 友链
       icon: fad fa-link
       url: /friends
-      iconColor: '#9c27b0'
+      iconColor: '#734ae6'
 
 
 # Navigation Bar
