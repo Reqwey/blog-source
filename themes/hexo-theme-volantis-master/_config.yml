@@ -1,6 +1,6 @@
 ############################### Style ###############################
 style:
-  font_smoothing: false # font-smoothing for webkit
+  font_smoothing: true # font-smoothing for webkit
   max_width: 1080px # Sum of body width and sidebar width (This limit will be exceeded when the device width is greater than 2000px, reaching 75% of the total width)
   scrollbar:
     size: 4px
@@ -27,10 +27,10 @@ style:
       p: justify
     note: # style for default note: {% note text %}
       icon: '\f054'
-      color: ''
+      color: '#2196f3'
     checkbox:
       enable: true # enable for user
-      color: '' # color for default checkbox
+      color: '#2196f3' # color for default checkbox
   gap:
     h2: 48px # Spacing above H2 (only px unit)
     h3: 24px # Spacing above H3 (only px unit)
@@ -64,7 +64,7 @@ style:
       weight: normal
       style: normal
     bodyfont:
-      fontfamily: 'UbuntuMono, "PingFang SC", "Microsoft YaHei", Helvetica, Arial'
+      fontfamily: '"Varela Round", UbuntuMono, "PingFang SC", "Microsoft YaHei", Helvetica, Arial'
       name: 'UbuntuMono'
       url: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-fonts/UbuntuMono/UbuntuMono-Regular.ttf
       weight: normal
@@ -97,7 +97,7 @@ style:
 ############################### Layout ###############################
 cover:
   scheme: blog # docs, blog
-  layout: featured # search (搜索), dock (坞), featured (精选), focus (焦点)
+  layout: dock # search (搜索), dock (坞), featured (精选), focus (焦点)
   display:
     home: true
     archive: true
@@ -106,21 +106,21 @@ cover:
   search: Type here to search # search bar placeholder
   features:
     - name: 标签
-      icon: far fa-hashtag
+      icon: fad fa-hashtag
       url: tags/
       iconColor: '#2196f3'
     - name: 时间轴
-      icon: far fa-list
+      icon: fad fa-list
       url: archives/
       iconColor: '#E91E63'
     - name: 关于我
-      icon: far fa-user-circle
+      icon: fad fa-user-circle
       url: /about
       iconColor: '#ff9800'
     - name: 友链
-      icon: far fa-link
+      icon: fad fa-link
       url: /friends
-      iconColor: '#2196f3'
+      iconColor: '#9c27b0'
 
 
 # Navigation Bar
@@ -156,49 +156,49 @@ navbar:
       iconColor: '#9c27b0'
       rows:
         - name: 评论管理
-          icon: far fa-comments
+          icon: fal fa-comments
           url: https://comment.lhkstudio.me
         - name: 云端编辑
-          icon: far fa-edit
+          icon: fal fa-edit
           url: https://www.yuque.com/linhk1606/hexo
         - name: 博客源码
-          icon: far fa-file-code
+          icon: fal fa-file-code
           url: https://github.com/linhk1606/blog-source
         - name: 腾讯云函数
-          icon: far fa-brackets-curly
+          icon: fal fa-brackets-curly
           url: https://console.cloud.tencent.com/scf/list-detail?rid=1&ns=default&id=Hexo
         - name: hr
         - name: 时光鸡
-          icon: far fa-clock
+          icon: fal fa-clock
           url: time-machine/
     - name: 更多
       icon: fal fa-ellipsis-v
       iconColor: '#E91E63'
       rows:
-        - name: 一个欢迎页
-          icon: far fa-caret-square-right
+        - name: 个人主页
+          icon: fal fa-caret-square-right
           url: https://lhkstudio.me
         - name: Follow Me
-          icon: far fa-code-branch
+          icon: fal fa-code-branch
           url: https://github.com/Linhk1606
         - name: hr
         - name: 小工具
-          icon: far fa-tools
+          icon: fal fa-tools
           rows:
             - name: 肺炎疫情图
-              icon: far fa-biohazard
+              icon: fal fa-biohazard
               url: 2019-nCoV/
             - name: RSS订阅
-              icon: far fa-rss
+              icon: fal fa-rss
               url: /atom.xml
             - name: 站点地图
-              icon: far fa-sitemap
+              icon: fal fa-sitemap
               url: /sitemap.xml
             - name: 3D元素周期表
-              icon: far fa-flask
+              icon: fal fa-flask
               url: /Periodic-table
         - name: 来点音乐
-          icon: far fa-compact-disc
+          icon: fal fa-compact-disc
   search: Search...   # Search bar placeholder
 
 
@@ -450,7 +450,7 @@ widget:
       icon: fal fa-edit
       title: 建站小记
     content:
-      - '**2020/7/27** 升级至`Volantis v3.0 beta`完成, 开启Pjax无跳转刷新'
+      - '**2020/7/27** 升级至 `Volantis v3.0 beta` 完成, 开启 Pjax 无跳转刷新'
   # You can add your own widget here or 'blog/source/_data/widget.yml'
   # class: text, list, grid, qrcode, page, ... see more at https://volantis.js.org/
 
