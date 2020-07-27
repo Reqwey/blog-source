@@ -20,11 +20,11 @@ jobs:
     # check it to your workflow can access it
     # from: https://github.com/actions/checkout
     - name: Checkout Repository master branch
-      uses: actions/checkout@master 
+      uses: actions/checkout@main 
 
     # from: https://github.com/actions/setup-node  
     - name: Setup Node.js 10.x 
-      uses: actions/setup-node@master
+      uses: actions/setup-node@main
       with:
         node-version: "10.x"
     
@@ -53,7 +53,7 @@ jobs:
       with:
         deploy_key: ${{ secrets.Github_SSH_PRIVATE_KEY }}
         external_repository: Linhk1606/Linhk1606.github.io
-        publish_branch: main
+        publish_branch: master
         publish_dir: ./public
         commit_message: ${{ github.event.head_commit.message }}
 
