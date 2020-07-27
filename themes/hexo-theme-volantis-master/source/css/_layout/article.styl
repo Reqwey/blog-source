@@ -331,17 +331,22 @@
     backdrop-filter: none
 
 // nav to title
-.article .article-entry>
+
+.article
   h1,h2,h3,h4,h5,h6
     position: relative
     pointer-events: none
     margin-top: 0
     margin-bottom: $gap-paragraph
     >a
-      color: inherit
+      color: #ffb821
       pointer-events: auto
+      font-family: FontAwesomeSolid
+      margin-right: 5px
       &:hover
-        color: $color-hover
+        color: $color-theme
+.article .article-entry>
+  h1,h2,h3,h4,h5,h6
     &:before
       content: ''
       display: block
@@ -366,3 +371,45 @@ article .readmore
   margin-top: $gap-paragraph
   >a
     font-size: $fontsize-meta
+
+article
+  &:hover 
+    img 
+      &.post_bg 
+        -webkit-transform: scale(1.1)
+        -moz-transform: scale(1.1)
+        -o-transform: scale(1.1)
+        -ms-transform: scale(1.1)
+        transform: scale(1.1)
+  .post_cover 
+    overflow: hidden
+    width: 100%
+    height: 280px
+    -webkit-mask-image: -webkit-radial-gradient(#fff, #000)
+    border-top-left-radius: $border-card
+    border-top-right-radius: $border-card
+    padding-bottom: 9px
+    @media screen and (max-width: $device-mobile-l)
+      border-top-left-radius: 0
+      border-top-right-radius: 0
+    img 
+      &.post_bg 
+        display: block
+        margin: 0
+        width: 100%
+        height: 100%
+        border: 0
+        -webkit-transition: all 0.6s
+        -moz-transition: all 0.6s
+        -o-transition: all 0.6s
+        -ms-transition: all 0.6s
+        transition: all 0.6s
+        object-fit: cover
+        &:hover 
+          -webkit-transform: scale(1.1)
+          -moz-transform: scale(1.1)
+          -o-transform: scale(1.1)
+          -ms-transform: scale(1.1)
+          transform: scale(1.1)
+  .post_info 
+    padding: 1.5 * $gap

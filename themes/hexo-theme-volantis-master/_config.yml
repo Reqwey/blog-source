@@ -210,7 +210,7 @@ layout:
     # 列表中每一篇文章的meta信息
     meta: [title, author, category, date, wordcount, pin]
     # 列表类页面的侧边栏
-    sidebar: [blogger, category, tagcloud, webinfo]
+    sidebar: [blogger, note, webinfo, category, tagcloud]
     # read more button
     readmore: 阅读全文 <i class="fad fa-chevron-right"></i>
   # 页面布局
@@ -224,7 +224,7 @@ layout:
       header: [title, author, category, date, pin]
       footer: [updated, tags, btns, share]
     # 文章页面的侧边栏
-    sidebar: [qrcode, toc]
+    sidebar: [toc]
   # 文章布局，参数继承自 on_page
   on_post:
     # 文章页脚，自动在每一篇文章末尾添加
@@ -412,7 +412,7 @@ widget:
     class: webinfo
     display: [desktop]
     header:
-      icon: fal fa-award
+      icon: fal fa-info
       title: 站点信息
     type:
       article:
@@ -429,11 +429,11 @@ widget:
         text: '本站总字数：'   # 需要启用 wordcount
         unit: '字'
       siteuv:
-        enable: true
+        enable: false
         text: '本站访客数：'   # 需要启用 busuanzi
         unit: '人'
       sitepv:
-        enable: true
+        enable: false
         text: '本站总访问量：' # 需要启用 busuanzi
         unit: '次'
       lastupd:
@@ -441,7 +441,16 @@ widget:
         friendlyShow: true    # 更友好的时间显示
         text: '最后活动时间：'
         unit: '日'
-
+  # ---------------------------------------
+  # note widget
+  note:
+    class: text
+    display: [desktop] # [desktop, mobile]
+    header:
+      icon: fal fa-edit
+      title: 建站小记
+    content:
+      - '**2020/7/27** 升级至`Volantis v3.0 beta`完成, 开启Pjax无跳转刷新'
   # You can add your own widget here or 'blog/source/_data/widget.yml'
   # class: text, list, grid, qrcode, page, ... see more at https://volantis.js.org/
 
@@ -489,9 +498,9 @@ plugins:
 
   ######## Plugins to optimize the experience:
   # highlight.js
-  highlightjs:
-    js: https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/highlight.min.js
-    css: https://cdn.jsdelivr.net/npm/highlight.js@9.18.1/styles/solarized-light.css
+  # highlightjs:
+    # js: https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/highlight.min.js
+    # css: https://cdn.jsdelivr.net/npm/highlight.js@9.18.1/styles/solarized-light.css
     # more: https://www.jsdelivr.com/package/npm/highlight.js?path=styles
 
   # https://scrollrevealjs.org/api/reveal.html
@@ -507,10 +516,10 @@ plugins:
 
   ######## Plugins for SEO:
   # Traffic statistics (very slow loading)
-  busuanzi: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js
+  # busuanzi: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js
 
   # npm i --save hexo-wordcount
-  wordcount: #true
+  wordcount: true
 
   ######## Plugins for ...
   # Button Ripple Effect
@@ -530,12 +539,13 @@ plugins:
     duration: 20000       # Duration (ms)
     fade: 1500            # fade duration (ms) (Not more than 1500)
     images:               # For personal use only. At your own risk if used for commercial purposes !!!
+    - https://cdn.jsdelivr.net/gh/Linhk1606/md-wallpaper@0.0.1/vector_landscape_1.svg
       # - https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/41F215B9-261F-48B4-80B5-4E86E165259E.jpeg
       # - https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/BBC19066-E176-47C2-9D22-48C81EE5DF6B.jpeg
       # - https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/B18FCBB3-67FD-48CC-B4F3-457BA145F17A.jpeg
       # - https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/35F12181-F0E9-45BD-B134-37E4B4A660CF.jpeg
       # - https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/00E0F0ED-9F1C-407A-9AA6-545649D919F4.jpeg
-      - https://i.loli.net/2020/07/02/USjTcy41nvs8qeW.jpg
+      # - https://i.loli.net/2020/07/02/USjTcy41nvs8qeW.jpg
       # - https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/B951AE18-D431-417F-B3FE-A382403FF21B.jpeg
       # - https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/landscape/AEB33F9D-7294-4CF1-B8C5-3020748A9D45.jpeg
       # - https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/2884F904-F1F3-479E-AE27-5EBC291B63B0.jpeg
@@ -569,7 +579,28 @@ plugins:
     cacheBust: false     # When set to true, Pjax appends a timestamp  to skip the browser cache.
     animation: nprogress # nprogress, circle
     banUrl:              # 被屏蔽的 url 地址将不启用 pjax 跳转，可以在控制台下使用 window.location.pathname 获取
-      # - '/about/index.html'
+      - '/time-machine/index.html'
+      - '/time-machine/'
+      - '/time-machine'
+  ##################################
+  # 暗黑模式 darkmodejs
+  # https://darkmodejs.learn.uno
+  # 暗黑模式样式：https://github.com/volantis-x/hexo-theme-volantis/blob/master/source/css/_third-party/darkmode.styl
+  darkmodejs:
+    enable: false
+    js: https://cdn.jsdelivr.net/npm/darkmode-js@1.5/lib/darkmode-js.min.js
+    bottom: 32px
+    right: unset
+    left: 16px
+    time: 0s
+    mixColor: '#f4f4f4'
+    backgroundColor: '#f4f4f4'
+    buttonColorDark: '#100f2c'
+    buttonColorLight: '#f4f4f4'
+    saveInCookies: true
+    label: 🌓
+    autoMatchOsTheme: true
+
 
   # Artitalk https://artitalk.js.org
   # 配置过程请参考：https://artitalk.js.org/doc.html
@@ -593,7 +624,7 @@ plugins:
 
 ############################### Comments ###############################
 comments:
-  title: <i class='fas fa-comments'></i> 评论
+  title: <i class='fal fa-comments'></i> 评论
   subtitle:
   service: gitalk # valine, minivaline, disqus, gitalk, vssue, livere, isso, hashover
   # Valine

@@ -34,17 +34,17 @@ print(dp[n]) #输出dp[n]
 
 ### 有问题!
 
-::: warning
+{% noteblock warning %}
 
 $dp[i]$ 的计算只考虑了**这个时间点**做完的任务, 也就是说,
 
 有可能 Nick **直到下班了也没有做完任务**, 此时做最后一项任务的时间段也会被算为空暇时间.
 
-:::
+{% endnoteblock %}
 
 ### 改进
 
-::: success
+{% noteblock success %}
 
 **倒着写!!!**
 
@@ -52,7 +52,7 @@ $dp[i]$ 的计算只考虑了**这个时间点**做完的任务, 也就是说,
 
 这样做的好处在于, 它考虑的不再是**做完的时间**, 而变成了每个任务的**开始时间**(Nick 总不会勤奋到提前几分钟开始工作吧), 这样就完美的避免了以上那个问题.
 
-:::
+{% endnoteblock %}
 
 {% codeblock 伪代码(AC) lang:python line_number:true mark:1,6 %}
 for i in range(n, 1, -1): #倒着循环

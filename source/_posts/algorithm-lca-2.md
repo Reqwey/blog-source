@@ -49,11 +49,12 @@ description: "本文将继续学习$\\texttt{LCA}$, 只不过换一种离线的�
 
 * 为什么?
 
-:::note
+{% noteblock quote %}
 根据上边的结论, 此时的`getfather(v)`即为那棵全为`2`的子树的根节点$root'$,  $\because u$和$v$**均在这棵子树上**, $\therefore root'$为$u$和$v$的**公共祖先**
 
 考虑$\texttt{DFS}$序, $\because \texttt{DFS}$访问完一个节点不会马上往上走, 而是会去**遍历其它节点**, $\therefore root'$以下没有一个$root''$满足是$u$和$v$的**公共祖先** $\therefore lca(u, v) = root'$
-:::
+{% endnoteblock %}
+
 
 ## 代码
 
@@ -159,11 +160,3 @@ $$ \Theta{(n + m)} $$
 |   朴素   |        比较好想2333        |     $\Theta{(nm)}$      | <red>TLE</red> |
 | 倍增优化 | 也比较好想, 但是较容易敲挂 | $\Theta{((n + m)logn)}$ | <green>AC</green>  |
 |  Tarjan  |    比较精妙, 也不太好写    |    $\Theta{(n + m)}$    | <green>AC</green>  |
-
-::: danger
-
-**注意!**
-
-以上评测结果属于理想情况, 如果碰到一些爱卡常的毒瘤出题人(如<btn>[某谷](https://www.luogu.com.cn)</btn>的神鱼), 特别是你的存边方式像我一样, 那我就不知道了
-
-:::

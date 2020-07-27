@@ -117,11 +117,7 @@ int main()
 }
 ```
 
-:::note
-
-采用`vector`邻接表存图, 比赛时不建议使用
-
-:::
+{% note warning, 采用`vector`邻接表存图, 比赛时不建议使用 %}
 
 
 
@@ -199,11 +195,9 @@ int main()
 
 ### SPFA
 
-::: quote
-
+{% noteblock quote %}
 Shortest Path Fastest Algorithm
-
-:::
+{% endnoteblock %}
 
 好吧, 多么霸气的名字...
 
@@ -357,10 +351,10 @@ int main()
 }
 ```
 
-::: warning
+{% noteblock warning %}
 
 * vector 看起来高大上, 实际跑得贼慢, 慎用
 
 * 代码中采用`auto`和`emplace_back()`等C++11关键字, 在NOIp系列比赛中禁止使用
 
-:::
+{% endnoteblock %}

@@ -57,7 +57,7 @@ highlight:
   auto_detect: false
   tab_replace: ''
   wrap: true
-  hljs: false
+  hljs: true
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -101,13 +101,12 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: hexo-theme-volantis-master
-use_cdn: true
 
 # 网站图标，更多尺寸等图标请使用import方式批量导入
 favicon: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.6.5/img/avatar.webp
 import:
   link:
-  # - '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10.1.0/styles/atom-one-light.css">'
+  - '<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.2/css/atom-one-light.css">'
   # - '<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.0/css/yun.css">'
   - '<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sviptzk/StaticFile_HEXO@v3.2.4/butterfly/css/font-awesome-animation.min.css">'
 
@@ -162,7 +161,7 @@ markdown:
     permalink: true
     permalinkClass: 'header-anchor'
     # permalinkSide: 'left'
-    permalinkSymbol: '# '
+    permalinkSymbol: ''
     # case: 0
     # separator: ''
 

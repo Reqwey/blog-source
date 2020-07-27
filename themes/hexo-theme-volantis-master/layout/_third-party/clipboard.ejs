@@ -15,7 +15,6 @@
         copyHtml += '<i class="fas fa-copy"></i><span>COPY</span>';
         copyHtml += '</button>';
         $(".highlight .code pre").before(copyHtml);
-        $(".article pre code").before(copyHtml);
         clipboard.off('success').on('success', function (e) {
             let $btn = $(e.trigger);
             $btn.addClass('copied');

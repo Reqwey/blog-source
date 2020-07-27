@@ -28,9 +28,9 @@ description: "这次比赛我其实并没有参加, 所以题解也懒得看, �
 
 **分类讨论**
 
-::: note
+{% noteblock info %}
 可以枚举三个数中**最小**的
-:::
+{% endnoteblock %}
 
 下面以 $a$ 最小的情况为例
 
@@ -41,9 +41,9 @@ description: "这次比赛我其实并没有参加, 所以题解也懒得看, �
 
 将上面的方法重复套到 $b$ 和 $c$ 中, 跑三遍 `for` (有点丑)即可
 
-::: warning
+{% noteblock warning %}
 最后然后别忘了**校验得出来的值是否合理**
-:::
+{% endnoteblock %}
 
 {% codeblock 完整代码 lang:cpp %}
 #include <cstdio>

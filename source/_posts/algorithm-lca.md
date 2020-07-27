@@ -25,9 +25,9 @@ description: "这篇文章主要是作者学习$\\texttt{LCA}$算法的一些心
 
 **最近公共祖先**就是这个交集里面最**靠下**的
 
-:::note
+{% noteblock info %}
 注意到以上的表述中经常出现**向上**或**靠下**等字眼, 说明求最近公共祖先的算法肯定与求节点的**高度**有关
-:::
+{% endnoteblock %}
 
 ## 朴素算法法求LCA
 
@@ -199,6 +199,6 @@ $$\Theta{(n + nlog_2n + mlog_2n)} = \Theta{((n + m)logn)}$$
 
 ## 版权信息
 
-::: link
+{% noteblock link %}
 封面图片来源: [Icons8](https://icons8.com/) & [JalenChuh](https://blog.jalenchuh.cn/posts/SegmentTree2.html)
-:::
+{% endnoteblock %}

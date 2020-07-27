@@ -254,13 +254,6 @@
   <%- js(theme.plugins.comment_typing) %>
 <% } %>
 
-<% if (config.highlight.enable != true) { %>
-  <% if (theme.plugins.highlightjs && theme.plugins.highlightjs.js) { %>
-    <%- js(theme.plugins.highlightjs.js) %>
-    <script>hljs.initHighlightingOnLoad();</script>
-  <% } %>
-<% } %>
-
 <% if (config.import && config.import.script){ %>
 <% (config.import.script||[]).forEach(function(item){ %>
 <%- item %><% }) %>
