@@ -1,5 +1,5 @@
 <%- partial('_pre') %>
-<div class='l_main no_sidebar'>
+<div class='l_main<%- page.sidebar == false ? ' no_sidebar' : '' %>'>
 	<% if (page.year || page.month) { %>
 		<%- partial('_partial/archive') %>
 	<% } else { %>
@@ -16,7 +16,7 @@
 			          </div>
 		      		<% } %>
 		          <div class="archive-item archive-post mark">
-		            <a href="<%= url_for(post.link || post.path) %>">
+		            <a class='ai' href="<%= url_for(post.link || post.path) %>">
 		              <time><%= date(post.date, 'MM-DD') %></time>
 		              <span class="title">
 		                <% if(post.title){ %>
@@ -25,7 +25,7 @@
 		                  <%= date(post.date, config.date_format) %>
 		                <% } %>
 		                <% if(theme.plugins.aplayer && theme.plugins.aplayer.enable && post.music && post.music.enable != false){ %>
-		                  &nbsp;<i class="fas fa-headphones-alt music" aria-hidden="true"></i>
+		                  &nbsp;<i class="fal fa-headphones-alt music" aria-hidden="true"></i>
 		                <% } %>
 										<% if (post.icon) { %>
 											&nbsp;<i class="<%- post.icon %>" aria-hidden="true"></i>

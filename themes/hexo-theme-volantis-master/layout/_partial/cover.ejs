@@ -9,7 +9,7 @@
   <div class="cover-wrapper">
     <cover class='cover <%- page.layout %>' style="display: none;">
       <%- partial('../_cover/' + theme.cover.layout) %>
-      <div class="scroll-down" style="display: none;"><i class="fa fa-chevron-down scroll-down-effects"></i></div>
+      <div class="scroll-down" style="display: none;"><i class="fad fa-chevron-down scroll-down-effects"></i></div>
     </cover>
     <%- partial('header', null, {cache: false, path: path}) %>
   </div>
@@ -22,7 +22,7 @@
       <% if (is_home() && page.prev == 0 && theme.cover.scheme == 'docs') { %>
         <cover class='cover <%- page.layout %> full'>
           <%- partial('../_cover/' + theme.cover.layout) %>
-          <div class="scroll-down"><i class="fa fa-chevron-down scroll-down-effects"></i></div>
+          <div class="scroll-down"><i class="fad fa-chevron-down scroll-down-effects"></i></div>
         </cover>
       <% } else { %>
         <cover class='cover <%- page.layout %> half'>
