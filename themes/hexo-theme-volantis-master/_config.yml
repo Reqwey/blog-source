@@ -114,23 +114,23 @@ cover:
   search: Type here to search # search bar placeholder
   features:
     - name: 首页
-      icon: fad fa-home
+      icon: fad fa-house-user
       url: /
       iconColor: '#20c997'
-    - name: 标签
-      icon: fad fa-hashtag
-      url: tags/
-      iconColor: '#2196f3'
-    - name: 时间轴
-      icon: fad fa-list
+    - name: 分类
+      icon: fad fa-folder-tree
+      url: categories/
+      iconColor: '#ff9800'
+    - name: 归档
+      icon: fad fa-anchor
       url: archives/
       iconColor: '#E91E63'
     - name: 关于我
-      icon: fad fa-user-circle
+      icon: fad fa-user-tie
       url: /about
-      iconColor: '#ff9800'
+      iconColor: '#2196f3'
     - name: 友链
-      icon: fad fa-link
+      icon: fad fa-draw-polygon
       url: /friends
       iconColor: '#734ae6'
 
