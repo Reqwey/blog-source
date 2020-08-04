@@ -110,27 +110,27 @@ cover:
     home: true
     archive: true
     others: true # can be written in front-matter 'cover: true'
-  logo: https://blog.lhkstudio.me/assets/logooo.png
+  logo: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.5/img/lhk-logo.png
   search: Type here to search # search bar placeholder
   features:
     - name: 首页
-      icon: fad fa-home
+      icon: fad fa-house-user
       url: /
       iconColor: '#20c997'
-    - name: 标签
-      icon: fad fa-hashtag
-      url: tags/
-      iconColor: '#2196f3'
-    - name: 时间轴
-      icon: fad fa-list
+    - name: 分类
+      icon: fad fa-folder-tree
+      url: categories/
+      iconColor: '#ff9800'
+    - name: 归档
+      icon: fad fa-anchor
       url: archives/
       iconColor: '#E91E63'
     - name: 关于我
-      icon: fad fa-user-circle
+      icon: fad fa-user-tie
       url: /about
-      iconColor: '#ff9800'
+      iconColor: '#2196f3'
     - name: 友链
-      icon: fad fa-link
+      icon: fad fa-draw-polygon
       url: /friends
       iconColor: '#734ae6'
 
@@ -552,28 +552,29 @@ plugins:
     duration: 20000       # Duration (ms)
     fade: 1500            # fade duration (ms) (Not more than 1500)
     images:               # For personal use only. At your own risk if used for commercial purposes !!!
-      - https://gitee.com/wallpapers/minimalist/raw/master/2020/001.jpg
-      - https://gitee.com/wallpapers/minimalist/raw/master/2020/002.jpg
-      - https://gitee.com/wallpapers/minimalist/raw/master/2020/003.jpg
-      - https://gitee.com/wallpapers/minimalist/raw/master/2020/004.jpg
-      - https://gitee.com/wallpapers/minimalist/raw/master/2020/005.jpg
-      - https://gitee.com/wallpapers/minimalist/raw/master/2020/006.jpg
-      - https://gitee.com/wallpapers/minimalist/raw/master/2020/012.jpg
-      - https://gitee.com/wallpapers/minimalist/raw/master/2020/016.jpg
-      - https://gitee.com/wallpapers/minimalist/raw/master/2020/019.jpg
-      - https://gitee.com/wallpapers/minimalist/raw/master/2020/025.jpg
-      - https://gitee.com/wallpapers/minimalist/raw/master/2020/033.jpg
-      - https://gitee.com/wallpapers/minimalist/raw/master/2020/034.jpg
-      - https://gitee.com/wallpapers/minimalist/raw/master/2020/035.jpg
-      - https://gitee.com/wallpapers/minimalist/raw/master/2020/038.jpg
-      - https://gitee.com/wallpapers/minimalist/raw/master/2020/039.jpg
-      - https://gitee.com/wallpapers/minimalist/raw/master/2020/042.jpg
-      - https://gitee.com/wallpapers/minimalist/raw/master/2020/042.jpg
-      - https://gitee.com/wallpapers/minimalist/raw/master/2020/046.jpg
-      - https://gitee.com/wallpapers/minimalist/raw/master/2020/051.jpg
-      - https://gitee.com/wallpapers/minimalist/raw/master/2020/052.jpg
-      - https://gitee.com/wallpapers/minimalist/raw/master/2020/054.jpg
-      - https://gitee.com/wallpapers/minimalist/raw/master/2020/056.jpg
+      - https://cdn.jsdelivr.net/gh/Linhk1606/md-wallpaper@0.0.1/train_travel_illustration-wallpaper-1920x1080.jpg
+      # - https://gitee.com/wallpapers/minimalist/raw/master/2020/001.jpg
+      # - https://gitee.com/wallpapers/minimalist/raw/master/2020/002.jpg
+      # - https://gitee.com/wallpapers/minimalist/raw/master/2020/003.jpg
+      # - https://gitee.com/wallpapers/minimalist/raw/master/2020/004.jpg
+      # - https://gitee.com/wallpapers/minimalist/raw/master/2020/005.jpg
+      # - https://gitee.com/wallpapers/minimalist/raw/master/2020/006.jpg
+      # - https://gitee.com/wallpapers/minimalist/raw/master/2020/012.jpg
+      # - https://gitee.com/wallpapers/minimalist/raw/master/2020/016.jpg
+      # - https://gitee.com/wallpapers/minimalist/raw/master/2020/019.jpg
+      # - https://gitee.com/wallpapers/minimalist/raw/master/2020/025.jpg
+      # - https://gitee.com/wallpapers/minimalist/raw/master/2020/033.jpg
+      # - https://gitee.com/wallpapers/minimalist/raw/master/2020/034.jpg
+      # - https://gitee.com/wallpapers/minimalist/raw/master/2020/035.jpg
+      # - https://gitee.com/wallpapers/minimalist/raw/master/2020/038.jpg
+      # - https://gitee.com/wallpapers/minimalist/raw/master/2020/039.jpg
+      # - https://gitee.com/wallpapers/minimalist/raw/master/2020/042.jpg
+      # - https://gitee.com/wallpapers/minimalist/raw/master/2020/042.jpg
+      # - https://gitee.com/wallpapers/minimalist/raw/master/2020/046.jpg
+      # - https://gitee.com/wallpapers/minimalist/raw/master/2020/051.jpg
+      # - https://gitee.com/wallpapers/minimalist/raw/master/2020/052.jpg
+      # - https://gitee.com/wallpapers/minimalist/raw/master/2020/054.jpg
+      # - https://gitee.com/wallpapers/minimalist/raw/master/2020/056.jpg
 
   # APlayer is only available in mainland China.
   # APlayer config: https://github.com/metowolf/MetingJS
