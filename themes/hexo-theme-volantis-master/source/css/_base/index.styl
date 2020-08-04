@@ -171,6 +171,35 @@ code,kbd,pre,samp
   font-family: monospace, monospace
   font-size: 1em
 
+s,del
+  color: mix($color-p, $color-card, 60)
+  text-decoration-color: @color
+u
+  color: $color-text
+  text-decoration: none
+  border-bottom: 1px solid $color-mac-red
+emp
+  color: $color-text
+  border-bottom: 4px dotted $color-mac-red
+wavy
+  color: $color-text
+  text-decoration-style: wavy
+  text-decoration-line: underline
+  text-decoration-color: $color-mac-red
+psw
+  color: transparent
+  background: mix($color-p, $color-card, 75)
+  border-radius: 2px
+  trans()
+  &:hover
+    color: $color-p
+    background: none
+kbd
+  border-radius: $border-codeblock * 0.5
+  border: 1px solid mix($color-block, $color-text, 90)
+  background: $color-block
+  padding-left: 4px
+  padding-right: 4px
 
 button,input,optgroup,select,textarea
   color: inherit /* 1 */

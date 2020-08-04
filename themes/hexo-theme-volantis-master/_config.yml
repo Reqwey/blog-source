@@ -222,7 +222,7 @@ layout:
     # 列表中每一篇文章的meta信息
     meta: [title, category, date, pin]
     # 列表类页面的侧边栏
-    sidebar: [blogger, note, webinfo, category, tagcloud]
+    sidebar: [blogger, warn, note, webinfo, category, tagcloud]
     # read more button
     readmore: Read More <i class="fad fa-chevron-right"></i>
   # 页面布局
@@ -365,7 +365,7 @@ widget:
   # tagcloud widget
   tagcloud:
     class: tagcloud
-    display: [desktop, mobile] # [desktop, mobile]
+    display: [desktop] # [desktop, mobile]
     header:
       icon: fal fa-tags
       title: 热门标签
@@ -462,8 +462,19 @@ widget:
       icon: fal fa-edit
       title: 建站小记
     content:
+      - '**2020/8/4** 微调更新'
       - '**2020/8/1** 默默更新, 增加了功能强大的右键, 发现 Pjax 还是有点小bug'
       - '**2020/7/27** 升级至 `Volantis v3.0 beta` 完成, 开启 Pjax 无跳转刷新'
+  # ---------------------------------------
+  # warn widget
+  warn:
+    class: text
+    display: [desktop, mobile] # [desktop, mobile]
+    header:
+      icon: fal fa-siren-on faa-flash animated
+      title: FBI WARNING
+    content:
+      - '本站默认替换了右键菜单，唤醒原系统菜单： <kbd>Ctrl</kbd> + <kbd>右键</kbd> ~'
   # You can add your own widget here or 'blog/source/_data/widget.yml'
   # class: text, list, grid, qrcode, page, ... see more at https://volantis.js.org/
 
@@ -471,7 +482,7 @@ widget:
 
 footer:
   # layout of footer: [aplayer, social, license, info, copyright]
-  layout: [social, info, copyright]
+  layout: [social, copyright]
   social:
     - icon: fal fa-rss
       url: /atom.xml
@@ -481,9 +492,9 @@ footer:
       url: https://github.com/Linhk1606
     - icon: fal fa-headphones-alt
       url: https://music.163.com/#/user/home?id=2113078436
-    - icon: fab fa-zhihu
+    - icon: fal fa-question-circle
       url: https://www.zhihu.com/people/linhk1606
-  copyright: 'Copyright © 2019-2020'
+  copyright: 'Made with <i class="fas fa-heart faa-pulse animated fa-fw"></i> by [VolantisX](https://github.com/volantis-x)'
   # You can add your own property here. (Support markdown, for example: br: '<br>')
   br: '<br>'
 
@@ -589,8 +600,8 @@ plugins:
     type: playlist    # song, playlist, album, search, artist
     id: 3194206062    # song id / playlist id / album id / search keyword
     # Optional
-    fixed: false      # enable fixed mode
-    theme: '#1BCDFC'  # main color
+    fixed: true      # enable fixed mode
+    theme: '#734ae6'  # main color
     autoplay: false   # audio autoplay
     order: random       # player play order, values: 'list', 'random'
     loop: all         # player loop play, values: 'all', 'one', 'none'
@@ -752,7 +763,7 @@ comments:
 rightmenu:
   enable: true
   # hr: 分割线, navigation: 导航按钮, music-ctrl: 音乐控制器
-  layout: [copy_text, copy_src, navigation, print, hr, home, tag, category, about, friend, hr, print, hr, music]
+  layout: [copy_text, copy_src, navigation, hr, home, about, friend, hr, print, hr, music]
   # 复制
   copy_text:
     name: 复制文本
@@ -817,7 +828,7 @@ search:
 ############################### Theme Information ###############################
 info:
   name: Volantis # This is theme's name.
-  version: '3.0-beta2' # This is theme's version.
+  version: '3.0-beta5' # This is theme's version.
   docs: https://volantis.js.org/ # This is theme's URL.
   repo: https://github.com/volantis-x/hexo-theme-volantis
   cdn:
