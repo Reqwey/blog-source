@@ -110,7 +110,7 @@ cover:
     home: true
     archive: true
     others: true # can be written in front-matter 'cover: true'
-  logo: https://blog.lhkstudio.me/assets/logooo.png
+  logo: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.5/img/lhk-logo.png
   search: Type here to search # search bar placeholder
   features:
     - name: 首页
