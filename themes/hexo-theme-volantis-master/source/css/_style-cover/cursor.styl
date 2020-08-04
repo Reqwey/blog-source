@@ -18,8 +18,6 @@ pre > span
 //index.styl
 a
   cursor $pointer,pointer
-  p
-    cursor $pointer,pointer
   &:not([href])
     cursor $default,default
     p
@@ -31,6 +29,9 @@ input[type="submit"]
   cursor: $pointer,pointer
 button[disabled],html input[disabled]
   cursor: $default,default
+table
+  &::-webkit-scrollbar-thumb
+    cursor $pointer,pointer
 
 //func.styl
 scrollbar
@@ -39,9 +40,6 @@ scrollbar
 
 //article.styl
 .article
-  kbd
-    &:hover
-      cursor: $default,default
   .widget
     cursor: $default,default
 
@@ -58,6 +56,15 @@ scrollbar
         .new-meta-item
           .notlink
             cursor: $default,default
+
+//rightmenu.styl
+ul.list-v.rightmenu
+  a
+    cursor: $default,default
+  li.music
+    a.nav.volume
+      .aplayer-volume-bar
+        cursor: $pointer,pointer
 
 //search.styl
 #u-search
@@ -84,16 +91,14 @@ article .checkbox
   input
     cursor: $pointer,pointer
 
-//dropmenu.styl
-div.dropmenu
-  cursor: $default,default
-
 //folding.styl
 details
   summary
     cursor: $pointer,pointer
-    p
-      cursor: $pointer,pointer
+
+//link.styl
+.article a.link-card
+  cursor: $pointer,pointer
 
 //tabs.styl
 div.tabs
@@ -137,6 +142,20 @@ if hexo-config('style.body.highlight.copy_btn') == true
 a.result.search-result-fix
   cursor $pointer,pointer
 
+kbd,
+.a > p,
+.not-select,
+.not-select p,
+.MiniValine *,
+.aplayer .aplayer-info .aplayer-music
+  cursor: $default,default !important
+
+.tag > p,
+.prev > p,
+.next > p,
+.author > p,
+.list-h > a > p,
+.category > a > p,
 .v[data-class=v] a,
 .v[data-class=v] .vbtn,
 .v[data-class=v] .vicon,
@@ -150,12 +169,17 @@ a.result.search-result-fix
 .aplayer .aplayer-list ol li,
 .aplayer .aplayer-list ol li .aplayer-list-author,
 .aplayer .aplayer-list ol li .aplayer-list-index,
+.waves-button, .waves-button-input, .waves-button:hover, .waves-button:visited,
 .fancybox-button,
-.waves-button, .waves-button-input, .waves-button:hover, .waves-button:visited
+.MiniValine .vbtn,
+.MiniValine .vcancel-comment-reply,
+.MiniValine .vcancel-comment-reply svg,
+.MiniValine .vlist .vcard .vcomment-body .vat,
+.MiniValine .vlist .vcard .vcomment-body .vhead .vname,
+.MiniValine .vinputs-area .btn-wrap .vfunction-btn svg,
+.MiniValine .vinputs-area .vextra-area .vsmile-icons img,
+.MiniValine .vlist .vcard .vcomment-body .text-wrapper .vcomment a
   cursor: $pointer,pointer !important
-
-.aplayer .aplayer-info .aplayer-music
-  cursor: $default,default !important
 
 .fancybox-button[disabled], .fancybox-button[disabled]:hover
   cursor: $not-allowed,not-allowed !important

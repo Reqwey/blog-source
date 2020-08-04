@@ -22,7 +22,7 @@ var customSearch;
 
 	// 校正页面定位（被导航栏挡住的区域）
 	function scrolltoElement(elem, correction = scrollCorrection) {
-		const $elem = elem.href ? $(elem.getAttribute('href')) : $(elem);
+		const $elem = elem.href ? $(decodeURI(elem.getAttribute('href'))) : $(elem);
 		$('html, body').animate({
 			'scrollTop': $elem.offset().top - correction
 		}, 500);
@@ -171,6 +171,7 @@ var customSearch;
 		var $headerMenu = $('body .navigation');
 		// 先把已经激活的取消激活
 		$headerMenu.find('li a.active').removeClass('active');
+		$headerMenu.find('div a.active').removeClass('active');
 		// var $underline = $headerMenu.find('.underline');
 		function setUnderline($item) {
 			// if (!transition) $underline.addClass('disable-trans');
@@ -277,7 +278,7 @@ var customSearch;
 
 		let liElements = Array.from($toc.find('li a'));
 		//function animate above will convert float to int.
-		let getAnchor = () => liElements.map(elem => Math.floor($(elem.getAttribute('href')).offset().top - scrollCorrection));
+		let getAnchor = () => liElements.map(elem => Math.floor($(decodeURI(elem.getAttribute('href'))).offset().top - scrollCorrection));
 
 		let anchor = getAnchor();
 		let domHeigth = $(document).height();
