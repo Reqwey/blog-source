@@ -600,7 +600,7 @@ plugins:
     type: playlist    # song, playlist, album, search, artist
     id: 3194206062    # song id / playlist id / album id / search keyword
     # Optional
-    fixed: true      # enable fixed mode
+    fixed: false      # enable fixed mode
     theme: '#734ae6'  # main color
     autoplay: false   # audio autoplay
     order: random       # player play order, values: 'list', 'random'
