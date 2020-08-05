@@ -13,6 +13,19 @@ valine:
 {% cell Linhk1606, , https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.6.5/img/avatar.webp %}
 {% endbtns %}
 
+### 关于我
+
+本站搭了这么久了, 博主都没有自我介绍(咕咕咕?), 相信大家都很{% psw 不 %}想知道我是个什么样的人吧
+
+初三学生, 是个星战迷(所以才有了这个头像{% psw ,不过最近想换头像了, 换成我GitHub个人主页里的那个 %}), 喜欢信息技术, 画画, 听音乐, 打乒乓球(咦, 我怎么和[@JalenChuh](https://jalenchuh.cn)有同样的爱好~), 最喜欢的DJ是[Avicii](https://www.avicii.com)(所以你会看到我的歌单里面有很多他的歌). 人生目标嘛, 想长大后做一个计算机科学家, 一个能自娱自乐的DJ(虽然现在连电子琴都不会弹)
+
+由于学业繁重{% psw 懒 %}, 所以博文都没怎么认真写, 看到那么多高质量的文章, 真的有点惭愧啊.
+
+不过, 我会努力让新文章的可读性增强的!{% psw 旧文章看情况, 心情好可能会去重构一下 %}
+
+{% psw psw是Volantis史上最好用的标签~ %}
+
+### 下面是一些不太重要的东西
 
 {% tabs aboutme %}
 
@@ -188,14 +201,15 @@ jobs:
     # from: https://github.com/actions/checkout
     - name: Checkout Repository master branch
       uses: actions/checkout@master 
-
+    
     # from: https://github.com/actions/setup-node  
     - name: Setup Node.js 10.x 
       uses: actions/setup-node@master
       with:
         node-version: "10.x"
-    
-    
+
+
+​    
     # from https://github.com/x-cold/yuque-hexo
     - name: Setup Yuque & Hexo Settings
       env:
@@ -205,15 +219,15 @@ jobs:
         npm install yuque-hexo -g
         npm install
         npm run yuque
-
+    
     - name: Setup Algolia Search
       env:
         HEXO_ALGOLIA_INDEXING_KEY: ${{ secrets.HEXO_ALGOLIA_INDEXING_KEY }}
       run: hexo algolia
-
+    
     - name: Generate
       run: npm run start
-
+    
     # from https://github.com/peaceiris/actions-gh-pages    
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
@@ -239,5 +253,3 @@ jobs:
 <!-- endtab -->
 
 {% endtabs %}
-
------
