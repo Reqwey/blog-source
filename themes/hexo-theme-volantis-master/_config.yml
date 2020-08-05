@@ -240,7 +240,7 @@ layout:
   # 文章布局，参数继承自 on_page
   on_post:
     # 文章页脚，自动在每一篇文章末尾添加
-    article_footer: [references, related_repos, copyright, related_posts]
+    article_footer: [references, related_repos, related_posts, copyright]
   # 其他的页面布局暂时等于 on_list
 
 
@@ -763,7 +763,7 @@ comments:
 rightmenu:
   enable: true
   # hr: 分割线, navigation: 导航按钮, music-ctrl: 音乐控制器
-  layout: [copy_text, copy_src, navigation, hr, home, about, friend, hr, print, hr, music]
+  layout: [copy_text, copy_src, navigation, hr, tag, category, about, friend, hr, print, hr, music]
   # 复制
   copy_text:
     name: 复制文本
