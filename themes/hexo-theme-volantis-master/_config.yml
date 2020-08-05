@@ -240,7 +240,7 @@ layout:
   # 文章布局，参数继承自 on_page
   on_post:
     # 文章页脚，自动在每一篇文章末尾添加
-    article_footer: [references, related_repos, copyright]
+    article_footer: [references, related_repos, copyright, related_posts]
   # 其他的页面布局暂时等于 on_list
 
 
