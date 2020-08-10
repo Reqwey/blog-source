@@ -107,7 +107,7 @@ links:
       textColor: '#dadada'
       desc: Be Yourself, Make a Difference.
     - name: 枋柚梓
-      avatar: https://img.inkss.cn/inkss_cn/static/img/avatar.jpg
+      avatar: https://cdn.jsdelivr.net/gh/inkss/common@master/static/web/avatar.jpg
       url: https://inkss.cn
       backgroundColor: '#cdbdb0'
       textColor: '#946543'
