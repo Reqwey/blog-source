@@ -114,25 +114,23 @@ cover:
   search: Type here to search # search bar placeholder
   features:
     - name: 首页
-      icon: fad fa-house-user
+      img: /assets/file-manager.svg
       url: /
-      iconColor: '#20c997'
-    - name: 分类
-      icon: fad fa-folder-tree
-      url: categories/
-      iconColor: '#ff9800'
     - name: 归档
-      icon: fad fa-anchor
+      img: /assets/irix.svg
       url: archives/
-      iconColor: '#E91E63'
-    - name: 关于我
-      icon: fad fa-user-tie
+    - name: 关于&留言
+      img: /assets/notification.svg
       url: /about
-      iconColor: '#2196f3'
     - name: 友链
-      icon: fad fa-draw-polygon
+      img: /assets/cs-user.svg
       url: /friends
-      iconColor: '#734ae6'
+    - name: 个人主页
+      img: /assets/web-browser.svg
+      url: https://www.lhkstudio.me
+    - name: GitHub
+      img: /assets/github-desktop.svg
+      url: https://github.com/Linhk1606
 
 
 # Navigation Bar
@@ -234,7 +232,7 @@ layout:
   # 文章布局，参数继承自 on_page
   on_post:
     # 文章页脚，自动在每一篇文章末尾添加
-    article_footer: [references, related_repos, related_posts, copyright]
+    article_footer: [references, related_repos, copyright]
   # 其他的页面布局暂时等于 on_list
 
 
@@ -608,6 +606,8 @@ plugins:
     cacheBust: false     # When set to true, Pjax appends a timestamp  to skip the browser cache.
     animation: nprogress # nprogress, circle
     banUrl:              # 被屏蔽的 url 地址将不启用 pjax 跳转，可以在控制台下使用 window.location.pathname 获取
+      - /time-machine/
+      - /time-machine/index.html
 
   # Artitalk https://artitalk.js.org
   # 配置过程请参考：https://artitalk.js.org/doc.html
@@ -754,7 +754,7 @@ comments:
 rightmenu:
   enable: true
   # hr: 分割线, navigation: 导航按钮, music-ctrl: 音乐控制器
-  layout: [copy_text, copy_src, navigation, hr, tag, category, about, friend, hr, print, hr, music]
+  layout: [copy_text, copy_src, navigation, hr, tag, category, about, friend, hr, code, hr, music]
   # 复制
   copy_text:
     name: 复制文本
@@ -790,6 +790,10 @@ rightmenu:
     name: 查看我的朋友
     icon: fal fa-users
     url: /friends
+  code:
+    name: 本站源码
+    icon: fal fa-code-branch
+    url: https://github.com/Linhk1606/blog-source
 
 
 
