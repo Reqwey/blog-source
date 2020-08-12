@@ -547,9 +547,9 @@ plugins:
 
   ######## Plugins for ...
   # Button Ripple Effect
-  nodewaves:
-    css: https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.css
-    js: https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.js
+  # nodewaves:
+  #   css: https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.css
+  #   js: https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.js
 
   # Typing Effects
   comment_typing: https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@2/js/comment_typing.js
@@ -614,9 +614,6 @@ plugins:
     cacheBust: false     # When set to true, Pjax appends a timestamp  to skip the browser cache.
     animation: nprogress # nprogress, circle
     banUrl:              # 被屏蔽的 url 地址将不启用 pjax 跳转，可以在控制台下使用 window.location.pathname 获取
-      - '/time-machine/index.html'
-      - '/time-machine/'
-      - '/time-machine'
 
   # Artitalk https://artitalk.js.org
   # 配置过程请参考：https://artitalk.js.org/doc.html
