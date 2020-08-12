@@ -143,29 +143,38 @@ navbar:
     title: LHKSTUDIO
   menu:
     # The following can be written in `blog/source/_data/menu.yml`
-    - name: 分类
-      icon: fal fa-folder-open
-      url: categories/
-      iconColor: '#20c997'
-    - name: 标签
-      icon: fal fa-hashtag
-      url: tags/
-      iconColor: '#2196f3'
-    - name: 时间轴
-      icon: fal fa-list
-      url: archives/
-      iconColor: '#E91E63'
-    - name: 关于我
-      icon: fal fa-user-circle
-      url: /about
-      iconColor: '#ff9800'
-    - name: 友链
-      icon: fal fa-link
-      url: /friends
-      iconColor: '#2196f3'
-    - name: 管理员
+    - name: 导航
+      icon: fal fa-cube
+      rows:
+        - name: 分类
+          icon: fal fa-folder-open
+          url: categories/
+        - name: 标签
+          icon: fal fa-hashtag
+          url: tags/
+        - name: 时间轴
+          icon: fal fa-list
+          url: archives/
+    - name: 关于
+      icon: fal fa-info
+      rows:
+        - name: 我&本站
+          icon: fal fa-user-circle
+          url: /about
+        - name: 友链
+          icon: fal fa-link
+          url: /friends
+        - name: 时光鸡
+          icon: fal fa-clock
+          url: time-machine/
+        - name: 个人主页
+          icon: fal fa-caret-square-right
+          url: https://lhkstudio.me
+        - name: Follow Me
+          icon: fal fa-code-branch
+          url: https://github.com/Linhk1606
+    - name: 管理
       icon: fal fa-shield
-      iconColor: '#9c27b0'
       rows:
         - name: 站点监视
           icon: fal fa-telescope
@@ -179,36 +188,21 @@ navbar:
         - name: 腾讯云函数
           icon: fal fa-brackets-curly
           url: https://console.cloud.tencent.com/scf/list-detail?rid=1&ns=default&id=Hexo
-        - name: hr
-        - name: 时光鸡
-          icon: fal fa-clock
-          url: time-machine/
     - name: 更多
       icon: fal fa-ellipsis-v
-      iconColor: '#E91E63'
       rows:
-        - name: 个人主页
-          icon: fal fa-caret-square-right
-          url: https://lhkstudio.me
-        - name: Follow Me
-          icon: fal fa-code-branch
-          url: https://github.com/Linhk1606
-        - name: hr
-        - name: 小工具
-          icon: fal fa-tools
-          rows:
-            - name: 肺炎疫情图
-              icon: fal fa-biohazard
-              url: 2019-nCoV/
-            - name: RSS订阅
-              icon: fal fa-rss
-              url: /atom.xml
-            - name: 站点地图
-              icon: fal fa-sitemap
-              url: /sitemap.xml
-            - name: 3D元素周期表
-              icon: fal fa-flask
-              url: /Periodic-table
+        - name: 肺炎疫情图
+          icon: fal fa-biohazard
+          url: 2019-nCoV/
+        - name: RSS订阅
+          icon: fal fa-rss
+          url: /atom.xml
+        - name: 站点地图
+          icon: fal fa-sitemap
+          url: /sitemap.xml
+        - name: 3D元素周期表
+          icon: fal fa-flask
+          url: /Periodic-table
         - name: 来点音乐
           icon: fal fa-compact-disc
   search: Search...   # Search bar placeholder
