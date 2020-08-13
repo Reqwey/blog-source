@@ -140,16 +140,16 @@
       border-radius: 2px
       margin: $gap * 0.5 $gap * 0.25
       min-width: 40px
-      // max-width: 44px
+      max-width: 44px
       @media screen and (max-width: $device-tablet)
         min-width: 36px
-        max-width: 44px
+        max-width: 40px
       @media screen and (max-width: $device-mobile)
         min-width: 32px
-        max-width: 44px
+        max-width: 36px
       @media screen and (max-width: $device-mobile-m)
         min-width: 28px
-        max-width: 44px
+        max-width: 32px
 
 
 .cover-wrapper .cover .cover-body .menu
@@ -178,9 +178,9 @@
     .list-h a
       flex-direction: column
       align-items: center
-      padding: $gap * 0.75
+      padding: $gap * 0.5
       @media screen and (max-width: $device-mobile)
-        padding: $gap * 0.75 $gap * 0.5
+        padding: $gap * 0.5 $gap * 0.25
       border-radius: $border-button
       border-bottom: none
       text-align: center
@@ -190,7 +190,7 @@
       i
         margin: $gap * 0.5
       p
-        font-size: $fontsize-meta
+        font-size: 0.75rem
       &.active
         i, i+p
           color: $color-theme
