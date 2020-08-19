@@ -187,8 +187,8 @@ cover:
   layout: dock  # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
   display:
     home: true
-    archive: true
-    others: true # can be written in front-matter 'cover: true'
+    archive: false
+    others: false # can be written in front-matter 'cover: true'
   background:
   logo: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.5/img/lhk-logo.png
   search: Type here to search # search bar placeholder
