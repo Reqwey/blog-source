@@ -668,10 +668,10 @@ plugins:
     right: unset
     left: 16px
     time: .5s
-    mixColor: '#f4f4f4'
-    backgroundColor: '#734ae6'
-    buttonColorDark: '#100f2c'
-    buttonColorLight: '#734ae6'
+    mixColor: '#fff'
+    backgroundColor: '#fff'
+    buttonColorDark: '#181c27'
+    buttonColorLight: '#fff'
     saveInCookies: true
     label: 🌙
     autoMatchOsTheme: true
