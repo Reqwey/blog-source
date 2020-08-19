@@ -193,19 +193,19 @@ cover:
   logo: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.5/img/lhk-logo.png
   search: Type here to search # search bar placeholder
   features:
-    - name: 首页
+    - name: Finder
       img: /assets/file-manager.svg
       url: /
-    - name: 归档
+    - name: Archive
       img: /assets/irix.svg
       url: archives/
-    - name: 关于&留言
+    - name: Message
       img: /assets/notification.svg
       url: /about
-    - name: 友链
+    - name: Links
       img: /assets/cs-user.svg
       url: /friends
-    - name: 个人主页
+    - name: Homepage
       img: /assets/web-browser.svg
       url: https://www.lhkstudio.me
     - name: GitHub

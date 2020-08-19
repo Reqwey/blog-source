@@ -17,6 +17,6 @@ hexo.extend.tag.register('link', function(args) {
     img = args[2].trim()
     return `<div><a class='link-card' title='${url}' href='${url}'><div class='left'><img src=${img}></div><div class='right'><p class='text'>${text}</p><p class='url'>${url}</p></div></a></div>`;
   } else {
-    return `<div><a class='link-card' title='${url}' href='${url}'><div class='left'><i class='fas fa-link'></i></div><div class='right'><p class='text'>${text}</p><p class='url'>${url}</p></div></a></div>`;
+    return `<div><a class='link-card' title='${url}' href='${url}'><div class='left'><i class='fal fa-link'></i></div><div class='right'><p class='text'>${text}</p><p class='url'>${url}</p></div></a></div>`;
   }
 });

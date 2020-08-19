@@ -104,7 +104,7 @@
   .subtitle
     font-size: $fontsize-meta
   .logo
-    max-height: 75px
+    max-height: 120px
     max-width: "calc(100% - 4 * %s)" % $gap
   @media screen and (min-height: 1024px)
     .title
@@ -176,6 +176,7 @@
         min-width: 36px
         max-width: 40px
       @media screen and (max-width: $device-mobile)
+        margin: 2px $gap * 0.25
         min-width: 32px
         max-width: 36px
       @media screen and (max-width: $device-mobile-m)
