@@ -667,13 +667,13 @@ plugins:
     bottom: 32px
     right: unset
     left: 16px
-    time: 0s
+    time: .5s
     mixColor: '#f4f4f4'
-    backgroundColor: '#f4f4f4'
+    backgroundColor: '#734ae6'
     buttonColorDark: '#100f2c'
-    buttonColorLight: '#f4f4f4'
+    buttonColorLight: '#734ae6'
     saveInCookies: true
-    label: 🌓
+    label: 🌙
     autoMatchOsTheme: true
 
 
