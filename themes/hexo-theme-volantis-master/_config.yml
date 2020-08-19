@@ -84,11 +84,7 @@ style:
       weight: normal
       style: normal
     iconfont:
-      fontfamily: 'Font Awesome 5 Pro Solid'
-      name: 'Font Awesome 5 Pro Solid'
-      url: https://cdn.jsdelivr.net/gh/volantis-x/cdn-fontawesome-pro@master/webfonts/fa-solid-900.ttf 
-      weight: normal
-      style: normal
+      fontfamily: 'Font Awesome 5 Pro'
   # color:
   #   site: '#21232F' # Website background color
   #   site_inner: '#fff' # Text color inside the website background
@@ -473,7 +469,7 @@ widget:
       icon: fad fa-edit
       title: 建站小记
     content:
-      - '**2020/8/19** 更新，为啥我的lazyload没了'
+      - '**2020/8/19** 更新，一个勉勉强强可以用的暗黑模式，以及。。。为啥我没有lazyload效果'
       - '**2020/8/4** 微调更新'
       - '**2020/8/1** 默默更新, 增加了功能强大的右键'
       - '**2020/7/27** 升级至 `Volantis v3.0 beta` 完成, 开启 Pjax 无跳转刷新'
@@ -666,7 +662,7 @@ plugins:
   # https://darkmodejs.learn.uno
   # 暗黑模式样式：https://github.com/volantis-x/hexo-theme-volantis/blob/master/source/css/_third-party/darkmode.styl
   darkmodejs:
-    enable: false
+    enable: true
     js: https://cdn.jsdelivr.net/npm/darkmode-js@1.5/lib/darkmode-js.min.js
     bottom: 32px
     right: unset

@@ -1,10 +1,31 @@
 .darkmode-toggle
 	z-index: 100000
 .darkmode-background
+	color: #181c27
 	z-index: -9999999 !important
 .darkmode--activated
-	img
-		filter: brightness(30%)
+	// img
+	// 	filter: brightness(30%)
+	p, time, .l_header ul.nav-list-h>li>a, ul.list-v >li>a, span, i, .article psw:hover, div.tabs ul.nav-tabs li.tab.active a, .comments .article p[ct]
+		color: #ccc
+	body
+		background-color: #181c27
+	h1, h2, h3, h4, h5, h6
+		color: #ccc
+	.widget.blogger .content .card-info-data > .card-info-data-item a .headline
+		color: #ccc
+	.widget.blogger .content .card-info-data > .card-info-data-item a .length_num
+		color: #808080
+	.widget.blogger .content .social-wrapper a
+		color: #ccc
+	.article
+		color: #ccc
+	.article
+		h1, h2, h3, h4, h5, h6
+			color: #ccc
+	.l_header .wrapper .title, .article-title a, .l_main .post section.meta .title a, .meta-v3, .l_main .post section.meta .new-meta-box .new-meta-item a p
+		color: #efefef
+	
 	.pdf
 		filter: brightness(30%)
 	.MiniValine .vpage .more
@@ -14,8 +35,8 @@
 	.MiniValine .vlist .vcard .vcomment-body .text-wrapper .vcomment.expand:after
 		background: rgba(0,0,0,0.9)
 	.MiniValine .vlist .vcard .vcomment-body .text-wrapper .vcomment pre
-		background: #282c34
-		border: 1px solid #282c34
+		background: #252d38
+		border: 1px solid #252d38
 	.MiniValine .vinputs-area .vextra-area .vsmile-icons
 		background: transparent
 	.MiniValine .vlist .vcard .vcomment-body .vhead
@@ -28,17 +49,19 @@
 		background: #21232F
 	.nav-main
 		.u-search-input
-			background: skyblue !important
+			background: rgba(68,68,68,0.2) !important
 	.list-v
 		background: #21232F
 	.vsubmit
 		background: #21232F
 	.l_header ul>li>a:hover
-		background: rgba(33,150,243,.2)
+		background: rgba(68,68,68,0.65)
 	#archive-page .archive .archive-post a:hover
-		background: rgba(33,150,243,.2)
+		background: rgba(68,68,68,0.65)
 	.l_main .article .prev-next>a
-		background: #21232F
+		background: rgba(68,68,68,0.65)
+		&:hover
+			background: #ffeee833
 	.article blockquote
 		background: #21232F
 	table tr 
@@ -46,65 +69,135 @@
 	table th 
 		background: rgba(3, 8, 36, 0.56)
 	table tr:hover
-		background: rgba(33,150,243,.2)
+		background: rgba(68,68,68,0.65)
 	.highlight>table
-		background: #282c34
+		background: #252d38
 	.gutter
-		background: #282c34 !important
-		background-color: #282c34 !important
+		background: #252d38 !important
+		background-color: #252d38 !important
 	.highlight figcaption
 		background-color: #21252b
 	.highlight
 		border: 1px solid #21252b !important
-		background: #282c34
+		background: #252d38
 		table tr:hover
-			background: #282c34
+			background: #252d38
+	.gt-container .gt-header-textarea
+		background-color: #252d38
+		&:hover
+			background-color: 
+				rgba(68,68,68,0.65)
+	.gt-container .gt-comment-content
+		background-color: #444
+		&:hover
+			box-shadow: none
+	.gt-container .gt-comment-admin .gt-comment-content
+		background-color: #252d38
+
 	details>summary
-		background: #282c34
+		background: #252d38
 	details
-		border: 1px solid #282c34
-		background: #282c34
+		border: 1px solid #252d38
+		background: #252d38
 	.note
-		background: #282c34 !important
+		background: #252d38 !important
 	.nav-tabs
-		background: #282c34 !important
+		background: #252d38 !important
 	.tabs
-		background: #282c34 !important
+		background: #252d38 !important
 	.btns a
-		background: #282c34 !important
+		background: #ccc !important
 	.tab.active a
-		background: skyblue !important
+		background: rgba(68,68,68,0.65) !important
+	div.tabs .tab-content .tab-pane
+		background: rgba(68,68,68,0.65)
 	.widget>.content ul.entry a:hover, .widget>.content ul.popular-posts a:hover
-		background: rgba(33,150,243,.2)
+		background: rgba(68,68,68,0.65)
+	.l_side .toc-wrapper .content a:hover
+		background: #f1ecfc2e
 	#u-search .modal
-		background: #282c34 !important
+		background: #252d38 !important
 	#u-search .modal-header
-		background: #282c34 !important
+		background: #252d38 !important
 	#u-search .modal-body
-		background: #282c34 !important
+		background: #252d38 !important
 	#u-search .modal-body .modal-results .result:hover
-		background: rgba(33,150,243,.2) !important
+		background: rgba(68,68,68,0.65) !important
 	.aplayer-info
-		background: #282c34 !important
+		background: #252d38 !important
 	.aplayer .aplayer-lrc:before
-		background: linear-gradient(180deg,#282c34 0,hsla(0,0%,100%,0))
+		background: linear-gradient(180deg,#252d38 0,hsla(0,0%,100%,0))
 	.aplayer .aplayer-lrc:after
 		background: linear-gradient(180deg,hsla(0,0%,0%,0) 0,hsla(0,0%,13%,.8))
 	.aplayer-pic
 		filter: brightness(30%)
 	.l_header ul.nav-list-h>li>a:hover
-		background: #282c34 !important
+		background: #252d38 !important
 	.white-box
-		background: #282c34 !important
+		background: #252d38 !important
 	.widget
-		background: #282c34 !important
+		background: #252d38 !important
 	.article code:not([class])
 		background: #221f29 !important
 	.cover-wrapper .cover .cover-body .menu.dock .list-h a:hover, .cover-wrapper .cover .cover-body .menu.featured .list-h a:hover, .cover-wrapper .cover .cover-body .menu.focus .list-h a:hover
-		background: #282c34 !important
+		background: #252d38 !important
 	.friend-card
 		background: #172233 !important
 	.highlight pre .line, .highlight pre .params 
 		color: rgba(158, 142, 142, 0.9)
 	div.timenode .body
 		background: #21232f !important
+	// highlight
+	.hljs 
+		display block
+		overflow-x auto
+		padding 0.5em
+		color #abb2bf
+		background #282c34
+	.hljs-comment,
+	.hljs-quote 
+		color #5c6370
+		font-style italic
+	.hljs-doctag,
+	.hljs-keyword,
+	.hljs-formula 
+		color #c678dd
+	.hljs-section,
+	.hljs-name,
+	.hljs-selector-tag,
+	.hljs-deletion,
+	.hljs-subst 
+		color #e06c75
+	.hljs-literal 
+		color #56b6c2
+	.hljs-string,
+	.hljs-regexp,
+	.hljs-addition,
+	.hljs-attribute,
+	.hljs-meta-string 
+		color #98c379
+	.hljs-built_in,
+	.hljs-class .hljs-title 
+		color #e6c07b
+	.hljs-attr,
+	.hljs-variable,
+	.hljs-template-variable,
+	.hljs-type,
+	.hljs-selector-class,
+	.hljs-selector-attr,
+	.hljs-selector-pseudo,
+	.hljs-number 
+		color #d19a66
+	.hljs-symbol,
+	.hljs-bullet,
+	.hljs-link,
+	.hljs-meta,
+	.hljs-selector-id,
+	.hljs-title 
+		color #61aeee
+	.hljs-emphasis 
+		font-style italic
+	.hljs-strong 
+		font-weight bold
+	.hljs-link 
+		text-decoration underline

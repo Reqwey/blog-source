@@ -102,9 +102,6 @@ theme: hexo-theme-volantis-master
 
 # 网站图标，更多尺寸等图标请使用import方式批量导入
 favicon: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.6.5/img/avatar.webp
-import:
-  link:
-  - '<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.2/css/atom-one-light.css">'
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
