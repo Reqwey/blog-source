@@ -15,7 +15,7 @@
 
     .archive-post
       a
-        color: $color-text
+        color: var(--color-p)
         width: 100%
         display: inline-flex
         flex-flow: row nowrap
@@ -43,7 +43,7 @@
         vertical-align: middle
         padding: .4em
         padding-left: 2em
-        color: $color-meta
+        color: var(--color-meta)
         @media screen and (max-width: $device-mobile)
           padding-left: 1em
 
@@ -51,7 +51,7 @@
         flex: auto
         padding: .4em
         i
-          color: $color-hover
+          color: var(--color-hover)
           &.red
             color: $color-mac-red
           &.green
@@ -63,14 +63,14 @@
           &.theme
             color: $color-theme
           &.accent
-            color: $color-hover
+            color: var(--color-hover)
           &.orange
             color: $color-md-deep-orange
     .all-categories
       time
-        color: $color-text
+        color: var(--color-p)
       .title
-        color: $color-meta
+        color: var(--color-meta)
 
     .all-tags
       display: flex
@@ -87,17 +87,17 @@
         flex-wrap: wrap
         li
           list-style: none
-          background: $color-block
+          background: var(--color-block)
           margin: $gap-row 4px
           border-radius: $border-button
           overflow: hidden
           display: flex
           a
             display: inline-block
-            color: $color-text
+            color: var(--color-p)
             padding: 4px 8px 4px 12px
             &:hover
-              color: $color-hover !important
+              color: var(--color-hover) !important
           span
             padding: 4px 8px
             color: alpha($color-meta, .5)
@@ -106,6 +106,6 @@
           &:hover
             background: bgcolor($color-hover)
             a
-              color: $color-hover
+              color: var(--color-hover)
             span
               background: bgcolor($color-hover)

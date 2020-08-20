@@ -690,7 +690,7 @@ plugins:
     buttonColorDark: '#181c27'
     buttonColorLight: '#f4f4f4'
     saveInCookies: true
-    label: 🌙
+    label: 
     autoMatchOsTheme: true
 
 

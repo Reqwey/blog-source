@@ -1,3 +1,27 @@
+:root
+  --color-site: $color-site
+  --color-site-inner: $color-site-inner
+  --color-site-footer: $color-site-footer
+  --color-card: $color-card
+  --color-text: $color-text
+  --color-link: $color-link
+  --color-hover: $color-hover
+  --color-inner: $color-inner
+  --color-block: $color-block
+  --color-selection: $color-selection
+  --color-inlinecode: $color-inlinecode
+  --color-codeblock: $color-codeblock
+  --color-blockquote: $color-blockquote
+  --color-mathjax: $color-mathjax
+  --color-h1: $color-h1
+  --color-h2: $color-h2
+  --color-h3: $color-h3
+  --color-h4: $color-h4
+  --color-h5: $color-h5
+  --color-h6: $color-h6
+  --color-p: $color-p
+  --color-meta: $color-meta
+
 *
   box-sizing: border-box
   outline: none
@@ -5,7 +29,7 @@
   padding: 0
 
 html
-  color: $color-text
+  // color: var(--color-p)
   width: 100%
   height: 100%
   font-family: $fontfamily
@@ -15,7 +39,8 @@ html
       scrollbar(convert(hexo-config('style.scrollbar.size')), convert(hexo-config('style.scrollbar.border')) || 0px)
 
 body
-  background-color: $color-site
+  background-color: var(--color-site)
+  color: var(--color-p)
   text-rendering: optimizelegibility
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
   line-height: $lineheight
@@ -58,12 +83,12 @@ h1,h2,h3,h4,h6
   font-weight: normal
 
 a
-  color: $color-link
+  color: var(--color-link)
   cursor: pointer
   text-decoration: none
   trans()
   &:hover
-    color: $color-hover
+    color: var(--color-hover)
   &:active,&:hover
     outline: 0
   &:not([href])
@@ -178,14 +203,14 @@ s,del
   color: mix($color-p, $color-card, 60)
   text-decoration-color: @color
 u
-  color: $color-text
+  color: var(--color-p)
   text-decoration: none
   border-bottom: 1px solid $color-mac-red
 emp
-  color: $color-text
+  color: var(--color-p)
   border-bottom: 4px dotted $color-mac-red
 wavy
-  color: $color-text
+  color: var(--color-p)
   text-decoration-style: wavy
   text-decoration-line: underline
   text-decoration-color: $color-mac-red
@@ -195,12 +220,12 @@ psw
   border-radius: 2px
   trans()
   &:hover
-    color: $color-p
+    color: var(--color-p)
     background: none
 kbd
   border-radius: $border-codeblock * 0.5
   border: 1px solid mix($color-block, $color-text, 90)
-  background: $color-block
+  background: var(--color-block)
   padding-left: 4px
   padding-right: 4px
 
