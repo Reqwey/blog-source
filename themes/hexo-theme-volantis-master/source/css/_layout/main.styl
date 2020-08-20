@@ -1,7 +1,5 @@
 .safearea
   margin: $gap
-  @media screen and (max-width: $device-mobile-m)
-    margin: $gap 0 0
 .l_body
   position: relative
   if hexo-config('style.font_smoothing') == true
@@ -76,26 +74,6 @@
     column-break-inside: avoid
     break-inside: avoid-column
 
-  mobile-post()
-    .post
-      div.meta
-        .title
-          font-size: $fontsize-h3
-      @media screen and (max-width: $device-mobile)
-        padding: 1.5 * $gap $gap
-
-  .post-wrapper
-    margin-bottom: $gap
-    .post
-      div.meta
-        margin-bottom: $gap
-        .title
-          font-size: $fontsize-h2
-          a
-            font-size: $fontsize-h2
-    @media screen and (max-width: $device-mobile)
-      mobile-post()
-
   .widget
     .content
       p,ul,ol,table,.tabs,details
@@ -127,27 +105,15 @@
     margin-bottom: $gap
     padding: 1.5 * $gap
     border-radius: $border-card
-    @media screen and (max-width: $device-mobile-m)
-      border-radius: 0
-      margin-bottom: 0
     h1
       font-weight: normal
       font-size: $fontsize-h1
-    section.meta
-      color: $color-meta
-      margin-bottom: $gap
-      line-height: normal
-      &#header-meta
-        margin-top: 0
-        margin-bottom: 1 * $gap
-      &#footer-meta
-        margin-top: 2 * $gap
-        margin-bottom: 0.5 * $gap
+    .article-header
       .headimg
         width: "calc(100% + 3 * %s)" % $gap
         margin-left: 0 - 1.5 * $gap
         margin-top: 0 - 1.5 * $gap
-        margin-bottom: 1.5 * $gap
+        margin-bottom: 2 * $gap
         height: 280px
         background-position: center
         background-size: cover
@@ -157,14 +123,47 @@
           height: 220px
         @media screen and (max-width: $device-mobile-l)
           height: 190px
-
+      .title
+        trans(.1s)
+        margin: 0
+        color: $color-text
+        border-bottom: none
+        padding-bottom: 4px
+        p
+          &.h1,&.h2
+            margin-top: $gap * 3
+            margin-bottom: $gap * 1.5
+            border-bottom: none
+          &.h1
+            font-size: $fontsize-h1 * 1.1
+          &.h2
+            font-size: $fontsize-h2 * 1.1
+        a
+          display: inline
+          font-weight: bold
+          color: $color-text
+          text-decoration: none
+          font-size: $fontsize-h1
+          &:hover
+            color: $color-hover
+    .article-meta
+      color: $color-meta
+      margin-bottom: $gap
+      line-height: normal
+      &#top
+        margin-top: 1 * $gap
+        margin-bottom: 2 * $gap
+      &#bottom
+        margin-top: 2 * $gap
+        margin-bottom: 0.5 * $gap
+      .aplayer,.aplayer-pic,.thumbnail
+        width: 48px
+        height: 48px
       .aplayer,.thumbnail
         trans()
-        width: 65px
-        height: 65px
         border-radius: 100%
         float: right
-        margin: 4px
+        margin: 2px
         box-shadow: $boxshadow-card
         &:hover
           border-radius: 25%
@@ -184,30 +183,11 @@
           border-radius: 4px
           transform: scale(1.1) rotate(4deg)
           box-shadow: none
-      .title
-        trans(.1s)
-        margin: 0
-        color: $color-text
-        p
-          &.h1,&.h2
-            margin-top: $gap * 4
-            margin-bottom: $gap * 2
-            border-bottom: none
-          &.h1
-            font-size: $fontsize-h1 * 1.1
-          &.h2
-            font-size: $fontsize-h2 * 1.1
-        a
-          display: inline
-          font-weight: normal
-          color: $color-text
-          &:hover
-            color: $color-hover
+
+
 
       .new-meta-box
         trans(.1s)
-        padding-top: 4px
-        padding-bottom: 8px
         display: flex
         align-items: center
         flex-wrap: wrap
@@ -289,14 +269,14 @@
             width: 100%
             margin-top: $gap
             background: $color-block
+            border-radius: $border-codeblock
 
         .share-body
           position: relative
           display: flex
-          justify-content: center;
+          justify-content: center
           margin: 0
           padding: 0 2px
-          border-radius: 2px
           a
             padding: 0
             margin: 0 1px
@@ -308,6 +288,30 @@
                 margin: 8px
               width: auto
               background: transparent
+          div.hoverbox
+            div.target
+              display: none
+              position: absolute
+              background: $color-card
+              border-radius: $border-card
+              box-shadow: $boxshadow-card-float
+              padding: 8px
+              left: 50%
+              top: -20px
+              transform: translate(-50%, -100%)
+              img
+                display: block
+                margin: 0
+                padding: 0
+                height: 128px
+                width: 128px
+                min-width: 128px
+            &:hover
+              div.target
+                display: flex
+            @media screen and (max-width: $device-mobile)
+              div.target
+                position: absolute
 
     span>img
       display: inline-block
@@ -322,7 +326,6 @@
     padding-right: 0
     @media screen and (max-width: $device-mobile)
       width: 100%
-    mobile-post()
 
 
 
@@ -340,37 +343,7 @@
   align-items: stretch
 
 
-div.hoverbox
-  // display: flex
-  // flex-direction: column
-  // justify-content: center
-  // align-items: center
 
-  >div.target
-    display: none
-    position: absolute
-    background: $color-card
-    border-radius: $border-card
-    box-shadow: $boxshadow-card-float
-    padding: 8px
-    left: 50%
-    top: -20px
-    // margin-left: 50%
-    transform: translate(-50%, -100%)
-    // margin-left: -4px
-    // margin-top: 0 - 4px - 64px - 40px
-    >img
-      margin: 0
-      padding: 0
-      height: 128px
-      width: 128px
-      min-width: 128px
-  &:hover
-    >div.target
-      display: flex
-  @media screen and (max-width: $device-mobile)
-    >div.target
-      position: absolute
 
 .comments
   .article
@@ -415,3 +388,9 @@ img
       opacity: 0
     &.loaded
       opacity: 1
+    if hexo-config('lazyload.blurIn') == true
+      transition filter .25s ease-out 0s
+      &:not(.loaded)
+        filter blur(8px)
+      &.loaded
+        filter none

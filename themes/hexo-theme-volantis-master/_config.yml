@@ -53,7 +53,7 @@ style:
   fontsize:
     root: 16px
     h1: 1.625rem
-    h2: 1.375rem
+    h2: 1.5rem
     h3: 1.25rem
     h4: 1.125rem
     h5: 1rem
@@ -76,7 +76,6 @@ style:
       url: https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/UbuntuMono/UbuntuMono-Regular.ttf
       weight: normal
       style: normal
-      offset: 0.1rem # Correct baseline for zh-CN
     codefont:
       fontfamily: 'Cascadia Code'
       name: 'Cascadia Code'
@@ -85,9 +84,9 @@ style:
       style: normal
     iconfont:
       fontfamily: 'Font Awesome 5 Pro'
-  # color:
+  color:
   #   site: '#21232F' # Website background color
-  #   site_inner: '#fff' # Text color inside the website background
+    site_inner: '#fff' # Text color inside the website background
   #   site_footer: '#666' # Footer text color inside the website background
   #   card: '#444' # Card background color
   #   text: '#fff' # The color of the text on the card.
@@ -99,6 +98,8 @@ style:
   #   codeblock: '#48371A' # Codeblock color
   #   p: '#ccc' # Paragraph color
 
+
+# 图片懒加载，请复制到站点配置文件中使用。
 
 
 
@@ -183,13 +184,13 @@ navbar:
 ############################### Layout ###############################
 
 cover:
-  scheme: docs # docs, blog
-  layout: dock  # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
+  use_for: blog # docs, blog
+  scheme: dock # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
   display:
     home: true
-    archive: false
-    others: false # can be written in front-matter 'cover: true'
-  background:
+    archive: true
+    others: true # can be written in front-matter 'cover: true'
+  background: https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist@1.0.0/2020/005.jpg
   logo: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.5/img/lhk-logo.png
   search: Type here to search # search bar placeholder
   features:
@@ -217,8 +218,25 @@ article:
   # 文章列表页面的文章卡片布局方案
   preview:
     scheme: landscape # landscape
-    auto_excerpt: false # 0, 200, 500
+    # pin icon for post
+    pin_icon: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4cc.svg
+    # auto generate title if not exist
+    auto_title: true # false, true
+    # auto generate excerpt if not exist
+    auto_excerpt: true # false, true
+    # show split line or not
+    line_style: solid # hidden, solid, dashed, dotted
+    # show readmore button
+    readmore: auto # auto, always
   # 文章详情页面的文章卡片本体布局方案
+  body:
+    # 文章顶部信息
+    top_meta:
+    # 页脚组件
+    footer_widget:
+    # 文章底部信息
+    bottom_meta:
+
 
 
 # 不久后将被其它设置替代
@@ -273,12 +291,10 @@ meta:
   # 文章分类
   category:
     icon: fal fa-folder-open
-  # 文章置顶
-  pin:
-    icon: fal fa-angle-double-up
   # 文章浏览计数
   counter:
     icon: fal fa-eye
+    unit: '次浏览'
   # 文章评论数量：只支持 valine
   valinecount:
     icon: fal fa-comment-dots
@@ -580,14 +596,15 @@ plugins:
 
   # Slide Background
   backstretch:
-    enable: true
+    enable: false
     js: https://cdn.jsdelivr.net/npm/jquery-backstretch@2.1.18/jquery.backstretch.min.js
-    position: cover       # cover: sticky on the cover.   fixed: Fixed as background for the site.
+    position: fixed       # cover: sticky on the cover.   fixed: Fixed as background for the site.
     shuffle: true         # shuffle playlist
     duration: 10000       # Duration (ms)
     fade: 1500            # fade duration (ms) (Not more than 1500)
     images:               # For personal use only. At your own risk if used for commercial purposes !!!
-      - https://cdn.jsdelivr.net/gh/Linhk1606/md-wallpaper@0.0.1/train_travel_illustration-wallpaper-1920x1080.jpg
+      - https://gitee.com/wallpapers/minimalist/blob/master/2020/032.jpg
+      # - https://cdn.jsdelivr.net/gh/Linhk1606/md-wallpaper@0.0.1/train_travel_illustration-wallpaper-1920x1080.jpg
       # - https://gitee.com/wallpapers/minimalist/raw/master/2020/001.jpg
       # - https://gitee.com/wallpapers/minimalist/raw/master/2020/002.jpg
       # - https://gitee.com/wallpapers/minimalist/raw/master/2020/003.jpg
@@ -840,12 +857,13 @@ search:
   baidu:
     apiId:
 
+
 analytics:
   busuanzi: #https://cdn.jsdelivr.net/gh/volantis-x/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js
   leancloud:
     app_id: bL5ekqro8OTDzjNqFB36uwE4-MdYXbMMI
     app_key: 6BbOFSw7b2QF6EDvHIomO2Kq
-    server_url:
+    custom_api_server:
 
 ############################### Theme Information ###############################
 info:
