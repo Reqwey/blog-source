@@ -54,6 +54,7 @@
     "markdown-it-task-checkbox": "^1.0.6",
     "minimist": "^1.2.5",
     "request": "^2.88.2",
+    "vanilla-lazyload": "^17.1.0",
     "yuque-hexo": "^1.6.5"
   },
   "yuqueConfig": {

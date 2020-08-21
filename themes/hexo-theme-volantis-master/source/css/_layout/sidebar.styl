@@ -13,7 +13,7 @@
       top: $navbar-height + $gap
       z-index: 1
     >.content
-      max-height: "calc(100vh - %s)" % ($gap * 5 + $navbar-height)
+      max-height: 200vh
       @media screen and (max-width: $device-tablet)
         max-height: none
       overflow: auto
@@ -37,13 +37,6 @@
   &.desktop
     display: block
   @media screen and (max-width: $device-tablet)
-    display: none !important
-    &.mobile
-      display: block !important
-
-  @media screen and (max-width: $device-mobile-m)
-    width: "calc(100% - 2 * %s)" % $gap
-    margin: $gap $gap 0 $gap
     display: none !important
     &.mobile
       display: block !important
@@ -84,34 +77,25 @@
     ul.entry, ul.popular-posts
       list-style: none
       a
-        border-bottom: 1px solid transparent
+        color: $color-list
         .name
           flex: auto
-          // txt-ellipsis()
-          color: alpha($color-text, .8)
         .badge
           flex:none
           font-weight: normal
           font-size: $fontsize-meta
           color: alpha($color-text, .7)
-
-        &:hover
-          border-left: $border-line solid $color-theme
-          background: bgcolor($color-theme)
-
         &.active
           border-left: $border-line solid $color-theme
-          .name
-            color: $color-theme
+          list_active()
           .badge
             color: alpha($color-theme, .9)
-
-
-        &:active
-          border-left: $border-line * 2 solid $color-theme
-
         &.child
           padding-left: $gap * 2
+        &:hover
+          border-left: $border-line solid $color-theme
+          list_hover()
+
 
 
   &.blogger
@@ -230,7 +214,6 @@
         trans()
         &:hover
           color: var(--color-hover)
-          text-decoration: underline
 
         &:active
           color: darken($color-hover, 25%)
@@ -292,12 +275,10 @@
               border-radius: 100%
 
           &.active
-            color: $color-theme
-            background: bgcolor($color-theme)
+            list_hover()
           &:hover
-            color: $color-theme
+            list_hover()
             border-radius: $border-line
-            background: bgcolor($color-theme)
 
 
         &.fixed a
@@ -342,8 +323,6 @@
           line-height: inherit
           padding-top: 4px
           padding-bottom: 4px
-
-
 
 
 
