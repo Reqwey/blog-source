@@ -77,23 +77,23 @@
     ul.entry, ul.popular-posts
       list-style: none
       a
-        color: $color-list
+        color: var(--color-list)
         .name
           flex: auto
         .badge
           flex:none
           font-weight: normal
           font-size: $fontsize-meta
-          color: alpha($color-text, .7)
+          color: var(--color-meta)
         &.active
-          border-left: $border-line solid $color-theme
+          border-left: $border-line solid var(--color-link)
           list_active()
           .badge
-            color: alpha($color-theme, .9)
+            color: var(--color-meta)
         &.child
           padding-left: $gap * 2
         &:hover
-          border-left: $border-line solid $color-theme
+          border-left: $border-line solid var(--color-link)
           list_hover()
 
 
