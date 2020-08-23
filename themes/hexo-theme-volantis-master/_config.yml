@@ -115,7 +115,7 @@ navbar:
   menu:
     # The following can be written in `blog/source/_data/menu.yml`
     - name: 导航
-      icon: fal fa-cube
+      img: https://img.icons8.com/fluent/2x/puzzle.png
       rows:
         - name: 分类
           icon: fal fa-folder-open
@@ -127,7 +127,7 @@ navbar:
           icon: fal fa-list
           url: archives/
     - name: 关于
-      icon: fal fa-info
+      img: https://img.icons8.com/fluent/2x/user-male-circle.png
       rows:
         - name: 我&本站
           icon: fal fa-user-circle
@@ -145,7 +145,7 @@ navbar:
           icon: fal fa-code-branch
           url: https://github.com/Linhk1606
     - name: 管理
-      icon: fal fa-shield
+      img: https://img.icons8.com/fluent/2x/voice-id.png
       rows:
         - name: 站点监视
           icon: fal fa-telescope
@@ -194,24 +194,24 @@ cover:
   logo: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.5/img/lhk-logo.png
   search: Type here to search # search bar placeholder
   features:
-    - name: Finder
-      img: /assets/file-manager.svg
+    - name: 首页
+      img: https://img.icons8.com/fluent/2x/home.png
       url: /
-    - name: Archive
-      img: /assets/irix.svg
+    - name: 归档
+      img: https://img.icons8.com/fluent/2x/calendar.png
       url: archives/
-    - name: Message
-      img: /assets/notification.svg
+    - name: 分类
+      img: https://img.icons8.com/fluent/2x/folder-invoices.png
+      url: /categories
+    - name: 关于
+      img: https://img.icons8.com/fluent/2x/about.png
       url: /about
-    - name: Links
-      img: /assets/cs-user.svg
+    - name: 通讯录
+      img: https://img.icons8.com/fluent/2x/contacts.png
       url: /friends
-    - name: Homepage
-      img: /assets/web-browser.svg
+    - name: 主页
+      img: https://img.icons8.com/fluent/2x/external-link.png
       url: https://www.lhkstudio.me
-    - name: GitHub
-      img: /assets/github-desktop.svg
-      url: https://github.com/Linhk1606
 
 # 文章布局
 article:
