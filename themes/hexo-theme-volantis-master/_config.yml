@@ -160,7 +160,7 @@ navbar:
           icon: fal fa-brackets-curly
           url: https://console.cloud.tencent.com/scf/list-detail?rid=1&ns=default&id=Hexo
     - name: 更多
-      icon: fal fa-ellipsis-v
+      img: https://img.icons8.com/fluent/2x/menu-2.png
       rows:
         - name: 肺炎疫情图
           icon: fal fa-biohazard
