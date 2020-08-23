@@ -80,6 +80,9 @@
     @media screen and (max-width: $device-tablet)
       .s-toc
         display: flex
+    .s-menu, .s-search
+      >img
+        position: fixed
     >li
       height: $navbar-height - $gap
       trans()
@@ -90,6 +93,7 @@
         height: $height
       >a
         display: flex
+        flex-direction: row
         justify-content: center
         align-items: center
         width: $height
@@ -107,6 +111,8 @@
         @media screen and (max-width: $device-mobile)
           width: $iconW
           height: $height
+        >img
+          width 1.75rem
 
   .nav-sub .switcher
     display: flex
