@@ -71,7 +71,9 @@
                   <% if (value.url) { %>
                     id="<%= url_for(value.url).replace(/\/|%|\./g, "")?url_for(value.url).replace(/\/|%|\./g, ""):"home" %>"
                   <% } %>>
-                  <% if (value.icon) { %><i class='<%= value.icon %> fa-fw'></i><% } %><%- value.name %>
+                  <% if (value.icon) { %><i class='<%= value.icon %> fa-fw'></i><% } %>
+		  <% if (value.img) { %><img src='<%= value.img %>'><% } %>
+		  <%- value.name %>
                 </a>
                 <% if (value.rows) { %>
                   <ul class="list-v">
