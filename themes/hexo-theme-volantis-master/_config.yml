@@ -61,7 +61,7 @@ style:
     body: .9375rem
     list: .9375rem
     meta: .875rem
-    code: .8125rem
+    code: 15px
     footnote: .75rem
   fontfamily:
     logofont:
@@ -71,15 +71,15 @@ style:
       weight: normal
       style: normal
     bodyfont:
-      fontfamily: '"Varela Round", UbuntuMono, "PingFang SC", "Microsoft YaHei", Helvetica, Arial'
-      name: 'UbuntuMono'
-      url: https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/UbuntuMono/UbuntuMono-Regular.ttf
+      fontfamily: '"Ubuntu Regular", "Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial'
+      name: 'Ubuntu Regular'
+      url: https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts@20.5.30/Ubuntu/Ubuntu-Regular.ttf
       weight: normal
       style: normal
     codefont:
-      fontfamily: 'Cascadia Code'
-      name: 'Cascadia Code'
-      url: https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/CascadiaCode/Cascadia.ttf
+      fontfamily: 'Ubuntu Mono'
+      name: 'Ubuntu Mono'
+      url: https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts@20.5.30/UbuntuMono/UbuntuMono-Regular.ttf
       weight: normal
       style: normal
     iconfont:
@@ -107,15 +107,15 @@ style:
 
 # Navigation Bar
 navbar:
-  visiable: auto # always, auto
+  visiable: always # always, auto
   logo: # choose [img] or [icon + title]
-    # img: https://i.loli.net/2020/07/22/Xw9pZTkyhSPOY8M.png
-    icon:
-    title: LHKSTUDIO
+    img: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.5/img/lhk-logo.png
+    # icon:
+    # title: LHKSTUDIO
   menu:
     # The following can be written in `blog/source/_data/menu.yml`
     - name: 导航
-      img: https://img.icons8.com/fluent/2x/puzzle.png
+      icon: fal fa-cube
       rows:
         - name: 分类
           icon: fal fa-folder-open
@@ -127,7 +127,7 @@ navbar:
           icon: fal fa-list
           url: archives/
     - name: 关于
-      img: https://img.icons8.com/fluent/2x/user-male-circle.png
+      icon: fal fa-info
       rows:
         - name: 我&本站
           icon: fal fa-user-circle
@@ -145,7 +145,7 @@ navbar:
           icon: fal fa-code-branch
           url: https://github.com/Linhk1606
     - name: 管理
-      img: https://img.icons8.com/fluent/2x/voice-id.png
+      icon: fal fa-shield
       rows:
         - name: 站点监视
           icon: fal fa-telescope
@@ -160,7 +160,7 @@ navbar:
           icon: fal fa-brackets-curly
           url: https://console.cloud.tencent.com/scf/list-detail?rid=1&ns=default&id=Hexo
     - name: 更多
-      img: https://img.icons8.com/fluent/2x/menu-2.png
+      icon: fal fa-ellipsis-v
       rows:
         - name: 肺炎疫情图
           icon: fal fa-biohazard
@@ -185,32 +185,32 @@ navbar:
 
 cover:
   use_for: blog # docs, blog
-  scheme: dock # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
+  scheme: featured # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
   display:
     home: true
     archive: true
     others: true # can be written in front-matter 'cover: true'
   background: https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist@1.0.0/2020/005.jpg
-  logo: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.5/img/lhk-logo.png
+  # logo: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.5/img/lhk-logo.png
   search: Type here to search # search bar placeholder
   features:
     - name: 首页
-      img: https://img.icons8.com/fluent/2x/home.png
+      img: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.8.0/img/home.png
       url: /
     - name: 归档
-      img: https://img.icons8.com/fluent/2x/calendar.png
+      img: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.8.0/img/calendar.png
       url: archives/
     - name: 分类
-      img: https://img.icons8.com/fluent/2x/folder-invoices.png
+      img: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.8.0/img/folder-invoices.png
       url: /categories
     - name: 关于
-      img: https://img.icons8.com/fluent/2x/about.png
+      img: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.8.0/img/about.png
       url: /about
     - name: 通讯录
-      img: https://img.icons8.com/fluent/2x/contacts.png
+      img: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.8.0/img/contacts.png
       url: /friends
     - name: 主页
-      img: https://img.icons8.com/fluent/2x/external-link.png
+      img: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.8.0/img/external-link.png
       url: https://www.lhkstudio.me
 
 # 文章布局
@@ -247,7 +247,8 @@ layout:
     # 列表中每一篇文章的meta信息
     meta: [title, category, date, pin]
     # 列表类页面的侧边栏
-    sidebar: [blogger, warn, note, webinfo, category, tagcloud]
+    # sidebar: [blogger, warn, note, webinfo, category, tagcloud]
+    sidebar: []
     # read more button
     readmore: Read More <i class="fad fa-chevron-right"></i>
   # 页面布局
