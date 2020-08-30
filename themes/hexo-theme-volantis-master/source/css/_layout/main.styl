@@ -31,14 +31,14 @@
     &.show
       transform: translateY(0) scale(1)
       &.hl
-        background: $color-theme
+        background: var(--color-link)
         color: var(--color-inner)
         box-shadow: $boxshadow-card
     @media screen and (min-width: $device-tablet)
       &:hover
         transform: scale(1.2)
         border-radius: 25%
-        background: $color-theme
+        background: var(--color-link)
         color: white
         box-shadow: $boxshadow-card-float
         &.hl

@@ -103,7 +103,7 @@
         border-radius: 100px
         border: none
         trans()
-        color: $color-theme
+        color: var(--color-link)
         &:hover
           border: none
         &.active,&:active
@@ -275,8 +275,8 @@ ul.list-v
       border-left-color: alpha($color-theme, 80%)
       border-bottom-color: alpha($color-theme, 80%)
     &:active,&.active
-      border-left-color: $color-theme
-      border-bottom-color: $color-theme
+      border-left-color: var(--color-link)
+      border-bottom-color: var(--color-link)
       list_active()
     &:hover
       list_hover()
