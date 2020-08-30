@@ -1,10 +1,9 @@
 ---
-title: CSP集训-数学基础1
+title: NOIp集训-数学基础1
 date: 2020-08-30 22:24:00
 body: [article, comments]
 cover: false
 icons: [far fa-edit blue]
-headimg: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.1/img/vector_landscape_1.svg
 mathjax: true
 tags:
   - math
@@ -12,7 +11,7 @@ tags:
   - mod-function
 categories:
  - [OI, Algorithm]
-description: "OI中有关数学的基础算法01: 素数，约数，同余初步"
+description: "OI中有关数学的基础算法01: 素数，约数，同余初步, editing..."
 ---
 
 ## 素数
@@ -40,7 +39,7 @@ bool is_prime(int n)
 
 如果未标记，则为素数
 
-观察到，小于$x^2$的$x$倍数已经被标记过，因此从$x^2$开始，把 $x^2,x * (x + 1),...,\lfloor N/x \rfloor * x$ 标为和数
+观察到，小于 $x^2$ 的 $x$ 倍数已经被标记过，因此从 $x^2$ 开始，把 $x^2,x * (x + 1),...,\lfloor N/x \rfloor * x$ 标为和数
 
 #### 线性筛法
 
