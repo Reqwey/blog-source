@@ -687,10 +687,10 @@ plugins:
     right: unset
     left: 16px
     time: .5s
-    mixColor: '#f4f4f4'
-    backgroundColor: '#f4f4f4'
-    buttonColorDark: '#181c27'
-    buttonColorLight: '#f4f4f4'
+    mixColor: '#e3ebff'
+    backgroundColor: '#e3ebff'
+    buttonColorDark: '#271638'
+    buttonColorLight: '#e3ebff'
     saveInCookies: true
     label: 
     autoMatchOsTheme: true
