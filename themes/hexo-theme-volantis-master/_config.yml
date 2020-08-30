@@ -138,6 +138,7 @@ navbar:
         - name: 时光鸡
           icon: fal fa-clock
           url: time-machine/
+        - name: hr
         - name: 个人主页
           icon: fal fa-caret-square-right
           url: https://lhkstudio.me
@@ -145,7 +146,7 @@ navbar:
           icon: fal fa-code-branch
           url: https://github.com/Linhk1606
     - name: 管理
-      icon: fal fa-shield
+      icon: fal fa-shield-alt
       rows:
         - name: 站点监视
           icon: fal fa-telescope
