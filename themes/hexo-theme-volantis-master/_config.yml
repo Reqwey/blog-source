@@ -19,9 +19,9 @@ style:
     width: auto # auto, max
     effect: [shadow, blur] # [shadow, floatable, blur]
   sidebar:
-    effect: [shadow] # [shadow, floatable, blur]
+    effect: [] # [shadow, floatable, blur]
   body:
-    effect: [shadow] # [shadow, floatable, blur]
+    effect: [] # [shadow, floatable, blur]
     highlight:
       language: true # show language of codeblock
       copy_btn: true
