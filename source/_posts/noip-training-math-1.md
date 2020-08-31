@@ -121,10 +121,10 @@ void divide(int n)
 
 **更相减损术**
 
-$$ \bigvee a,b \in \mathbb {N}, a \geq b, 有 gcd(a,b) = gcd(b, a-b) = gcd(a, a-b) $$
+$$ \forall a,b \in \mathbb {N}, a \geq b, 有 gcd(a,b) = gcd(b, a-b) = gcd(a, a-b) $$
 
 **欧几里德算法**
 
-$$ \bigvee a,b \in \mathbb {N}, a \geq b,  b \neq 0，有 gcd(a,b) = gcd(b, a-b) = gcd(a, a-b) $$
+$$ \forall a,b \in \mathbb {N}, a \geq b,  b \neq 0，有 gcd(a,b) = gcd(b, a%b) $$
 
 blablalba
