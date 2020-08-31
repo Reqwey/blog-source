@@ -5,6 +5,7 @@ body: [article, comments]
 cover: false
 icons: [far fa-edit blue]
 mathjax: true
+headimg: /assets/headimg0831.jpeg
 tags:
   - math
   - prime
@@ -40,6 +41,8 @@ bool is_prime(int n)
 如果未标记，则为素数
 
 观察到，小于 $x^2$ 的 $x$ 倍数已经被标记过，因此从 $x^2$ 开始，把 $x^2,x * (x + 1),...,\lfloor N/x \rfloor * x$ 标为和数
+
+> **不足** 仍存在重复筛的情况，如12会被2和3同时筛到，无法达到线性时间复杂度
 
 #### 线性筛法
 
@@ -92,6 +95,9 @@ void primes(int n)
 
 ### 分解质因数-试除法
 
+* 如果 $n$ 为和数，则它的所有质因数小于等于 $\sqrt{n}$
+* 如果 $n$ 为和数，则它的质因子为本身
+
 ```cpp
 struct num
 {
@@ -115,6 +121,8 @@ void divide(int n)
 }
 ```
 
+> **推论** 一个整数 $N$ 的约数个数上界为 $2\sqrt{N}$
+>
 > **注** 可以用这个方法逆过来，即“倍数法”求解1～N每个数的正约数集
 
 ### 最大公约数gcd
@@ -125,6 +133,55 @@ $$ \forall a,b \in \mathbb {N}, a \geq b, 有 gcd(a,b) = gcd(b, a-b) = gcd(a, a-
 
 **欧几里德算法**
 
-$$ \forall a,b \in \mathbb {N}, a \geq b,  b \neq 0，有 gcd(a,b) = gcd(b, a%b) $$
+$$ \forall a,b \in \mathbb {N}, a \geq b,  b \neq 0，有 gcd(a,b) = gcd(b, a \ \text{mod} \ b) $$
 
-blablalba
+```cpp
+int gcd(int a, int b)
+{
+    return b ? gcd(b, a % b) : a;
+}
+```
+
+### 欧拉函数
+
+* 1 ～ N 中与 N 互质的数的个数
+* 记为 $\varphi(N)$
+
+$$ \varphi(N) = N * \prod_{质数p|N} (1 - \frac{1}{p}) $$
+
+记住证法是容斥原理
+
+例如 `N` 有两个质因子 `p` 和 `q`
+
+则要从 `1 ～ N` 中扣掉 `p` 的倍数和 `q` 的倍数，然后加上 `lcm(p,q)` 的倍数
+
+$$ N - \frac{N}{p} - \frac{N}{q} + \frac{N}{pq} = N(1 - \frac{1}{p})(1 - \frac{1}{q}) $$
+
+所以在分解质因数的同时可以求出欧拉函数
+
+```cpp
+
+int phi(int n)
+{
+    ans = n
+    m = 0;
+    for (int i = 2; i * i <= n; i++)
+    {
+        if (!(n % i))
+        {
+            ans = ans / i * (i - 1)
+            while (!(n % i))
+                n /= i, p[m].cnt++;
+        }
+    }
+    if (n > 1)
+        ans = ans / n * (n - 1);
+    return n;
+}
+```
+
+#### 欧拉筛
+
+> 哇，我不会
+>
+> 今天先更到这，白白
