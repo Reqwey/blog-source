@@ -184,8 +184,8 @@ int phi(int n)
 
 这里运用的了两个性质
 
-1. 设 $p$ 为质数, 若 $p|n$ 且 $p^2|n$, 则 $\varphi(n)=\varphi(n/p)*p
-1. 设 $p$ 为质数, 若 $p|n$ 但 $p^2 \nmid n$, 则 $\varphi(n)=\varphi(n/p)*(p-1)
+1. 设 $p$ 为质数, 若 $p|n$ 且 $p^2|n$, 则 $\varphi(n)=\varphi(n/p)*p$
+1. 设 $p$ 为质数, 若 $p|n$ 但 $p^2 \nmid n$, 则 $\varphi(n)=\varphi(n/p)*(p-1)$
 
 证明方法见《算法竞赛进阶指南》P146～
 
