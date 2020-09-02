@@ -5,7 +5,7 @@ body: [article, comments]
 cover: false
 icons: [far fa-edit blue]
 mathjax: true
-headimg: /assets/headimg0831.jpeg
+headimg: /assets/newbanner92.png
 tags:
   - math
   - prime
@@ -163,7 +163,7 @@ $$ N - \frac{N}{p} - \frac{N}{q} + \frac{N}{pq} = N(1 - \frac{1}{p})(1 - \frac{1
 
 int phi(int n)
 {
-    ans = n
+    ans = n;
     m = 0;
     for (int i = 2; i * i <= n; i++)
     {
@@ -182,6 +182,40 @@ int phi(int n)
 
 #### 欧拉筛
 
-> 哇，我不会
->
-> 今天先更到这，白白
+这里运用的了两个性质
+
+1. 设 $p$ 为质数, 若 $p|n$ 且 $p^2|n$, 则 $\varphi(n)=\varphi(n/p)*p
+1. 设 $p$ 为质数, 若 $p|n$ 但 $p^2 \nmid n$, 则 $\varphi(n)=\varphi(n/p)*(p-1)
+
+证明方法见《算法竞赛进阶指南》P146～
+
+我们根据这个原理结合线性筛素数可以写出线性筛euler的做法
+
+```cpp
+int v[MAX_N], prime[MAX_N], phi[MAX_N]
+void euler(int n)
+{
+    // v 为最小质因子
+    for (int i = 2; i <= n; i++)
+    {
+        if (v[i] == 0)
+        {
+            v[i] = i;
+            prime[++m] = i;
+            phi[i] = i - 1;
+        } // i is prime
+        for (int j = 1; j <= m; j++)
+        {
+            if (prime[j] > v[i] || prime[j] > n / i) break;
+            v[i * prime[j]] = prime[j];
+            phi[i * prime[j]] = phi[i] * (i % prime[j] ? prime[j] - 1 : prime[j]);
+        }
+    }
+}
+```
+
+### 同余
+
+#### 从费马小定理到扩展欧拉定理
+
+> blablabla
