@@ -31,8 +31,8 @@
               <a class='prev' href='<%- url_for(post.prev.path) %>'>
                 <p class='title'><i class="fad fa-chevron-left" aria-hidden="true"></i><%- post.prev.title || '' %></p>
                 <p class='content'>
-                  <% if(post.description){ %>
-                    <%- post.description %>
+                  <% if(page.prev.description){ %>
+                    <%- page.prev.description %>
                   <% } else { %>
                     <%- truncate(strip_html(page.prev.content), {length: 100}) %>
                   <% } %>
@@ -42,7 +42,17 @@
             <% if(post.next){ %>
               <a class='next' href='<%- url_for(post.next.path) %>'>
                 <p class='title'><%- post.next.title || '' %><i class="fad fa-chevron-right" aria-hidden="true"></i></p>
-                <p class='content'><%- truncate(strip_html(page.next.content), {length: 100}) %></p>
+                <p class='content'>
+                <% if(page.next.description){ %>
+
+                    <%- page.next.description %>
+
+                  <% } else { %>
+
+                    <%- truncate(strip_html(page.next.content), {length: 100}) %>
+
+                  <% } %>
+                </p>
               </a>
             <%} %>
           </div>
