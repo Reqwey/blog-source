@@ -6,8 +6,8 @@ style:
     pointer: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.4/cursors/link.cur
     default: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.4/cursors/pointer.cur
     not-allowed: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.4/cursors/unavailiable.cur
-    zoom-out: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.4/cursors/alternate.cur
-    zoom-in: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.4/cursors/alternate.cur
+    zoom-out: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.4/cursors/pointer.cur
+    zoom-in: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.4/cursors/pointer.cur
     grab: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.4/cursors/move.cur
   font_smoothing: true # font-smoothing for webkit
   max_width: 1080px # Sum of body width and sidebar width (This limit will be exceeded when the device width is greater than 2000px, reaching 75% of the total width)
