@@ -1,9 +1,9 @@
-<header class="l_header<%- page.sidebar == false ? ' no_sidebar' : '' %> <%- theme.style.navbar.effect.join(' ') %>">
+<header class="l_header <%- theme.navbar.visiable %> <%- theme.style.navbar.effect.join(' ') %>" <%- (theme.navbar.visiable == 'auto' && theme.cover.use_for) ? "style='opacity: 0'" : "" %> >
   <div class='container'>
   <div class='wrapper'>
     <div class='nav-sub'>
       <p class="title"></p>
-      <ul class='switcher nav-list-h' id="pjax-header-nav-list">
+      <ul class='switcher nav-list-h m-phone' id="pjax-header-nav-list">
         <li><a class="s-comment fal fa-comments fa-fw" target="_self" href='javascript:void(0)'></a></li>
         <% if (page.sidebar == undefined || page.sidebar != false) { %>
           <li><a class="s-toc fal fa-list fa-fw" target="_self" href='javascript:void(0)'></a></li>
@@ -27,7 +27,7 @@
       <% } %>
 
 			<div class='menu navigation'>
-				<ul class='nav-list-h'>
+				<ul class='nav-list-h m-pc'>
           <%
           let menu_list;
           if (site.data && site.data.menu && site.data.menu) {
@@ -49,7 +49,7 @@
                   <ul class="list-v">
                     <li>
                       <div class="aplayer-container">
-                        <%- partial('../_third-party/aplayer', {post: null, where: 'footer'}) %>
+                        <%- partial('../_third-party/aplayer/layout', {post: null, where: 'footer'}) %>
                       </div>
                     </li>
                   </ul>
@@ -61,7 +61,7 @@
               </li>
             <% } else { %>
               <li>
-                <a class="flat-box" <%= value.url ? 'href='+ url_for(value.url)+'' : ''%>
+                <a class="menuitem flat-box faa-parent animated-hover" <%= value.url ? 'href='+ url_for(value.url)+'' : ''%>
                   <% if (value.rel) { %>
                     rel="<%- value.rel %>"
                   <% } %>
@@ -71,7 +71,9 @@
                   <% if (value.url) { %>
                     id="<%= url_for(value.url).replace(/\/|%|\./g, "")?url_for(value.url).replace(/\/|%|\./g, ""):"home" %>"
                   <% } %>>
-                  <% if (value.icon) { %><i class='<%= value.icon %> fa-fw'></i><% } %><%- value.name %>
+                  <% if (value.icon) { %><i class='<%= value.icon %> fa-fw'></i><% } %>
+		  <% if (value.img) { %><img src='<%= value.img %>'><% } %>
+		  <%- value.name %>
                 </a>
                 <% if (value.rows) { %>
                   <ul class="list-v">
@@ -96,7 +98,7 @@
         </form>
       </div>
 
-			<ul class='switcher nav-list-h'>
+			<ul class='switcher nav-list-h m-phone'>
 				<% if (theme.search.enable === true) { %>
 					<li><a class="s-search fal fa-search fa-fw" target="_self" href='javascript:void(0)'></a></li>
 				<% } %>

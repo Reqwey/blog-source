@@ -1,16 +1,18 @@
+.safearea
+  margin: $gap
 .l_body
   position: relative
-  margin: $gap
   if hexo-config('style.font_smoothing') == true
     -webkit-font-smoothing: antialiased
     -moz-osx-font-smoothing: grayscale
-  &.nocover
-    margin-top: $navbar-height
-  @media screen and (max-width: $device-mobile-l)
-    margin: $navbar-height + $gap 0 $gap
-    &.nocover
-      margin-top: $navbar-height - $gap
-
+  div.loading
+    margin: $gap 0
+    width: 100%
+    display: block
+    &,p
+      text-align: center
+    i
+      line-height: $fontsize-body * 3
   .s-top
     trans(0.6s)
     z-index: 9
@@ -23,20 +25,20 @@
     right: $gap*2
     transform: translateY(100px) scale(0)
     transform-origin: bottom
-    color: $color-text
+    color: var(--color-meta)
     @media screen and (max-width: $device-tablet)
       right: $gap
     &.show
       transform: translateY(0) scale(1)
       &.hl
-        background: $color-theme
-        color: $color-inner
+        background: var(--color-link)
+        color: var(--color-inner)
         box-shadow: $boxshadow-card
     @media screen and (min-width: $device-tablet)
       &:hover
         transform: scale(1.2)
         border-radius: 25%
-        background: $color-theme
+        background: var(--color-link)
         color: white
         box-shadow: $boxshadow-card-float
         &.hl
@@ -59,7 +61,7 @@
   float: left
   .post-list
     position: relative
-    margin: $gap auto
+    margin-bottom: $gap
     column-gap: $gap
     // @media screen and (max-width: $device-mobile)
     //   margin: 0
@@ -71,26 +73,6 @@
   .post-wrapper
     column-break-inside: avoid
     break-inside: avoid-column
-
-  mobile-post()
-    .post
-      div.meta
-        .title
-          font-size: $fontsize-h3
-      @media screen and (max-width: $device-mobile)
-        padding: 1.5 * $gap $gap
-
-  .post-wrapper
-    margin-bottom: $gap
-    .post
-      div.meta
-        margin-bottom: $gap
-        .title
-          font-size: $fontsize-h2
-          a
-            font-size: $fontsize-h2
-    @media screen and (max-width: $device-mobile)
-      mobile-post()
 
   .widget
     .content
@@ -120,33 +102,68 @@
 
   .post
     position: relative
-    margin: $gap auto
+    margin-bottom: $gap
     padding: 1.5 * $gap
     border-radius: $border-card
-    @media screen and (max-width: $device-mobile-l)
-      border-radius: 0
-    &#cover
-      padding: 0
     h1
       font-weight: normal
       font-size: $fontsize-h1
-    section.meta
-      color: $color-meta
+    .article-header
+      .headimg
+        width: "calc(100% + 3 * %s)" % $gap
+        margin-left: 0 - 1.5 * $gap
+        margin-top: 0 - 1.5 * $gap
+        margin-bottom: 2 * $gap
+        height: 280px
+        background-position: center
+        background-size: cover
+        @media screen and (max-width: $device-tablet)
+          height: 250px
+        @media screen and (max-width: $device-mobile)
+          height: 220px
+        @media screen and (max-width: $device-mobile-l)
+          height: 190px
+      .title
+        trans(.1s)
+        margin: 0
+        color: var(--color-h1)
+        border-bottom: none
+        padding-bottom: 4px
+        p
+          &.h1,&.h2
+            margin-top: $gap * 3
+            margin-bottom: $gap * 1.5
+            border-bottom: none
+          &.h1
+            font-size: $fontsize-h1 * 1.1
+          &.h2
+            font-size: $fontsize-h2 * 1.1
+        a
+          display: inline
+          font-weight: bold
+          color: var(--color-h1)
+          text-decoration: none
+          font-size: $fontsize-h1
+          &:hover
+            color: var(--color-hover)
+    .article-meta
+      color: var(--color-meta)
       margin-bottom: $gap
       line-height: normal
-      &#header-meta
-        margin-top: 0
-        margin-bottom: 1 * $gap
-      &#footer-meta
+      &#top
+        margin-top: 1 * $gap
+        margin-bottom: 2 * $gap
+      &#bottom
         margin-top: 2 * $gap
         margin-bottom: 0.5 * $gap
+      .aplayer,.aplayer-pic,.thumbnail
+        width: 48px
+        height: 48px
       .aplayer,.thumbnail
         trans()
-        width: 65px
-        height: 65px
         border-radius: 100%
         float: right
-        margin: 4px
+        margin: 2px
         box-shadow: $boxshadow-card
         &:hover
           border-radius: 25%
@@ -166,62 +183,20 @@
           border-radius: 4px
           transform: scale(1.1) rotate(4deg)
           box-shadow: none
-      .title
-        trans(.1s)
-        margin: 0
-        color: $color-text
-        p
-          &.h1,&.h2
-            margin-top: $gap-paragraph + $gap-row
-            border-bottom: none
-          &.h1
-            font-size: $fontsize-h1 * 1.1
-          &.h2
-            font-size: $fontsize-h2 * 1.1
-        a
-          position: relative
-          padding: .7rem 0rem
-          font-weight: normal
-          color: $color-text
-          text-decoration: none
-          &:before, &:after
-            content: ''
-            position: absolute
-            width: 10px
-            height: 10px
-            opacity: 0
-            border: 2px solid
-            transition: .3s
-            transition-timing-function: cubic-bezier(.17,.67,.05,1.29)
-          &:before
-            top: 0
-            left: -1.2rem
-            border-width: 2px 0 0 2px
-            transform: translate3d(10px,10px,0)
-          &:after
-            right: -1.2rem
-            bottom: 0
-            border-width: 0 2px 2px 0
-            transform: translate3d(-10px,-10px,0)
-          &:hover
-            color: $color-hover
-            &:before, &:after
-              opacity: 1
-              transform: translate3d(0,0,0)
+
+
 
       .new-meta-box
         trans(.1s)
-        padding-top: 4px
-        padding-bottom: 8px
         display: flex
         align-items: center
         flex-wrap: wrap
         -webkit-font-smoothing: auto
         -moz-osx-font-smoothing: auto
         &,p,i
-          font-size: $fontsize-code
+          font-size: $fontsize-meta
         .new-meta-item
-          color: $color-meta
+          color: var(--color-meta)
           &.link-btns
             display: flex
             flex-wrap: wrap
@@ -247,9 +222,9 @@
           .notlink
             cursor: default
             &:hover
-              color: $color-meta
+              color: var(--color-meta)
               p
-                color: $color-meta
+                color: var(--color-meta)
           display: flex
           align-items: baseline
           justify-content: center
@@ -264,7 +239,7 @@
             &.fa-hashtag
               margin-right: 2px
           p,a
-            color: $color-meta
+            color: var(--color-meta)
             padding: 3px 0
           a
             display: flex
@@ -279,9 +254,9 @@
               font-weight: normal
               trans()
             &:hover
-              color: $color-hover
+              color: var(--color-hover)
               p
-                color: $color-hover
+                color: var(--color-hover)
 
         .author
           img,i
@@ -293,15 +268,15 @@
           .share
             width: 100%
             margin-top: $gap
-            background: $color-block
+            background: var(--color-block)
+            border-radius: $border-codeblock
 
         .share-body
           position: relative
           display: flex
-          justify-content: center;
+          justify-content: center
           margin: 0
           padding: 0 2px
-          border-radius: 2px
           a
             padding: 0
             margin: 0 1px
@@ -313,6 +288,30 @@
                 margin: 8px
               width: auto
               background: transparent
+          div.hoverbox
+            div.target
+              display: none
+              position: absolute
+              background: var(--color-card)
+              border-radius: $border-card
+              box-shadow: $boxshadow-card-float
+              padding: 8px
+              left: 50%
+              top: -20px
+              transform: translate(-50%, -100%)
+              img
+                display: block
+                margin: 0
+                padding: 0
+                height: 128px
+                width: 128px
+                min-width: 128px
+            &:hover
+              div.target
+                display: flex
+            @media screen and (max-width: $device-mobile)
+              div.target
+                position: absolute
 
     span>img
       display: inline-block
@@ -327,7 +326,6 @@
     padding-right: 0
     @media screen and (max-width: $device-mobile)
       width: 100%
-    mobile-post()
 
 
 
@@ -345,37 +343,7 @@
   align-items: stretch
 
 
-div.hoverbox
-  // display: flex
-  // flex-direction: column
-  // justify-content: center
-  // align-items: center
 
-  >div.target
-    display: none
-    position: absolute
-    background: $color-card
-    border-radius: $border-card
-    box-shadow: $boxshadow-card-float
-    padding: 8px
-    left: 50%
-    top: -20px
-    // margin-left: 50%
-    transform: translate(-50%, -100%)
-    // margin-left: -4px
-    // margin-top: 0 - 4px - 64px - 40px
-    >img
-      margin: 0
-      padding: 0
-      height: 128px
-      width: 128px
-      min-width: 128px
-  &:hover
-    >div.target
-      display: flex
-  @media screen and (max-width: $device-mobile)
-    >div.target
-      position: absolute
 
 .comments
   .article
@@ -383,16 +351,45 @@ div.hoverbox
       margin-top: 0
       margin-bottom: $gap-row
       font-size: $fontsize-h4
-      color: $color-text
+      color: var(--color-p)
     p[cst]
       margin-top: $gap-row
       margin-bottom: $gap-row
       font-size: $fontsize-meta
-
+  #load-btns, #loading-comments
+    text-align: center
+    margin: $gap 0
+    &,a,i
+      line-height: $fontsize-body * 3
+    a.load-comments
+      display: inline-block
+      border-radius: 2px
+      cursor: pointer
+      background: var(--color-button)
+      color: var(--color-inner)
+      padding-left: $gap * 3
+      padding-right: $gap * 3
+      &:hover
+        background: var(--color-hover)
 
 .white-box
-  background: $color-card
+  background: var(--color-card)
 
 if hexo-config('plugins.scrollreveal.js')
   .reveal
     visibility: hidden
+
+img
+  max-width 100%
+  &.lazyload:not(.placeholder)
+    transition opacity .5s ease-out 0s
+    &:not(.loaded)
+      opacity: 0
+    &.loaded
+      opacity: 1
+    if hexo-config('lazyload.blurIn') == true
+      transition filter .25s ease-out 0s
+      &:not(.loaded)
+        filter blur(8px)
+      &.loaded
+        filter none

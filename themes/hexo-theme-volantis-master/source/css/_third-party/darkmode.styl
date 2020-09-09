@@ -1,110 +1,227 @@
 .darkmode-toggle
 	z-index: 100000
+	font-family: "Font Awesome 5 Pro"
+	color: var(--color-link)
 .darkmode-background
+	color: #181c27
 	z-index: -9999999 !important
 .darkmode--activated
-	img
-		filter: brightness(30%)
-	.pdf
-		filter: brightness(30%)
-	.MiniValine .vpage .more
-		background: #21232F
-	.MiniValine .vlist .vcard .vcomment-body .text-wrapper .vcomment.expand:before
-		background: linear-gradient(180deg, rgba(246,246,246,0), rgba(0,0,0,0.9))
-	.MiniValine .vlist .vcard .vcomment-body .text-wrapper .vcomment.expand:after
-		background: rgba(0,0,0,0.9)
-	.MiniValine .vlist .vcard .vcomment-body .text-wrapper .vcomment pre
-		background: #282c34
-		border: 1px solid #282c34
-	.MiniValine .vinputs-area .vextra-area .vsmile-icons
-		background: transparent
-	.MiniValine .vlist .vcard .vcomment-body .vhead
-		filter: brightness(85%)
-	.container
-		background: #21232F
+	.l_body .l_cover .cover-wrapper .cover-bg
+		background-image: url("https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist@1.0.0/2020/032.jpg") !important
+	// img
+	// 	filter: brightness(30%)
+	// p, time, .l_header ul.nav-list-h>li>a, ul.list-v >li>a, span, i, .article psw:hover, div.tabs ul.nav-tabs li.tab.active a, .comments .article p[ct]
+	// 	color: #ccc
+	// body
+	// 	background-color: #181c27
+	// h1, h2, h3, h4, h5, h6
+	// 	color: #ccc
+	// .widget.blogger .content .card-info-data > .card-info-data-item a .headline
+	// 	color: #ccc
+	// .widget.blogger .content .card-info-data > .card-info-data-item a .length_num
+	// 	color: #808080
+	// .widget.blogger .content .social-wrapper a
+	// 	color: #ccc
+	// .article
+	// 	color: #ccc
+	// .article
+	// 	h1, h2, h3, h4, h5, h6
+	// 		color: #ccc
+	.l_header .wrapper .title
+		color: #efefef
+	
+	// .pdf
+	// 	filter: brightness(30%)
+	// .MiniValine .vpage .more
+	// 	background: #21232F
+	// .MiniValine .vlist .vcard .vcomment-body .text-wrapper .vcomment.expand:before
+	// 	background: linear-gradient(180deg, rgba(246,246,246,0), rgba(0,0,0,0.9))
+	// .MiniValine .vlist .vcard .vcomment-body .text-wrapper .vcomment.expand:after
+	// 	background: rgba(0,0,0,0.9)
+	// .MiniValine .vlist .vcard .vcomment-body .text-wrapper .vcomment pre
+	// 	background: #252d38
+	// 	border: 1px solid #252d38
+	// .MiniValine .vinputs-area .vextra-area .vsmile-icons
+	// 	background: transparent
+	// .MiniValine .vlist .vcard .vcomment-body .vhead
+	// 	filter: brightness(85%)
+	// .container
+	// 	background: #21232F
 	.blur
 		background: #21232F !important
-	.loading-bar-wrapper
-		background: #21232F
+	// .loading-bar-wrapper
+	// 	background: #21232F
 	.nav-main
 		.u-search-input
-			background: skyblue !important
-	.list-v
-		background: #21232F
-	.vsubmit
-		background: #21232F
-	.l_header ul>li>a:hover
-		background: rgba(33,150,243,.2)
-	#archive-page .archive .archive-post a:hover
-		background: rgba(33,150,243,.2)
+			background: rgba(68,68,68,0.2) !important
+	// .list-v
+	// 	background: #21232F
+	// .vsubmit
+	// 	background: #21232F
+	.l_header ul.nav-list-h>li>a, ul.list-v >li>a
+		color: var(--color-meta)
+		&:hover
+			background: rgba(68,68,68,0.65)
+	// #archive-page .archive .archive-post a:hover
+	// 	background: rgba(68,68,68,0.65)
 	.l_main .article .prev-next>a
-		background: #21232F
+		background: var(--color-block)
+		&:hover
+			background: var(--color-card)
 	.article blockquote
-		background: #21232F
+		background: var(--color-block)
 	table tr 
-		background-color: #cdcadc00
+		background-color: var(--color-card)
 	table th 
 		background: rgba(3, 8, 36, 0.56)
 	table tr:hover
-		background: rgba(33,150,243,.2)
+		background: rgba(68,68,68,0.65)
 	.highlight>table
-		background: #282c34
+		background: var(--color-card)
 	.gutter
-		background: #282c34 !important
-		background-color: #282c34 !important
+		background: var(--color-card) !important
+		background-color: var(--color-card) !important
 	.highlight figcaption
 		background-color: #21252b
 	.highlight
 		border: 1px solid #21252b !important
-		background: #282c34
+		background: var(--color-card)
 		table tr:hover
-			background: #282c34
+			background: var(--color-card)
+	.gt-container .gt-header-textarea
+		background-color: #252d38
+		&:hover
+			background-color: 
+				rgba(68,68,68,0.65)
+	.gt-container .gt-comment-content
+		background-color: rgba(0,0,0,.1)
+		&:hover
+			box-shadow: none
+	.gt-container .gt-comment-admin .gt-comment-content
+		background-color: rgba(68,68,68,.2)
+
 	details>summary
-		background: #282c34
+		background: var(--color-block)
 	details
-		border: 1px solid #282c34
-		background: #282c34
+		border: 1px solid var(--color-block)
+		background: var(--color-block)
 	.note
-		background: #282c34 !important
-	.nav-tabs
-		background: #282c34 !important
-	.tabs
-		background: #282c34 !important
-	.btns a
-		background: #282c34 !important
-	.tab.active a
-		background: skyblue !important
+		background: var(--color-block) !important
+	// .nav-tabs
+	// 	background: #252d38 !important
+	// .tabs
+	// 	background: #252d38 !important
+	// .btns a
+	// 	background: #ccc !important
+	// .tab.active a
+	// 	background: rgba(68,68,68,0.65) !important
+	// div.tabs .tab-content .tab-pane
+	// 	background: rgba(68,68,68,0.65)
 	.widget>.content ul.entry a:hover, .widget>.content ul.popular-posts a:hover
-		background: rgba(33,150,243,.2)
+		background: var(--color-block)
+	.l_side .toc-wrapper .content a:hover
+		background: var(--color-block)
 	#u-search .modal
-		background: #282c34 !important
+		background: var(--color-card) !important
 	#u-search .modal-header
-		background: #282c34 !important
+		background: var(--color-card) !important
 	#u-search .modal-body
-		background: #282c34 !important
+		background: var(--color-card) !important
 	#u-search .modal-body .modal-results .result:hover
-		background: rgba(33,150,243,.2) !important
-	.aplayer-info
-		background: #282c34 !important
-	.aplayer .aplayer-lrc:before
-		background: linear-gradient(180deg,#282c34 0,hsla(0,0%,100%,0))
-	.aplayer .aplayer-lrc:after
-		background: linear-gradient(180deg,hsla(0,0%,0%,0) 0,hsla(0,0%,13%,.8))
-	.aplayer-pic
-		filter: brightness(30%)
+		background: var(--color-block) !important
+	// .aplayer-info
+	// 	background: #252d38 !important
+	// .aplayer .aplayer-lrc:before
+	// 	background: linear-gradient(180deg,#252d38 0,hsla(0,0%,100%,0))
+	// .aplayer .aplayer-lrc:after
+	// 	background: linear-gradient(180deg,hsla(0,0%,0%,0) 0,hsla(0,0%,13%,.8))
+	// .aplayer-pic
+	// 	filter: brightness(30%)
 	.l_header ul.nav-list-h>li>a:hover
-		background: #282c34 !important
-	.white-box
-		background: #282c34 !important
-	.widget
-		background: #282c34 !important
-	.article code:not([class])
-		background: #221f29 !important
-	.cover-wrapper .cover .cover-body .menu.dock .list-h a:hover, .cover-wrapper .cover .cover-body .menu.featured .list-h a:hover, .cover-wrapper .cover .cover-body .menu.focus .list-h a:hover
-		background: #282c34 !important
-	.friend-card
-		background: #172233 !important
-	.highlight pre .line, .highlight pre .params 
-		color: rgba(158, 142, 142, 0.9)
-	div.timenode .body
-		background: #21232f !important
+		background: #252d38 !important
+	// .white-box
+	// 	background: #252d38 !important
+	// .widget
+	// 	background: #252d38 !important
+	// .article code:not([class])
+	// 	background: #221f29 !important
+	// .cover-wrapper .cover .cover-body .menu.dock .list-h a:hover, .cover-wrapper .cover .cover-body .menu.featured .list-h a:hover, .cover-wrapper .cover .cover-body .menu.focus .list-h a:hover
+	// 	background: #252d38 !important
+	// .friend-card
+	// 	background: #172233 !important
+	// .highlight pre .line, .highlight pre .params 
+	// 	color: rgba(158, 142, 142, 0.9)
+	// div.timenode .body
+	// 	background: #21232f !important
+	// highlight
+	--color-site: #181c27
+	--color-card: #252d38
+	--color-site-inner: #efefef
+	--color-text: #ffffff
+	--color-link: rgb(156,155,252)
+	--color-hover: #ff5722
+	--color-inner: #21232f
+	--color-block: rgba(68,68,68,.65)
+	--color-h1: #efefef
+	--color-h2: #efefef
+	--color-h3: #efefef
+	--color-h4: #efefef
+	--color-h5: #efefef
+	--color-h6: #efefef
+	--color-p: #ffffff
+	--color-meta: #efefef
+	--color-list: #efefef
+	.hljs 
+		display block
+		overflow-x auto
+		padding 0.5em
+		color #abb2bf
+		background #252d38
+	.hljs-comment,
+	.hljs-quote 
+		color #5c6370
+		font-style italic
+	.hljs-doctag,
+	.hljs-keyword,
+	.hljs-formula 
+		color #c678dd
+	.hljs-section,
+	.hljs-name,
+	.hljs-selector-tag,
+	.hljs-deletion,
+	.hljs-subst 
+		color #e06c75
+	.hljs-literal 
+		color #56b6c2
+	.hljs-string,
+	.hljs-regexp,
+	.hljs-addition,
+	.hljs-attribute,
+	.hljs-meta-string 
+		color #98c379
+	.hljs-built_in,
+	.hljs-class .hljs-title 
+		color #e6c07b
+	.hljs-attr,
+	.hljs-variable,
+	.hljs-template-variable,
+	.hljs-type,
+	.hljs-selector-class,
+	.hljs-selector-attr,
+	.hljs-selector-pseudo,
+	.hljs-number 
+		color #d19a66
+	.hljs-symbol,
+	.hljs-bullet,
+	.hljs-link,
+	.hljs-meta,
+	.hljs-meta-keyword,
+	.hljs-selector-id,
+	.hljs-title 
+		color #61aeee
+	.hljs-emphasis 
+		font-style italic
+	.hljs-strong 
+		font-weight bold
+	.hljs-link 
+		text-decoration underline

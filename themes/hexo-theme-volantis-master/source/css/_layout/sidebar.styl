@@ -13,7 +13,7 @@
       top: $navbar-height + $gap
       z-index: 1
     >.content
-      max-height: "calc(100vh - %s)" % ($gap * 5 + $navbar-height)
+      max-height: 200vh
       @media screen and (max-width: $device-tablet)
         max-height: none
       overflow: auto
@@ -25,8 +25,8 @@
 
 .widget
   z-index: 0
-  background: $color-card
-  margin-top: $gap
+  background: var(--color-card)
+  margin-bottom: $gap
   border-radius: $border-card
   width: 100%
   display: none
@@ -41,24 +41,18 @@
     &.mobile
       display: block !important
 
-  @media screen and (max-width: $device-mobile-l)
-    width: "calc(100% - 2 * %s)" % $gap
-    margin: $gap $gap 0 $gap
-    display: none !important
-    &.mobile
-      display: block !important
-
 
   header
     border-top-left-radius: $border-card
     border-top-right-radius: $border-card
     padding: "calc(%s - 2px)" % $gap
-    // font-weight: bold
+    font-weight: bold
+    font-size: $fontsize-meta
     padding-bottom: 0
     &,a
-      color: $color-theme
+      color: var(--color-link)
     >a:hover
-      color: $color-hover
+      color: var(--color-hover)
 
     span.name
       margin-left: $gap * 0.5
@@ -71,7 +65,7 @@
       margin-bottom: $gap-row
     ul>li
       a
-        color: $color-meta
+        color: var(--color-meta)
         padding: 0 $gap
         padding-left: $gap * 0.5 + 4px
         line-height: 2
@@ -83,34 +77,25 @@
     ul.entry, ul.popular-posts
       list-style: none
       a
-        border-bottom: 1px solid transparent
+        color: var(--color-list)
         .name
           flex: auto
-          // txt-ellipsis()
-          color: alpha($color-text, .8)
         .badge
           flex:none
           font-weight: normal
           font-size: $fontsize-meta
-          color: alpha($color-text, .7)
-
-        &:hover
-          border-left: $border-line solid $color-theme
-          background: bgcolor($color-theme)
-
+          color: var(--color-meta)
         &.active
-          border-left: $border-line solid $color-theme
-          .name
-            color: $color-theme
+          border-left: $border-line solid var(--color-link)
+          list_active()
           .badge
-            color: alpha($color-theme, .9)
-
-
-        &:active
-          border-left: $border-line * 2 solid $color-theme
-
+            color: var(--color-meta)
         &.child
           padding-left: $gap * 2
+        &:hover
+          border-left: $border-line solid var(--color-link)
+          list_hover()
+
 
 
   &.blogger
@@ -164,7 +149,7 @@
         font-weight: 500
         margin: $gap * 0.5 $gap * 0.5 0 $gap * 0.5
         empty-cells: hide
-        color: #7a7a7a
+        color: var(--color-p)
       .card-info-data 
         display table
         padding .7rem 0
@@ -174,11 +159,11 @@
           display table-cell
           a 
             .headline 
-              color #4c4948
+              color var(--color-p)
               font-size .7rem
             .length_num 
               margin-top -.3rem
-              color #000
+              color var(--color-meta)
               font-size 1rem
       .social-wrapper
         display: flex
@@ -186,11 +171,11 @@
         flex-wrap: wrap
         margin: 4px $gap * 0.25
         a
-          color: $color-meta
+          color: var(--color-meta)
           padding: 0
           trans()
           &:hover
-            color: $color-hover
+            color: var(--color-hover)
 
           &.social
             font-size: $fontsize-body
@@ -203,7 +188,7 @@
             border-radius: 100px
             &:hover
               background: bgcolor($color-theme)
-              color: $color-theme
+              color: var(--color-link)
 
         @media screen and (max-width: $device-tablet)
           justify-content: center
@@ -214,7 +199,7 @@
       background: transparent !important
       margin-top: 2 * $gap
       backdrop-filter: none
-      color: $color-site-inner
+      color: var(--color-site-inner)
 
 
 
@@ -225,11 +210,10 @@
         word-break: break-all
       padding: $gap * 0.25 $gap
       a
-        color: $color-link
+        color: var(--color-link)
         trans()
         &:hover
-          color: $color-hover
-          text-decoration: underline
+          color: var(--color-hover)
 
         &:active
           color: darken($color-hover, 25%)
@@ -275,7 +259,7 @@
           align-items: center
           font-size: $fontsize-footnote
           font-weight: bold
-          color: alpha($color-text, 70%)
+          color: var(--color-meta)
           line-height: 1.5
           word-wrap: break-word
           i
@@ -291,12 +275,10 @@
               border-radius: 100%
 
           &.active
-            color: $color-theme
-            background: bgcolor($color-theme)
+            list_hover()
           &:hover
-            color: $color-theme
+            list_hover()
             border-radius: $border-line
-            background: bgcolor($color-theme)
 
 
         &.fixed a
@@ -322,8 +304,8 @@
         margin: 4px 0
         border-bottom: 1px solid transparent
         &:hover
-          color: $color-hover !important //to cover inline style.
-          border-bottom: 1px solid $color-hover
+          color: var(--color-hover) !important //to cover inline style.
+          border-bottom: 1px solid var(--color-hover)
 
 
 
@@ -341,8 +323,6 @@
           line-height: inherit
           padding-top: 4px
           padding-bottom: 4px
-
-
 
 
 
@@ -377,7 +357,7 @@
 .aplayer
   max-width: 500px
   border-radius: 4px
-  color: $color-text
+  color: var(--color-p)
   font-family: $fontfamily
   .aplayer-list
     text-align: left
@@ -397,4 +377,4 @@
         float right
         font-weight normal
         font-size 0.875rem
-        color rgba(68,68,68,0.7)
+        color var(--color-meta)

@@ -6,8 +6,7 @@ cover: false
 valine:
   placeholder: 有什么感想? 发射犇犇
 mathjax: true
-photoo: true
-photourl: https://rmt.dogedoge.com/fetch/royce/storage/SegmentTree2/cover.png?fmt=webp
+headimg: https://rmt.dogedoge.com/fetch/royce/storage/SegmentTree2/cover.png?fmt=webp
 tags:
  - 数据结构
  - LCA

@@ -18,9 +18,11 @@ div.timenode
       height: "calc(100% - 26px - %s)" % $gap
       border-bottom-left-radius: 2px
       border-bottom-right-radius: 2px
+  .meta,.body
+    max-width: "calc(100% - %s)" % (16px + 8px)
   .meta
     position: relative
-    color: $color-meta
+    color: var(--color-meta)
     font-size: $fontsize-meta
     line-height: 32px
     height: 32px
@@ -50,20 +52,24 @@ div.timenode
     margin: 4px 0 $gap 16px + 8px
     padding: $gap
     border-radius: $border-card
-    background: $color-block
+    background: var(--color-block)
     display: inline-block
+    &:empty
+      display: none
     p
       &:first-child
         margin-top: 0
       &:last-child
         margin-bottom: 0
+    .highlight
+      border: 1px solid mix($color-block, $color-text, 90)
 
 
 div.timenode:hover
   .meta
-    color: $color-text
+    color: var(--color-meta)
     &:before
       background: alpha($color-hover, .5)
     &:after
-      background: $color-hover
+      background: var(--color-hover)
       transform: scale(1)

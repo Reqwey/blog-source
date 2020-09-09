@@ -1,49 +1,59 @@
 // inline btn
-.article span.btn
+.article span.btn, .md span.btn
   display: inline
   a
     text-decoration: none
     border-bottom: none
-  >a
     display: inline-block
-    background: $color-theme
-    color: $color-inner
-    padding: 4px 4px 2px 4px
+    padding: 3px 4px 2px 4px
     margin: 2px
     line-height: 1.1
     border-radius: 2px
     i
       margin-right: 2px
     trans()
-    &:hover
-      color: $color-inner
-      background: $color-hover
     &:not([href])
       opacity: 0.5
       &:hover
         cursor: $not-allowed,not-allowed
 
-  &.regular
-    >a
-      padding: 8px 12px 6px 12px
-      i
-        margin-right: 4px
-  &.large
-    >a
-      padding: 12px 36px 10px 36px
-      i
-        margin-right: 8px
+  & a, &.regular a
+    color: var(--color-button)
+    border: 1px solid @color
+    &:hover
+      color: var(--color-hover)
+      border-color: var(--color-hover)
+    i
+      margin-right: 4px
+
+  &.regular a, &.solid a
+    padding: 8px 12px
+
+  &.solid a
+    border: none
+    background: var(--color-button)
+    color: var(--color-inner)
+    &:hover
+      color: var(--color-inner)
+      background: var(--color-hover)
+
+  &.large a
+    font-size: 1rem
+    padding: 12px 36px
+    i
+      margin-right: 8px
+
   &.center
     display: block
     text-align: center
 
 
 // btns
-.article div.btns
+.article div.btns, .md div.btns
   margin: 0 -0.5 * $gap
   &,p,a
     font-size: $fontsize-code
-    color: $color-p
+    color: var(--color-p)
   b
     font-size: $fontsize-meta
   display: flex
@@ -117,14 +127,14 @@
         width: auto
       margin: $gap $gap * 0.5 $gap * 0.25 $gap * 0.5
       margin-top: "calc(-1.25 * %s - 32px)" % $gap
-      border: 2px solid $color-card
-      background: $color-inner
+      border: 2px solid var(--color-card)
+      background: var(--color-inner)
       line-height: 60px
       font-size: 28px
     &>i:first-child
-      color: $color-inner
+      color: var(--color-inner)
       background: $color-theme
-    background: $color-block
+    background: var(--color-block)
     border-radius: 4px
     p,b
       margin: .25em
@@ -142,12 +152,12 @@
     &[href]:hover
       background: alpha($color-hover, 15%)
       &,b
-        color: $color-hover
+        color: var(--color-hover)
       &>img:first-child, &>i:first-child
         transform: scale(1.1) translateY(-8px)
         box-shadow: $boxshadow-float
       &>i:first-child
-        background:$color-hover
+        background:var(--color-hover)
   &.circle a
     &>img:first-child, &>i:first-child
       border-radius: 32px

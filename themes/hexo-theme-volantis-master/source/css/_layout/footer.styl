@@ -5,7 +5,7 @@ footer
   color: alpha($color-site-footer, .75)
   margin: 0px auto
   &,p
-    font-size: $fontsize-code
+    font-size: $fontsize-meta
     font-weight: bold
   overflow: hidden
   text-align: center
@@ -13,12 +13,10 @@ footer
   .fa-heart
     color: $color-md-red
 
+  a:hover
+    text-decoration: underline
   .licenses
     color: fade(@color_text_main, 50%)
-    text-decoration: underline
-
-  .codename
-    text-decoration: underline
 
   .social-wrapper
     display: flex
@@ -32,7 +30,7 @@ footer
     padding: 0
     trans()
     &:hover
-      color: $color-site-footer
+      color: var(--color-site-footer)
     &.social
       position: relative
       display: inline-block
@@ -47,14 +45,14 @@ footer
       color: alpha($color-site-footer, .75)
       &:hover
         background: alpha($color-site-footer, .1)
-        color: $color-site-footer
+        color: var(--color-site-footer)
 
 
 
   .copyright
     margin-top: $gap
     p
-      font-size: $fontsize-code
+      font-size: $fontsize-meta
 
   @media screen and (max-width: $device-tablet)
     justify-content: center

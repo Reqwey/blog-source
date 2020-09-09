@@ -4,8 +4,8 @@ date: "2020-5-7 00:00:00"
 body: [article, comments]
 cover: false
 icons: [far fa-fire red]
-photoo: true
-photourl: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.1/img/vector_landscape_1.svg
+
+headimg: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.1/img/vector_landscape_1.svg
 valine:
   placeholder: 有什么感想? 发射犇犇
 mathjax: true
@@ -16,7 +16,7 @@ tags:
  - SPFA
 categories:
  - [OI, Algorithm]
-description: "五一假期里, 三中举办的算法在线课程之最短路算法"
+description: "最短路算法总结"
 ---
 
 最短路算法分为单源最短路和多源最短路两种, 具体又大致分为三种算法: $\texttt{Floyd}$ , $\texttt{Dijkstra}$ 以及 $\texttt{SPFA}$
@@ -36,10 +36,13 @@ void floyd(int n) {
                 g[i][j] = min(g[i][j], g[i][k] + g[k][j]);
 }
 ```
+**松弛思想**
 
-这个算法的思路有两种, 一个是**松弛思想**(重复执行并尝试通过拓展路径来降低长度), 一个是**DP思想**
+重复执行并尝试通过拓展路径来降低长度
 
-**DP思想**: 令$g[k][i][j]$表示从$i$到$j$的路径, 对于其中经过点的编号集合$V$(不包括$i$和$j$),有 $V \in \{ 1...k \} $ 的最短路长度
+**DP思想**
+
+令$g[k][i][j]$表示从$i$到$j$的路径, 对于其中经过点的编号集合$V$(不包括$i$和$j$),有 $V \in \{ 1...k \} $ 的最短路长度
 
 则有转移方程:
 
@@ -48,6 +51,10 @@ $$ g[k][i][j] = min(g[k-1][i][j], g[k-1][i][k] + g[k-1][k][j]) $$
 即$g[k][i][j]$既可以不经过第$k$号点, 从前$k-1$个点中任何一个转过来, 也可以经过第$k$号点
 
 然后发现多了一维. 直接压缩掉即可
+
+**时间复杂度**
+
+$\Theta{(n^3)}$
 
 ## 单源最短路
 
@@ -61,9 +68,20 @@ $$ g[k][i][j] = min(g[k-1][i][j], g[k-1][i][k] + g[k-1][k][j]) $$
 
 大名鼎鼎的单源最短路算法
 
-#### Original
+#### 算法流程
 
-```cpp 不加优化的朴素Dij, 看代码就明白了
+1. 初始化每个点到源点的距离`dis[i]`为$\infty$, `dis[1] = 0`
+1. 找出当前`dis`值最小的入队
+1. 取出队尾元素, 将图上**不在队列中**的点全部搜一遍，用自己的dis值update其他点的
+1. 重复第2，3步
+
+**正确性**
+
+首先我们要证明的是，当前找出的dis值最小的那个点，**它的dis值就是最终正确的最小距离** 
+
+blablabla...
+
+```cpp
 #include <cstdio>
 #include <cstring>
 #include <queue>

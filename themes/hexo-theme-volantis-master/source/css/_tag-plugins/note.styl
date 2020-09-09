@@ -7,7 +7,7 @@ div.note
   position: relative
   margin-top: $gap-row
   margin-bottom: $gap-row
-  padding: $gap + $fontoffset  $gap $gap $gap
+  padding: $gap
   padding-left: "calc(16px + %s)" % $gap
   border-radius: $border-codeblock
 
@@ -44,12 +44,12 @@ div.note
     font-weight: 600
     line-height: 24px
     vertical-align: middle
-    font-family: 'FontAwesomeSolid'
+    font-family: hexo-config('style.fontfamily.iconfont.fontfamily')
 
-  background: bgcolor($color-blockquote)
-  border-left: $border-codeblock solid $color-blockquote
+  background: var(--color-block)
+  border-left: $border-codeblock solid var(--color-link)
   &::before
-    color: $color-blockquote
+    color: $color-theme
     content: '\f054'
   if hexo-config('style.body.note') && hexo-config('style.body.note.icon')
     &::before

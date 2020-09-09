@@ -1,7 +1,7 @@
 <% var sections = page.body ? page.body : theme.layout.on_page.body; %>
 <% sections.forEach(function(widget_id){ %>
   <% if (widget_id == 'article') { %>
-    <article id="<%= post.layout %>" class="post white-box reveal <%- theme.style.body.effect.join(' ') %> article-type-<%= post.layout %>" itemscope itemprop="blogPost">
+    <article id="<%= post.layout %>" class="post white-box reveal md <%- theme.style.body.effect.join(' ') %> article-type-<%= post.layout %>" itemscope itemprop="blogPost">
       <%- partial('meta', {post: post, position: 'header'}) %>
       <section class="article typo">
         <div class="article-entry" itemprop="articleBody">
@@ -31,8 +31,8 @@
               <a class='prev' href='<%- url_for(post.prev.path) %>'>
                 <p class='title'><i class="fad fa-chevron-left" aria-hidden="true"></i><%- post.prev.title || '' %></p>
                 <p class='content'>
-                  <% if(post.description){ %>
-                    <%- post.description %>
+                  <% if(page.prev.description){ %>
+                    <%- page.prev.description %>
                   <% } else { %>
                     <%- truncate(strip_html(page.prev.content), {length: 100}) %>
                   <% } %>
@@ -42,7 +42,17 @@
             <% if(post.next){ %>
               <a class='next' href='<%- url_for(post.next.path) %>'>
                 <p class='title'><%- post.next.title || '' %><i class="fad fa-chevron-right" aria-hidden="true"></i></p>
-                <p class='content'><%- truncate(strip_html(page.next.content), {length: 100}) %></p>
+                <p class='content'>
+                <% if(page.next.description){ %>
+
+                    <%- page.next.description %>
+
+                  <% } else { %>
+
+                    <%- truncate(strip_html(page.next.content), {length: 100}) %>
+
+                  <% } %>
+                </p>
               </a>
             <%} %>
           </div>
@@ -64,5 +74,5 @@
 
 <!-- 根据页面mathjax变量决定是否加载MathJax数学公式js -->
 <% if (page.mathjax){ %>
-  <%- partial('../_third-party/mathjax') %>
+  <%- partial('../_third-party/math/mathjax/script') %>
 <% } %>

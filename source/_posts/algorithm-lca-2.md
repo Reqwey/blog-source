@@ -3,8 +3,8 @@ title: 算法笔记 - LCA - 2
 date: "2020-02-06 00:00:00"
 body: [article, comments]
 cover: false
-photoo: true
-photourl: https://cdn.jsdelivr.net/gh/Flexiston/CDN/img/banner/57807.jpg
+
+headimg: https://cdn.jsdelivr.net/gh/Flexiston/CDN/img/banner/57807.jpg
 valine:
   placeholder: 有什么感想? 发射犇犇
 mathjax: true
@@ -146,12 +146,6 @@ int main()
 $$ \Theta{(n + m)} $$
 
 搜索过程是$\Theta{(n)}$的, 而其中的求解过程可以单独**拆出来看**, 它就是一个$\Theta{(m)}$
-
-但我的存边方式似乎不够优秀, 导致**比上一篇文章还慢**!!!
-
-下次一定要用邻接表55555
-
-<btn regular>[评测记录](https://www.luogu.com.cn/record/30231788)</btn>
 
 用一张表来分析分析求$\texttt{LCA}$的各种算法的优劣之处:
 
