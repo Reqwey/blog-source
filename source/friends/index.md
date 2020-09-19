@@ -143,6 +143,12 @@ links:
       textColor: '#000000'
       tags: [莫得标签]
       desc: 记录成长，向未来奔跑
+    - name: 小孔成像
+      url: https://kurumit3.top
+      avatar: https://rmt.dogedoge.com/fetch/kurumit3/storage/avatar.jpg?fmt=webp
+      desc: 小孔成像的叙事游戏
+      backgroundColor: '#b0c4de'
+      textColor: '#fefefe'
 ---
 
 <h2><center><i class='fal fa-users fa-fw'></i>&nbsp;友链</center></h2>
