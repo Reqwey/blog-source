@@ -77,9 +77,9 @@ style:
       weight: normal
       style: normal
     codefont:
-      fontfamily: 'bbb'
-      name: 'bbb'
-      url: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.8.1/fonts/DejaVuSansMono.ttf
+      fontfamily: 'Fira Code'
+      name: 'Fira Code'
+      url: https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts@20.5.30/CascadiaCode/Cascadia.ttf
       weight: normal
       style: normal
     iconfont:
