@@ -98,6 +98,105 @@ style:
   #   codeblock: '#48371A' # Codeblock color
   #   p: '#ccc' # Paragraph color
 
+custom_css:
+  cursor:
+    enable: true
+    text: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.4/cursors/text.cur
+    pointer: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.4/cursors/link.cur
+    default: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.4/cursors/pointer.cur
+    not-allowed: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.4/cursors/unavailiable.cur
+    zoom-out: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.4/cursors/pointer.cur
+    zoom-in: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.4/cursors/pointer.cur
+    grab: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.4/cursors/move.cur
+  font_smoothing: true # font-smoothing for webkit
+  max_width: 1080px # Sum of body width and sidebar width (This limit will be exceeded when the device width is greater than 2000px, reaching 75% of the total width)
+  scrollbar:
+    size: 4px
+    border: 2px
+  navbar:
+    height: 64px
+    width: auto # auto, max
+    effect: [shadow, blur] # [shadow, floatable, blur]
+  sidebar:
+    effect: [] # [shadow, floatable, blur]
+  body:
+    effect: [] # [shadow, floatable, blur]
+    highlight:
+      language: true # show language of codeblock
+      copy_btn: true
+      grayscale: true # Enable grayscale effect
+    text_align: # left, right, justify, center
+      h1: left
+      h2: left
+      h3: left
+      h4: left
+      p: justify
+    note: # style for default note: {% note text %}
+      icon: '\f054'
+      color: '#2196f3'
+    checkbox:
+      enable: true # enable for user
+      color: '#2196f3' # color for default checkbox
+  gap:
+    h2: 48px # Spacing above H2 (only px unit)
+    h3: 24px # Spacing above H3 (only px unit)
+    h4: 16px # Spacing above H4 (only px unit)
+    paragraph: .6rem # Paragraph spacing between paragraphs
+    row: .4rem # Paragraph spacing between other elements
+    line_height: 1.65 # normal, 1.5, 1.75, 2 ...
+  border_radius:
+    card: 8px
+    codeblock: 4px
+    searchbar: 8px
+    button: 4px
+  fontsize:
+    root: 16px
+    h1: 1.625rem
+    h2: 1.5rem
+    h3: 1.25rem
+    h4: 1.125rem
+    h5: 1rem
+    h6: 1rem
+    body: .9375rem
+    list: .9375rem
+    meta: .875rem
+    code: 15px
+    footnote: .75rem
+  fontfamily:
+    logofont:
+      fontfamily: '"Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial'
+      name: 'Varela Round'
+      url: https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/VarelaRound/VarelaRound-Regular.ttf
+      weight: normal
+      style: normal
+    bodyfont:
+      fontfamily: '"Ubuntu Regular", "Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial'
+      name: 'Ubuntu Regular'
+      url: https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts@20.5.30/Ubuntu/Ubuntu-Regular.ttf
+      weight: normal
+      style: normal
+    codefont:
+      fontfamily: 'Fira Code'
+      name: 'Fira Code'
+      url: https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts@20.5.30/CascadiaCode/Cascadia.ttf
+      weight: normal
+      style: normal
+    iconfont:
+      fontfamily: 'Font Awesome 5 Pro'
+  color:
+  #   site: '#21232F' # Website background color
+    site_inner: '#fff' # Text color inside the website background
+  #   site_footer: '#666' # Footer text color inside the website background
+  #   card: '#444' # Card background color
+  #   text: '#fff' # The color of the text on the card.
+  #   # theme: '#ff9800' # Main color
+  #   link: '#1BCDFC' # Link color
+  #   hover: '#ff5722' # Link highlight color
+  #   inner: '#333' # Text color inside the button
+  #   block: '#555' # Block color
+  #   codeblock: '#48371A' # Codeblock color
+  #   p: '#ccc' # Paragraph color
+
 
 # 图片懒加载，请复制到站点配置文件中使用。
 

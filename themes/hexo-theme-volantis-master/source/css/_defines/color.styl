@@ -66,8 +66,9 @@ $color-list = alpha($color-text, .8)
 bgcolor($c, $mix = 10)
   return mix($c, $color-card, $mix)
 
+
 list_active()
-  color mix($color-theme, $color-text, 75)
+  color: var(--color-link)
 list_hover()
-  color: mix($color-theme, $color-text, 50)
-  background: bgcolor($color-theme, 15)
+  color: var(--color-link)
+  background: var(--color-block)
