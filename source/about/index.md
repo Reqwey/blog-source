@@ -13,6 +13,8 @@ valine:
 {% cell Linhk1606, , https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.6.5/img/avatar.webp %}
 {% endbtns %}
 
+![练习情况](https://luogu.vercel.app/api?id=106887)
+
 * 本网站为纯粹的 OI Blog，无任何私人内容
 * 快读模板
 
