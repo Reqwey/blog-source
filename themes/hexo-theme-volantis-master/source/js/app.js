@@ -347,7 +347,7 @@ var customSearch;
 
 	// 设置搜索服务
 	function setSearchService() {
-		var SearchServiceimagePath="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@master/img/"
+		var SearchServiceimagePath="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@master/img/logo/"
 		if (SEARCH_SERVICE === 'google') {
 			customSearch = new GoogleCustomSearch({
 				apiKey: GOOGLE_CUSTOM_SEARCH_API_KEY,

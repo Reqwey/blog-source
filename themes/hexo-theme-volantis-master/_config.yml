@@ -944,7 +944,7 @@ rightmenu:
 search:
   enable: true
   service: algolia  # hexo, google, algolia, azure, baidu
-  js: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.0.5/js/search.js
+  js: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.8.2/js/search.js
   google:
     apiKey:
     engineId:
