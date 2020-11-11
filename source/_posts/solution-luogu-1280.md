@@ -6,6 +6,7 @@ cover: false
 valine:
   placeholder: 有什么感想? 发射犇犇
 mathjax: true
+headimg: /assets/banner-lg1280.png
 tags: 
  - DP
 categories:
