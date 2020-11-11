@@ -6,14 +6,14 @@ cover: false
 valine:
   placeholder: 有什么感想? 发射犇犇
 mathjax: true
-headimg: https://rmt.dogedoge.com/fetch/royce/storage/SegmentTree2/cover.png?fmt=webp
+headimg: /assets/banner-lca1.webp
 tags:
  - 数据结构
  - LCA
  - 倍增
 categories:
  - [OI, Algorithm]
-description: "这篇文章主要是作者学习$\\texttt{LCA}$算法的一些心得体会"
+description: "这篇文章主要是作者学习LCA算法的一些心得体会"
 ---
 
 ## 定义
