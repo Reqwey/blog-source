@@ -13,6 +13,14 @@ btns:
 valine:
   placeholder: 所有跟我交换友链的大佬都会获得“小伙伴”头衔, 你发现了吗
 links:
+  - group: 特殊列表
+    icon: fal fa-magic
+    items:
+    - name: 福州延安中学OJ
+      avatar: https://cdn.jsdelivr.net/gh/FYMS-OI/cdn@2020-11-27/images/avatar.png
+      url: http://47.110.12.131:9016
+      backgroundColor: '#5988ff'
+      textColor: '#fff'
   - group: 本校大佬
     icon: fal fa-building
     items:
@@ -24,14 +32,6 @@ links:
       tags:     # 标签
       - 数竞
       - OI
-    - name: TweeChalice
-      avatar: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@master/img/TweeChalice.png
-      url: https://www.cnblogs.com/tweechalice/
-      backgroundColor: '#a03ec9' # 卡片背景颜色
-      textColor: '#c3eef1'  # 卡片文字颜色
-      tags:     # 标签
-      - Qt
-      - C++
   - group: OI/ACM大佬
     icon: fal fa-code
     items:
