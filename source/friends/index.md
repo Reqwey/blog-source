@@ -35,12 +35,21 @@ links:
   - group: OI/ACM大佬
     icon: fal fa-code
     items:
-    - name: Jalen Chuh
-      avatar: https://rmt.dogedoge.com/fetch/royce/storage/avatar.png?fmt=webp
-      url: https://jalenchuh.cn/
+    - name: AzuSemisa
+      avatar: https://cdn.jsdelivr.net/gh/xiao-lin52/cdn-assets/images/avatar.webp
+      url: https://www.azusemisa.top
+      backgroundColor: '#c7dcf3'
+      textColor: '#030c17'
+      desc: '一个 OI 蒟蒻的小窝'
+    - name: Uncle_drew
+      avatar: https://cdn.jsdelivr.net/gh/drew233/cdn/dreww.webp
+      url: https://cndrew.cn/
       backgroundColor: '#abcbd2' # 卡片背景颜色
       textColor: '#4d4747'  # 卡片文字颜色
-      desc: Less is more.
+      desc: 'Hand down,man down'
+  - group: 好朋友们
+    icon: fal fa-laptop-code
+    items:
     - name: Charlie
       avatar: https://cdn.jsdelivr.net/gh/charlie-zzy/imgCDN/avatar.png
       url: https://charlie-zzy.github.io/
@@ -49,15 +58,12 @@ links:
       tags:     # 标签
       - OIer
       - C++
-    - name: Uncle_drew
-      avatar: https://cdn.jsdelivr.net/gh/drew233/cdn/dreww.webp
-      url: https://cndrew.cn/
+    - name: Jalen Chuh
+      avatar: https://rmt.dogedoge.com/fetch/royce/storage/avatar.png?fmt=webp
+      url: https://jalenchuh.cn/
       backgroundColor: '#abcbd2' # 卡片背景颜色
       textColor: '#4d4747'  # 卡片文字颜色
-      desc: 'Hand down,man down'
-  - group: 技术大神
-    icon: fal fa-laptop-code
-    items:
+      desc: Less is more.
     - name: xaoxuu
       avatar: https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png
       url: https://xaoxuu.com
