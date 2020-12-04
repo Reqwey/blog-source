@@ -21,7 +21,7 @@ links:
       url: http://47.110.12.131:9016
       backgroundColor: '#5988ff'
       textColor: '#fff'
-  - group: 本校大佬
+  - group: 同机房大佬
     icon: fal fa-building
     items:
     - name: Lab_Tree
@@ -29,9 +29,11 @@ links:
       url: https://www.cnblogs.com/treap/
       backgroundColor: '#3e4752' # 卡片背景颜色
       textColor: '#c3cecd'  # 卡片文字颜色
-      tags:     # 标签
-      - 数竞
-      - OI
+    - name: Linshey
+      avatar: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.8.3/img/Linshey.jpg
+      url: https://www.cnblogs.com/Linshey/
+      backgroundColor: '#efefef' # 卡片背景颜色
+      textColor: '#000000'  # 卡片文字颜色
   - group: OI/ACM大佬
     icon: fal fa-code
     items:
