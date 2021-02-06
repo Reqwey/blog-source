@@ -13,13 +13,13 @@ title: "LHK的OI博客"
 subtitle: ''
 description: "一只蒟蒻的博客..."
 keywords: IT, OI
-author: Linhk1606
+author: Reqwey
 language: zh-CN
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://blog.lhkstudio.me
+url: https://reqwey.vercel.app
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
