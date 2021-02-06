@@ -262,6 +262,9 @@ navbar:
     - name: 更多
       icon: fal fa-ellipsis-v
       rows:
+        - name: YAOJ
+          icon: fal fa-code
+          url: 'http://47.110.12.131:9016'
         - name: 肺炎疫情图
           icon: fal fa-biohazard
           url: 2019-nCoV/
@@ -271,9 +274,6 @@ navbar:
         - name: 站点地图
           icon: fal fa-sitemap
           url: /sitemap.xml
-        - name: 3D元素周期表
-          icon: fal fa-flask
-          url: /Periodic-table
         - name: 来点音乐
           icon: fal fa-compact-disc
   search: Search...   # Search bar placeholder
@@ -377,8 +377,8 @@ meta:
   # 默认文章作者（可在front-matter中覆盖）
   author:
     avatar: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.1/img/avatar.webp
-    name: Lin
-    url: https://lhkstudio.me
+    name: Reqwey
+    url: https://reqwey.vercel.app
   # 文章创建日期
   date:
     icon: fal fa-calendar-alt
@@ -461,7 +461,7 @@ widget:
     avatar: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.7.1/img/avatar.webp
     shape: circle # circle, rectangle
     url: /about/
-    title: Linhk1606
+    title: Reqwey
     subtitle: <i class="fas fa-map-marker-alt"></i> FJ, China
     jinrishici: false # Poetry Today. You can set a string, and it will be displayed when loading fails.
     social: true
