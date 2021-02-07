@@ -110,6 +110,10 @@
   <% if (theme.comments.service == 'vssue') { %>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/meteorlxy/vssue@1.4.4/packages/vssue/dist/vssue.min.css">
   <% } %>
+  
+  <% if (theme.comments.service == 'artalk') { %>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ArtalkJS/Artalk@master/dist/Artalk.css">
+  <% } %>
 
   <!-- import link -->
   <% if (config.import && config.import.link){ %>
