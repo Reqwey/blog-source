@@ -238,10 +238,7 @@ navbar:
           icon: fal fa-clock
           url: time-machine/
         - name: hr
-        - name: 个人主页
-          icon: fal fa-caret-square-right
-          url: https://lhkstudio.me
-        - name: Follow Me
+        - name: Follow
           icon: fal fa-code-branch
           url: https://github.com/Linhk1606
     - name: 管理
@@ -803,7 +800,7 @@ comments:
   placeholder: 快来评论吧~  # 评论占位提示 仅支持 valine & miniValine
   title: <i class='fal fa-comments'></i> 评论
   subtitle:
-  service: gitalk # valine, minivaline, disqus, gitalk, vssue, livere, isso, hashover
+  service: artalk # valine, minivaline, disqus, gitalk, vssue, livere, isso, hashover
   # Valine
   # https://valine.js.org/
   valine: # 请将 appId appKey 修改为自己的，否则评论数据是共享的。
