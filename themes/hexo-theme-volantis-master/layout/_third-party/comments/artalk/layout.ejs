@@ -2,7 +2,7 @@
 <script src="https://cdn.jsdelivr.net/gh/ArtalkJS/Artalk@master/dist/Artalk.js"></script>
 <script type="text/javascript">
 function pjax_artalk() {
-    if(!document.querySelectorAll("#gitalk-container")[0])return;
+    if(!document.querySelectorAll("#ArtalkComments")[0])return;
     let pageUrl = $.trim($('#pjax-comment-path').text()) === "none" ? 
       decodeURI(window.location.pathname) : $.trim($('#pjax-comment-path').text());
     
@@ -14,7 +14,7 @@ function pjax_artalk() {
         placeholder: 'Just go go...', // 占位符
         noComment: '快来成为第一个评论的人吧~', // 无评论时显示
         defaultAvatar: 'mp', // 参考 https://cn.gravatar.com/site/implement/images/#default-image
-        pageKey: 'pageUrl',
+        pageKey: pageUrl,
         serverUrl: 'http://47.110.12.131:1606/artalk/index.php',
         readMore: { // 阅读更多配置
           pageSize: 15, // 每次请求获取评论数
