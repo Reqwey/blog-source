@@ -9,7 +9,7 @@ lazyload:
   blurIn: true # 模糊加载效果 （loadingImg为空时有效）
 
 # Site
-title: "LHK的OI博客"
+title: "Reqwey的OI博客"
 subtitle: ''
 description: "一只蒟蒻的博客..."
 keywords: IT, OI
