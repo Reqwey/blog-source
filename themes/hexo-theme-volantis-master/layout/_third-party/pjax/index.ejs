@@ -111,6 +111,9 @@
         <% if (theme.comments.service == 'disqus'){ %>
           pjax_disqus();
         <% } %>
+        <% if (theme.comments.service == 'artalk'){ %>
+          pjax_artalk();
+        <% } %>
         <% if (theme.plugins.darkmodejs.enable) { %>
           pjax_darkmodejs();
         <% } %>
