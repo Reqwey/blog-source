@@ -800,7 +800,7 @@ comments:
   placeholder: 快来评论吧~  # 评论占位提示 仅支持 valine & miniValine
   title: <i class='fal fa-comments'></i> 评论
   subtitle:
-  service: artalk # valine, minivaline, disqus, gitalk, vssue, livere, isso, hashover
+  service: gitalk # valine, minivaline, disqus, gitalk, vssue, livere, isso, hashover
   # Valine
   # https://valine.js.org/
   valine: # 请将 appId appKey 修改为自己的，否则评论数据是共享的。
@@ -871,8 +871,8 @@ comments:
   # Gitalk
   # https://gitalk.github.io/
   gitalk:
-    clientID: b63e285f3442871f2b05
-    clientSecret: 88a93465b758e9eb10c68aa80c199c83b13c2a80
+    clientID: 7a61415128ef0f26fc95
+    clientSecret: a98c75254cb46d0544bb677240357d09c02de433
     repo: blog-source
     owner: Linhk1606
     admin: Linhk1606 # []
