@@ -153,6 +153,7 @@ links:
       textColor: '#fefefe'
   - group: Error!
     icon: fal fa-times
+    items:
     - name: Flexiston's Notes
       url: https://flesx.cn
       avatar: https://cdn.jsdelivr.net/gh/Flexiston/CDN/img/avatar.png
