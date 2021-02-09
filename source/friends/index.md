@@ -54,7 +54,7 @@ links:
     items:
     - name: Charlie
       avatar: https://cdn.jsdelivr.net/gh/charlie-zzy/imgCDN/avatar.png
-      url: https://charlie-zzy.github.io/
+      url: https://www.charlieblog.xyz/
       backgroundColor: '#bb3312' # 卡片背景颜色
       textColor: '#dadcb4'  # 卡片文字颜色
       tags:     # 标签
@@ -99,7 +99,7 @@ links:
       desc: 愿多年以后，我可以酌一杯清酒，烂醉如泥，梦中回到我们的曾经。
     - name: Code Young
       avatar: https://i.loli.net/2020/06/06/Bh9fHTpObLN1CEl.png
-      url: https://wujizun.top/
+      url: https://blog.wujizun.top/
       backgroundColor: '#425b79'
       textColor: '#f0fbc6'
       tags:
@@ -110,7 +110,7 @@ links:
       desc: Not every moment will be remembered
     - name: MHuiG
       avatar: https://cdn.jsdelivr.net/gh/MHuiG/imgbed@master/data/p.png
-      url: https://mhuig.github.io
+      url: https://blog.mhuig.top
       backgroundColor: '#d7864c'
       textColor: '#dadada'
       desc: Be Yourself, Make a Difference.
@@ -120,12 +120,6 @@ links:
       backgroundColor: '#cdbdb0'
       textColor: '#946543'
       desc: 喵喵喵?
-    - name: Flexiston's Notes
-      url: https://flexiston.com
-      avatar: https://cdn.jsdelivr.net/gh/Flexiston/CDN/img/avatar.png
-      desc: '长风破浪会有时, 直挂云帆济沧海'
-      backgroundColor: '#ea736a'
-      textColor: '#fbf9e9'
     - name: 尼采般地抒情
       url: https://wztlink1013.com/
       avatar: https://cdn.jsdelivr.net/gh/wztlink1013/figure/blogbase/touxiang.jpg
@@ -157,6 +151,15 @@ links:
       desc: 小孔成像的叙事游戏
       backgroundColor: '#b0c4de'
       textColor: '#fefefe'
+  - group: Error!
+    icon: fal fa-times
+    - name: Flexiston's Notes
+      url: https://flesx.cn
+      avatar: https://cdn.jsdelivr.net/gh/Flexiston/CDN/img/avatar.png
+      desc: '长风破浪会有时, 直挂云帆济沧海'
+      tags: [证书过期]
+      backgroundColor: '#ea736a'
+      textColor: '#fbf9e9'
 ---
 
 <h2><center><i class='fal fa-users fa-fw'></i>&nbsp;友链</center></h2>
