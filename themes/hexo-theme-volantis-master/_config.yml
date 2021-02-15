@@ -308,7 +308,7 @@ cover:
       url: /friends
     - name: 主页
       img: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.8.0/img/external-link.png
-      url: https://www.lhkstudio.me
+      url: http://fymsoi.tech:9016/user/2
 
 # 文章布局
 article:
