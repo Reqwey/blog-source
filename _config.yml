@@ -19,7 +19,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://reqwey.vercel.app
+url: https://reqwey.tk
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -100,7 +100,7 @@ ignore:
 theme: hexo-theme-volantis-master
 
 # 网站图标，更多尺寸等图标请使用import方式批量导入
-favicon: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@0.0.6.5/img/avatar.webp
+favicon: https://cdn.jsdelivr.net/gh/FYMS-OI/cdn@2021-05-22/images/favicon.png
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

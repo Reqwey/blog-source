@@ -234,9 +234,6 @@ navbar:
         - name: 友链
           icon: fal fa-link
           url: /friends
-        - name: 时光鸡
-          icon: fal fa-clock
-          url: time-machine/
         - name: hr
         - name: Follow
           icon: fal fa-code-branch
@@ -244,33 +241,18 @@ navbar:
     - name: 管理
       icon: fal fa-shield-alt
       rows:
-        - name: 站点监视
-          icon: fal fa-telescope
-          url: https://status.lhkstudio.me
         - name: 云端编辑
           icon: fal fa-edit
           url: https://www.yuque.com/linhk1606/hexo
         - name: 博客源码
           icon: fal fa-file-code
           url: https://github.com/linhk1606/blog-source
-        - name: 腾讯云函数
-          icon: fal fa-brackets-curly
-          url: https://console.cloud.tencent.com/scf/list-detail?rid=1&ns=default&id=Hexo
     - name: 更多
       icon: fal fa-ellipsis-v
       rows:
         - name: YAOJ
           icon: fal fa-code
-          url: 'http://47.110.12.131:9016'
-        - name: 肺炎疫情图
-          icon: fal fa-biohazard
-          url: 2019-nCoV/
-        - name: RSS订阅
-          icon: fal fa-rss
-          url: /atom.xml
-        - name: 站点地图
-          icon: fal fa-sitemap
-          url: /sitemap.xml
+          url: 'http://fymsoi.tech:9016'
         - name: 来点音乐
           icon: fal fa-compact-disc
   search: Search...   # Search bar placeholder
@@ -737,7 +719,7 @@ plugins:
     # Required
     server: netease   # netease, tencent, kugou, xiami, baidu
     type: playlist    # song, playlist, album, search, artist
-    id: 3194206062    # song id / playlist id / album id / search keyword
+    id: 6882449536    # song id / playlist id / album id / search keyword
     # Optional
     fixed: false      # enable fixed mode
     theme: '#734ae6'  # main color
