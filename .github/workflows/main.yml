@@ -29,18 +29,13 @@ jobs:
         node-version: "10.x"
     
     
-    # from https://github.com/x-cold/yuque-hexo
-    - name: Setup Yuque & Hexo Settings
-      env:
-        YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
+    - name: Setup Hexo Settings
       run: |
         npm install hexo-cli -g
-        npm install yuque-hexo -g
         npm install
-        npm run yuque
 
     - name: Generate
-      run: npm run start
+      run: npm run build
 
     # from https://github.com/peaceiris/actions-gh-pages    
     - name: Deploy
