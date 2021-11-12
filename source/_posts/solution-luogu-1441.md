@@ -1,5 +1,5 @@
 ---
-title: 题解 - 洛谷1441
+title: 【题解】砝码称重-DP+bitset
 date: "2021-07-31 00:00:00"
 body: [article, comments]
 cover: false
@@ -13,10 +13,11 @@ tags:
  - 卡常
 categories:
  - [OI, Solution]
-description: "这是一道状压 DP 题，我厚颜无耻地看过题解发现其中有些卡常技巧惊为天人，于是我把它总结、记录了一下。当然，不敢发出去审核。。。"
 ---
 
 [原题传送门](https://www.luogu.com.cn/problem/P1441)
+
+<!--more-->
 
 ## 思路
 
