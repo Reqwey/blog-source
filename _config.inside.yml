@@ -1,0 +1,186 @@
+appearance:
+  # Accent color, default '#2a2b33'
+  accent_color:
+  # Font color, default '#363636'
+  foreground_color:
+  # Border color, default '#e0e0e0'
+  border_color:
+  # body background, default '#f5f7fa'
+  background:
+  # Sidebar background (when opened), default to accent_color
+  sidebar_background:
+  # Card background, default '#fff'
+  card_background:
+
+  # All background settings above support image, e.g.,
+  # '//www.toptal.com/designers/subtlepatterns/patterns/confectionary.png #f5f7fa' or
+  # 'url(//www.toptal.com/designers/subtlepatterns/patterns/confectionary.png) #f5f7fa'
+
+  # 内容区域最大宽度
+  content_width: 640
+
+  # 字体设置
+  font:
+    # 字体 CSS 文件的 URL
+    url: //fonts.googleapis.com/css?family=Baloo+Bhaijaan|JetBrains+Mono|Josefin+Sans|Montserrat
+
+    # 基础字体，作用于 body 元素
+    base: "'Josefin Sans', 'PingFang SC', Microsoft YaHei"
+    # 作用于 sidebar 上方的 LOGO
+    logo:
+    # 作用于 sidebar 菜单栏
+    menu: 'Baloo Bhaijaan'
+    # 作用于文章百分比、归档页月份、分类文字数、分页、目录索引等地方
+    label: Montserrat
+    # 作用于标题
+    heading:
+    # 作用于代码及代码块
+    code: JetBrains Mono, monospace
+    # Base font for printing which applied to body
+    print:
+
+  # 代码语法高亮
+  # 接受设置值为 16 个 hex 色值的数组，具体请参考 base16 (https://github.com/chriskempson/base16)
+  # 默认配色方案为 Atelier Dune Light
+  highlight: [
+    '#ffffff', '#e0e0e0', '#d6d6d6', '#8e908c',
+    '#969896', '#4d4d4c', '#282a2e', '#1d1f21',
+    '#c82829', '#f5871f', '#eab700', '#718c00',
+    '#3e999f', '#4271ae', '#8959a8', '#a3685a'
+  ]
+
+  # 启用 darkmode
+  darkmode:
+    accent_color: '#539bf5'
+    foreground_color: '#adbac7'
+    border_color: '#373e47'
+    background: '#22272e'
+    sidebar_background: '#22272e'
+    card_background: '#2d333b'
+    highlight: [
+      '#2d333b', '#444c56', '#3e4451', '#545862',
+      '#565c64', '#abb2bf', '#b6bdca', '#c8ccd4',
+      '#e06c75', '#d19a66', '#e5c07b', '#98c379',
+      '#56b6c2', '#61afef', '#c678dd', '#be5046'
+    ]
+
+# Sidebar profile
+profile:
+  # 邮箱用于生成 gravatar 头像，如配置了 `hexo.config.email`，此项可缺省
+  email: reqwey@foxmail.com
+
+  # 也可以直接设置头像 URL
+  avatar: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@master/img/avatar1.jpg
+
+  # 个性签名
+  bio: "With peace and ❤️"
+
+menu:
+  🏠  Home: /
+  😜  About: /about
+  🔍  search: /search
+
+sns:
+  email: reqwey@foxmail.com
+  github: htts://github.com/Linhk1606
+  qq: http://wpa.qq.com/msgrd?v=3&uin=3530813030&site=qq&menu=yes
+
+footer:
+  # 默认显示 @2019 • author，设置为 false 可隐藏。
+  copyright: '&copy; 2021 ~ forever ❤️ <a href="/">Reqwey</a>'
+
+  # `由 Hexo 强力驱动` 字样，默认显示，设置为 false 可隐藏。
+  powered: true
+
+  # `主题 - Inside` 字样，默认显示，设置为 false 可隐藏。
+  theme: true
+
+  # 于最后一行添加自定义内容
+  custom: Hosted by <a target="_blank" href="https://vercel.com/">Vercel</a>
+
+page:
+  # 显示版权声明，默认禁用，设置为 `true` 可启用
+  copyright: true
+  per_page: 10
+  # 显示阅读时间，缺省值 `true`
+  reading_time:
+    # 每分钟阅读字数
+    wpm: 200
+    # 展示文案
+    # 差值: `:words` 字数 `:minutes` 字数 / wpm
+    text: ":words words in :minutes min"
+
+copyright:
+  # 显示作者，设置为 false 可隐藏。
+  author: true
+  # 显示文章链接，设置为 false 可隐藏。
+  link: true
+  # 版权声明
+  license: Attribution-NonCommercial-NoDerivatives 4.0 International<br>(<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow noopener" target="_blank">CC BY-NC-ND 4.0</a>)
+  # 显示发表日期，默认不显示，设置为 true 可显示。
+  published: true
+  # 显示修改日期，默认不显示，设置为 true 可显示。
+  updated: true
+
+search:
+  # 在页面右下角的 FAB 按钮里显示快捷搜索入口
+  fab: true
+
+  # 额外生成 search 页面，可配置在 sidebar 导航，如 `Search: /search`
+  page: true
+
+  # 以上两个入口必须至少设置一个，否则视为无效配置
+
+  # 本地搜索，即生成本地 json 文件
+  adapter:
+    # json 数据的范围，数组
+    range:
+      - post
+      - page
+
+    # json 数据的条目限制
+    # 假如 `limit:1000`，同时有 800 篇 post，800 篇 page，则最终生成的数据包含：
+    # 800 篇 post，200 篇 page
+    # 缺省值 `10000`
+    limit: 10000
+
+    # 搜索结果分页大小，缺省值 `10`
+    per_page: 5
+
+plugins:
+  - position: head_end
+    template: |
+      <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          showProcessingMessages: false,
+          messageStyle: 'none',
+          tex2jax: { inlineMath: [['a;#x27;,'a;#x27;], ['\\(','\\)']] }
+        })
+      </script>
+  - //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML
+  - position: post
+    template: |
+      <script>window.MathJax && MathJax.Hub.Queue(['Typeset', MathJax.Hub, document.querySelector('main')])</script>
+  - cipher:
+      placeholder: Password?
+      excerpt: 该内容加密了。
+  - palette:
+      # 颜色列表
+      theme: [
+        '#673ab7',
+        '#3f51b5',
+        '#2196f3',
+        '#009688',
+        '#4caf50',
+        '#ff9800',
+        '#ff5722',
+        '#795548',
+        '#607D8B',
+        '#2a2b33'
+      ]
+      # 每行展示的个数
+      # col: 5
+assets:
+  prefix: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@latest/img
+
+favicon: https://cdn.jsdelivr.net/gh/FYMS-OI/cdn@2021-05-22/images/favicon.png
