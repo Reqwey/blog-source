@@ -35,7 +35,9 @@ jobs:
         npm install
 
     - name: Generate
-      run: npm run build
+      run: |
+        npm run clean
+        npm run build
 
     # from https://github.com/peaceiris/actions-gh-pages    
     - name: Deploy

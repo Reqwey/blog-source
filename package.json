@@ -1,5 +1,5 @@
 {
-  "name": "hexo-site",
+  "name": "reqwey-blog",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -25,7 +25,6 @@
     "hexo-renderer-stylus": "^2.0.0",
     "hexo-server": "^2.0.0",
     "hexo-theme-inside": "^2.7.0-beta.22",
-    "hexo-theme-landscape": "^0.0.3",
     "html-minifier": "^4.0.0",
     "terser": "^5.9.0"
   }
