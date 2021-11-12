@@ -2,6 +2,8 @@
 title: 友情链接
 ---
 
+> 如果想加的话 QQ 联系，谢谢（QAQ）
+
 ## Specialist
 
 * [FYMS-OI](http://47.110.12.131:9016)
