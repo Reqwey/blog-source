@@ -1,8 +1,8 @@
 ---
-title: 【题解】尼克的任务-DP
+title: 【Solution】尼克的任务-DP
 date: "2019-12-20 00:00:00"
 tags:
- - 动态规划，DP
+ - DP
 categories:
  - [OI, Solution]
 ---

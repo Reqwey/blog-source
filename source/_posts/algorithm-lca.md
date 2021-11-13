@@ -1,5 +1,5 @@
 ---
-title: 【算法笔记】LCA倍增求法
+title: 【Algorithm Notes】LCA倍增求法
 date: "2020-01-28 00:00:00"
 tags:
  - 数据结构

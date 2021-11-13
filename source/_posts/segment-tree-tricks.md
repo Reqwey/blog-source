@@ -1,5 +1,5 @@
 ---
-title: 【算法笔记】线段树的一些技巧
+title: 【Algorithm Notes】线段树的一些技巧
 date: "2020-11-07 00:00:00"
 tags:
  - 数据结构

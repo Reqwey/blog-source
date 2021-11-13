@@ -1,5 +1,5 @@
 ---
-title: 【题解】[JSOI2008]最大数-ST表
+title: 【Solution】[JSOI2008]最大数-ST表
 date: "2020-01-15 00:00:00"
 tags:
  - ST表

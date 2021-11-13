@@ -1,5 +1,5 @@
 ---
-title: 【算法笔记】斜率优化动态规划
+title: 【Algorithm Notes】Convex Hull Trick
 tags:
  - 动态规划，DP
 categories:

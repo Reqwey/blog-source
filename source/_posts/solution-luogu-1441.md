@@ -1,8 +1,8 @@
 ---
-title: 【题解】砝码称重-DP+bitset
+title: 【Solution】砝码称重-DP+bitset
 date: "2021-07-31 00:00:00"
 tags:
- - 动态规划，DP
+ - DP
  - bitset
  - 卡常
 categories:

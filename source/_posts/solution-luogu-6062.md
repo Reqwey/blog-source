@@ -1,5 +1,5 @@
 ---
-title: 【题解】Muddy Fields G-二分图匹配
+title: 【Solution】Muddy Fields G-二分图匹配
 date: "2021-10-18 21:28:00"
 tags:
  - 二分图

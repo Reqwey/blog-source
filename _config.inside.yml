@@ -22,22 +22,22 @@ appearance:
   # 字体设置
   font:
     # 字体 CSS 文件的 URL
-    url: //fonts.googleapis.com/css?family=Baloo+Bhaijaan|JetBrains+Mono|Josefin+Sans|Montserrat
+    url: //fonts.googleapis.com/css?family=Lobster|Baloo+Bhaijaan|JetBrains+Mono|Josefin+Sans|Montserrat
 
     # 基础字体，作用于 body 元素
     base: "'Josefin Sans', 'PingFang SC', Microsoft YaHei"
     # 作用于 sidebar 上方的 LOGO
-    logo:
+    logo: Lobster,cursive,'Josefin Sans','PingFang SC','Microsoft YaHei'
     # 作用于 sidebar 菜单栏
     menu: 'Baloo Bhaijaan'
     # 作用于文章百分比、归档页月份、分类文字数、分页、目录索引等地方
     label: Montserrat
     # 作用于标题
-    heading:
+    heading: impact,'Josefin Sans','PingFang SC','Microsoft YaHei'
     # 作用于代码及代码块
     code: JetBrains Mono, monospace
     # Base font for printing which applied to body
-    print:
+    print: "'PingFang SC','Microsoft YaHei'"
 
   # 代码语法高亮
   # 接受设置值为 16 个 hex 色值的数组，具体请参考 base16 (https://github.com/chriskempson/base16)
@@ -155,7 +155,7 @@ search:
 plugins:
   - position: head_end
     template: |
-      <style type="text/css">pre { tab-size:2 !important; -moz-tab-size:2 !important; -o-tab-size:2 !important; font-size: 100% !important; }</style>
+      <style type="text/css">pre { tab-size:2 !important; -moz-tab-size:2 !important; -o-tab-size:2 !important; font-size: 100% !important; } svg { font-size: 150% !important; }</style>
   - cipher:
       placeholder: Password?
       excerpt: 该内容加密了。

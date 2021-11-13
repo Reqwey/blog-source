@@ -1,8 +1,8 @@
 ---
-title: '【题解】[NOI Online #1 入门组] 文具订购-DP'
+title: '【Solution】[NOI Online #1 入门组] 文具订购-DP'
 date: "2020-3-8 00:00:00"
 tags:
- - 动态规划，DP
+ - DP
 categories:
  - [OI, Solution]
 ---

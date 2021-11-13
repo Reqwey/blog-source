@@ -1,5 +1,5 @@
 ---
-title: 【算法笔记】并查集按秩合并
+title: 【Algorithm Notes】并查集按秩合并
 date: "2021-08-10 00:00:00"
 tags:
  - 并查集

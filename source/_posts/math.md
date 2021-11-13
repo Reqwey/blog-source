@@ -1,5 +1,5 @@
 ---
-title: 【算法笔记】数学
+title: 【Algorithm Notes】数学
 date: 2020-08-30 22:24:00
 tags:
   - math
