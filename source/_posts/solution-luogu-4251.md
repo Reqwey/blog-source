@@ -8,6 +8,12 @@ categories:
  - [OI, Solution]
 ---
 
+> Stop learning useless algorithms.
+>
+> Go and solve some problems.
+>
+> Learn how to use binary search.
+
 [原题传送门](https://www.luogu.com.cn/problem/P4251)
 
 <!--more-->
