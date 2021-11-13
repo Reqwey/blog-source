@@ -1,12 +1,6 @@
 ---
 title: 【题解】砝码称重-DP+bitset
 date: "2021-07-31 00:00:00"
-body: [article, comments]
-cover: false
-
-valine:
-  placeholder: 有什么感想? 发射犇犇
-mathjax: true
 tags:
  - 动态规划，DP
  - bitset
