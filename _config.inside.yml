@@ -17,7 +17,7 @@ appearance:
   # 'url(//www.toptal.com/designers/subtlepatterns/patterns/confectionary.png) #f5f7fa'
 
   # 内容区域最大宽度
-  content_width: 640
+  content_width: 880
 
   # 字体设置
   font:
@@ -111,17 +111,21 @@ page:
     # 差值: `:words` 字数 `:minutes` 字数 / wpm
     text: ":words words in :minutes min"
 
+post:
+  copyright: true
+  reading_time: true
+
 copyright:
   # 显示作者，设置为 false 可隐藏。
-  author: true
+  author: false
   # 显示文章链接，设置为 false 可隐藏。
   link: true
   # 版权声明
   license: Attribution-NonCommercial-NoDerivatives 4.0 International<br>(<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow noopener" target="_blank">CC BY-NC-ND 4.0</a>)
   # 显示发表日期，默认不显示，设置为 true 可显示。
-  published: true
+  published: false
   # 显示修改日期，默认不显示，设置为 true 可显示。
-  updated: true
+  updated: false
 
 search:
   # 在页面右下角的 FAB 按钮里显示快捷搜索入口
@@ -151,17 +155,7 @@ search:
 plugins:
   - position: head_end
     template: |
-      <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({
-          showProcessingMessages: false,
-          messageStyle: 'none',
-          tex2jax: { inlineMath: [['a;#x27;,'a;#x27;], ['\\(','\\)']] }
-        })
-      </script>
-  - //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML
-  - position: post
-    template: |
-      <script>window.MathJax && MathJax.Hub.Queue(['Typeset', MathJax.Hub, document.querySelector('main')])</script>
+      <style type="text/css">pre { tab-size:2 !important; -moz-tab-size:2 !important; -o-tab-size:2 !important; font-size: 100% !important; }</style>
   - cipher:
       placeholder: Password?
       excerpt: 该内容加密了。
