@@ -181,7 +181,4 @@ plugins:
       ]
       # 每行展示的个数
       # col: 5
-assets:
-  prefix: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@master/img
-
 favicon: https://cdn.jsdelivr.net/gh/FYMS-OI/cdn@2021-05-22/images/favicon.png

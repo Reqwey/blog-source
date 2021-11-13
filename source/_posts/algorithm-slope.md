@@ -29,7 +29,7 @@ $$
 
 这里为了打消平方项的影响，我们直接把 $(S_k+L+1)^2$ 设置成了 $y$ 轴。
 
-![slope-1](/images/slope-1.png)
+![slope-1](https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@master/img/slope-1.png)
 
 这根直线与凸壳相交，当且仅当这个点的下方的那条凸壳上的线段的斜率 $< k$ ，而上方这条 $ \geq k$。
 
