@@ -1,6 +1,6 @@
 ---
 title: 【Solution】[NOI Online #2 提高组] 子序列问题
-date: "2020-03-01 00:00:00"
+date: "2022-03-01 00:00:00"
 tags:
  - DP
 categories:

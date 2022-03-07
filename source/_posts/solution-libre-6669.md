@@ -1,6 +1,6 @@
 ---
 title: 【Solution】Nauuo and Binary Tree
-date: "2020-03-07 00:00:00"
+date: "2022-03-07 00:00:00"
 tags:
  - 树链剖分
 categories:
