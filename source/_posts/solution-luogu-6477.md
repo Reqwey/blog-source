@@ -1,5 +1,5 @@
 ---
-title: 【Solution】[NOI Online #2 提高组] 子序列问题
+title: 【Solution】[NOI Online 2 提高组]子序列问题
 date: "2022-03-01 00:00:00"
 tags:
  - DP
@@ -131,5 +131,4 @@ int main() {
 	work();
 	return 0;
 }
-​```https://loj.ac/p/6669)
 ```
