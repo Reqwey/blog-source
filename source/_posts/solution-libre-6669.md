@@ -51,4 +51,4 @@ IL void solve(int j, int r) {
 }
 ```
 
-[完整代码](https://loj.ac/p/6669)
+[完整代码](https://loj.ac/s/1401388)
