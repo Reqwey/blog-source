@@ -2,6 +2,7 @@
 title: 【Solution】[NOI Online 2 提高组]子序列问题-线段树
 date: "2022-03-01 00:00:00"
 tags:
+ - 数据结构
  - 线段树
 categories:
  - [OI, Solution]
