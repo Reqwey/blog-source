@@ -1,4 +1,4 @@
-appearance:
+﻿appearance:
   # Accent color, default '#2a2b33'
   accent_color:
   # Font color, default '#363636'
@@ -155,7 +155,7 @@ search:
 plugins:
   - position: head_end
     template: |
-      <style type="text/css">pre { tab-size:2 !important; -moz-tab-size:2 !important; -o-tab-size:2 !important; font-size: 100% !important; } svg { font-size: 150% !important; }</style>
+      <style type="text/css">pre { tab-size:2 !important; -moz-tab-size:2 !important; -o-tab-size:2 !important; font-size: 100% !important; }</style>
   - cipher:
       placeholder: Password?
       excerpt: 该内容加密了。
