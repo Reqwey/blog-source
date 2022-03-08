@@ -1,5 +1,6 @@
 ---
 title: 【Algorithm Notes】Convex Hull Trick
+date: "2021-12-03 00:00:00"
 tags:
  - 动态规划，DP
 categories:
