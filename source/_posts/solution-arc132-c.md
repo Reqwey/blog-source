@@ -30,8 +30,8 @@ categories:
 
 分两种情况讨论：
 
-- $a_i\neq -1$：如果 $a_i=i+(d-j)$ 那么就直接把 $f(i,S')\leftarrow f(i,S')+f(i-1,S)$。
-- $a_i=-1$：同样 $f(i,S')\leftarrow f(i,S')+f(i-1,S)$。
+- $a_i\neq -1$：如果 $a_i=i+(d-j)$ 那么就直接把 $f(i,S'\cup\{a_i\})\leftarrow f(i,S'\cup\{a_i\})+f(i-1,S)$。
+- $a_i=-1$：同样 $f(i,S'\cup\{i+(d-j)\})\leftarrow f(i,S'\cup\{i+(d-j)\})+f(i-1,S)$。
 
 ## 课堂小结
 
