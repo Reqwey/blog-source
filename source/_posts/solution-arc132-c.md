@@ -36,7 +36,7 @@ categories:
 ## 课堂小结
 
 ```cpp
-const int N = 504, D = (1 << (5 + 5 + 1)) + 4;
+const int N = 514, D = (1 << (1 + 4 + 5 + 1)) + 4;
 const ll MOD = 998244353;
 
 int a[N];
