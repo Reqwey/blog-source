@@ -10,6 +10,7 @@ title: 友情链接
 
 ## Friends，forever！
 
+* [Sky390](https://blog.sky390.cn/)
 * [Islauso](https://www.azusemisa.top/)
 * [Jalen Chuh](https://jalenchuh.cn/)
 * [Charlie](https://charlie-zzy.github.io/)
