@@ -1,5 +1,5 @@
 ---
-title: 关于我
+title: 领取 350 元现金！
 ---
 
 <div style="position: relative; padding: 30% 45%;">
