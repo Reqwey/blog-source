@@ -33,7 +33,7 @@
     # 作用于文章百分比、归档页月份、分类文字数、分页、目录索引等地方
     label: Montserrat
     # 作用于标题
-    heading: impact,'Josefin Sans','PingFang SC','Microsoft YaHei'
+    heading: 'Josefin Sans','PingFang SC','Microsoft YaHei'
     # 作用于代码及代码块
     code: JetBrains Mono, monospace
     # Base font for printing which applied to body
