@@ -10,7 +10,7 @@ categories:
  - [OI, Solution]
 ---
 
-[题目传送门(WLOI 搬运自 AtCoder, Translated by me.)](http://www.cspoi.net/problem/4010)
+[题目传送门 (Translated by me.)](https://hydro.ac/d/NOFZSZ/p/ABC246Ex)
 
 <!--more-->
 
