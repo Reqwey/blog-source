@@ -10,7 +10,7 @@ categories:
  - [OI, Solution]
 ---
 
-[题目传送门 (Translated by me.)](https://hydro.ac/d/NOFZSZ/p/ABC246Ex)
+[题目传送门 (Translated by me.)](http://www.cspoi.net/problem/4010)
 
 <!--more-->
 
