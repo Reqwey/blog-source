@@ -70,7 +70,7 @@ profile:
   email: reqwey@foxmail.com
 
   # 也可以直接设置头像 URL
-  avatar: https://cdn.jsdelivr.net/gh/Linhk1606/blog-cdn@master/img/avatar1.jpg
+  avatar: https://q1.qlogo.cn/g?b=qq&nk=3530813030&s=5
 
   # 个性签名
   bio: "With peace and ❤️"
@@ -175,4 +175,4 @@ plugins:
       ]
       # 每行展示的个数
       # col: 5
-favicon: https://cdn.jsdelivr.net/gh/FYMS-OI/cdn@2021-05-22/images/favicon.png
+favicon: https://q1.qlogo.cn/g?b=qq&nk=3530813030&s=1
