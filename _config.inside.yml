@@ -1,6 +1,6 @@
 ﻿appearance:
   # Accent color, default '#2a2b33'
-  accent_color:
+  accent_color: '#673ab7'
   # Font color, default '#363636'
   foreground_color:
   # Border color, default '#e0e0e0'
@@ -85,6 +85,7 @@ sns:
   email: reqwey@foxmail.com
   github: https://github.com/Linhk1606
   qq: http://wpa.qq.com/msgrd?v=3&uin=3530813030&site=qq&menu=yes
+  telegram: https://t.me/@yReqwey
 
 footer:
   # 默认显示 @2019 • author，设置为 false 可隐藏。
