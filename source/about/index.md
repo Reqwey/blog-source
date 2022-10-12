@@ -2,8 +2,6 @@
 title: 关于我
 ---
 
-Reqwey，读作 `/Rekwi:/`，个人认为是个可爱的名字。
-
-性格比较随和，好相处。喜欢听电音/钢琴曲，最近开始入坑 Phigros。
-
-坐标 FJ，高一 OIer，个人链接已经在网页左下角（欢迎加 QQ~）。
+* Reqwey，读作 `/Rekwi:/`
+* 高二（2022），退役 OIer.
+* 前往 [我的 GitHub 主页](https://github.com/Reqwey) 看看我最近干了啥。
