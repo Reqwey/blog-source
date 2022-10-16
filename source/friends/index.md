@@ -2,7 +2,7 @@
 title: 友情链接
 ---
 
-> 如果想加的话 QQ 联系，谢谢（QAQ）
+> 如果想加的话请联系我的 Telegram，谢谢（QAQ）
 
 ## Specialist
 
