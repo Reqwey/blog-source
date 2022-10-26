@@ -18,7 +18,7 @@ title: 友情链接
 * [Uncle Drew](https://cndrew.cn/)
 * [xaoxuu](https://xaoxuu.com/)
 * [Vince](https://i.vince.pub/)
-* [Colsch](https://colsrch.top/)
+* [Colsch](https://colsrch.cn/)
 * [Code Young](https://wujizun.top/)
 * [MHuiG](https://mhuig.github.io/)
 * [枋柚梓](https://inkss.cn)
