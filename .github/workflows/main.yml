@@ -1,5 +1,5 @@
-# GitHub Actions Hexo博客自动部署 + Yuque Hexo 云端写作
-# @author: Linhk1606 Linhk1606@outlok.com
+# GitHub Actions Hexo Blog Auto Deploy
+
 # workflow name
 name: Deploy To Github Pages
 
@@ -44,7 +44,7 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         deploy_key: ${{ secrets.Github_SSH_PRIVATE_KEY }}
-        external_repository: Reqwey/Linhk1606.github.io
-        publish_branch: master
+        external_repository: Reqwey/blog-source
+        publish_branch: page
         publish_dir: ./public
         commit_message: ${{ github.event.head_commit.message }}
