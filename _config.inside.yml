@@ -9,7 +9,7 @@
   background:
   # Sidebar background (when opened), default to accent_color
   sidebar_background:
-  # Card background, default '#fff'
+  # Card background, default '#fff' 
   card_background:
 
   # All background settings above support image, e.g.,
