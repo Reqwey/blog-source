@@ -1,7 +1,7 @@
 # GitHub Actions Hexo Blog Auto Deploy
 
 # workflow name
-name: Deploy To Github Pages
+name: Hexo Generate
 
 # 当有 push 到仓库和外部触发的时候就运行
 on: [push, repository_dispatch]
