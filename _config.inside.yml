@@ -79,7 +79,8 @@ menu:
   🏠  Home: /
   😜  About: /about
   👋  Friends: /friends
-  🔍  search: /search
+  🔍  Search: /search
+  💖  Admin: /hpp/admin/login
 
 sns:
   email: reqwey@foxmail.com
