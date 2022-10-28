@@ -1,5 +1,5 @@
 ---
-title: 【Algorithm Notes】LCA Tarjan求法TEST
+title: 【Algorithm Notes】LCA Tarjan求法
 date: "2020-02-06 00:00:00"
 tags:
  - 数据结构
