@@ -105,6 +105,7 @@ page:
   # 显示版权声明，默认禁用，设置为 `true` 可启用
   copyright: true
   per_page: 10
+  meta: true
   # 显示阅读时间，缺省值 `true`
   reading_time:
     # 每分钟阅读字数
