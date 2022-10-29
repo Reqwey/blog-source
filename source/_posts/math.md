@@ -7,6 +7,6 @@ categories:
  - [OI, Algorithm]
 ---
 
-整理成了 PPT 形式，[链接。](http://fymsoi.tech:9016/problem/6666/testdata/download/%E6%95%B0%E5%AD%A6%E8%AF%BE.pptx)
+整理成了 PPT 形式，[链接。](http://47.110.12.131/problem/6666/testdata/download/%E6%95%B0%E5%AD%A6%E8%AF%BE.pptx)
 
 <!--more-->
