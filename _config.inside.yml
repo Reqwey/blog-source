@@ -99,7 +99,7 @@ footer:
   theme: true
 
   # 于最后一行添加自定义内容
-  custom: Hosted by <a target="_blank" href="https://cloudflare.com/">Cloudflare Pages</a>
+  custom: Hosted by <a target="_blank" href="https://www.cloudflare.com/">Cloudflare Pages</a>
 
 page:
   # 显示版权声明，默认禁用，设置为 `true` 可启用
