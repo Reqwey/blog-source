@@ -1,4 +1,4 @@
-﻿appearance:
+appearance:
   # Accent color, default '#2a2b33'
   accent_color: '#673ab7'
   # Font color, default '#363636'
@@ -83,7 +83,7 @@ menu:
   💖  Admin: https://oi.reqwey.com/hpp/admin/login
 
 sns:
-  email: reqwey@foxmail.com
+  email: hi@reqwey.com
   github: https://github.com/Reqwey
   qq: http://wpa.qq.com/msgrd?v=3&uin=3530813030&site=qq&menu=yes
   telegram: https://t.me/yReqwey
