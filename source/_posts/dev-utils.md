@@ -1,6 +1,7 @@
 ---
 title: 开发备忘录
 tags: Cache
+date: "2022-12-01 00:00:00"
 ---
 
 ## Windows 下 SSH / Git 配置代理
