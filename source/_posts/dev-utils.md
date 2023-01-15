@@ -39,3 +39,23 @@ for (let [id, socket] of io.sockets.sockets) {}
 ```
 
 其中 `io.sockets.sockets` 为 `Map`。单独取一个需要使用 `.get(socket_id)` 语法
+
+## 国内 Electron 安装失败
+
+* 使用 `yarn install` 而不是 `npm install`
+* 修改 `node_modules/electron/install.js` 内容如下
+
+```diff
+downloadArtifact({
+  version,
+  artifactName: 'electron',
+  force: process.env.force_no_cache === 'true',
+  cacheRoot: process.env.electron_config_cache,
+  checksums: process.env.electron_use_remote_checksums ? undefined : require('./checksums.json'),
++ mirrorOptions: {
++    mirror: 'https://cdn.npmmirror.com/binaries/electron/'
++ },
+  platform,
+  arch
+}).then(extractFile).catch(err => {
+```
