@@ -53,7 +53,7 @@ downloadArtifact({
   cacheRoot: process.env.electron_config_cache,
   checksums: process.env.electron_use_remote_checksums ? undefined : require('./checksums.json'),
 + mirrorOptions: {
-+    mirror: 'https://cdn.npmmirror.com/binaries/electron/'
++   mirror: 'https://cdn.npmmirror.com/binaries/electron/'
 + },
   platform,
   arch
