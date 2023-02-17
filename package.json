@@ -27,6 +27,6 @@
     "hexo-server": "^2.0.0",
     "hexo-theme-inside": "^2.7.0",
     "html-minifier": "^4.0.0",
-    "terser": "^5.10.0"
+    "terser": "^5.16.4"
   }
 }
