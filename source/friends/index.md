@@ -11,6 +11,7 @@ title: 友情链接
 ## Friends，forever！
 
 * [Sky390](https://blog.sky390.cn/)
+* [醉里博客](https://202271.xyz/)
 * [欢乐小王](https://happyking.top)
 * [Islauso](https://www.azusemisa.top/)
 * [Jalen Chuh](https://jalenchuh.cn/)
