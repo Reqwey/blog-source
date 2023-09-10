@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Reqwey&#39;s Blog</title>
-  <icon>https://reqwey.com/assets/images/favicon.ico</icon>
+  <icon>https://reqwey.me/assets/images/favicon.ico</icon>
   <subtitle>With peace and ❤️</subtitle>
-  <link href="https://oi.reqwey.com/atom.xml" rel="self"/>
+  <link href="https://oi.reqwey.me/atom.xml" rel="self"/>
   
-  <link href="https://oi.reqwey.com/"/>
-  <updated>2023-06-28T16:00:30.239Z</updated>
-  <id>https://oi.reqwey.com/</id>
+  <link href="https://oi.reqwey.me/"/>
+  <updated>2023-09-10T15:01:36.825Z</updated>
+  <id>https://oi.reqwey.me/</id>
   
   <author>
     <name>Reqwey</name>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>热学笔记</title>
-    <link href="https://oi.reqwey.com/heat-physics/"/>
-    <id>https://oi.reqwey.com/heat-physics/</id>
+    <link href="https://oi.reqwey.me/heat-physics/"/>
+    <id>https://oi.reqwey.me/heat-physics/</id>
     <published>2023-06-28T00:00:00.000Z</published>
-    <updated>2023-06-28T16:00:30.239Z</updated>
+    <updated>2023-09-10T15:01:36.825Z</updated>
     
     
       
@@ -34,69 +34,69 @@
     
     
     
-    <category term="Whk" scheme="https://oi.reqwey.com/categories/Whk/"/>
+    <category term="Whk" scheme="https://oi.reqwey.me/categories/Whk/"/>
     
     
-    <category term="文化课" scheme="https://oi.reqwey.com/tags/%E6%96%87%E5%8C%96%E8%AF%BE/"/>
+    <category term="文化课" scheme="https://oi.reqwey.me/tags/%E6%96%87%E5%8C%96%E8%AF%BE/"/>
     
-    <category term="高中物理" scheme="https://oi.reqwey.com/tags/%E9%AB%98%E4%B8%AD%E7%89%A9%E7%90%86/"/>
+    <category term="高中物理" scheme="https://oi.reqwey.me/tags/%E9%AB%98%E4%B8%AD%E7%89%A9%E7%90%86/"/>
     
-    <category term="热学" scheme="https://oi.reqwey.com/tags/%E7%83%AD%E5%AD%A6/"/>
+    <category term="热学" scheme="https://oi.reqwey.me/tags/%E7%83%AD%E5%AD%A6/"/>
     
   </entry>
   
   <entry>
     <title>【Whk Note】生物记忆内容</title>
-    <link href="https://oi.reqwey.com/biology-note/"/>
-    <id>https://oi.reqwey.com/biology-note/</id>
+    <link href="https://oi.reqwey.me/biology-note/"/>
+    <id>https://oi.reqwey.me/biology-note/</id>
     <published>2023-01-09T19:37:00.000Z</published>
-    <updated>2023-06-28T16:00:30.239Z</updated>
+    <updated>2023-09-10T15:01:36.825Z</updated>
     
     
     <summary type="html">&lt;p&gt;各种杂七杂八的记忆内容&lt;/p&gt;</summary>
     
     
     
-    <category term="Whk" scheme="https://oi.reqwey.com/categories/Whk/"/>
+    <category term="Whk" scheme="https://oi.reqwey.me/categories/Whk/"/>
     
     
-    <category term="文化课" scheme="https://oi.reqwey.com/tags/%E6%96%87%E5%8C%96%E8%AF%BE/"/>
+    <category term="文化课" scheme="https://oi.reqwey.me/tags/%E6%96%87%E5%8C%96%E8%AF%BE/"/>
     
-    <category term="高中生物" scheme="https://oi.reqwey.com/tags/%E9%AB%98%E4%B8%AD%E7%94%9F%E7%89%A9/"/>
+    <category term="高中生物" scheme="https://oi.reqwey.me/tags/%E9%AB%98%E4%B8%AD%E7%94%9F%E7%89%A9/"/>
     
-    <category term="Cache" scheme="https://oi.reqwey.com/tags/Cache/"/>
+    <category term="Cache" scheme="https://oi.reqwey.me/tags/Cache/"/>
     
   </entry>
   
   <entry>
     <title>【Whk Note】各种化学键的强弱</title>
-    <link href="https://oi.reqwey.com/bond-strength/"/>
-    <id>https://oi.reqwey.com/bond-strength/</id>
+    <link href="https://oi.reqwey.me/bond-strength/"/>
+    <id>https://oi.reqwey.me/bond-strength/</id>
     <published>2023-01-09T19:37:00.000Z</published>
-    <updated>2023-06-28T16:00:30.239Z</updated>
+    <updated>2023-09-10T15:01:36.825Z</updated>
     
     
     <summary type="html">&lt;p&gt;影响各种化学键的强弱的主要因素&lt;/p&gt;</summary>
     
     
     
-    <category term="Whk" scheme="https://oi.reqwey.com/categories/Whk/"/>
+    <category term="Whk" scheme="https://oi.reqwey.me/categories/Whk/"/>
     
     
-    <category term="文化课" scheme="https://oi.reqwey.com/tags/%E6%96%87%E5%8C%96%E8%AF%BE/"/>
+    <category term="文化课" scheme="https://oi.reqwey.me/tags/%E6%96%87%E5%8C%96%E8%AF%BE/"/>
     
-    <category term="高中化学" scheme="https://oi.reqwey.com/tags/%E9%AB%98%E4%B8%AD%E5%8C%96%E5%AD%A6/"/>
+    <category term="高中化学" scheme="https://oi.reqwey.me/tags/%E9%AB%98%E4%B8%AD%E5%8C%96%E5%AD%A6/"/>
     
-    <category term="物构" scheme="https://oi.reqwey.com/tags/%E7%89%A9%E6%9E%84/"/>
+    <category term="物构" scheme="https://oi.reqwey.me/tags/%E7%89%A9%E6%9E%84/"/>
     
   </entry>
   
   <entry>
     <title>开发备忘录</title>
-    <link href="https://oi.reqwey.com/dev-utils/"/>
-    <id>https://oi.reqwey.com/dev-utils/</id>
+    <link href="https://oi.reqwey.me/dev-utils/"/>
+    <id>https://oi.reqwey.me/dev-utils/</id>
     <published>2022-12-01T00:00:00.000Z</published>
-    <updated>2023-06-28T16:00:30.239Z</updated>
+    <updated>2023-09-10T15:01:36.825Z</updated>
     
     
       
@@ -110,154 +110,154 @@
     
     
     
-    <category term="Cache" scheme="https://oi.reqwey.com/tags/Cache/"/>
+    <category term="Cache" scheme="https://oi.reqwey.me/tags/Cache/"/>
     
   </entry>
   
   <entry>
     <title>【Solution】ABC 246 Ex. 01? Queries</title>
-    <link href="https://oi.reqwey.com/solution-abc246-ex/"/>
-    <id>https://oi.reqwey.com/solution-abc246-ex/</id>
+    <link href="https://oi.reqwey.me/solution-abc246-ex/"/>
+    <id>https://oi.reqwey.me/solution-abc246-ex/</id>
     <published>2022-04-07T00:00:00.000Z</published>
-    <updated>2023-06-28T16:00:30.239Z</updated>
+    <updated>2023-09-10T15:01:36.825Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;a href=&quot;http://www.cspoi.net/problem/4010&quot; target=&quot;_blank&quot;&gt;题目传送门 (Translated by me.)&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
-    <category term="OI" scheme="https://oi.reqwey.com/categories/OI/"/>
+    <category term="OI" scheme="https://oi.reqwey.me/categories/OI/"/>
     
-    <category term="Solution" scheme="https://oi.reqwey.com/categories/OI/Solution/"/>
+    <category term="Solution" scheme="https://oi.reqwey.me/categories/OI/Solution/"/>
     
     
-    <category term="数据结构" scheme="https://oi.reqwey.com/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    <category term="数据结构" scheme="https://oi.reqwey.me/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
-    <category term="动态规划，DP" scheme="https://oi.reqwey.com/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%EF%BC%8CDP/"/>
+    <category term="动态规划，DP" scheme="https://oi.reqwey.me/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%EF%BC%8CDP/"/>
     
-    <category term="线段树" scheme="https://oi.reqwey.com/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
+    <category term="线段树" scheme="https://oi.reqwey.me/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
     
-    <category term="矩阵快速幂" scheme="https://oi.reqwey.com/tags/%E7%9F%A9%E9%98%B5%E5%BF%AB%E9%80%9F%E5%B9%82/"/>
+    <category term="矩阵快速幂" scheme="https://oi.reqwey.me/tags/%E7%9F%A9%E9%98%B5%E5%BF%AB%E9%80%9F%E5%B9%82/"/>
     
   </entry>
   
   <entry>
     <title>【Solution】AtCoder Edu DP Round 两道</title>
-    <link href="https://oi.reqwey.com/solution-atc-dp-1/"/>
-    <id>https://oi.reqwey.com/solution-atc-dp-1/</id>
+    <link href="https://oi.reqwey.me/solution-atc-dp-1/"/>
+    <id>https://oi.reqwey.me/solution-atc-dp-1/</id>
     <published>2022-03-10T00:00:00.000Z</published>
-    <updated>2023-06-28T16:00:30.239Z</updated>
+    <updated>2023-09-10T15:01:36.825Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;a href=&quot;https://atcoder.jp/contests/dp&quot; target=&quot;_blank&quot;&gt;比赛传送门。&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
-    <category term="OI" scheme="https://oi.reqwey.com/categories/OI/"/>
+    <category term="OI" scheme="https://oi.reqwey.me/categories/OI/"/>
     
-    <category term="Solution" scheme="https://oi.reqwey.com/categories/OI/Solution/"/>
+    <category term="Solution" scheme="https://oi.reqwey.me/categories/OI/Solution/"/>
     
     
-    <category term="DP" scheme="https://oi.reqwey.com/tags/DP/"/>
+    <category term="DP" scheme="https://oi.reqwey.me/tags/DP/"/>
     
   </entry>
   
   <entry>
     <title>【Solution】Almost Sorted-状压DP</title>
-    <link href="https://oi.reqwey.com/solution-arc132-c/"/>
-    <id>https://oi.reqwey.com/solution-arc132-c/</id>
+    <link href="https://oi.reqwey.me/solution-arc132-c/"/>
+    <id>https://oi.reqwey.me/solution-arc132-c/</id>
     <published>2022-03-09T00:00:00.000Z</published>
-    <updated>2023-06-28T16:00:30.239Z</updated>
+    <updated>2023-09-10T15:01:36.825Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;a href=&quot;https://atcoder.jp/contests/arc132/tasks/arc132_c&quot; target=&quot;_blank&quot;&gt;题目传送门。&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
-    <category term="OI" scheme="https://oi.reqwey.com/categories/OI/"/>
+    <category term="OI" scheme="https://oi.reqwey.me/categories/OI/"/>
     
-    <category term="Solution" scheme="https://oi.reqwey.com/categories/OI/Solution/"/>
+    <category term="Solution" scheme="https://oi.reqwey.me/categories/OI/Solution/"/>
     
     
-    <category term="动态规划，DP" scheme="https://oi.reqwey.com/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%EF%BC%8CDP/"/>
+    <category term="动态规划，DP" scheme="https://oi.reqwey.me/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%EF%BC%8CDP/"/>
     
   </entry>
   
   <entry>
     <title>【Solution】Nauuo and Binary Tree-重链剖分</title>
-    <link href="https://oi.reqwey.com/solution-libre-6669/"/>
-    <id>https://oi.reqwey.com/solution-libre-6669/</id>
+    <link href="https://oi.reqwey.me/solution-libre-6669/"/>
+    <id>https://oi.reqwey.me/solution-libre-6669/</id>
     <published>2022-03-07T00:00:00.000Z</published>
-    <updated>2023-06-28T16:00:30.239Z</updated>
+    <updated>2023-09-10T15:01:36.825Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;a href=&quot;https://loj.ac/p/6669&quot; target=&quot;_blank&quot;&gt;题目传送门。&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
-    <category term="OI" scheme="https://oi.reqwey.com/categories/OI/"/>
+    <category term="OI" scheme="https://oi.reqwey.me/categories/OI/"/>
     
-    <category term="Solution" scheme="https://oi.reqwey.com/categories/OI/Solution/"/>
+    <category term="Solution" scheme="https://oi.reqwey.me/categories/OI/Solution/"/>
     
     
-    <category term="数据结构" scheme="https://oi.reqwey.com/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    <category term="数据结构" scheme="https://oi.reqwey.me/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
-    <category term="树链剖分" scheme="https://oi.reqwey.com/tags/%E6%A0%91%E9%93%BE%E5%89%96%E5%88%86/"/>
+    <category term="树链剖分" scheme="https://oi.reqwey.me/tags/%E6%A0%91%E9%93%BE%E5%89%96%E5%88%86/"/>
     
-    <category term="交互" scheme="https://oi.reqwey.com/tags/%E4%BA%A4%E4%BA%92/"/>
+    <category term="交互" scheme="https://oi.reqwey.me/tags/%E4%BA%A4%E4%BA%92/"/>
     
   </entry>
   
   <entry>
     <title>【Solution】 [CEOI2016]kangaroo-DP</title>
-    <link href="https://oi.reqwey.com/solution-luogu-5999/"/>
-    <id>https://oi.reqwey.com/solution-luogu-5999/</id>
+    <link href="https://oi.reqwey.me/solution-luogu-5999/"/>
+    <id>https://oi.reqwey.me/solution-luogu-5999/</id>
     <published>2022-03-04T00:00:00.000Z</published>
-    <updated>2023-06-28T16:00:30.239Z</updated>
+    <updated>2023-09-10T15:01:36.825Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.luogu.com.cn/problem/P5999&quot; target=&quot;_blank&quot;&gt;原题传送门&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
-    <category term="OI" scheme="https://oi.reqwey.com/categories/OI/"/>
+    <category term="OI" scheme="https://oi.reqwey.me/categories/OI/"/>
     
-    <category term="Solution" scheme="https://oi.reqwey.com/categories/OI/Solution/"/>
+    <category term="Solution" scheme="https://oi.reqwey.me/categories/OI/Solution/"/>
     
     
-    <category term="DP" scheme="https://oi.reqwey.com/tags/DP/"/>
+    <category term="DP" scheme="https://oi.reqwey.me/tags/DP/"/>
     
   </entry>
   
   <entry>
     <title>【Solution】[NOI Online 2 提高组]子序列问题-线段树</title>
-    <link href="https://oi.reqwey.com/solution-luogu-6477/"/>
-    <id>https://oi.reqwey.com/solution-luogu-6477/</id>
+    <link href="https://oi.reqwey.me/solution-luogu-6477/"/>
+    <id>https://oi.reqwey.me/solution-luogu-6477/</id>
     <published>2022-03-01T00:00:00.000Z</published>
-    <updated>2023-06-28T16:00:30.239Z</updated>
+    <updated>2023-09-10T15:01:36.825Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.luogu.com.cn/problem/P6477&quot; target=&quot;_blank&quot;&gt;题目传送门。&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
-    <category term="OI" scheme="https://oi.reqwey.com/categories/OI/"/>
+    <category term="OI" scheme="https://oi.reqwey.me/categories/OI/"/>
     
-    <category term="Solution" scheme="https://oi.reqwey.com/categories/OI/Solution/"/>
+    <category term="Solution" scheme="https://oi.reqwey.me/categories/OI/Solution/"/>
     
     
-    <category term="数据结构" scheme="https://oi.reqwey.com/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    <category term="数据结构" scheme="https://oi.reqwey.me/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
-    <category term="线段树" scheme="https://oi.reqwey.com/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
+    <category term="线段树" scheme="https://oi.reqwey.me/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
     
   </entry>
   
   <entry>
     <title>【Solution】小凸玩矩阵-二分图+二分答案</title>
-    <link href="https://oi.reqwey.com/solution-luogu-4251/"/>
-    <id>https://oi.reqwey.com/solution-luogu-4251/</id>
+    <link href="https://oi.reqwey.me/solution-luogu-4251/"/>
+    <id>https://oi.reqwey.me/solution-luogu-4251/</id>
     <published>2021-12-11T00:00:00.000Z</published>
-    <updated>2023-06-28T16:00:30.239Z</updated>
+    <updated>2023-09-10T15:01:36.825Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -269,25 +269,25 @@
     
     
     
-    <category term="OI" scheme="https://oi.reqwey.com/categories/OI/"/>
+    <category term="OI" scheme="https://oi.reqwey.me/categories/OI/"/>
     
-    <category term="Solution" scheme="https://oi.reqwey.com/categories/OI/Solution/"/>
+    <category term="Solution" scheme="https://oi.reqwey.me/categories/OI/Solution/"/>
     
     
-    <category term="二分图" scheme="https://oi.reqwey.com/tags/%E4%BA%8C%E5%88%86%E5%9B%BE/"/>
+    <category term="二分图" scheme="https://oi.reqwey.me/tags/%E4%BA%8C%E5%88%86%E5%9B%BE/"/>
     
-    <category term="匈牙利算法" scheme="https://oi.reqwey.com/tags/%E5%8C%88%E7%89%99%E5%88%A9%E7%AE%97%E6%B3%95/"/>
+    <category term="匈牙利算法" scheme="https://oi.reqwey.me/tags/%E5%8C%88%E7%89%99%E5%88%A9%E7%AE%97%E6%B3%95/"/>
     
-    <category term="二分答案" scheme="https://oi.reqwey.com/tags/%E4%BA%8C%E5%88%86%E7%AD%94%E6%A1%88/"/>
+    <category term="二分答案" scheme="https://oi.reqwey.me/tags/%E4%BA%8C%E5%88%86%E7%AD%94%E6%A1%88/"/>
     
   </entry>
   
   <entry>
     <title>【Algorithm Notes】Convex Hull Trick</title>
-    <link href="https://oi.reqwey.com/algorithm-slope/"/>
-    <id>https://oi.reqwey.com/algorithm-slope/</id>
+    <link href="https://oi.reqwey.me/algorithm-slope/"/>
+    <id>https://oi.reqwey.me/algorithm-slope/</id>
     <published>2021-12-03T00:00:00.000Z</published>
-    <updated>2023-06-28T16:00:30.239Z</updated>
+    <updated>2023-09-10T15:01:36.825Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;intro&quot;&gt;Intro&lt;a title=&quot;#intro&quot; href=&quot;#intro&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
@@ -323,21 +323,21 @@
     
     
     
-    <category term="OI" scheme="https://oi.reqwey.com/categories/OI/"/>
+    <category term="OI" scheme="https://oi.reqwey.me/categories/OI/"/>
     
-    <category term="Algorithm" scheme="https://oi.reqwey.com/categories/OI/Algorithm/"/>
+    <category term="Algorithm" scheme="https://oi.reqwey.me/categories/OI/Algorithm/"/>
     
     
-    <category term="动态规划，DP" scheme="https://oi.reqwey.com/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%EF%BC%8CDP/"/>
+    <category term="动态规划，DP" scheme="https://oi.reqwey.me/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%EF%BC%8CDP/"/>
     
   </entry>
   
   <entry>
     <title>【Solution】Muddy Fields G-二分图匹配</title>
-    <link href="https://oi.reqwey.com/solution-luogu-6062/"/>
-    <id>https://oi.reqwey.com/solution-luogu-6062/</id>
+    <link href="https://oi.reqwey.me/solution-luogu-6062/"/>
+    <id>https://oi.reqwey.me/solution-luogu-6062/</id>
     <published>2021-10-18T21:28:00.000Z</published>
-    <updated>2023-06-28T16:00:30.239Z</updated>
+    <updated>2023-09-10T15:01:36.825Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.luogu.com.cn/problem/P6062&quot; target=&quot;_blank&quot;&gt;题目传送门。&lt;/a&gt;&lt;/p&gt;
@@ -389,94 +389,94 @@
     
     
     
-    <category term="OI" scheme="https://oi.reqwey.com/categories/OI/"/>
+    <category term="OI" scheme="https://oi.reqwey.me/categories/OI/"/>
     
-    <category term="Solution" scheme="https://oi.reqwey.com/categories/OI/Solution/"/>
+    <category term="Solution" scheme="https://oi.reqwey.me/categories/OI/Solution/"/>
     
     
-    <category term="二分图" scheme="https://oi.reqwey.com/tags/%E4%BA%8C%E5%88%86%E5%9B%BE/"/>
+    <category term="二分图" scheme="https://oi.reqwey.me/tags/%E4%BA%8C%E5%88%86%E5%9B%BE/"/>
     
-    <category term="匈牙利算法" scheme="https://oi.reqwey.com/tags/%E5%8C%88%E7%89%99%E5%88%A9%E7%AE%97%E6%B3%95/"/>
+    <category term="匈牙利算法" scheme="https://oi.reqwey.me/tags/%E5%8C%88%E7%89%99%E5%88%A9%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
   <entry>
     <title>【Algorithm Notes】并查集按秩合并</title>
-    <link href="https://oi.reqwey.com/algorithm-merge-by-rank/"/>
-    <id>https://oi.reqwey.com/algorithm-merge-by-rank/</id>
+    <link href="https://oi.reqwey.me/algorithm-merge-by-rank/"/>
+    <id>https://oi.reqwey.me/algorithm-merge-by-rank/</id>
     <published>2021-08-10T00:00:00.000Z</published>
-    <updated>2023-06-28T16:00:30.239Z</updated>
+    <updated>2023-09-10T15:01:36.825Z</updated>
     
     
     <summary type="html">&lt;p&gt;我们都知道，并查集的路径压缩大大加速了操作的时间复杂度，但是如果出题人足够毒瘤，仍然可以把你卡掉。&lt;/p&gt;</summary>
     
     
     
-    <category term="OI" scheme="https://oi.reqwey.com/categories/OI/"/>
+    <category term="OI" scheme="https://oi.reqwey.me/categories/OI/"/>
     
-    <category term="Algorithm" scheme="https://oi.reqwey.com/categories/OI/Algorithm/"/>
+    <category term="Algorithm" scheme="https://oi.reqwey.me/categories/OI/Algorithm/"/>
     
     
-    <category term="并查集" scheme="https://oi.reqwey.com/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/"/>
+    <category term="并查集" scheme="https://oi.reqwey.me/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/"/>
     
-    <category term="按秩合并" scheme="https://oi.reqwey.com/tags/%E6%8C%89%E7%A7%A9%E5%90%88%E5%B9%B6/"/>
+    <category term="按秩合并" scheme="https://oi.reqwey.me/tags/%E6%8C%89%E7%A7%A9%E5%90%88%E5%B9%B6/"/>
     
   </entry>
   
   <entry>
     <title>【Solution】砝码称重-DP+bitset</title>
-    <link href="https://oi.reqwey.com/solution-luogu-1441/"/>
-    <id>https://oi.reqwey.com/solution-luogu-1441/</id>
+    <link href="https://oi.reqwey.me/solution-luogu-1441/"/>
+    <id>https://oi.reqwey.me/solution-luogu-1441/</id>
     <published>2021-07-31T00:00:00.000Z</published>
-    <updated>2023-06-28T16:00:30.239Z</updated>
+    <updated>2023-09-10T15:01:36.825Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.luogu.com.cn/problem/P1441&quot; target=&quot;_blank&quot;&gt;原题传送门&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
-    <category term="OI" scheme="https://oi.reqwey.com/categories/OI/"/>
+    <category term="OI" scheme="https://oi.reqwey.me/categories/OI/"/>
     
-    <category term="Solution" scheme="https://oi.reqwey.com/categories/OI/Solution/"/>
+    <category term="Solution" scheme="https://oi.reqwey.me/categories/OI/Solution/"/>
     
     
-    <category term="DP" scheme="https://oi.reqwey.com/tags/DP/"/>
+    <category term="DP" scheme="https://oi.reqwey.me/tags/DP/"/>
     
-    <category term="bitset" scheme="https://oi.reqwey.com/tags/bitset/"/>
+    <category term="bitset" scheme="https://oi.reqwey.me/tags/bitset/"/>
     
-    <category term="卡常" scheme="https://oi.reqwey.com/tags/%E5%8D%A1%E5%B8%B8/"/>
+    <category term="卡常" scheme="https://oi.reqwey.me/tags/%E5%8D%A1%E5%B8%B8/"/>
     
   </entry>
   
   <entry>
     <title>【Solution】[NOIP2017 提高组] 宝藏-状压DP</title>
-    <link href="https://oi.reqwey.com/solution-luogu-3959/"/>
-    <id>https://oi.reqwey.com/solution-luogu-3959/</id>
+    <link href="https://oi.reqwey.me/solution-luogu-3959/"/>
+    <id>https://oi.reqwey.me/solution-luogu-3959/</id>
     <published>2021-07-31T00:00:00.000Z</published>
-    <updated>2023-06-28T16:00:30.239Z</updated>
+    <updated>2023-09-10T15:01:36.825Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.luogu.com.cn/problem/P3959&quot; target=&quot;_blank&quot;&gt;原题传送门&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
-    <category term="OI" scheme="https://oi.reqwey.com/categories/OI/"/>
+    <category term="OI" scheme="https://oi.reqwey.me/categories/OI/"/>
     
-    <category term="Solution" scheme="https://oi.reqwey.com/categories/OI/Solution/"/>
+    <category term="Solution" scheme="https://oi.reqwey.me/categories/OI/Solution/"/>
     
     
-    <category term="动态规划，DP" scheme="https://oi.reqwey.com/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%EF%BC%8CDP/"/>
+    <category term="动态规划，DP" scheme="https://oi.reqwey.me/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%EF%BC%8CDP/"/>
     
-    <category term="卡常" scheme="https://oi.reqwey.com/tags/%E5%8D%A1%E5%B8%B8/"/>
+    <category term="卡常" scheme="https://oi.reqwey.me/tags/%E5%8D%A1%E5%B8%B8/"/>
     
   </entry>
   
   <entry>
     <title>【Algorithm Notes】线段树的一些技巧</title>
-    <link href="https://oi.reqwey.com/segment-tree-tricks/"/>
-    <id>https://oi.reqwey.com/segment-tree-tricks/</id>
+    <link href="https://oi.reqwey.me/segment-tree-tricks/"/>
+    <id>https://oi.reqwey.me/segment-tree-tricks/</id>
     <published>2020-11-07T00:00:00.000Z</published>
-    <updated>2023-06-28T16:00:30.239Z</updated>
+    <updated>2023-09-10T15:01:36.825Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -485,65 +485,65 @@
     
     
     
-    <category term="OI" scheme="https://oi.reqwey.com/categories/OI/"/>
+    <category term="OI" scheme="https://oi.reqwey.me/categories/OI/"/>
     
-    <category term="Algorithm" scheme="https://oi.reqwey.com/categories/OI/Algorithm/"/>
+    <category term="Algorithm" scheme="https://oi.reqwey.me/categories/OI/Algorithm/"/>
     
     
-    <category term="数据结构" scheme="https://oi.reqwey.com/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    <category term="数据结构" scheme="https://oi.reqwey.me/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
-    <category term="线段树" scheme="https://oi.reqwey.com/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
+    <category term="线段树" scheme="https://oi.reqwey.me/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
     
   </entry>
   
   <entry>
     <title>【Algorithm Notes】数学</title>
-    <link href="https://oi.reqwey.com/math/"/>
-    <id>https://oi.reqwey.com/math/</id>
+    <link href="https://oi.reqwey.me/math/"/>
+    <id>https://oi.reqwey.me/math/</id>
     <published>2020-08-30T22:24:00.000Z</published>
-    <updated>2023-06-28T16:00:30.239Z</updated>
+    <updated>2023-09-10T15:01:36.825Z</updated>
     
     
     <summary type="html">&lt;p&gt;整理成了 PPT 形式，&lt;a href=&quot;http://47.110.12.131/problem/6666/testdata/download/%E6%95%B0%E5%AD%A6%E8%AF%BE.pptx&quot; target=&quot;_blank&quot;&gt;链接。&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
-    <category term="OI" scheme="https://oi.reqwey.com/categories/OI/"/>
+    <category term="OI" scheme="https://oi.reqwey.me/categories/OI/"/>
     
-    <category term="Algorithm" scheme="https://oi.reqwey.com/categories/OI/Algorithm/"/>
+    <category term="Algorithm" scheme="https://oi.reqwey.me/categories/OI/Algorithm/"/>
     
     
-    <category term="math" scheme="https://oi.reqwey.com/tags/math/"/>
+    <category term="math" scheme="https://oi.reqwey.me/tags/math/"/>
     
   </entry>
   
   <entry>
     <title>【Solution】[NOI Online #1 入门组] 文具订购-DP</title>
-    <link href="https://oi.reqwey.com/solution-luogu-6188/"/>
-    <id>https://oi.reqwey.com/solution-luogu-6188/</id>
+    <link href="https://oi.reqwey.me/solution-luogu-6188/"/>
+    <id>https://oi.reqwey.me/solution-luogu-6188/</id>
     <published>2020-03-08T00:00:00.000Z</published>
-    <updated>2023-06-28T16:00:30.239Z</updated>
+    <updated>2023-09-10T15:01:36.825Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.luogu.com.cn/problem/P6188&quot; target=&quot;_blank&quot;&gt;题目传送门。&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
-    <category term="OI" scheme="https://oi.reqwey.com/categories/OI/"/>
+    <category term="OI" scheme="https://oi.reqwey.me/categories/OI/"/>
     
-    <category term="Solution" scheme="https://oi.reqwey.com/categories/OI/Solution/"/>
+    <category term="Solution" scheme="https://oi.reqwey.me/categories/OI/Solution/"/>
     
     
-    <category term="动态规划，DP" scheme="https://oi.reqwey.com/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%EF%BC%8CDP/"/>
+    <category term="动态规划，DP" scheme="https://oi.reqwey.me/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%EF%BC%8CDP/"/>
     
   </entry>
   
   <entry>
     <title>【Algorithm Notes】LCA Tarjan求法</title>
-    <link href="https://oi.reqwey.com/algorithm-lca-2/"/>
-    <id>https://oi.reqwey.com/algorithm-lca-2/</id>
+    <link href="https://oi.reqwey.me/algorithm-lca-2/"/>
+    <id>https://oi.reqwey.me/algorithm-lca-2/</id>
     <published>2020-02-06T00:00:00.000Z</published>
-    <updated>2023-06-28T16:00:30.239Z</updated>
+    <updated>2023-09-10T15:01:36.825Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;流程&quot;&gt;流程&lt;a title=&quot;#流程&quot; href=&quot;#流程&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
@@ -568,16 +568,16 @@
     
     
     
-    <category term="OI" scheme="https://oi.reqwey.com/categories/OI/"/>
+    <category term="OI" scheme="https://oi.reqwey.me/categories/OI/"/>
     
-    <category term="Algorithm" scheme="https://oi.reqwey.com/categories/OI/Algorithm/"/>
+    <category term="Algorithm" scheme="https://oi.reqwey.me/categories/OI/Algorithm/"/>
     
     
-    <category term="数据结构" scheme="https://oi.reqwey.com/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    <category term="数据结构" scheme="https://oi.reqwey.me/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
-    <category term="LCA" scheme="https://oi.reqwey.com/tags/LCA/"/>
+    <category term="LCA" scheme="https://oi.reqwey.me/tags/LCA/"/>
     
-    <category term="Tarjan" scheme="https://oi.reqwey.com/tags/Tarjan/"/>
+    <category term="Tarjan" scheme="https://oi.reqwey.me/tags/Tarjan/"/>
     
   </entry>
   
