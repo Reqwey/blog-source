@@ -13,7 +13,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://oi.reqwey.com
+url: https://oi.reqwey.me
 permalink: :title/
 permalink_defaults:
 pretty_urls:
@@ -85,7 +85,7 @@ feed:
   content_limit: 140
   content_limit_delim: ' '
   order_by: -date
-  icon: https://reqwey.com/assets/images/favicon.ico
+  icon: https://reqwey.me/assets/images/favicon.ico
   autodiscovery: true
   template:
 
