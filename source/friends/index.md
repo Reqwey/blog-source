@@ -4,7 +4,7 @@ title: 友情链接
 
 > 如果想加的话请联系我的 Telegram，谢谢（QAQ）
 
-## Specialist
+## Special list
 
 * [FYMS-OI](http://47.110.12.131)
 
