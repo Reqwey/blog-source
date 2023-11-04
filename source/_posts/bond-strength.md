@@ -44,6 +44,11 @@ categories:
 
 一般而言：金属元素的原子半径越小，单位体积内自由电子数目越大，金属键越强，金属晶体的硬度越大，熔、沸点越高．如：同一周期金属原子半径越来越小，单位体积内自由电子数增加，故熔点越来越高，硬度越来越大；同一主族金属原子半径越来越大，单位体积内自由电子数减少，故熔点越来越低，硬度越来越小．
 
+对比：
+
+![](https://cdn.jsdelivr.net/gh/Reqwey/blog-cdn@master/img/hpp_upload/1699139070000.png)
+![](https://cdn.jsdelivr.net/gh/Reqwey/blog-cdn@master/img/hpp_upload/1699139091000.png)
+
 ## 分子间作用力
 
 ### 范德华力
