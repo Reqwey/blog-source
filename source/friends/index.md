@@ -14,7 +14,7 @@ title: 友情链接
 * [醉里博客](https://202271.xyz/)
 * [欢乐小王](https://happyking.top)
 * [Islauso](https://www.azusemisa.top/)
-* [Jalen Chuh](https://jalenz.cn/)
+* [Jalenz](https://jalenz.cn/)
 * [Charlie](https://charlie-zzy.github.io/)
 * [Uncle Drew](https://cndrew.cn/)
 * [xaoxuu](https://xaoxuu.com/)
