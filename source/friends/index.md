@@ -5,11 +5,10 @@ title: 友情链接
 > 如果想加的话请联系我的 Telegram，谢谢（QAQ）
 
 ## Special list
-
 * [FYMS-OI](http://47.110.12.131)
 
 ## Friends，forever！
-
+* [Joy's Blog](https://joyslog.tk/)
 * [Sky390](https://blog.sky390.cn/)
 * [醉里博客](https://202271.xyz/)
 * [欢乐小王](https://happyking.top)
