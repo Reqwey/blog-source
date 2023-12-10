@@ -8,6 +8,7 @@ title: 友情链接
 * [FYMS-OI](http://47.110.12.131)
 
 ## Friends，forever！
+* [SoraStar](https://sora.icu/)
 * [Joy's Blog](https://joyslog.tk/)
 * [Sky390](https://blog.sky390.cn/)
 * [醉里博客](https://202271.xyz/)
@@ -21,7 +22,7 @@ title: 友情链接
 * [Colsch](https://colsrch.cn/)
 * [Code Young](https://wujizun.top/)
 * [MHuiG](https://mhuig.github.io/)
-* [枋柚梓](https://inkss.cn)
+* [枋柚梓](https://inkss.cn/)
 * [尼采般地抒情](https://www.wztlink1013.com/)
 * [Sanarous](https://bestzuo.cn/)
 * [Qinxs](https://qinxs.github.io/)
