@@ -6,7 +6,7 @@
   <link href="https://oi.reqwey.me/atom.xml" rel="self"/>
   
   <link href="https://oi.reqwey.me/"/>
-  <updated>2024-01-28T08:21:50.966Z</updated>
+  <updated>2024-01-28T08:23:35.188Z</updated>
   <id>https://oi.reqwey.me/</id>
   
   <author>
@@ -17,21 +17,25 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>【English】如何描写各种动物的叫声</title>
+    <title>【GPT4】在选择与被选择之间 —— 青年的职业抉择</title>
     <link href="https://oi.reqwey.me/youth-career-gpt-4/"/>
     <id>https://oi.reqwey.me/youth-career-gpt-4/</id>
-    <published>2024-01-28T16:08:00.000Z</published>
-    <updated>2024-01-28T08:21:50.966Z</updated>
+    <published>2024-01-11T22:41:00.000Z</published>
+    <updated>2024-01-28T08:23:35.188Z</updated>
     
     
-    <summary type="html">&lt;p&gt;（转载自 &lt;a href=&quot;https://www.hjenglish.com/new/p102300/&quot; target=&quot;_blank&quot;&gt;如何用英文描写动物们的声音_沪江英语学习网&lt;/a&gt;）&lt;/p&gt;</summary>
+    <summary type="html">在漫长的人生旅途中，职业选择这道关卡，常让无数立志于青春之路的年轻人驻足沉思。</summary>
     
     
     
     <category term="Whk" scheme="https://oi.reqwey.me/categories/Whk/"/>
     
     
-    <category term="英语" scheme="https://oi.reqwey.me/tags/%E8%8B%B1%E8%AF%AD/"/>
+    <category term="ChatGPT" scheme="https://oi.reqwey.me/tags/ChatGPT/"/>
+    
+    <category term="职业选择" scheme="https://oi.reqwey.me/tags/%E8%81%8C%E4%B8%9A%E9%80%89%E6%8B%A9/"/>
+    
+    <category term="高考作文" scheme="https://oi.reqwey.me/tags/%E9%AB%98%E8%80%83%E4%BD%9C%E6%96%87/"/>
     
   </entry>
   
@@ -40,7 +44,7 @@
     <link href="https://oi.reqwey.me/heat-physics/"/>
     <id>https://oi.reqwey.me/heat-physics/</id>
     <published>2023-06-28T00:00:00.000Z</published>
-    <updated>2024-01-28T08:21:50.966Z</updated>
+    <updated>2024-01-28T08:23:35.188Z</updated>
     
     
       
@@ -65,34 +69,11 @@
   </entry>
   
   <entry>
-    <title>【Whk Note】生物记忆内容</title>
-    <link href="https://oi.reqwey.me/biology-note/"/>
-    <id>https://oi.reqwey.me/biology-note/</id>
-    <published>2023-01-09T19:37:00.000Z</published>
-    <updated>2024-01-28T08:21:50.962Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;各种杂七杂八的记忆内容&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Whk" scheme="https://oi.reqwey.me/categories/Whk/"/>
-    
-    
-    <category term="文化课" scheme="https://oi.reqwey.me/tags/%E6%96%87%E5%8C%96%E8%AF%BE/"/>
-    
-    <category term="高中生物" scheme="https://oi.reqwey.me/tags/%E9%AB%98%E4%B8%AD%E7%94%9F%E7%89%A9/"/>
-    
-    <category term="Cache" scheme="https://oi.reqwey.me/tags/Cache/"/>
-    
-  </entry>
-  
-  <entry>
     <title>【Whk Note】各种化学键的强弱</title>
     <link href="https://oi.reqwey.me/bond-strength/"/>
     <id>https://oi.reqwey.me/bond-strength/</id>
     <published>2023-01-09T19:37:00.000Z</published>
-    <updated>2024-01-28T08:21:50.962Z</updated>
+    <updated>2024-01-28T08:23:35.188Z</updated>
     
     
     <summary type="html">&lt;p&gt;影响各种化学键的强弱的主要因素&lt;/p&gt;</summary>
@@ -111,11 +92,34 @@
   </entry>
   
   <entry>
+    <title>【Whk Note】生物记忆内容</title>
+    <link href="https://oi.reqwey.me/biology-note/"/>
+    <id>https://oi.reqwey.me/biology-note/</id>
+    <published>2023-01-09T19:37:00.000Z</published>
+    <updated>2024-01-28T08:23:35.188Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;各种杂七杂八的记忆内容&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Whk" scheme="https://oi.reqwey.me/categories/Whk/"/>
+    
+    
+    <category term="文化课" scheme="https://oi.reqwey.me/tags/%E6%96%87%E5%8C%96%E8%AF%BE/"/>
+    
+    <category term="高中生物" scheme="https://oi.reqwey.me/tags/%E9%AB%98%E4%B8%AD%E7%94%9F%E7%89%A9/"/>
+    
+    <category term="Cache" scheme="https://oi.reqwey.me/tags/Cache/"/>
+    
+  </entry>
+  
+  <entry>
     <title>开发备忘录</title>
     <link href="https://oi.reqwey.me/dev-utils/"/>
     <id>https://oi.reqwey.me/dev-utils/</id>
     <published>2022-12-01T00:00:00.000Z</published>
-    <updated>2024-01-28T08:21:50.962Z</updated>
+    <updated>2024-01-28T08:23:35.188Z</updated>
     
     
       
@@ -138,7 +142,7 @@
     <link href="https://oi.reqwey.me/solution-abc246-ex/"/>
     <id>https://oi.reqwey.me/solution-abc246-ex/</id>
     <published>2022-04-07T00:00:00.000Z</published>
-    <updated>2024-01-28T08:21:50.966Z</updated>
+    <updated>2024-01-28T08:23:35.188Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;a href=&quot;http://www.cspoi.net/problem/4010&quot; target=&quot;_blank&quot;&gt;题目传送门 (Translated by me.)&lt;/a&gt;&lt;/p&gt;</summary>
@@ -165,7 +169,7 @@
     <link href="https://oi.reqwey.me/solution-atc-dp-1/"/>
     <id>https://oi.reqwey.me/solution-atc-dp-1/</id>
     <published>2022-03-10T00:00:00.000Z</published>
-    <updated>2024-01-28T08:21:50.966Z</updated>
+    <updated>2024-01-28T08:23:35.188Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;a href=&quot;https://atcoder.jp/contests/dp&quot; target=&quot;_blank&quot;&gt;比赛传送门。&lt;/a&gt;&lt;/p&gt;</summary>
@@ -186,7 +190,7 @@
     <link href="https://oi.reqwey.me/solution-arc132-c/"/>
     <id>https://oi.reqwey.me/solution-arc132-c/</id>
     <published>2022-03-09T00:00:00.000Z</published>
-    <updated>2024-01-28T08:21:50.966Z</updated>
+    <updated>2024-01-28T08:23:35.188Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;a href=&quot;https://atcoder.jp/contests/arc132/tasks/arc132_c&quot; target=&quot;_blank&quot;&gt;题目传送门。&lt;/a&gt;&lt;/p&gt;</summary>
@@ -207,7 +211,7 @@
     <link href="https://oi.reqwey.me/solution-libre-6669/"/>
     <id>https://oi.reqwey.me/solution-libre-6669/</id>
     <published>2022-03-07T00:00:00.000Z</published>
-    <updated>2024-01-28T08:21:50.966Z</updated>
+    <updated>2024-01-28T08:23:35.188Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;a href=&quot;https://loj.ac/p/6669&quot; target=&quot;_blank&quot;&gt;题目传送门。&lt;/a&gt;&lt;/p&gt;</summary>
@@ -232,7 +236,7 @@
     <link href="https://oi.reqwey.me/solution-luogu-5999/"/>
     <id>https://oi.reqwey.me/solution-luogu-5999/</id>
     <published>2022-03-04T00:00:00.000Z</published>
-    <updated>2024-01-28T08:21:50.966Z</updated>
+    <updated>2024-01-28T08:23:35.188Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.luogu.com.cn/problem/P5999&quot; target=&quot;_blank&quot;&gt;原题传送门&lt;/a&gt;&lt;/p&gt;</summary>
@@ -253,7 +257,7 @@
     <link href="https://oi.reqwey.me/solution-luogu-6477/"/>
     <id>https://oi.reqwey.me/solution-luogu-6477/</id>
     <published>2022-03-01T00:00:00.000Z</published>
-    <updated>2024-01-28T08:21:50.966Z</updated>
+    <updated>2024-01-28T08:23:35.188Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.luogu.com.cn/problem/P6477&quot; target=&quot;_blank&quot;&gt;题目传送门。&lt;/a&gt;&lt;/p&gt;</summary>
@@ -276,7 +280,7 @@
     <link href="https://oi.reqwey.me/solution-luogu-4251/"/>
     <id>https://oi.reqwey.me/solution-luogu-4251/</id>
     <published>2021-12-11T00:00:00.000Z</published>
-    <updated>2024-01-28T08:21:50.966Z</updated>
+    <updated>2024-01-28T08:23:35.188Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -306,7 +310,7 @@
     <link href="https://oi.reqwey.me/algorithm-slope/"/>
     <id>https://oi.reqwey.me/algorithm-slope/</id>
     <published>2021-12-03T00:00:00.000Z</published>
-    <updated>2024-01-28T08:21:50.962Z</updated>
+    <updated>2024-01-28T08:23:35.188Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;intro&quot;&gt;Intro&lt;a title=&quot;#intro&quot; href=&quot;#intro&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
@@ -356,7 +360,7 @@
     <link href="https://oi.reqwey.me/solution-luogu-6062/"/>
     <id>https://oi.reqwey.me/solution-luogu-6062/</id>
     <published>2021-10-18T21:28:00.000Z</published>
-    <updated>2024-01-28T08:21:50.966Z</updated>
+    <updated>2024-01-28T08:23:35.188Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.luogu.com.cn/problem/P6062&quot; target=&quot;_blank&quot;&gt;题目传送门。&lt;/a&gt;&lt;/p&gt;
@@ -424,7 +428,7 @@
     <link href="https://oi.reqwey.me/algorithm-merge-by-rank/"/>
     <id>https://oi.reqwey.me/algorithm-merge-by-rank/</id>
     <published>2021-08-10T00:00:00.000Z</published>
-    <updated>2024-01-28T08:21:50.962Z</updated>
+    <updated>2024-01-28T08:23:35.188Z</updated>
     
     
     <summary type="html">&lt;p&gt;我们都知道，并查集的路径压缩大大加速了操作的时间复杂度，但是如果出题人足够毒瘤，仍然可以把你卡掉。&lt;/p&gt;</summary>
@@ -447,7 +451,7 @@
     <link href="https://oi.reqwey.me/solution-luogu-1441/"/>
     <id>https://oi.reqwey.me/solution-luogu-1441/</id>
     <published>2021-07-31T00:00:00.000Z</published>
-    <updated>2024-01-28T08:21:50.966Z</updated>
+    <updated>2024-01-28T08:23:35.188Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.luogu.com.cn/problem/P1441&quot; target=&quot;_blank&quot;&gt;原题传送门&lt;/a&gt;&lt;/p&gt;</summary>
@@ -472,7 +476,7 @@
     <link href="https://oi.reqwey.me/solution-luogu-3959/"/>
     <id>https://oi.reqwey.me/solution-luogu-3959/</id>
     <published>2021-07-31T00:00:00.000Z</published>
-    <updated>2024-01-28T08:21:50.966Z</updated>
+    <updated>2024-01-28T08:23:35.188Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.luogu.com.cn/problem/P3959&quot; target=&quot;_blank&quot;&gt;原题传送门&lt;/a&gt;&lt;/p&gt;</summary>
@@ -495,7 +499,7 @@
     <link href="https://oi.reqwey.me/segment-tree-tricks/"/>
     <id>https://oi.reqwey.me/segment-tree-tricks/</id>
     <published>2020-11-07T00:00:00.000Z</published>
-    <updated>2024-01-28T08:21:50.966Z</updated>
+    <updated>2024-01-28T08:23:35.188Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -520,7 +524,7 @@
     <link href="https://oi.reqwey.me/math/"/>
     <id>https://oi.reqwey.me/math/</id>
     <published>2020-08-30T22:24:00.000Z</published>
-    <updated>2024-01-28T08:21:50.966Z</updated>
+    <updated>2024-01-28T08:23:35.188Z</updated>
     
     
     <summary type="html">&lt;p&gt;整理成了 PPT 形式，&lt;a href=&quot;http://47.110.12.131/problem/6666/testdata/download/%E6%95%B0%E5%AD%A6%E8%AF%BE.pptx&quot; target=&quot;_blank&quot;&gt;链接。&lt;/a&gt;&lt;/p&gt;</summary>
@@ -541,7 +545,7 @@
     <link href="https://oi.reqwey.me/solution-luogu-6188/"/>
     <id>https://oi.reqwey.me/solution-luogu-6188/</id>
     <published>2020-03-08T00:00:00.000Z</published>
-    <updated>2024-01-28T08:21:50.966Z</updated>
+    <updated>2024-01-28T08:23:35.188Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.luogu.com.cn/problem/P6188&quot; target=&quot;_blank&quot;&gt;题目传送门。&lt;/a&gt;&lt;/p&gt;</summary>
