@@ -4,6 +4,7 @@ date: 2024/1/11 22:41:00
 tags: [ChatGPT, 职业选择, 高考作文]
 categories: [Whk]
 description: 在漫长的人生旅途中，职业选择这道关卡，常让无数立志于青春之路的年轻人驻足沉思。
+thumbnail: https://cdn.jsdelivr.net/gh/Reqwey/blog-cdn@master/img/hpp_upload/1706431161000.jpg
 ---
 
 > 不畏将来，不念过往，在选择与被选择的路口，走出一条自己的辉煌道路。
